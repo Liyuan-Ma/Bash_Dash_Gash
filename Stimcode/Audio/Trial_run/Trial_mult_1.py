@@ -109,7 +109,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\maana\\Documents\\GitHub\\TalkingHeads\\New_exp\\Stimcode\\Audio\\Trial_run\\Trial_mult.py',
+        originPath='C:\\Users\\maana\\Documents\\Bash_Dash_Gash\\Stimcode\\Audio\\Trial_run\\Trial_mult_1.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
