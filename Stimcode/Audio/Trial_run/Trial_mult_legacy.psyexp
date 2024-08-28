@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.2.1">
+  <Settings>
+    <Param val="4" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="2022.2.4" valType="str" updates="None" name="Use version"/>
+    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Trial_mult" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="cross" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="cross" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.750590" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SoundComponent name="sound_1" plugin="None">
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="hamming"/>
+        <Param val="sound_1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$audio" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3.750590" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="1" valType="num" updates="constant" name="volume"/>
+      </SoundComponent>
+      <TextComponent name="text3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5.750590" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="PRESS 1- for BASH ,2 for DASH and 3 for GASH &amp;#10;&amp;#10;Report the sequence :&amp;#10;&amp;#10;    1                    2                   3&amp;#10;BASH            DASH          GASH" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="resp1" plugin="None">
+        <Param val="'1','2','3'" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="resp1" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5.750590" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="all keys" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instruction">
+      <TextComponent name="Instructions" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Instructions" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Instructions :&amp;#10;&amp;#10;“Press 1 for ‘ba’, 2 for ‘da’, and 3 for ‘ga’. &amp;#10;&amp;#10;Press any key to begin.”&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="condfile='audio_file_paths.xlsx'" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="condfile = &quot;audio_file_paths.xlsx&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'audio': 'block1_trial1_attendright_leadtarget.wav'}, {'audio': 'block1_trial2_attendright_leadmasker.wav'}, {'audio': 'block1_trial3_attendleft_leadmasker.wav'}, {'audio': 'block1_trial4_attendright_leadtarget.wav'}, {'audio': 'block1_trial5_attendleft_leadtarget.wav'}, {'audio': 'block1_trial6_attendright_leadtarget.wav'}, {'audio': 'block1_trial7_attendleft_leadtarget.wav'}, {'audio': 'block1_trial8_attendleft_leadtarget.wav'}, {'audio': 'block1_trial9_attendleft_leadmasker.wav'}, {'audio': 'block1_trial10_attendright_leadmasker.wav'}, {'audio': 'block1_trial11_attendleft_leadtarget.wav'}, {'audio': 'block1_trial12_attendright_leadtarget.wav'}, {'audio': 'block1_trial13_attendleft_leadmasker.wav'}, {'audio': 'block1_trial14_attendright_leadmasker.wav'}, {'audio': 'block1_trial15_attendleft_leadtarget.wav'}, {'audio': 'block1_trial16_attendleft_leadmasker.wav'}, {'audio': 'block1_trial17_attendleft_leadtarget.wav'}, {'audio': 'block1_trial18_attendleft_leadmasker.wav'}, {'audio': 'block1_trial19_attendright_leadmasker.wav'}, {'audio': 'block1_trial20_attendright_leadtarget.wav'}, {'audio': 'block1_trial21_attendright_leadmasker.wav'}, {'audio': 'block1_trial22_attendleft_leadmasker.wav'}, {'audio': 'block1_trial23_attendleft_leadmasker.wav'}, {'audio': 'block1_trial24_attendleft_leadtarget.wav'}, {'audio': 'block1_trial25_attendright_leadmasker.wav'}, {'audio': 'block1_trial26_attendleft_leadmasker.wav'}, {'audio': 'block1_trial27_attendleft_leadmasker.wav'}, {'audio': 'block1_trial28_attendright_leadtarget.wav'}, {'audio': 'block1_trial29_attendleft_leadmasker.wav'}, {'audio': 'block1_trial30_attendleft_leadtarget.wav'}, {'audio': 'block1_trial31_attendright_leadtarget.wav'}, {'audio': 'block1_trial32_attendright_leadmasker.wav'}, {'audio': 'block1_trial33_attendright_leadtarget.wav'}, {'audio': 'block1_trial34_attendright_leadtarget.wav'}, {'audio': 'block1_trial35_attendright_leadmasker.wav'}, {'audio': 'block1_trial36_attendleft_leadtarget.wav'}, {'audio': 'block1_trial37_attendleft_leadtarget.wav'}, {'audio': 'block1_trial38_attendright_leadmasker.wav'}, {'audio': 'block1_trial39_attendright_leadmasker.wav'}, {'audio': 'block1_trial40_attendright_leadtarget.wav'}, {'audio': 'block2_trial1_attendright_leadmasker.wav'}, {'audio': 'block2_trial2_attendleft_leadmasker.wav'}, {'audio': 'block2_trial3_attendright_leadtarget.wav'}, {'audio': 'block2_trial4_attendright_leadmasker.wav'}, {'audio': 'block2_trial5_attendleft_leadmasker.wav'}, {'audio': 'block2_trial6_attendleft_leadmasker.wav'}, {'audio': 'block2_trial7_attendleft_leadtarget.wav'}, {'audio': 'block2_trial8_attendright_leadmasker.wav'}, {'audio': 'block2_trial9_attendright_leadtarget.wav'}, {'audio': 'block2_trial10_attendleft_leadmasker.wav'}, {'audio': 'block2_trial11_attendright_leadmasker.wav'}, {'audio': 'block2_trial12_attendleft_leadtarget.wav'}, {'audio': 'block2_trial13_attendleft_leadtarget.wav'}, {'audio': 'block2_trial14_attendright_leadtarget.wav'}, {'audio': 'block2_trial15_attendleft_leadmasker.wav'}, {'audio': 'block2_trial16_attendright_leadmasker.wav'}, {'audio': 'block2_trial17_attendleft_leadtarget.wav'}, {'audio': 'block2_trial18_attendright_leadmasker.wav'}, {'audio': 'block2_trial19_attendleft_leadtarget.wav'}, {'audio': 'block2_trial20_attendleft_leadtarget.wav'}, {'audio': 'block2_trial21_attendright_leadtarget.wav'}, {'audio': 'block2_trial22_attendleft_leadtarget.wav'}, {'audio': 'block2_trial23_attendright_leadtarget.wav'}, {'audio': 'block2_trial24_attendright_leadmasker.wav'}, {'audio': 'block2_trial25_attendleft_leadmasker.wav'}, {'audio': 'block2_trial26_attendright_leadtarget.wav'}, {'audio': 'block2_trial27_attendleft_leadtarget.wav'}, {'audio': 'block2_trial28_attendright_leadtarget.wav'}, {'audio': 'block2_trial29_attendleft_leadmasker.wav'}, {'audio': 'block2_trial30_attendleft_leadmasker.wav'}, {'audio': 'block2_trial31_attendright_leadmasker.wav'}, {'audio': 'block2_trial32_attendright_leadmasker.wav'}, {'audio': 'block2_trial33_attendleft_leadtarget.wav'}, {'audio': 'block2_trial34_attendleft_leadmasker.wav'}, {'audio': 'block2_trial35_attendright_leadmasker.wav'}, {'audio': 'block2_trial36_attendright_leadtarget.wav'}, {'audio': 'block2_trial37_attendright_leadtarget.wav'}, {'audio': 'block2_trial38_attendleft_leadtarget.wav'}, {'audio': 'block2_trial39_attendright_leadtarget.wav'}, {'audio': 'block2_trial40_attendleft_leadmasker.wav'}, {'audio': 'block3_trial1_attendleft_leadmasker.wav'}, {'audio': 'block3_trial2_attendright_leadtarget.wav'}, {'audio': 'block3_trial3_attendright_leadmasker.wav'}, {'audio': 'block3_trial4_attendright_leadtarget.wav'}, {'audio': 'block3_trial5_attendleft_leadmasker.wav'}, {'audio': 'block3_trial6_attendright_leadmasker.wav'}, {'audio': 'block3_trial7_attendleft_leadtarget.wav'}, {'audio': 'block3_trial8_attendright_leadtarget.wav'}, {'audio': 'block3_trial9_attendleft_leadtarget.wav'}, {'audio': 'block3_trial10_attendright_leadtarget.wav'}, {'audio': 'block3_trial11_attendleft_leadmasker.wav'}, {'audio': 'block3_trial12_attendright_leadmasker.wav'}, {'audio': 'block3_trial13_attendleft_leadmasker.wav'}, {'audio': 'block3_trial14_attendright_leadtarget.wav'}, {'audio': 'block3_trial15_attendleft_leadtarget.wav'}, {'audio': 'block3_trial16_attendleft_leadtarget.wav'}, {'audio': 'block3_trial17_attendleft_leadmasker.wav'}, {'audio': 'block3_trial18_attendleft_leadmasker.wav'}, {'audio': 'block3_trial19_attendright_leadtarget.wav'}, {'audio': 'block3_trial20_attendleft_leadtarget.wav'}, {'audio': 'block3_trial21_attendright_leadmasker.wav'}, {'audio': 'block3_trial22_attendleft_leadtarget.wav'}, {'audio': 'block3_trial23_attendright_leadtarget.wav'}, {'audio': 'block3_trial24_attendleft_leadtarget.wav'}, {'audio': 'block3_trial25_attendleft_leadmasker.wav'}, {'audio': 'block3_trial26_attendleft_leadmasker.wav'}, {'audio': 'block3_trial27_attendright_leadmasker.wav'}, {'audio': 'block3_trial28_attendleft_leadmasker.wav'}, {'audio': 'block3_trial29_attendright_leadmasker.wav'}, {'audio': 'block3_trial30_attendright_leadmasker.wav'}, {'audio': 'block3_trial31_attendleft_leadtarget.wav'}, {'audio': 'block3_trial32_attendright_leadtarget.wav'}, {'audio': 'block3_trial33_attendright_leadmasker.wav'}, {'audio': 'block3_trial34_attendleft_leadtarget.wav'}, {'audio': 'block3_trial35_attendright_leadtarget.wav'}, {'audio': 'block3_trial36_attendleft_leadmasker.wav'}, {'audio': 'block3_trial37_attendright_leadmasker.wav'}, {'audio': 'block3_trial38_attendleft_leadtarget.wav'}, {'audio': 'block3_trial39_attendright_leadtarget.wav'}, {'audio': 'block3_trial40_attendright_leadmasker.wav'}, {'audio': 'block4_trial1_attendleft_leadtarget.wav'}, {'audio': 'block4_trial2_attendleft_leadtarget.wav'}, {'audio': 'block4_trial3_attendleft_leadmasker.wav'}, {'audio': 'block4_trial4_attendright_leadmasker.wav'}, {'audio': 'block4_trial5_attendright_leadtarget.wav'}, {'audio': 'block4_trial6_attendleft_leadtarget.wav'}, {'audio': 'block4_trial7_attendright_leadmasker.wav'}, {'audio': 'block4_trial8_attendright_leadmasker.wav'}, {'audio': 'block4_trial9_attendleft_leadmasker.wav'}, {'audio': 'block4_trial10_attendright_leadmasker.wav'}, {'audio': 'block4_trial11_attendright_leadtarget.wav'}, {'audio': 'block4_trial12_attendright_leadmasker.wav'}, {'audio': 'block4_trial13_attendright_leadtarget.wav'}, {'audio': 'block4_trial14_attendright_leadtarget.wav'}, {'audio': 'block4_trial15_attendleft_leadmasker.wav'}, {'audio': 'block4_trial16_attendright_leadtarget.wav'}, {'audio': 'block4_trial17_attendleft_leadtarget.wav'}, {'audio': 'block4_trial18_attendright_leadtarget.wav'}, {'audio': 'block4_trial19_attendleft_leadmasker.wav'}, {'audio': 'block4_trial20_attendleft_leadmasker.wav'}, {'audio': 'block4_trial21_attendright_leadmasker.wav'}, {'audio': 'block4_trial22_attendleft_leadtarget.wav'}, {'audio': 'block4_trial23_attendright_leadtarget.wav'}, {'audio': 'block4_trial24_attendleft_leadmasker.wav'}, {'audio': 'block4_trial25_attendleft_leadtarget.wav'}, {'audio': 'block4_trial26_attendleft_leadtarget.wav'}, {'audio': 'block4_trial27_attendright_leadmasker.wav'}, {'audio': 'block4_trial28_attendleft_leadmasker.wav'}, {'audio': 'block4_trial29_attendright_leadtarget.wav'}, {'audio': 'block4_trial30_attendleft_leadmasker.wav'}, {'audio': 'block4_trial31_attendleft_leadmasker.wav'}, {'audio': 'block4_trial32_attendright_leadtarget.wav'}, {'audio': 'block4_trial33_attendleft_leadtarget.wav'}, {'audio': 'block4_trial34_attendright_leadmasker.wav'}, {'audio': 'block4_trial35_attendright_leadmasker.wav'}, {'audio': 'block4_trial36_attendright_leadtarget.wav'}, {'audio': 'block4_trial37_attendleft_leadtarget.wav'}, {'audio': 'block4_trial38_attendleft_leadmasker.wav'}, {'audio': 'block4_trial39_attendright_leadmasker.wav'}, {'audio': 'block4_trial40_attendleft_leadtarget.wav'}, {'audio': 'block5_trial1_attendright_leadtarget.wav'}, {'audio': 'block5_trial2_attendright_leadtarget.wav'}, {'audio': 'block5_trial3_attendright_leadtarget.wav'}, {'audio': 'block5_trial4_attendleft_leadtarget.wav'}, {'audio': 'block5_trial5_attendright_leadmasker.wav'}, {'audio': 'block5_trial6_attendleft_leadtarget.wav'}, {'audio': 'block5_trial7_attendleft_leadtarget.wav'}, {'audio': 'block5_trial8_attendleft_leadmasker.wav'}, {'audio': 'block5_trial9_attendright_leadmasker.wav'}, {'audio': 'block5_trial10_attendright_leadtarget.wav'}, {'audio': 'block5_trial11_attendleft_leadmasker.wav'}, {'audio': 'block5_trial12_attendright_leadmasker.wav'}, {'audio': 'block5_trial13_attendleft_leadmasker.wav'}, {'audio': 'block5_trial14_attendright_leadtarget.wav'}, {'audio': 'block5_trial15_attendleft_leadtarget.wav'}, {'audio': 'block5_trial16_attendleft_leadtarget.wav'}, {'audio': 'block5_trial17_attendright_leadtarget.wav'}, {'audio': 'block5_trial18_attendleft_leadmasker.wav'}, {'audio': 'block5_trial19_attendright_leadmasker.wav'}, {'audio': 'block5_trial20_attendleft_leadtarget.wav'}, {'audio': 'block5_trial21_attendleft_leadmasker.wav'}, {'audio': 'block5_trial22_attendright_leadtarget.wav'}, {'audio': 'block5_trial23_attendleft_leadmasker.wav'}, {'audio': 'block5_trial24_attendleft_leadmasker.wav'}, {'audio': 'block5_trial25_attendleft_leadtarget.wav'}, {'audio': 'block5_trial26_attendright_leadmasker.wav'}, {'audio': 'block5_trial27_attendright_leadmasker.wav'}, {'audio': 'block5_trial28_attendright_leadtarget.wav'}, {'audio': 'block5_trial29_attendleft_leadmasker.wav'}, {'audio': 'block5_trial30_attendright_leadtarget.wav'}, {'audio': 'block5_trial31_attendleft_leadtarget.wav'}, {'audio': 'block5_trial32_attendright_leadmasker.wav'}, {'audio': 'block5_trial33_attendright_leadmasker.wav'}, {'audio': 'block5_trial34_attendright_leadtarget.wav'}, {'audio': 'block5_trial35_attendleft_leadmasker.wav'}, {'audio': 'block5_trial36_attendleft_leadtarget.wav'}, {'audio': 'block5_trial37_attendright_leadmasker.wav'}, {'audio': 'block5_trial38_attendright_leadmasker.wav'}, {'audio': 'block5_trial39_attendleft_leadtarget.wav'}, {'audio': 'block5_trial40_attendleft_leadmasker.wav'}, {'audio': 'block6_trial1_attendleft_leadmasker.wav'}, {'audio': 'block6_trial2_attendright_leadmasker.wav'}, {'audio': 'block6_trial3_attendright_leadtarget.wav'}, {'audio': 'block6_trial4_attendright_leadtarget.wav'}, {'audio': 'block6_trial5_attendright_leadmasker.wav'}, {'audio': 'block6_trial6_attendleft_leadtarget.wav'}, {'audio': 'block6_trial7_attendleft_leadtarget.wav'}, {'audio': 'block6_trial8_attendleft_leadmasker.wav'}, {'audio': 'block6_trial9_attendright_leadmasker.wav'}, {'audio': 'block6_trial10_attendright_leadmasker.wav'}, {'audio': 'block6_trial11_attendleft_leadtarget.wav'}, {'audio': 'block6_trial12_attendleft_leadmasker.wav'}, {'audio': 'block6_trial13_attendleft_leadmasker.wav'}, {'audio': 'block6_trial14_attendleft_leadtarget.wav'}, {'audio': 'block6_trial15_attendleft_leadmasker.wav'}, {'audio': 'block6_trial16_attendright_leadmasker.wav'}, {'audio': 'block6_trial17_attendright_leadmasker.wav'}, {'audio': 'block6_trial18_attendright_leadmasker.wav'}, {'audio': 'block6_trial19_attendleft_leadtarget.wav'}, {'audio': 'block6_trial20_attendright_leadmasker.wav'}, {'audio': 'block6_trial21_attendleft_leadtarget.wav'}, {'audio': 'block6_trial22_attendleft_leadmasker.wav'}, {'audio': 'block6_trial23_attendright_leadtarget.wav'}, {'audio': 'block6_trial24_attendleft_leadmasker.wav'}, {'audio': 'block6_trial25_attendright_leadtarget.wav'}, {'audio': 'block6_trial26_attendright_leadtarget.wav'}, {'audio': 'block6_trial27_attendright_leadmasker.wav'}, {'audio': 'block6_trial28_attendright_leadtarget.wav'}, {'audio': 'block6_trial29_attendleft_leadmasker.wav'}, {'audio': 'block6_trial30_attendright_leadtarget.wav'}, {'audio': 'block6_trial31_attendleft_leadtarget.wav'}, {'audio': 'block6_trial32_attendleft_leadtarget.wav'}, {'audio': 'block6_trial33_attendright_leadtarget.wav'}, {'audio': 'block6_trial34_attendleft_leadmasker.wav'}, {'audio': 'block6_trial35_attendleft_leadtarget.wav'}, {'audio': 'block6_trial36_attendleft_leadtarget.wav'}, {'audio': 'block6_trial37_attendleft_leadmasker.wav'}, {'audio': 'block6_trial38_attendright_leadtarget.wav'}, {'audio': 'block6_trial39_attendright_leadmasker.wav'}, {'audio': 'block6_trial40_attendright_leadtarget.wav'}, {'audio': 'block7_trial1_attendleft_leadmasker.wav'}, {'audio': 'block7_trial2_attendleft_leadtarget.wav'}, {'audio': 'block7_trial3_attendleft_leadmasker.wav'}, {'audio': 'block7_trial4_attendleft_leadtarget.wav'}, {'audio': 'block7_trial5_attendright_leadmasker.wav'}, {'audio': 'block7_trial6_attendright_leadtarget.wav'}, {'audio': 'block7_trial7_attendright_leadmasker.wav'}, {'audio': 'block7_trial8_attendleft_leadtarget.wav'}, {'audio': 'block7_trial9_attendleft_leadtarget.wav'}, {'audio': 'block7_trial10_attendleft_leadtarget.wav'}, {'audio': 'block7_trial11_attendright_leadmasker.wav'}, {'audio': 'block7_trial12_attendright_leadtarget.wav'}, {'audio': 'block7_trial13_attendright_leadmasker.wav'}, {'audio': 'block7_trial14_attendleft_leadmasker.wav'}, {'audio': 'block7_trial15_attendleft_leadtarget.wav'}, {'audio': 'block7_trial16_attendright_leadmasker.wav'}, {'audio': 'block7_trial17_attendleft_leadmasker.wav'}, {'audio': 'block7_trial18_attendleft_leadmasker.wav'}, {'audio': 'block7_trial19_attendright_leadtarget.wav'}, {'audio': 'block7_trial20_attendright_leadmasker.wav'}, {'audio': 'block7_trial21_attendleft_leadtarget.wav'}, {'audio': 'block7_trial22_attendright_leadtarget.wav'}, {'audio': 'block7_trial23_attendleft_leadtarget.wav'}, {'audio': 'block7_trial24_attendright_leadmasker.wav'}, {'audio': 'block7_trial25_attendright_leadtarget.wav'}, {'audio': 'block7_trial26_attendleft_leadmasker.wav'}, {'audio': 'block7_trial27_attendleft_leadtarget.wav'}, {'audio': 'block7_trial28_attendleft_leadmasker.wav'}, {'audio': 'block7_trial29_attendleft_leadmasker.wav'}, {'audio': 'block7_trial30_attendright_leadmasker.wav'}, {'audio': 'block7_trial31_attendright_leadtarget.wav'}, {'audio': 'block7_trial32_attendleft_leadtarget.wav'}, {'audio': 'block7_trial33_attendright_leadmasker.wav'}, {'audio': 'block7_trial34_attendright_leadtarget.wav'}, {'audio': 'block7_trial35_attendright_leadtarget.wav'}, {'audio': 'block7_trial36_attendright_leadtarget.wav'}, {'audio': 'block7_trial37_attendleft_leadmasker.wav'}, {'audio': 'block7_trial38_attendright_leadmasker.wav'}, {'audio': 'block7_trial39_attendright_leadtarget.wav'}, {'audio': 'block7_trial40_attendleft_leadmasker.wav'}, {'audio': 'block8_trial1_attendleft_leadtarget.wav'}, {'audio': 'block8_trial2_attendright_leadtarget.wav'}, {'audio': 'block8_trial3_attendleft_leadmasker.wav'}, {'audio': 'block8_trial4_attendright_leadmasker.wav'}, {'audio': 'block8_trial5_attendright_leadmasker.wav'}, {'audio': 'block8_trial6_attendleft_leadtarget.wav'}, {'audio': 'block8_trial7_attendleft_leadtarget.wav'}, {'audio': 'block8_trial8_attendright_leadtarget.wav'}, {'audio': 'block8_trial9_attendleft_leadtarget.wav'}, {'audio': 'block8_trial10_attendright_leadtarget.wav'}, {'audio': 'block8_trial11_attendright_leadmasker.wav'}, {'audio': 'block8_trial12_attendright_leadmasker.wav'}, {'audio': 'block8_trial13_attendleft_leadtarget.wav'}, {'audio': 'block8_trial14_attendright_leadtarget.wav'}, {'audio': 'block8_trial15_attendright_leadtarget.wav'}, {'audio': 'block8_trial16_attendleft_leadmasker.wav'}, {'audio': 'block8_trial17_attendleft_leadtarget.wav'}, {'audio': 'block8_trial18_attendleft_leadtarget.wav'}, {'audio': 'block8_trial19_attendleft_leadmasker.wav'}, {'audio': 'block8_trial20_attendleft_leadmasker.wav'}, {'audio': 'block8_trial21_attendleft_leadmasker.wav'}, {'audio': 'block8_trial22_attendright_leadmasker.wav'}, {'audio': 'block8_trial23_attendright_leadtarget.wav'}, {'audio': 'block8_trial24_attendright_leadmasker.wav'}, {'audio': 'block8_trial25_attendleft_leadtarget.wav'}, {'audio': 'block8_trial26_attendright_leadmasker.wav'}, {'audio': 'block8_trial27_attendleft_leadtarget.wav'}, {'audio': 'block8_trial28_attendleft_leadmasker.wav'}, {'audio': 'block8_trial29_attendleft_leadmasker.wav'}, {'audio': 'block8_trial30_attendright_leadtarget.wav'}, {'audio': 'block8_trial31_attendleft_leadtarget.wav'}, {'audio': 'block8_trial32_attendright_leadtarget.wav'}, {'audio': 'block8_trial33_attendright_leadmasker.wav'}, {'audio': 'block8_trial34_attendleft_leadmasker.wav'}, {'audio': 'block8_trial35_attendleft_leadmasker.wav'}, {'audio': 'block8_trial36_attendright_leadmasker.wav'}, {'audio': 'block8_trial37_attendright_leadmasker.wav'}, {'audio': 'block8_trial38_attendleft_leadmasker.wav'}, {'audio': 'block8_trial39_attendright_leadtarget.wav'}, {'audio': 'block8_trial40_attendright_leadtarget.wav'}, {'audio': 'block9_trial1_attendleft_leadmasker.wav'}, {'audio': 'block9_trial2_attendleft_leadtarget.wav'}, {'audio': 'block9_trial3_attendright_leadmasker.wav'}, {'audio': 'block9_trial4_attendleft_leadtarget.wav'}, {'audio': 'block9_trial5_attendleft_leadmasker.wav'}, {'audio': 'block9_trial6_attendleft_leadtarget.wav'}, {'audio': 'block9_trial7_attendleft_leadtarget.wav'}, {'audio': 'block9_trial8_attendleft_leadtarget.wav'}, {'audio': 'block9_trial9_attendright_leadtarget.wav'}, {'audio': 'block9_trial10_attendright_leadtarget.wav'}, {'audio': 'block9_trial11_attendleft_leadtarget.wav'}, {'audio': 'block9_trial12_attendright_leadtarget.wav'}, {'audio': 'block9_trial13_attendleft_leadmasker.wav'}, {'audio': 'block9_trial14_attendleft_leadmasker.wav'}, {'audio': 'block9_trial15_attendleft_leadmasker.wav'}, {'audio': 'block9_trial16_attendright_leadmasker.wav'}, {'audio': 'block9_trial17_attendleft_leadtarget.wav'}, {'audio': 'block9_trial18_attendright_leadmasker.wav'}, {'audio': 'block9_trial19_attendright_leadmasker.wav'}, {'audio': 'block9_trial20_attendright_leadmasker.wav'}, {'audio': 'block9_trial21_attendright_leadmasker.wav'}, {'audio': 'block9_trial22_attendright_leadmasker.wav'}, {'audio': 'block9_trial23_attendleft_leadtarget.wav'}, {'audio': 'block9_trial24_attendleft_leadmasker.wav'}, {'audio': 'block9_trial25_attendright_leadtarget.wav'}, {'audio': 'block9_trial26_attendleft_leadmasker.wav'}, {'audio': 'block9_trial27_attendleft_leadtarget.wav'}, {'audio': 'block9_trial28_attendright_leadtarget.wav'}, {'audio': 'block9_trial29_attendleft_leadmasker.wav'}, {'audio': 'block9_trial30_attendright_leadmasker.wav'}, {'audio': 'block9_trial31_attendright_leadtarget.wav'}, {'audio': 'block9_trial32_attendleft_leadmasker.wav'}, {'audio': 'block9_trial33_attendright_leadtarget.wav'}, {'audio': 'block9_trial34_attendleft_leadmasker.wav'}, {'audio': 'block9_trial35_attendright_leadtarget.wav'}, {'audio': 'block9_trial36_attendright_leadtarget.wav'}, {'audio': 'block9_trial37_attendleft_leadtarget.wav'}, {'audio': 'block9_trial38_attendright_leadmasker.wav'}, {'audio': 'block9_trial39_attendright_leadtarget.wav'}, {'audio': 'block9_trial40_attendright_leadmasker.wav'}, {'audio': 'block10_trial1_attendleft_leadmasker.wav'}, {'audio': 'block10_trial2_attendleft_leadtarget.wav'}, {'audio': 'block10_trial3_attendright_leadtarget.wav'}, {'audio': 'block10_trial4_attendleft_leadmasker.wav'}, {'audio': 'block10_trial5_attendright_leadtarget.wav'}, {'audio': 'block10_trial6_attendright_leadtarget.wav'}, {'audio': 'block10_trial7_attendright_leadtarget.wav'}, {'audio': 'block10_trial8_attendleft_leadtarget.wav'}, {'audio': 'block10_trial9_attendleft_leadtarget.wav'}, {'audio': 'block10_trial10_attendright_leadmasker.wav'}, {'audio': 'block10_trial11_attendright_leadmasker.wav'}, {'audio': 'block10_trial12_attendleft_leadmasker.wav'}, {'audio': 'block10_trial13_attendleft_leadtarget.wav'}, {'audio': 'block10_trial14_attendleft_leadtarget.wav'}, {'audio': 'block10_trial15_attendleft_leadmasker.wav'}, {'audio': 'block10_trial16_attendright_leadtarget.wav'}, {'audio': 'block10_trial17_attendleft_leadmasker.wav'}, {'audio': 'block10_trial18_attendleft_leadtarget.wav'}, {'audio': 'block10_trial19_attendleft_leadtarget.wav'}, {'audio': 'block10_trial20_attendleft_leadmasker.wav'}, {'audio': 'block10_trial21_attendleft_leadmasker.wav'}, {'audio': 'block10_trial22_attendleft_leadmasker.wav'}, {'audio': 'block10_trial23_attendright_leadmasker.wav'}, {'audio': 'block10_trial24_attendright_leadtarget.wav'}, {'audio': 'block10_trial25_attendright_leadmasker.wav'}, {'audio': 'block10_trial26_attendleft_leadtarget.wav'}, {'audio': 'block10_trial27_attendright_leadtarget.wav'}, {'audio': 'block10_trial28_attendleft_leadmasker.wav'}, {'audio': 'block10_trial29_attendright_leadmasker.wav'}, {'audio': 'block10_trial30_attendright_leadtarget.wav'}, {'audio': 'block10_trial31_attendright_leadtarget.wav'}, {'audio': 'block10_trial32_attendleft_leadmasker.wav'}, {'audio': 'block10_trial33_attendright_leadmasker.wav'}, {'audio': 'block10_trial34_attendright_leadtarget.wav'}, {'audio': 'block10_trial35_attendleft_leadtarget.wav'}, {'audio': 'block10_trial36_attendright_leadmasker.wav'}, {'audio': 'block10_trial37_attendright_leadmasker.wav'}, {'audio': 'block10_trial38_attendright_leadmasker.wav'}, {'audio': 'block10_trial39_attendright_leadmasker.wav'}, {'audio': 'block10_trial40_attendleft_leadtarget.wav'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$condfile" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
