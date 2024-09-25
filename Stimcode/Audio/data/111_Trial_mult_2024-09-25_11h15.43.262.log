@@ -1,0 +1,44 @@
+4.9367 	WARNING 	Requested audio device 'ASIO Fireface USB' that is not available on this hardware. The 'audioDevice' preference should be one of ['3 - DELL U2415 (AMD High Definition Audio Device)', '4 - DELL U2415 (AMD High Definition Audio Device)', 'ADAT (3+4) (RME Fireface UCX II)', 'ADAT (5+6) (RME Fireface UCX II)', 'ADAT (7+8) (RME Fireface UCX II)', 'AES (RME Fireface UCX II)', 'Analog (1+2) (RME Fireface UCX II)', 'Analog (3+4) (RME Fireface UCX II)', 'Analog (5+6) (RME Fireface UCX II)', 'SPDIF coax. (RME Fireface UCX II)', 'SPDIF/ADAT (1+2) (RME Fireface UCX II)', 'Speakers (RME Fireface UCX II)', 'Speakers/Headphones (Realtek(R) Audio)']
+14.8402 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1200]. Using actual size
+16.8529 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019BA1C68C70>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019BA1C68C10>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019BA1C68A60>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000019BA1FE53D0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.8530 	EXP 	window1: mouseVisible = True
+16.8530 	EXP 	window1: backgroundImage = ''
+16.8530 	EXP 	window1: backgroundFit = 'none'
+16.8548 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+16.8548 	EXP 	window1: recordFrameIntervals = False
+17.0191 	EXP 	window1: recordFrameIntervals = True
+17.2027 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+17.2027 	EXP 	window1: recordFrameIntervals = False
+17.2028 	EXP 	window1: mouseVisible = False
+22.6058 	EXP 	Trial_mult: status = STARTED
+22.6063 	EXP 	window1: mouseVisible = True
+22.7272 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.7273 	EXP 	window1: mouseVisible = True
+22.7309 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+22.7689 	EXP 	Sound sound_1 set volume 1.000
+22.7691 	EXP 	window1: mouseVisible = True
+22.7782 	EXP 	Created breakk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakk', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.7785 	EXP 	window1: mouseVisible = True
+22.7952 	EXP 	Created respp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respp', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0450 	EXP 	Instructions: autoDraw = True
+1.3132 	EXP 	Imported D:\Experiments\bashdashgash\Bash_Dash_Gash\Stimcode\Audio\111\audio_file_paths.csv as conditions, 400 conditions, 1 params
+1.3148 	EXP 	Created sequence: sequential, trialTypes=400, nReps=1, seed=None
+1.3150 	EXP 	New trial (rep=0, index=0): OrderedDict([('audio', 'block1_trial1_attendleft_leadmasker.wav')])
+1.3160 	DATA 	Keypress: space
+1.3295 	EXP 	Instructions: autoDraw = False
+1.3461 	EXP 	cross: autoDraw = True
+3.2984 	EXP 	Sound  started
+7.2377 	EXP 	Sound  reached end of file
+7.2678 	EXP 	cross: autoDraw = False
+7.2678 	EXP 	respp: autoDraw = True
+8.8882 	DATA 	Keypress: 1
+9.2553 	DATA 	Keypress: 2
+9.4565 	EXP 	New trial (rep=0, index=1): OrderedDict([('audio', 'block1_trial2_attendright_leadmasker.wav')])
+9.4572 	DATA 	Keypress: 3
+9.4694 	EXP 	respp: autoDraw = False
+9.5027 	EXP 	cross: autoDraw = True
+11.3061 	DATA 	Keypress: escape
+11.3549 	EXP 	Trial_mult: status = STOPPED
+11.3708 	EXP 	cross: autoDraw = False
+11.3709 	EXP 	Trial_mult: status = STOPPED
+12.0336 	EXP 	window1: mouseVisible = True
