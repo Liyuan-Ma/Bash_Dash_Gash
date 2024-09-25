@@ -49,11 +49,15 @@ expInfo = {
 }
 
 # Run 'Before Experiment' code from code
+<<<<<<< Updated upstream
 subject_folder = os.path.join(_thisDir, 'subject_' + expInfo['participant'])
 condfile=os.path.join(subject_folder,'audio_file_paths.csv')
 # Check if the file exists, to avoid issues if it is not found
 if not os.path.exists(condfile):
     raise FileNotFoundError(f"Condition file not found for participant {expInfo['participant']} at {condfile}")
+=======
+condfile='audio_file_paths.csv'
+>>>>>>> Stashed changes
 
 def showExpInfoDlg(expInfo):
     """
@@ -114,7 +118,11 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
+<<<<<<< Updated upstream
         originPath='C:\\Users\\Lab User\\Documents\\Bash_Dash_Gash\\Stimcode\\Audio\\Trial_run\\Trial_mult_2.py',
+=======
+        originPath='C:\\Users\\Lab User\\Documents\\Bash_Dash_Gash\\Stimcode\\Audio\\Trial_run\\Trial_mult_1.py',
+>>>>>>> Stashed changes
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -244,6 +252,7 @@ def pauseExperiment(thisExp, inputs=None, win=None, timers=[], playbackComponent
     playbackComponents : list, tuple
         List of any components with a `pause` method which need to be paused.
     """
+<<<<<<< Updated upstream
     pausedTimes={}
     # Pause any playback components
     for comp in playbackComponents:
@@ -285,6 +294,41 @@ def pauseExperiment(thisExp, inputs=None, win=None, timers=[], playbackComponent
         timer.reset()
         
    
+=======
+    # if we are not paused, do nothing
+    if thisExp.status != PAUSED:
+        return
+    
+    # pause any playback components
+    for comp in playbackComponents:
+        comp.pause()
+    # prevent components from auto-drawing
+    win.stashAutoDraw()
+    # run a while loop while we wait to unpause
+    while thisExp.status == PAUSED:
+        # make sure we have a keyboard
+        if inputs is None:
+            inputs = {
+                'defaultKeyboard': keyboard.Keyboard(backend='ioHub')
+            }
+        # check for quit (typically the Esc key)
+        if inputs['defaultKeyboard'].getKeys(keyList=['escape']):
+            endExperiment(thisExp, win=win, inputs=inputs)
+        # flip the screen
+        win.flip()
+    # if stop was requested while paused, quit
+    if thisExp.status == FINISHED:
+        endExperiment(thisExp, inputs=inputs, win=win)
+    # resume any playback components
+    for comp in playbackComponents:
+        comp.play()
+    # restore auto-drawn components
+    win.retrieveAutoDraw()
+    # reset any timers
+    for timer in timers:
+        timer.reset()
+
+>>>>>>> Stashed changes
 
 def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     """
@@ -330,7 +374,11 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Instruction" ---
     Instructions = visual.TextStim(win=win, name='Instructions',
+<<<<<<< Updated upstream
         text='Instructions :\n\n“Press 1 for ‘ba’, 2 for ‘da’, and 3 for ‘ga’. \n\nPress space to begin.”\n',
+=======
+        text='Instructions :\n\n“Press 1 for ‘ba’, 2 for ‘da’, and 3 for ‘ga’. \n\nPress any key to begin.”\n',
+>>>>>>> Stashed changes
         font='Open Sans',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -350,6 +398,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         name='sound_1',sampleRate=44100)
     sound_1.setVolume(1.0)
     
+<<<<<<< Updated upstream
     # --- Initialize components for Routine "break" ---
     breakk = visual.TextStim(win=win, name='breakk',
         text='Instructions :\n\n“Take a break \n\nPress space to continue.”\n',
@@ -360,6 +409,8 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         depth=0.0);
     respo_start = keyboard.Keyboard()
     
+=======
+>>>>>>> Stashed changes
     # --- Initialize components for Routine "Responses" ---
     respp = visual.TextStim(win=win, name='respp',
         text='PRESS 1- for BASH ,2 for DASH and 3 for GASH \n\nReport the sequence :\n\n    1                    2                   3\nBASH            DASH          GASH',
@@ -401,7 +452,10 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     t = 0
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     frameN = -1
+<<<<<<< Updated upstream
    
+=======
+>>>>>>> Stashed changes
     
     # --- Run Routine "Instruction" ---
     routineForceEnded = not continueRoutine
@@ -412,6 +466,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
+<<<<<<< Updated upstream
          # check for pause key
         if inputs['defaultKeyboard'].getKeys(keyList=['p']):
             pauseExperiment(thisExp, inputs=inputs, win=win, playbackComponents=[sound_1], timers=[routineTimer])
@@ -425,6 +480,9 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if continueRoutine:
             win.flip()
             
+=======
+        
+>>>>>>> Stashed changes
         # *Instructions* updates
         
         # if Instructions is starting this frame...
@@ -437,7 +495,11 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             # add timestamp to datafile
             thisExp.timestampOnFlip(win, 'Instructions.started')
             # update status
+<<<<<<< Updated upstream
             Instructions.status = STARTED 
+=======
+            Instructions.status = STARTED
+>>>>>>> Stashed changes
             Instructions.setAutoDraw(True)
         
         # if Instructions is active this frame...
@@ -536,6 +598,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             globals()[paramName] = thisTrial[paramName]
     
     for thisTrial in trials:
+<<<<<<< Updated upstream
         #check if 'p' is pressed
         
         currentLoop = trials
@@ -584,13 +647,34 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         #if thisTrial != None:
            # for paramName in thisTrial:
              #   globals()[paramName] = thisTrial[paramName]
+=======
+        currentLoop = trials
+        thisExp.timestampOnFlip(win, 'thisRow.t')
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                inputs=inputs, 
+                win=win, 
+                timers=[routineTimer], 
+                playbackComponents=[]
+        )
+        # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
+        if thisTrial != None:
+            for paramName in thisTrial:
+                globals()[paramName] = thisTrial[paramName]
+>>>>>>> Stashed changes
         
         # --- Prepare to start Routine "trial" ---
         continueRoutine = True
         # update component parameters for each repeat
         thisExp.addData('trial.started', globalClock.getTime())
+<<<<<<< Updated upstream
         audio_file_path = os.path.join(subject_folder, 'audio_files', audio)
         sound_1=sound.Sound(audio_file_path, secs=3.750590, hamming=True, stereo=True, sampleRate=44100)
+=======
+        sound_1=sound.Sound(audio, secs=3.750590, hamming=True, stereo=True, sampleRate=44100)
+>>>>>>> Stashed changes
         sound_1.setVolume(1.0, log=False)
         sound_1.seek(0)
         # keep track of which components have finished
@@ -616,9 +700,13 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             tThisFlipGlobal = win.getFutureFlipTime(clock=None)
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
+<<<<<<< Updated upstream
             if inputs['defaultKeyboard'].getKeys(keyList=['p']):
                 pauseExperiment(thisExp,inputs=inputs,win=win, playbackComponents=[sound_1], timers=[routineTimer])
                 
+=======
+            
+>>>>>>> Stashed changes
             # *cross* updates
             
             # if cross is starting this frame...
@@ -663,6 +751,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                 # update status
                 sound_1.status = STARTED
                 sound_1.play()  # start the sound (it finishes automatically)
+<<<<<<< Updated upstream
             if defaultKeyboard.getKeys(keyList=["escape"]):
                 thisExp.status =FINISHED
                 endExperiment(thisExp, inputs=inputs, win=win)
@@ -675,6 +764,13 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             if sound_1.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
                 if sound_1.tStartRefresh is not None and tThisFlipGlobal > sound_1.tStartRefresh + 3.750590-frameTolerance: 
+=======
+            
+            # if sound_1 is stopping this frame...
+            if sound_1.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > sound_1.tStartRefresh + 3.750590-frameTolerance:
+>>>>>>> Stashed changes
                     # keep track of stop time/frame for later
                     sound_1.tStop = t  # not accounting for scr refresh
                     sound_1.frameNStop = frameN  # exact frame index
@@ -719,7 +815,11 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if routineForceEnded:
             routineTimer.reset()
         else:
+<<<<<<< Updated upstream
             pass
+=======
+            routineTimer.addTime(-5.750590)
+>>>>>>> Stashed changes
         
         # --- Prepare to start Routine "Responses" ---
         continueRoutine = True
@@ -754,8 +854,12 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             tThisFlipGlobal = win.getFutureFlipTime(clock=None)
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
+<<<<<<< Updated upstream
             if inputs['defaultKeyboard'].getKeys(keyList=['p']):
                 pauseExperiment(thisExp,inputs=inputs,win=win, playbackComponents=[sound_1], timers=[routineTimer])
+=======
+            
+>>>>>>> Stashed changes
             # *respp* updates
             
             # if respp is starting this frame...
@@ -830,8 +934,12 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             # Run 'Each Frame' code from Resp_code
             # Get the keys pressed in this frame
             theseKeys = key_resp.getKeys(keyList=['1', '2', '3'], waitRelease=False)
+<<<<<<< Updated upstream
             if key_resp.keys is None:
                 key_resp.keys=[]
+=======
+            
+>>>>>>> Stashed changes
             # Store each key pressed in the list, but only if less than 3 keys have been pressed
             for key in theseKeys:
                 if len(key_resp.keys) < 3:
@@ -843,10 +951,17 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             
             
             # check for quit (typically the Esc key)
+<<<<<<< Updated upstream
             if inputs['defaultKeyboard'].getKeys(keyList=["escape"]):
                 thisExp.status = FINISHED
             if thisExp.status == FINISHED or endExpNow:
                 endExperiment(thisExp, inputs=inputs, win=win, playbackComponents=[sound_1], timers=[routineTimer])
+=======
+            if defaultKeyboard.getKeys(keyList=["escape"]):
+                thisExp.status = FINISHED
+            if thisExp.status == FINISHED or endExpNow:
+                endExperiment(thisExp, inputs=inputs, win=win)
+>>>>>>> Stashed changes
                 return
             
             # check if all components have finished
@@ -877,8 +992,11 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             trials.addData('key_resp.duration', key_resp.duration)
         # Run 'End Routine' code from Resp_code
         # Ensure we have exactly three responses recorded; if not, fill with 'NA'
+<<<<<<< Updated upstream
         if key_resp.keys is None:
             key_resp.keys=[]
+=======
+>>>>>>> Stashed changes
         while len(key_resp.keys) < 3:
             key_resp.keys.append('NA')
         

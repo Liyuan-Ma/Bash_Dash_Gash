@@ -15,6 +15,7 @@ If you publish work using this script the most relevant publication is:
 from psychopy import locale_setup
 from psychopy import prefs
 from psychopy import plugins
+from psychopy.plugins import activatePlugins
 plugins.activatePlugins()
 prefs.hardware['audioLib'] = 'ptb'
 prefs.hardware['audioLatencyMode'] = '0'
@@ -109,7 +110,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\maana\\Documents\\Bash_Dash_Gash\\Stimcode\\Audio\\Trial_run\\Trial_mult_1.py',
+        originPath='C:\\Users\\Lab User\\Documents\\Bash_Dash_Gash\\Stimcode\\Audio\\Trial_run\\Trial_mult_1.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
