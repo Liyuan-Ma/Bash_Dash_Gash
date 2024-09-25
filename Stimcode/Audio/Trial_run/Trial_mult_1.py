@@ -337,6 +337,17 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         name='sound_1',sampleRate=44100)
     sound_1.setVolume(1.0)
     
+    # --- Initialize components for Routine "Rest" ---
+    Rest = visual.TextStim(win=win, name='Rest',
+    text='Take a break!\n\nPress any key to continue.',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=0.0);
+    rest_key = keyboard.Keyboard()
+
+    
     # --- Initialize components for Routine "Responses" ---
     respp = visual.TextStim(win=win, name='respp',
         text='PRESS 1- for BASH ,2 for DASH and 3 for GASH \n\nReport the sequence :\n\n    1                    2                   3\nBASH            DASH          GASH',
@@ -498,9 +509,32 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     if thisTrial != None:
         for paramName in thisTrial:
             globals()[paramName] = thisTrial[paramName]
-    
+    trial_counter = 0
     for thisTrial in trials:
         currentLoop = trials
+        trial_counter += 1
+        if trial_counter % 40 == 0 and trial_counter != 400:
+          continueRoutine = True
+          rest_key.keys = []  # Clear any previous key responses
+          rest_key.rt = []
+          _rest_key_allKeys = []  
+           # --- Prepare to start Routine "Rest" ---
+        while continueRoutine:
+            # Display the rest text
+            Rest.draw()
+            win.flip()
+            
+            # Check if any key is pressed to end the routine
+            theseKeys = rest_key.getKeys(keyList=None, waitRelease=False)
+            _rest_key_allKeys.extend(theseKeys)
+            if len(_rest_key_allKeys):
+                continueRoutine = False  # End the routine after a key press
+            
+            # Check for quit (typically the Esc key)
+            if defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+        
+
         thisExp.timestampOnFlip(win, 'thisRow.t')
         # pause experiment here if requested
         if thisExp.status == PAUSED:
@@ -604,6 +638,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                     # update status
                     sound_1.status = FINISHED
                     sound_1.stop()
+                    continueRoutine = False
             # update sound_1 status according to whether it's playing
             if sound_1.isPlaying:
                 sound_1.status = STARTED
@@ -637,10 +672,10 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                 thisComponent.setAutoDraw(False)
         thisExp.addData('trial.stopped', globalClock.getTime())
         # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-        if routineForceEnded:
-            routineTimer.reset()
-        else:
-            routineTimer.addTime(-5.750590)
+        #if routineForceEnded:
+           # routineTimer.reset()
+        #else:
+            #routineTimer.addTime(-5.750590)
         
         # --- Prepare to start Routine "Responses" ---
         continueRoutine = True

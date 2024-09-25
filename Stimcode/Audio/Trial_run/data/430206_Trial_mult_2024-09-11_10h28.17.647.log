@@ -1,0 +1,112 @@
+6.3389 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+7.1477 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021BB6DD05E0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021BB6DD0580>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021BB6DD0400>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021BB6F93070>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.1479 	EXP 	window1: mouseVisible = True
+7.1479 	EXP 	window1: backgroundImage = ''
+7.1479 	EXP 	window1: backgroundFit = 'none'
+7.1507 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.1507 	EXP 	window1: recordFrameIntervals = False
+7.3116 	EXP 	window1: recordFrameIntervals = True
+7.4939 	EXP 	Screen (0) actual frame rate measured at 60.33Hz
+7.4940 	EXP 	window1: recordFrameIntervals = False
+7.4941 	EXP 	window1: mouseVisible = False
+9.4246 	EXP 	Trial_mult: status = STARTED
+9.4253 	EXP 	window1: mouseVisible = True
+9.5109 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.5111 	EXP 	window1: mouseVisible = True
+9.5135 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.2273 	EXP 	Sound sound_1 set volume 1.000
+10.2276 	EXP 	window1: mouseVisible = True
+10.2369 	EXP 	Created breakk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakk', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2371 	EXP 	window1: mouseVisible = True
+10.2532 	EXP 	Created respp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respp', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0134 	EXP 	Instructions: autoDraw = True
+1.2177 	EXP 	Imported audio_file_paths.csv as conditions, 400 conditions, 1 params
+1.2190 	EXP 	Created sequence: sequential, trialTypes=400, nReps=1, seed=None
+1.2191 	EXP 	New trial (rep=0, index=0): OrderedDict([('audio', 'block1_trial1_attendright_leadtarget.wav')])
+1.2191 	EXP 	New trial (rep=0, index=1): OrderedDict([('audio', 'block1_trial2_attendright_leadmasker.wav')])
+1.2192 	EXP 	New trial (rep=0, index=2): OrderedDict([('audio', 'block1_trial3_attendleft_leadmasker.wav')])
+1.2192 	EXP 	New trial (rep=0, index=3): OrderedDict([('audio', 'block1_trial4_attendright_leadtarget.wav')])
+1.2193 	EXP 	New trial (rep=0, index=4): OrderedDict([('audio', 'block1_trial5_attendleft_leadtarget.wav')])
+1.2193 	EXP 	New trial (rep=0, index=5): OrderedDict([('audio', 'block1_trial6_attendright_leadtarget.wav')])
+1.2193 	EXP 	New trial (rep=0, index=6): OrderedDict([('audio', 'block1_trial7_attendleft_leadtarget.wav')])
+1.2194 	EXP 	New trial (rep=0, index=7): OrderedDict([('audio', 'block1_trial8_attendleft_leadtarget.wav')])
+1.2194 	EXP 	New trial (rep=0, index=8): OrderedDict([('audio', 'block1_trial9_attendleft_leadmasker.wav')])
+1.2194 	EXP 	New trial (rep=0, index=9): OrderedDict([('audio', 'block1_trial10_attendright_leadmasker.wav')])
+1.2195 	EXP 	New trial (rep=0, index=10): OrderedDict([('audio', 'block1_trial11_attendleft_leadtarget.wav')])
+1.2195 	EXP 	New trial (rep=0, index=11): OrderedDict([('audio', 'block1_trial12_attendright_leadtarget.wav')])
+1.2195 	EXP 	New trial (rep=0, index=12): OrderedDict([('audio', 'block1_trial13_attendleft_leadmasker.wav')])
+1.2196 	EXP 	New trial (rep=0, index=13): OrderedDict([('audio', 'block1_trial14_attendright_leadmasker.wav')])
+1.2196 	EXP 	New trial (rep=0, index=14): OrderedDict([('audio', 'block1_trial15_attendleft_leadtarget.wav')])
+1.2196 	EXP 	New trial (rep=0, index=15): OrderedDict([('audio', 'block1_trial16_attendleft_leadmasker.wav')])
+1.2197 	EXP 	New trial (rep=0, index=16): OrderedDict([('audio', 'block1_trial17_attendleft_leadtarget.wav')])
+1.2197 	EXP 	New trial (rep=0, index=17): OrderedDict([('audio', 'block1_trial18_attendleft_leadmasker.wav')])
+1.2197 	EXP 	New trial (rep=0, index=18): OrderedDict([('audio', 'block1_trial19_attendright_leadmasker.wav')])
+1.2198 	EXP 	New trial (rep=0, index=19): OrderedDict([('audio', 'block1_trial20_attendright_leadtarget.wav')])
+1.2198 	EXP 	New trial (rep=0, index=20): OrderedDict([('audio', 'block1_trial21_attendright_leadmasker.wav')])
+1.2198 	EXP 	New trial (rep=0, index=21): OrderedDict([('audio', 'block1_trial22_attendleft_leadmasker.wav')])
+1.2199 	EXP 	New trial (rep=0, index=22): OrderedDict([('audio', 'block1_trial23_attendleft_leadmasker.wav')])
+1.2199 	EXP 	New trial (rep=0, index=23): OrderedDict([('audio', 'block1_trial24_attendleft_leadtarget.wav')])
+1.2199 	EXP 	New trial (rep=0, index=24): OrderedDict([('audio', 'block1_trial25_attendright_leadmasker.wav')])
+1.2200 	EXP 	New trial (rep=0, index=25): OrderedDict([('audio', 'block1_trial26_attendleft_leadmasker.wav')])
+1.2200 	EXP 	New trial (rep=0, index=26): OrderedDict([('audio', 'block1_trial27_attendleft_leadmasker.wav')])
+1.2200 	EXP 	New trial (rep=0, index=27): OrderedDict([('audio', 'block1_trial28_attendright_leadtarget.wav')])
+1.2201 	EXP 	New trial (rep=0, index=28): OrderedDict([('audio', 'block1_trial29_attendleft_leadmasker.wav')])
+1.2201 	EXP 	New trial (rep=0, index=29): OrderedDict([('audio', 'block1_trial30_attendleft_leadtarget.wav')])
+1.2201 	EXP 	New trial (rep=0, index=30): OrderedDict([('audio', 'block1_trial31_attendright_leadtarget.wav')])
+1.2202 	EXP 	New trial (rep=0, index=31): OrderedDict([('audio', 'block1_trial32_attendright_leadmasker.wav')])
+1.2202 	EXP 	New trial (rep=0, index=32): OrderedDict([('audio', 'block1_trial33_attendright_leadtarget.wav')])
+1.2202 	EXP 	New trial (rep=0, index=33): OrderedDict([('audio', 'block1_trial34_attendright_leadtarget.wav')])
+1.2203 	EXP 	New trial (rep=0, index=34): OrderedDict([('audio', 'block1_trial35_attendright_leadmasker.wav')])
+1.2203 	EXP 	New trial (rep=0, index=35): OrderedDict([('audio', 'block1_trial36_attendleft_leadtarget.wav')])
+1.2203 	EXP 	New trial (rep=0, index=36): OrderedDict([('audio', 'block1_trial37_attendleft_leadtarget.wav')])
+1.2204 	EXP 	New trial (rep=0, index=37): OrderedDict([('audio', 'block1_trial38_attendright_leadmasker.wav')])
+1.2204 	EXP 	New trial (rep=0, index=38): OrderedDict([('audio', 'block1_trial39_attendright_leadmasker.wav')])
+1.2204 	EXP 	New trial (rep=0, index=39): OrderedDict([('audio', 'block1_trial40_attendright_leadtarget.wav')])
+1.2234 	EXP 	Instructions: autoDraw = False
+1.2234 	EXP 	breakk: autoDraw = True
+5.7349 	EXP 	New trial (rep=0, index=40): OrderedDict([('audio', 'block2_trial1_attendright_leadmasker.wav')])
+5.7351 	EXP 	New trial (rep=0, index=41): OrderedDict([('audio', 'block2_trial2_attendleft_leadmasker.wav')])
+5.7353 	EXP 	New trial (rep=0, index=42): OrderedDict([('audio', 'block2_trial3_attendright_leadtarget.wav')])
+5.7354 	EXP 	New trial (rep=0, index=43): OrderedDict([('audio', 'block2_trial4_attendright_leadmasker.wav')])
+5.7355 	EXP 	New trial (rep=0, index=44): OrderedDict([('audio', 'block2_trial5_attendleft_leadmasker.wav')])
+5.7356 	EXP 	New trial (rep=0, index=45): OrderedDict([('audio', 'block2_trial6_attendleft_leadmasker.wav')])
+5.7357 	EXP 	New trial (rep=0, index=46): OrderedDict([('audio', 'block2_trial7_attendleft_leadtarget.wav')])
+5.7359 	EXP 	New trial (rep=0, index=47): OrderedDict([('audio', 'block2_trial8_attendright_leadmasker.wav')])
+5.7360 	EXP 	New trial (rep=0, index=48): OrderedDict([('audio', 'block2_trial9_attendright_leadtarget.wav')])
+5.7361 	EXP 	New trial (rep=0, index=49): OrderedDict([('audio', 'block2_trial10_attendleft_leadmasker.wav')])
+5.7362 	EXP 	New trial (rep=0, index=50): OrderedDict([('audio', 'block2_trial11_attendright_leadmasker.wav')])
+5.7364 	EXP 	New trial (rep=0, index=51): OrderedDict([('audio', 'block2_trial12_attendleft_leadtarget.wav')])
+5.7365 	EXP 	New trial (rep=0, index=52): OrderedDict([('audio', 'block2_trial13_attendleft_leadtarget.wav')])
+5.7366 	EXP 	New trial (rep=0, index=53): OrderedDict([('audio', 'block2_trial14_attendright_leadtarget.wav')])
+5.7367 	EXP 	New trial (rep=0, index=54): OrderedDict([('audio', 'block2_trial15_attendleft_leadmasker.wav')])
+5.7368 	EXP 	New trial (rep=0, index=55): OrderedDict([('audio', 'block2_trial16_attendright_leadmasker.wav')])
+5.7369 	EXP 	New trial (rep=0, index=56): OrderedDict([('audio', 'block2_trial17_attendleft_leadtarget.wav')])
+5.7370 	EXP 	New trial (rep=0, index=57): OrderedDict([('audio', 'block2_trial18_attendright_leadmasker.wav')])
+5.7370 	EXP 	New trial (rep=0, index=58): OrderedDict([('audio', 'block2_trial19_attendleft_leadtarget.wav')])
+5.7371 	EXP 	New trial (rep=0, index=59): OrderedDict([('audio', 'block2_trial20_attendleft_leadtarget.wav')])
+5.7373 	EXP 	New trial (rep=0, index=60): OrderedDict([('audio', 'block2_trial21_attendright_leadtarget.wav')])
+5.7375 	EXP 	New trial (rep=0, index=61): OrderedDict([('audio', 'block2_trial22_attendleft_leadtarget.wav')])
+5.7378 	EXP 	New trial (rep=0, index=62): OrderedDict([('audio', 'block2_trial23_attendright_leadtarget.wav')])
+5.7379 	EXP 	New trial (rep=0, index=63): OrderedDict([('audio', 'block2_trial24_attendright_leadmasker.wav')])
+5.7380 	EXP 	New trial (rep=0, index=64): OrderedDict([('audio', 'block2_trial25_attendleft_leadmasker.wav')])
+5.7381 	EXP 	New trial (rep=0, index=65): OrderedDict([('audio', 'block2_trial26_attendright_leadtarget.wav')])
+5.7381 	EXP 	New trial (rep=0, index=66): OrderedDict([('audio', 'block2_trial27_attendleft_leadtarget.wav')])
+5.7383 	EXP 	New trial (rep=0, index=67): OrderedDict([('audio', 'block2_trial28_attendright_leadtarget.wav')])
+5.7384 	EXP 	New trial (rep=0, index=68): OrderedDict([('audio', 'block2_trial29_attendleft_leadmasker.wav')])
+5.7385 	EXP 	New trial (rep=0, index=69): OrderedDict([('audio', 'block2_trial30_attendleft_leadmasker.wav')])
+5.7386 	EXP 	New trial (rep=0, index=70): OrderedDict([('audio', 'block2_trial31_attendright_leadmasker.wav')])
+5.7386 	EXP 	New trial (rep=0, index=71): OrderedDict([('audio', 'block2_trial32_attendright_leadmasker.wav')])
+5.7387 	EXP 	New trial (rep=0, index=72): OrderedDict([('audio', 'block2_trial33_attendleft_leadtarget.wav')])
+5.7388 	EXP 	New trial (rep=0, index=73): OrderedDict([('audio', 'block2_trial34_attendleft_leadmasker.wav')])
+5.7388 	EXP 	New trial (rep=0, index=74): OrderedDict([('audio', 'block2_trial35_attendright_leadmasker.wav')])
+5.7389 	EXP 	New trial (rep=0, index=75): OrderedDict([('audio', 'block2_trial36_attendright_leadtarget.wav')])
+5.7390 	EXP 	New trial (rep=0, index=76): OrderedDict([('audio', 'block2_trial37_attendright_leadtarget.wav')])
+5.7390 	EXP 	New trial (rep=0, index=77): OrderedDict([('audio', 'block2_trial38_attendleft_leadtarget.wav')])
+5.7391 	EXP 	New trial (rep=0, index=78): OrderedDict([('audio', 'block2_trial39_attendright_leadtarget.wav')])
+5.7392 	EXP 	New trial (rep=0, index=79): OrderedDict([('audio', 'block2_trial40_attendleft_leadmasker.wav')])
+5.7507 	EXP 	breakk: autoDraw = False
+5.7507 	EXP 	breakk: autoDraw = True
+7.0651 	EXP 	Trial_mult: status = STOPPED
+7.0805 	EXP 	breakk: autoDraw = False
+7.0806 	EXP 	Trial_mult: status = STOPPED
+7.2400 	EXP 	window1: mouseVisible = True

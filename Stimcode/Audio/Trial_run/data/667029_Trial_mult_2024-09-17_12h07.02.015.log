@@ -1,0 +1,58 @@
+5.1314 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+5.6687 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B727AB1310>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B727AB12B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B727AB1100>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001B727CB8D60>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.6689 	EXP 	window1: mouseVisible = True
+5.6689 	EXP 	window1: backgroundImage = ''
+5.6689 	EXP 	window1: backgroundFit = 'none'
+5.6707 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.6707 	EXP 	window1: recordFrameIntervals = False
+5.8350 	EXP 	window1: recordFrameIntervals = True
+6.0173 	EXP 	Screen (0) actual frame rate measured at 60.49Hz
+6.0173 	EXP 	window1: recordFrameIntervals = False
+6.0175 	EXP 	window1: mouseVisible = False
+7.6981 	EXP 	Trial_mult: status = STARTED
+7.6984 	EXP 	window1: mouseVisible = True
+7.7469 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.7470 	EXP 	window1: mouseVisible = True
+7.7493 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.3370 	EXP 	Sound sound_1 set volume 1.000
+8.3372 	EXP 	window1: mouseVisible = True
+8.3463 	EXP 	Created breakk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakk', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.3465 	EXP 	window1: mouseVisible = True
+8.3580 	EXP 	Created respp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respp', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0181 	EXP 	Instructions: autoDraw = True
+0.7851 	EXP 	Imported audio_file_paths.csv as conditions, 400 conditions, 1 params
+0.7860 	EXP 	Created sequence: sequential, trialTypes=400, nReps=1, seed=None
+0.7861 	EXP 	New trial (rep=0, index=0): OrderedDict([('audio', 'block1_trial1_attendright_leadtarget.wav')])
+0.7930 	EXP 	Instructions: autoDraw = False
+0.7930 	EXP 	cross: autoDraw = True
+2.7454 	EXP 	Sound  started
+6.5018 	EXP 	cross: autoDraw = False
+6.5018 	EXP 	respp: autoDraw = True
+7.6843 	EXP 	New trial (rep=0, index=1): OrderedDict([('audio', 'block1_trial2_attendright_leadmasker.wav')])
+7.6974 	EXP 	respp: autoDraw = False
+7.6974 	EXP 	cross: autoDraw = True
+9.6935 	EXP 	Sound  started
+13.4497 	EXP 	cross: autoDraw = False
+13.4663 	EXP 	cross: autoDraw = False
+13.4663 	EXP 	respp: autoDraw = True
+14.9470 	EXP 	New trial (rep=0, index=2): OrderedDict([('audio', 'block1_trial3_attendleft_leadmasker.wav')])
+14.9608 	EXP 	respp: autoDraw = False
+14.9608 	EXP 	cross: autoDraw = True
+16.9571 	EXP 	Sound  started
+20.7126 	EXP 	cross: autoDraw = False
+20.7290 	EXP 	cross: autoDraw = False
+20.7290 	EXP 	respp: autoDraw = True
+22.1778 	EXP 	New trial (rep=0, index=3): OrderedDict([('audio', 'block1_trial4_attendright_leadtarget.wav')])
+22.1909 	EXP 	respp: autoDraw = False
+22.1909 	EXP 	cross: autoDraw = True
+24.1870 	EXP 	Sound  started
+27.9430 	EXP 	cross: autoDraw = False
+27.9594 	EXP 	cross: autoDraw = False
+27.9594 	EXP 	respp: autoDraw = True
+28.8415 	EXP 	New trial (rep=0, index=4): OrderedDict([('audio', 'block1_trial5_attendleft_leadtarget.wav')])
+28.8564 	EXP 	respp: autoDraw = False
+28.8564 	EXP 	cross: autoDraw = True
+29.9885 	EXP 	Trial_mult: status = STOPPED
+30.0041 	EXP 	cross: autoDraw = False
+30.0044 	EXP 	Trial_mult: status = STOPPED
+30.0320 	EXP 	window1: mouseVisible = True
