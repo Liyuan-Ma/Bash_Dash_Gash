@@ -141,8 +141,10 @@ for itrial = 1:(num_trials_per_condition*num_conditions)
          % Combine left and right audio into stereo
         
         trigger_channel= zeros(size(right_stream_audio(:,1)));
-        trigger_channel(1)=0.9;
-        stereo_audio = left_stream_audio + right_stream_audio+trigger_channel;
+       % trigger_channel(1:0.01*fs) = 1;
+        trigger_channel(1) = 1;
+        stereo_audio = left_stream_audio + right_stream_audio;
+        stereo_audio = cat(2,stereo_audio,trigger_channel);
         % Save the audio file with correct file extension
         filename = sprintf('%s/block%d_trial%d_attend%s_lead%s.wav',output_folder, iblock, itrial, this_trial_attend, this_trial_lead);
         audiowrite(filename, stereo_audio, fs);

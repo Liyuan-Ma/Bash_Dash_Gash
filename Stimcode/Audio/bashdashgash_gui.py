@@ -17,8 +17,9 @@ from psychopy import prefs
 from psychopy import plugins
 from psychopy.plugins import activatePlugins
 plugins.activatePlugins()
-prefs.hardware['audioLib'] = 'ptb'
-prefs.hardware['audioLatencyMode'] = '0'
+#prefs.hardware['audioLib'] = 'ptb'
+#prefs.hardware['audioLatencyMode'] = '0'
+#prefs.hardware['audioDevice'] = 'Analog (1+2) (RME Fireface UCX II)'
 from psychopy import sound, gui, visual, core, data, event, logging, clock, colors, layout
 from psychopy.tools import environmenttools
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
@@ -30,9 +31,13 @@ from numpy import (sin, cos, tan, log, log10, pi, average,
 from numpy.random import random, randint, normal, shuffle, choice as randchoice
 import os  # handy system and path functions
 import sys  # to get file system encoding
-
+import sounddevice as sd
+import soundfile as sf
+import csv
+import re
 import psychopy.iohub as io
 from psychopy.hardware import keyboard
+#import serial #Import the serial library
 
 # --- Setup global variables (available in all functions) ---
 # Ensure that relative paths start from the same directory as this script
@@ -169,7 +174,7 @@ def setupWindow(expInfo=None, win=None):
     if win is None:
         # if not given a window to setup, make one
         win = visual.Window(
-            size=[1536, 864], fullscr=True, screen=0,
+            size=[1920, 1200], fullscr=True, screen=0,
             winType='pyglet', allowStencil=False,
             monitor='testMonitor', color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
@@ -230,6 +235,7 @@ def setupInputs(expInfo, thisExp, win):
         'defaultKeyboard': defaultKeyboard,
         'eyetracker': eyetracker,
     }
+
 
 def pauseExperiment(thisExp, inputs=None, win=None, timers=[], playbackComponents=[]):
     """
@@ -351,9 +357,26 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
-    sound_1 = sound.Sound('A', secs=-1, stereo=True, hamming=True,
-        name='sound_1',sampleRate=44100)
-    sound_1.setVolume(1.0)
+    #sound_1 = sound.Sound('A', secs=-1, stereo=False, hamming=True,
+      #  name='sound_1',sampleRate=44100,)
+    #sound_1.setVolume(1.0)
+    def play_audio(file_path):
+        audio_data,sample_rate=sf.read(file_path)
+        sd.default.device='ASIO Fireface USB'
+        
+        
+        sd.play(audio_data,samplerate=sample_rate,mapping=[1,2,3])
+        sd.wait()
+    def extract_block_number(audio_filename):
+        match=re.search(r'block(\d+)',audio_filename)
+        if match:
+            return(int(match.group(1)))
+        else:
+            return None
+        
+        
+    
+    
     
     # --- Initialize components for Routine "break" ---
     breakk = visual.TextStim(win=win, name='breakk',
@@ -539,15 +562,24 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     if thisTrial != None:
         for paramName in thisTrial:
             globals()[paramName] = thisTrial[paramName]
+    #current_block=None
     
+    previous_block=None
     for thisTrial in trials:
         #check if 'p' is pressed
         
         currentLoop = trials
         thisExp.timestampOnFlip(win, 'thisRow.t')
+        #audio_file=thisTrial['audio']
+        current_block=extract_block_number(thisTrial['audio'])
         
             #check if the current trial number is a multiple of 40
-        if trials.thisN >= 0 and (trials.thisN+1) % 40 == 0:
+        if current_block is not None and current_block != previous_block:
+            if previous_block is not None:
+                
+                
+                
+        #if trials.thisN >= 0 and (trials.thisN+1) % 40 == 0:
                 continueRoutine = True
                 routineTimer.reset()
                 
@@ -570,7 +602,8 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                 breakk.setAutoDraw(False)
                 #reset routineTimer
                 routineTimer.reset()
-                 
+            previous_block=current_block 
+                
         
             
         if inputs['defaultKeyboard'].getKeys(keyList=['p']):
@@ -594,12 +627,13 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         thisExp.addData('trial.started', globalClock.getTime())
-        audio_file_path = os.path.join(subject_folder,audio)
-        sound_1=sound.Sound(audio_file_path, secs=3.750590, hamming=True, stereo=True, sampleRate=44100)
-        sound_1.setVolume(1.0, log=False)
-        sound_1.seek(0)
+        audio_file_path = os.path.join(subject_folder,thisTrial['audio'])
+        
+        #sound_1=sound.Sound(audio_file_path, secs=3.750590, hamming=True, stereo=True, sampleRate=44100)
+        #sound_1.setVolume(1.0, log=False)
+        #sound_1.seek(0)
         # keep track of which components have finished
-        trialComponents = [cross, sound_1]
+        trialComponents = [cross] #, sound_1
         for thisComponent in trialComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -621,8 +655,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             tThisFlipGlobal = win.getFutureFlipTime(clock=None)
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
-            if inputs['defaultKeyboard'].getKeys(keyList=['p']):
-                pauseExperiment(thisExp,inputs=inputs,win=win, playbackComponents=[sound_1], timers=[routineTimer])
+            #if inputs['defaultKeyboard'].getKeys(key ts,win=win, playbackComponents=[sound_1], timers=[routineTimer])
                 
             # *cross* updates
             
@@ -646,6 +679,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             
             # if cross is stopping this frame...
             if cross.status == STARTED:
+                # win.callOnFlip(port.write, str.encode('0'))
                 # is it time to stop? (based on global clock, using actual start)
                 if tThisFlipGlobal > cross.tStartRefresh + 5.750590-frameTolerance:
                     # keep track of stop time/frame for later
@@ -656,18 +690,23 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                     # update status
                     cross.status = FINISHED
                     cross.setAutoDraw(False)
-            
+                    
             # if sound_1 is starting this frame...
-            if sound_1.status == NOT_STARTED and t >= 2-frameTolerance:
+            if t >= 2-frameTolerance:  #if sound_1.status == NOT_STARTED and t >= 2-frameTolerance:
+                #trigger_value = 1
+                #win.callOnFlip(port.write, trigger_value)
                 # keep track of start time/frame for later
-                sound_1.frameNStart = frameN  # exact frame index
-                sound_1.tStart = t  # local t and not account for scr refresh
-                sound_1.tStartRefresh = tThisFlipGlobal  # on global time
+                #sound_1.frameNStart = frameN  # exact frame index
+                #sound_1.tStart = t  # local t and not account for scr refresh
+                #sound_1.tStartRefresh = tThisFlipGlobal  # on global time
                 # add timestamp to datafile
-                thisExp.addData('sound_1.started', t)
+                thisExp.addData('audio.started', t)
                 # update status
-                sound_1.status = STARTED
-                sound_1.play()  # start the sound (it finishes automatically)
+                #sound_1.status = STARTED
+                 # write a trigger to the port
+                #sound_1.play()  # start the sound (it finishes automatically)
+                play_audio(audio_file_path)
+            
             if defaultKeyboard.getKeys(keyList=["escape"]):
                 thisExp.status =FINISHED
                 endExperiment(thisExp, inputs=inputs, win=win)
@@ -676,23 +715,23 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
                 win.flip()
                 
             
-            # if sound_1 is stopping this frame... 213pc231
-            if sound_1.status == STARTED:
+            # if sound_1 is stopping this frame... 
+            #if sound_1.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if sound_1.tStartRefresh is not None and tThisFlipGlobal > sound_1.tStartRefresh + 3.750590-frameTolerance: 
+                #if sound_1.tStartRefresh is not None and tThisFlipGlobal > sound_1.tStartRefresh + 3.750590-frameTolerance: 
                     # keep track of stop time/frame for later
-                    sound_1.tStop = t  # not accounting for scr refresh
-                    sound_1.frameNStop = frameN  # exact frame index
+                   # sound_1.tStop = t  # not accounting for scr refresh
+                   # sound_1.frameNStop = frameN  # exact frame index
                     # add timestamp to datafile
-                    thisExp.addData('sound_1.stopped', t)
+                    #thisExp.addData('sound_1.stopped', t)
                     # update status
-                    sound_1.status = FINISHED
-                    sound_1.stop()
+                    #sound_1.status = FINISHED
+                   # sound_1.stop()
             # update sound_1 status according to whether it's playing
-            if sound_1.isPlaying:
-                sound_1.status = STARTED
-            elif sound_1.isFinished:
-                sound_1.status = FINISHED
+           # if sound_1.isPlaying:
+            #    sound_1.status = STARTED
+           # elif sound_1.isFinished:
+             #   sound_1.status = FINISHED
             
             # check for quit (typically the Esc key)
             if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -994,11 +1033,13 @@ if __name__ == '__main__':
     logFile = setupLogging(filename=thisExp.dataFileName)
     win = setupWindow(expInfo=expInfo)
     inputs = setupInputs(expInfo=expInfo, thisExp=thisExp, win=win)
+    #port = serial.Serial('COM4', baudrate=115200) #Change 'COM3' here to your serial port address
     run(
         expInfo=expInfo, 
         thisExp=thisExp, 
         win=win, 
         inputs=inputs
     )
+   # port.close()
     saveData(thisExp=thisExp)
     quit(thisExp=thisExp, win=win, inputs=inputs)
