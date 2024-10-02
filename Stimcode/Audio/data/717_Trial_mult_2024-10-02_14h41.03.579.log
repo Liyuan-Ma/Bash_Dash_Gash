@@ -1,0 +1,2047 @@
+4.1957 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+4.1957 	ERROR 	Failed to load any of the audioLibs: ['sounddevice']. Falling back to PsychToolbox ('ptb') backend for sound. Be sure to add 'ptb' to preferences to avoid seeing this message again.
+4.3213 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice'] (in that order).
+4.7233 	WARNING 	Requested audio device 'ASIO Fireface USB' that is not available on this hardware. The 'audioDevice' preference should be one of ['3 - DELL U2415 (AMD High Definition Audio Device)', '4 - DELL U2415 (AMD High Definition Audio Device)', 'ADAT (3+4) (RME Fireface UCX II)', 'ADAT (5+6) (RME Fireface UCX II)', 'ADAT (7+8) (RME Fireface UCX II)', 'AES (RME Fireface UCX II)', 'Analog (1+2) (RME Fireface UCX II)', 'Analog (3+4) (RME Fireface UCX II)', 'Analog (5+6) (RME Fireface UCX II)', 'SPDIF coax. (RME Fireface UCX II)', 'SPDIF/ADAT (1+2) (RME Fireface UCX II)', 'Speakers (RME Fireface UCX II)', 'Speakers/Headphones (Realtek(R) Audio)']
+16.4046 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000213CA0B1CD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000213CA0B1C70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000213CA0B1A90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000213CA62F8E0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.4047 	EXP 	window1: mouseVisible = True
+16.4047 	EXP 	window1: backgroundImage = ''
+16.4047 	EXP 	window1: backgroundFit = 'none'
+16.4065 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+16.4065 	EXP 	window1: recordFrameIntervals = False
+16.5708 	EXP 	window1: recordFrameIntervals = True
+16.7544 	EXP 	Screen (0) actual frame rate measured at 59.87Hz
+16.7544 	EXP 	window1: recordFrameIntervals = False
+16.7545 	EXP 	window1: mouseVisible = False
+21.7105 	EXP 	Trial_mult: status = STARTED
+21.7110 	EXP 	window1: mouseVisible = True
+21.8301 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.8302 	EXP 	window1: mouseVisible = True
+21.8337 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+21.8338 	EXP 	window1: mouseVisible = True
+21.8415 	EXP 	Created breakk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakk', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.8416 	EXP 	window1: mouseVisible = True
+21.8580 	EXP 	Created respp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respp', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0509 	EXP 	Instructions: autoDraw = True
+1.8716 	EXP 	Imported C:\Users\Lab User\Documents\GitHub\Bash_Dash_Gash\Stimcode\Audio\717\audio_file_paths.csv as conditions, 400 conditions, 2 params
+1.8733 	EXP 	Created sequence: sequential, trialTypes=400, nReps=1, seed=None
+1.8735 	EXP 	New trial (rep=0, index=0): OrderedDict([('Index', 1), ('audio', 'block1_trial1_attendright_leadmasker.wav')])
+1.8845 	EXP 	Instructions: autoDraw = False
+1.9012 	EXP 	cross: autoDraw = True
+7.7398 	EXP 	cross: autoDraw = False
+7.7398 	EXP 	respp: autoDraw = True
+8.8110 	EXP 	New trial (rep=0, index=1): OrderedDict([('Index', 2), ('audio', 'block1_trial2_attendright_leadmasker.wav')])
+8.8235 	EXP 	respp: autoDraw = False
+8.8405 	EXP 	cross: autoDraw = True
+14.7123 	EXP 	cross: autoDraw = False
+14.7123 	EXP 	respp: autoDraw = True
+15.7476 	EXP 	New trial (rep=0, index=2): OrderedDict([('Index', 3), ('audio', 'block1_trial3_attendright_leadtarget.wav')])
+15.7630 	EXP 	respp: autoDraw = False
+15.7795 	EXP 	cross: autoDraw = True
+21.6343 	EXP 	cross: autoDraw = False
+21.6343 	EXP 	respp: autoDraw = True
+23.4203 	EXP 	New trial (rep=0, index=3): OrderedDict([('Index', 4), ('audio', 'block1_trial4_attendright_leadmasker.wav')])
+23.4352 	EXP 	respp: autoDraw = False
+23.4519 	EXP 	cross: autoDraw = True
+29.2902 	EXP 	cross: autoDraw = False
+29.2902 	EXP 	respp: autoDraw = True
+30.5932 	EXP 	New trial (rep=0, index=4): OrderedDict([('Index', 5), ('audio', 'block1_trial5_attendright_leadmasker.wav')])
+30.6074 	EXP 	respp: autoDraw = False
+30.6242 	EXP 	cross: autoDraw = True
+36.4965 	EXP 	cross: autoDraw = False
+36.4965 	EXP 	respp: autoDraw = True
+37.9819 	EXP 	New trial (rep=0, index=5): OrderedDict([('Index', 6), ('audio', 'block1_trial6_attendleft_leadtarget.wav')])
+37.9969 	EXP 	respp: autoDraw = False
+38.0136 	EXP 	cross: autoDraw = True
+43.8684 	EXP 	cross: autoDraw = False
+43.8684 	EXP 	respp: autoDraw = True
+45.7048 	EXP 	New trial (rep=0, index=6): OrderedDict([('Index', 7), ('audio', 'block1_trial7_attendleft_leadtarget.wav')])
+45.7201 	EXP 	respp: autoDraw = False
+45.7367 	EXP 	cross: autoDraw = True
+51.5915 	EXP 	cross: autoDraw = False
+51.5915 	EXP 	respp: autoDraw = True
+52.7445 	EXP 	New trial (rep=0, index=7): OrderedDict([('Index', 8), ('audio', 'block1_trial8_attendleft_leadmasker.wav')])
+52.7586 	EXP 	respp: autoDraw = False
+52.7754 	EXP 	cross: autoDraw = True
+58.6476 	EXP 	cross: autoDraw = False
+58.6476 	EXP 	respp: autoDraw = True
+60.1496 	EXP 	New trial (rep=0, index=8): OrderedDict([('Index', 9), ('audio', 'block1_trial9_attendleft_leadmasker.wav')])
+60.1652 	EXP 	respp: autoDraw = False
+60.1815 	EXP 	cross: autoDraw = True
+66.0194 	EXP 	cross: autoDraw = False
+66.0194 	EXP 	respp: autoDraw = True
+67.1720 	EXP 	New trial (rep=0, index=9): OrderedDict([('Index', 10), ('audio', 'block1_trial10_attendright_leadtarget.wav')])
+67.1872 	EXP 	respp: autoDraw = False
+67.2039 	EXP 	cross: autoDraw = True
+73.0921 	EXP 	cross: autoDraw = False
+73.0921 	EXP 	respp: autoDraw = True
+74.4111 	EXP 	New trial (rep=0, index=10): OrderedDict([('Index', 11), ('audio', 'block1_trial11_attendright_leadmasker.wav')])
+74.4263 	EXP 	respp: autoDraw = False
+74.4431 	EXP 	cross: autoDraw = True
+80.2818 	EXP 	cross: autoDraw = False
+80.2818 	EXP 	respp: autoDraw = True
+81.9840 	EXP 	New trial (rep=0, index=11): OrderedDict([('Index', 12), ('audio', 'block1_trial12_attendleft_leadtarget.wav')])
+81.9994 	EXP 	respp: autoDraw = False
+82.0156 	EXP 	cross: autoDraw = True
+87.8544 	EXP 	cross: autoDraw = False
+87.8544 	EXP 	respp: autoDraw = True
+89.5901 	EXP 	New trial (rep=0, index=12): OrderedDict([('Index', 13), ('audio', 'block1_trial13_attendright_leadmasker.wav')])
+89.6053 	EXP 	respp: autoDraw = False
+89.6222 	EXP 	cross: autoDraw = True
+95.4773 	EXP 	cross: autoDraw = False
+95.4773 	EXP 	respp: autoDraw = True
+96.9460 	EXP 	New trial (rep=0, index=13): OrderedDict([('Index', 14), ('audio', 'block1_trial14_attendright_leadtarget.wav')])
+96.9612 	EXP 	respp: autoDraw = False
+96.9778 	EXP 	cross: autoDraw = True
+102.8490 	EXP 	cross: autoDraw = False
+102.8490 	EXP 	respp: autoDraw = True
+104.6521 	EXP 	New trial (rep=0, index=14): OrderedDict([('Index', 15), ('audio', 'block1_trial15_attendleft_leadmasker.wav')])
+104.6677 	EXP 	respp: autoDraw = False
+104.6837 	EXP 	cross: autoDraw = True
+110.5554 	EXP 	cross: autoDraw = False
+110.5554 	EXP 	respp: autoDraw = True
+111.9413 	EXP 	New trial (rep=0, index=15): OrderedDict([('Index', 16), ('audio', 'block1_trial16_attendleft_leadmasker.wav')])
+111.9563 	EXP 	respp: autoDraw = False
+111.9731 	EXP 	cross: autoDraw = True
+117.8444 	EXP 	cross: autoDraw = False
+117.8444 	EXP 	respp: autoDraw = True
+119.4307 	EXP 	New trial (rep=0, index=16): OrderedDict([('Index', 17), ('audio', 'block1_trial17_attendleft_leadtarget.wav')])
+119.4457 	EXP 	respp: autoDraw = False
+119.4628 	EXP 	cross: autoDraw = True
+125.3348 	EXP 	cross: autoDraw = False
+125.3348 	EXP 	respp: autoDraw = True
+126.4864 	EXP 	New trial (rep=0, index=17): OrderedDict([('Index', 18), ('audio', 'block1_trial18_attendleft_leadtarget.wav')])
+126.5017 	EXP 	respp: autoDraw = False
+126.5180 	EXP 	cross: autoDraw = True
+132.3899 	EXP 	cross: autoDraw = False
+132.3899 	EXP 	respp: autoDraw = True
+133.6256 	EXP 	New trial (rep=0, index=18): OrderedDict([('Index', 19), ('audio', 'block1_trial19_attendright_leadtarget.wav')])
+133.6403 	EXP 	respp: autoDraw = False
+133.6573 	EXP 	cross: autoDraw = True
+139.5790 	EXP 	cross: autoDraw = False
+139.5790 	EXP 	respp: autoDraw = True
+140.9146 	EXP 	New trial (rep=0, index=19): OrderedDict([('Index', 20), ('audio', 'block1_trial20_attendright_leadtarget.wav')])
+140.9299 	EXP 	respp: autoDraw = False
+140.9466 	EXP 	cross: autoDraw = True
+146.7853 	EXP 	cross: autoDraw = False
+146.7853 	EXP 	respp: autoDraw = True
+147.8035 	EXP 	New trial (rep=0, index=20): OrderedDict([('Index', 21), ('audio', 'block1_trial21_attendright_leadtarget.wav')])
+147.8188 	EXP 	respp: autoDraw = False
+147.8353 	EXP 	cross: autoDraw = True
+153.7073 	EXP 	cross: autoDraw = False
+153.7073 	EXP 	respp: autoDraw = True
+154.7591 	EXP 	New trial (rep=0, index=21): OrderedDict([('Index', 22), ('audio', 'block1_trial22_attendright_leadmasker.wav')])
+154.7747 	EXP 	respp: autoDraw = False
+154.7910 	EXP 	cross: autoDraw = True
+160.6626 	EXP 	cross: autoDraw = False
+160.6626 	EXP 	respp: autoDraw = True
+162.7656 	EXP 	New trial (rep=0, index=22): OrderedDict([('Index', 23), ('audio', 'block1_trial23_attendright_leadmasker.wav')])
+162.7810 	EXP 	respp: autoDraw = False
+162.7972 	EXP 	cross: autoDraw = True
+168.6524 	EXP 	cross: autoDraw = False
+168.6524 	EXP 	respp: autoDraw = True
+169.7713 	EXP 	New trial (rep=0, index=23): OrderedDict([('Index', 24), ('audio', 'block1_trial24_attendright_leadtarget.wav')])
+169.7870 	EXP 	respp: autoDraw = False
+169.8028 	EXP 	cross: autoDraw = True
+175.6749 	EXP 	cross: autoDraw = False
+175.6749 	EXP 	respp: autoDraw = True
+176.4271 	EXP 	New trial (rep=0, index=24): OrderedDict([('Index', 25), ('audio', 'block1_trial25_attendright_leadtarget.wav')])
+176.4419 	EXP 	respp: autoDraw = False
+176.4582 	EXP 	cross: autoDraw = True
+182.3141 	EXP 	cross: autoDraw = False
+182.3141 	EXP 	respp: autoDraw = True
+183.5824 	EXP 	New trial (rep=0, index=25): OrderedDict([('Index', 26), ('audio', 'block1_trial26_attendleft_leadmasker.wav')])
+183.5975 	EXP 	respp: autoDraw = False
+183.6144 	EXP 	cross: autoDraw = True
+189.4689 	EXP 	cross: autoDraw = False
+189.4689 	EXP 	respp: autoDraw = True
+190.2888 	EXP 	New trial (rep=0, index=26): OrderedDict([('Index', 27), ('audio', 'block1_trial27_attendleft_leadmasker.wav')])
+190.3024 	EXP 	respp: autoDraw = False
+190.3198 	EXP 	cross: autoDraw = True
+196.1912 	EXP 	cross: autoDraw = False
+196.1912 	EXP 	respp: autoDraw = True
+197.4435 	EXP 	New trial (rep=0, index=27): OrderedDict([('Index', 28), ('audio', 'block1_trial28_attendleft_leadtarget.wav')])
+197.4583 	EXP 	respp: autoDraw = False
+197.4752 	EXP 	cross: autoDraw = True
+203.3474 	EXP 	cross: autoDraw = False
+203.3474 	EXP 	respp: autoDraw = True
+207.4503 	EXP 	New trial (rep=0, index=28): OrderedDict([('Index', 29), ('audio', 'block1_trial29_attendright_leadmasker.wav')])
+207.4663 	EXP 	respp: autoDraw = False
+207.4835 	EXP 	cross: autoDraw = True
+213.3380 	EXP 	cross: autoDraw = False
+213.3380 	EXP 	respp: autoDraw = True
+214.5739 	EXP 	New trial (rep=0, index=29): OrderedDict([('Index', 30), ('audio', 'block1_trial30_attendright_leadtarget.wav')])
+214.5892 	EXP 	respp: autoDraw = False
+214.6059 	EXP 	cross: autoDraw = True
+220.4768 	EXP 	cross: autoDraw = False
+220.4768 	EXP 	respp: autoDraw = True
+221.6295 	EXP 	New trial (rep=0, index=30): OrderedDict([('Index', 31), ('audio', 'block1_trial31_attendleft_leadtarget.wav')])
+221.6447 	EXP 	respp: autoDraw = False
+221.6617 	EXP 	cross: autoDraw = True
+227.5495 	EXP 	cross: autoDraw = False
+227.5495 	EXP 	respp: autoDraw = True
+228.9021 	EXP 	New trial (rep=0, index=31): OrderedDict([('Index', 32), ('audio', 'block1_trial32_attendleft_leadtarget.wav')])
+228.9170 	EXP 	respp: autoDraw = False
+228.9339 	EXP 	cross: autoDraw = True
+234.7889 	EXP 	cross: autoDraw = False
+234.7889 	EXP 	respp: autoDraw = True
+236.0411 	EXP 	New trial (rep=0, index=32): OrderedDict([('Index', 33), ('audio', 'block1_trial33_attendleft_leadmasker.wav')])
+236.0562 	EXP 	respp: autoDraw = False
+236.0728 	EXP 	cross: autoDraw = True
+241.9445 	EXP 	cross: autoDraw = False
+241.9445 	EXP 	respp: autoDraw = True
+243.2644 	EXP 	New trial (rep=0, index=33): OrderedDict([('Index', 34), ('audio', 'block1_trial34_attendright_leadtarget.wav')])
+243.2785 	EXP 	respp: autoDraw = False
+243.2952 	EXP 	cross: autoDraw = True
+249.1338 	EXP 	cross: autoDraw = False
+249.1338 	EXP 	respp: autoDraw = True
+250.0361 	EXP 	New trial (rep=0, index=34): OrderedDict([('Index', 35), ('audio', 'block1_trial35_attendright_leadmasker.wav')])
+250.0511 	EXP 	respp: autoDraw = False
+250.0674 	EXP 	cross: autoDraw = True
+255.9223 	EXP 	cross: autoDraw = False
+255.9223 	EXP 	respp: autoDraw = True
+257.5092 	EXP 	New trial (rep=0, index=35): OrderedDict([('Index', 36), ('audio', 'block1_trial36_attendleft_leadmasker.wav')])
+257.5236 	EXP 	respp: autoDraw = False
+257.5402 	EXP 	cross: autoDraw = True
+263.3952 	EXP 	cross: autoDraw = False
+263.3952 	EXP 	respp: autoDraw = True
+264.6310 	EXP 	New trial (rep=0, index=36): OrderedDict([('Index', 37), ('audio', 'block1_trial37_attendleft_leadtarget.wav')])
+264.6459 	EXP 	respp: autoDraw = False
+264.6630 	EXP 	cross: autoDraw = True
+270.5509 	EXP 	cross: autoDraw = False
+270.5509 	EXP 	respp: autoDraw = True
+271.6369 	EXP 	New trial (rep=0, index=37): OrderedDict([('Index', 38), ('audio', 'block1_trial38_attendleft_leadmasker.wav')])
+271.6515 	EXP 	respp: autoDraw = False
+271.6680 	EXP 	cross: autoDraw = True
+277.5067 	EXP 	cross: autoDraw = False
+277.5067 	EXP 	respp: autoDraw = True
+278.7421 	EXP 	New trial (rep=0, index=38): OrderedDict([('Index', 39), ('audio', 'block1_trial39_attendleft_leadtarget.wav')])
+278.7573 	EXP 	respp: autoDraw = False
+278.7740 	EXP 	cross: autoDraw = True
+284.6116 	EXP 	cross: autoDraw = False
+284.6116 	EXP 	respp: autoDraw = True
+285.6320 	EXP 	New trial (rep=0, index=39): OrderedDict([('Index', 40), ('audio', 'block1_trial40_attendleft_leadmasker.wav')])
+285.6460 	EXP 	respp: autoDraw = False
+285.6631 	EXP 	cross: autoDraw = True
+291.5346 	EXP 	cross: autoDraw = False
+291.5346 	EXP 	respp: autoDraw = True
+292.7541 	EXP 	New trial (rep=0, index=40): OrderedDict([('Index', 41), ('audio', 'block2_trial1_attendleft_leadmasker.wav')])
+292.7685 	EXP 	respp: autoDraw = False
+292.7685 	EXP 	breakk: autoDraw = True
+299.9740 	EXP 	breakk: autoDraw = False
+299.9912 	EXP 	cross: autoDraw = True
+305.8461 	EXP 	cross: autoDraw = False
+305.8461 	EXP 	respp: autoDraw = True
+306.9982 	EXP 	New trial (rep=0, index=41): OrderedDict([('Index', 42), ('audio', 'block2_trial2_attendleft_leadtarget.wav')])
+307.0131 	EXP 	respp: autoDraw = False
+307.0302 	EXP 	cross: autoDraw = True
+312.9018 	EXP 	cross: autoDraw = False
+312.9018 	EXP 	respp: autoDraw = True
+313.8708 	EXP 	New trial (rep=0, index=42): OrderedDict([('Index', 43), ('audio', 'block2_trial3_attendright_leadtarget.wav')])
+313.8855 	EXP 	respp: autoDraw = False
+313.9020 	EXP 	cross: autoDraw = True
+319.7738 	EXP 	cross: autoDraw = False
+319.7738 	EXP 	respp: autoDraw = True
+321.3766 	EXP 	New trial (rep=0, index=43): OrderedDict([('Index', 44), ('audio', 'block2_trial4_attendright_leadtarget.wav')])
+321.3914 	EXP 	respp: autoDraw = False
+321.4084 	EXP 	cross: autoDraw = True
+327.2969 	EXP 	cross: autoDraw = False
+327.2969 	EXP 	respp: autoDraw = True
+328.2488 	EXP 	New trial (rep=0, index=44): OrderedDict([('Index', 45), ('audio', 'block2_trial5_attendright_leadtarget.wav')])
+328.2638 	EXP 	respp: autoDraw = False
+328.2805 	EXP 	cross: autoDraw = True
+334.1688 	EXP 	cross: autoDraw = False
+334.1688 	EXP 	respp: autoDraw = True
+335.5050 	EXP 	New trial (rep=0, index=45): OrderedDict([('Index', 46), ('audio', 'block2_trial6_attendright_leadmasker.wav')])
+335.5198 	EXP 	respp: autoDraw = False
+335.5360 	EXP 	cross: autoDraw = True
+341.4073 	EXP 	cross: autoDraw = False
+341.4073 	EXP 	respp: autoDraw = True
+342.2770 	EXP 	New trial (rep=0, index=46): OrderedDict([('Index', 47), ('audio', 'block2_trial7_attendright_leadtarget.wav')])
+342.2918 	EXP 	respp: autoDraw = False
+342.3084 	EXP 	cross: autoDraw = True
+348.1966 	EXP 	cross: autoDraw = False
+348.1966 	EXP 	respp: autoDraw = True
+349.2995 	EXP 	New trial (rep=0, index=47): OrderedDict([('Index', 48), ('audio', 'block2_trial8_attendright_leadmasker.wav')])
+349.3137 	EXP 	respp: autoDraw = False
+349.3307 	EXP 	cross: autoDraw = True
+355.2026 	EXP 	cross: autoDraw = False
+355.2026 	EXP 	respp: autoDraw = True
+356.3717 	EXP 	New trial (rep=0, index=48): OrderedDict([('Index', 49), ('audio', 'block2_trial9_attendright_leadtarget.wav')])
+356.3860 	EXP 	respp: autoDraw = False
+356.4028 	EXP 	cross: autoDraw = True
+362.2575 	EXP 	cross: autoDraw = False
+362.2575 	EXP 	respp: autoDraw = True
+363.4273 	EXP 	New trial (rep=0, index=49): OrderedDict([('Index', 50), ('audio', 'block2_trial10_attendleft_leadmasker.wav')])
+363.4423 	EXP 	respp: autoDraw = False
+363.4590 	EXP 	cross: autoDraw = True
+369.3134 	EXP 	cross: autoDraw = False
+369.3134 	EXP 	respp: autoDraw = True
+370.6161 	EXP 	New trial (rep=0, index=50): OrderedDict([('Index', 51), ('audio', 'block2_trial11_attendleft_leadmasker.wav')])
+370.6308 	EXP 	respp: autoDraw = False
+370.6476 	EXP 	cross: autoDraw = True
+376.5195 	EXP 	cross: autoDraw = False
+376.5195 	EXP 	respp: autoDraw = True
+377.3718 	EXP 	New trial (rep=0, index=51): OrderedDict([('Index', 52), ('audio', 'block2_trial12_attendleft_leadmasker.wav')])
+377.3865 	EXP 	respp: autoDraw = False
+377.4034 	EXP 	cross: autoDraw = True
+383.2577 	EXP 	cross: autoDraw = False
+383.2577 	EXP 	respp: autoDraw = True
+384.8279 	EXP 	New trial (rep=0, index=52): OrderedDict([('Index', 53), ('audio', 'block2_trial13_attendright_leadmasker.wav')])
+384.8424 	EXP 	respp: autoDraw = False
+384.8590 	EXP 	cross: autoDraw = True
+390.7313 	EXP 	cross: autoDraw = False
+390.7313 	EXP 	respp: autoDraw = True
+392.3338 	EXP 	New trial (rep=0, index=53): OrderedDict([('Index', 54), ('audio', 'block2_trial14_attendright_leadmasker.wav')])
+392.3483 	EXP 	respp: autoDraw = False
+392.3655 	EXP 	cross: autoDraw = True
+398.2037 	EXP 	cross: autoDraw = False
+398.2037 	EXP 	respp: autoDraw = True
+399.0395 	EXP 	New trial (rep=0, index=54): OrderedDict([('Index', 55), ('audio', 'block2_trial15_attendleft_leadmasker.wav')])
+399.0539 	EXP 	respp: autoDraw = False
+399.0706 	EXP 	cross: autoDraw = True
+404.9423 	EXP 	cross: autoDraw = False
+404.9423 	EXP 	respp: autoDraw = True
+409.0457 	EXP 	New trial (rep=0, index=55): OrderedDict([('Index', 56), ('audio', 'block2_trial16_attendleft_leadtarget.wav')])
+409.0617 	EXP 	respp: autoDraw = False
+409.0783 	EXP 	cross: autoDraw = True
+414.9165 	EXP 	cross: autoDraw = False
+414.9165 	EXP 	respp: autoDraw = True
+416.1527 	EXP 	New trial (rep=0, index=56): OrderedDict([('Index', 57), ('audio', 'block2_trial17_attendleft_leadmasker.wav')])
+416.1674 	EXP 	respp: autoDraw = False
+416.1841 	EXP 	cross: autoDraw = True
+422.0221 	EXP 	cross: autoDraw = False
+422.0221 	EXP 	respp: autoDraw = True
+423.4922 	EXP 	New trial (rep=0, index=57): OrderedDict([('Index', 58), ('audio', 'block2_trial18_attendleft_leadtarget.wav')])
+423.5073 	EXP 	respp: autoDraw = False
+423.5241 	EXP 	cross: autoDraw = True
+429.3620 	EXP 	cross: autoDraw = False
+429.3620 	EXP 	respp: autoDraw = True
+430.5142 	EXP 	New trial (rep=0, index=58): OrderedDict([('Index', 59), ('audio', 'block2_trial19_attendleft_leadmasker.wav')])
+430.5291 	EXP 	respp: autoDraw = False
+430.5464 	EXP 	cross: autoDraw = True
+436.4171 	EXP 	cross: autoDraw = False
+436.4171 	EXP 	respp: autoDraw = True
+438.2042 	EXP 	New trial (rep=0, index=59): OrderedDict([('Index', 60), ('audio', 'block2_trial20_attendright_leadmasker.wav')])
+438.2186 	EXP 	respp: autoDraw = False
+438.2358 	EXP 	cross: autoDraw = True
+444.0905 	EXP 	cross: autoDraw = False
+444.0905 	EXP 	respp: autoDraw = True
+445.5765 	EXP 	New trial (rep=0, index=60): OrderedDict([('Index', 61), ('audio', 'block2_trial21_attendright_leadtarget.wav')])
+445.5911 	EXP 	respp: autoDraw = False
+445.6080 	EXP 	cross: autoDraw = True
+451.4800 	EXP 	cross: autoDraw = False
+451.4800 	EXP 	respp: autoDraw = True
+453.1331 	EXP 	New trial (rep=0, index=61): OrderedDict([('Index', 62), ('audio', 'block2_trial22_attendleft_leadtarget.wav')])
+453.1475 	EXP 	respp: autoDraw = False
+453.1639 	EXP 	cross: autoDraw = True
+459.0353 	EXP 	cross: autoDraw = False
+459.0353 	EXP 	respp: autoDraw = True
+463.1395 	EXP 	New trial (rep=0, index=62): OrderedDict([('Index', 63), ('audio', 'block2_trial23_attendleft_leadtarget.wav')])
+463.1557 	EXP 	respp: autoDraw = False
+463.1720 	EXP 	cross: autoDraw = True
+469.0272 	EXP 	cross: autoDraw = False
+469.0272 	EXP 	respp: autoDraw = True
+470.1468 	EXP 	New trial (rep=0, index=63): OrderedDict([('Index', 64), ('audio', 'block2_trial24_attendleft_leadtarget.wav')])
+470.1614 	EXP 	respp: autoDraw = False
+470.1778 	EXP 	cross: autoDraw = True
+476.0323 	EXP 	cross: autoDraw = False
+476.0323 	EXP 	respp: autoDraw = True
+477.5524 	EXP 	New trial (rep=0, index=64): OrderedDict([('Index', 65), ('audio', 'block2_trial25_attendright_leadmasker.wav')])
+477.5672 	EXP 	respp: autoDraw = False
+477.5841 	EXP 	cross: autoDraw = True
+483.4224 	EXP 	cross: autoDraw = False
+483.4224 	EXP 	respp: autoDraw = True
+484.6578 	EXP 	New trial (rep=0, index=65): OrderedDict([('Index', 66), ('audio', 'block2_trial26_attendright_leadmasker.wav')])
+484.6729 	EXP 	respp: autoDraw = False
+484.6896 	EXP 	cross: autoDraw = True
+490.5781 	EXP 	cross: autoDraw = False
+490.5781 	EXP 	respp: autoDraw = True
+491.7311 	EXP 	New trial (rep=0, index=66): OrderedDict([('Index', 67), ('audio', 'block2_trial27_attendright_leadtarget.wav')])
+491.7452 	EXP 	respp: autoDraw = False
+491.7616 	EXP 	cross: autoDraw = True
+497.6339 	EXP 	cross: autoDraw = False
+497.6339 	EXP 	respp: autoDraw = True
+498.5192 	EXP 	New trial (rep=0, index=67): OrderedDict([('Index', 68), ('audio', 'block2_trial28_attendleft_leadmasker.wav')])
+498.5340 	EXP 	respp: autoDraw = False
+498.5508 	EXP 	cross: autoDraw = True
+504.4053 	EXP 	cross: autoDraw = False
+504.4053 	EXP 	respp: autoDraw = True
+505.5248 	EXP 	New trial (rep=0, index=68): OrderedDict([('Index', 69), ('audio', 'block2_trial29_attendright_leadtarget.wav')])
+505.5394 	EXP 	respp: autoDraw = False
+505.5563 	EXP 	cross: autoDraw = True
+511.4283 	EXP 	cross: autoDraw = False
+511.4283 	EXP 	respp: autoDraw = True
+512.3304 	EXP 	New trial (rep=0, index=69): OrderedDict([('Index', 70), ('audio', 'block2_trial30_attendleft_leadtarget.wav')])
+512.3448 	EXP 	respp: autoDraw = False
+512.3618 	EXP 	cross: autoDraw = True
+518.1995 	EXP 	cross: autoDraw = False
+518.1995 	EXP 	respp: autoDraw = True
+518.9360 	EXP 	New trial (rep=0, index=70): OrderedDict([('Index', 71), ('audio', 'block2_trial31_attendright_leadmasker.wav')])
+518.9504 	EXP 	respp: autoDraw = False
+518.9673 	EXP 	cross: autoDraw = True
+524.8389 	EXP 	cross: autoDraw = False
+524.8389 	EXP 	respp: autoDraw = True
+525.8085 	EXP 	New trial (rep=0, index=71): OrderedDict([('Index', 72), ('audio', 'block2_trial32_attendleft_leadtarget.wav')])
+525.8229 	EXP 	respp: autoDraw = False
+525.8393 	EXP 	cross: autoDraw = True
+531.7107 	EXP 	cross: autoDraw = False
+531.7107 	EXP 	respp: autoDraw = True
+532.6136 	EXP 	New trial (rep=0, index=72): OrderedDict([('Index', 73), ('audio', 'block2_trial33_attendright_leadtarget.wav')])
+532.6280 	EXP 	respp: autoDraw = False
+532.6447 	EXP 	cross: autoDraw = True
+538.5001 	EXP 	cross: autoDraw = False
+538.5001 	EXP 	respp: autoDraw = True
+539.7697 	EXP 	New trial (rep=0, index=73): OrderedDict([('Index', 74), ('audio', 'block2_trial34_attendright_leadtarget.wav')])
+539.7838 	EXP 	respp: autoDraw = False
+539.8003 	EXP 	cross: autoDraw = True
+545.6551 	EXP 	cross: autoDraw = False
+545.6551 	EXP 	respp: autoDraw = True
+547.1083 	EXP 	New trial (rep=0, index=74): OrderedDict([('Index', 75), ('audio', 'block2_trial35_attendright_leadmasker.wav')])
+547.1228 	EXP 	respp: autoDraw = False
+547.1400 	EXP 	cross: autoDraw = True
+552.9942 	EXP 	cross: autoDraw = False
+552.9942 	EXP 	respp: autoDraw = True
+554.1642 	EXP 	New trial (rep=0, index=75): OrderedDict([('Index', 76), ('audio', 'block2_trial36_attendleft_leadtarget.wav')])
+554.1788 	EXP 	respp: autoDraw = False
+554.1951 	EXP 	cross: autoDraw = True
+560.0500 	EXP 	cross: autoDraw = False
+560.0500 	EXP 	respp: autoDraw = True
+561.6699 	EXP 	New trial (rep=0, index=76): OrderedDict([('Index', 77), ('audio', 'block2_trial37_attendleft_leadmasker.wav')])
+561.6847 	EXP 	respp: autoDraw = False
+561.7012 	EXP 	cross: autoDraw = True
+567.5733 	EXP 	cross: autoDraw = False
+567.5733 	EXP 	respp: autoDraw = True
+569.1424 	EXP 	New trial (rep=0, index=77): OrderedDict([('Index', 78), ('audio', 'block2_trial38_attendleft_leadtarget.wav')])
+569.1575 	EXP 	respp: autoDraw = False
+569.1744 	EXP 	cross: autoDraw = True
+575.0461 	EXP 	cross: autoDraw = False
+575.0461 	EXP 	respp: autoDraw = True
+576.1483 	EXP 	New trial (rep=0, index=78): OrderedDict([('Index', 79), ('audio', 'block2_trial39_attendright_leadmasker.wav')])
+576.1629 	EXP 	respp: autoDraw = False
+576.1799 	EXP 	cross: autoDraw = True
+582.0511 	EXP 	cross: autoDraw = False
+582.0511 	EXP 	respp: autoDraw = True
+583.6208 	EXP 	New trial (rep=0, index=79): OrderedDict([('Index', 80), ('audio', 'block2_trial40_attendleft_leadmasker.wav')])
+583.6355 	EXP 	respp: autoDraw = False
+583.6520 	EXP 	cross: autoDraw = True
+589.5404 	EXP 	cross: autoDraw = False
+589.5404 	EXP 	respp: autoDraw = True
+590.7434 	EXP 	New trial (rep=0, index=80): OrderedDict([('Index', 81), ('audio', 'block3_trial1_attendright_leadmasker.wav')])
+590.7581 	EXP 	respp: autoDraw = False
+590.7581 	EXP 	breakk: autoDraw = True
+597.1463 	EXP 	breakk: autoDraw = False
+597.1635 	EXP 	cross: autoDraw = True
+603.0016 	EXP 	cross: autoDraw = False
+603.0016 	EXP 	respp: autoDraw = True
+603.6367 	EXP 	New trial (rep=0, index=81): OrderedDict([('Index', 82), ('audio', 'block3_trial2_attendright_leadmasker.wav')])
+603.6520 	EXP 	respp: autoDraw = False
+603.6685 	EXP 	cross: autoDraw = True
+609.5569 	EXP 	cross: autoDraw = False
+609.5569 	EXP 	respp: autoDraw = True
+610.4090 	EXP 	New trial (rep=0, index=82): OrderedDict([('Index', 83), ('audio', 'block3_trial3_attendright_leadmasker.wav')])
+610.4241 	EXP 	respp: autoDraw = False
+610.4403 	EXP 	cross: autoDraw = True
+616.2787 	EXP 	cross: autoDraw = False
+616.2787 	EXP 	respp: autoDraw = True
+617.3650 	EXP 	New trial (rep=0, index=83): OrderedDict([('Index', 84), ('audio', 'block3_trial4_attendright_leadmasker.wav')])
+617.3798 	EXP 	respp: autoDraw = False
+617.3960 	EXP 	cross: autoDraw = True
+623.2514 	EXP 	cross: autoDraw = False
+623.2514 	EXP 	respp: autoDraw = True
+624.4873 	EXP 	New trial (rep=0, index=84): OrderedDict([('Index', 85), ('audio', 'block3_trial5_attendright_leadmasker.wav')])
+624.5018 	EXP 	respp: autoDraw = False
+624.5184 	EXP 	cross: autoDraw = True
+630.4073 	EXP 	cross: autoDraw = False
+630.4073 	EXP 	respp: autoDraw = True
+631.5596 	EXP 	New trial (rep=0, index=85): OrderedDict([('Index', 86), ('audio', 'block3_trial6_attendright_leadtarget.wav')])
+631.5739 	EXP 	respp: autoDraw = False
+631.5906 	EXP 	cross: autoDraw = True
+637.4630 	EXP 	cross: autoDraw = False
+637.4630 	EXP 	respp: autoDraw = True
+638.6487 	EXP 	New trial (rep=0, index=86): OrderedDict([('Index', 87), ('audio', 'block3_trial7_attendleft_leadmasker.wav')])
+638.6632 	EXP 	respp: autoDraw = False
+638.6799 	EXP 	cross: autoDraw = True
+644.5186 	EXP 	cross: autoDraw = False
+644.5186 	EXP 	respp: autoDraw = True
+648.6551 	EXP 	New trial (rep=0, index=87): OrderedDict([('Index', 88), ('audio', 'block3_trial8_attendright_leadmasker.wav')])
+648.6712 	EXP 	respp: autoDraw = False
+648.6880 	EXP 	cross: autoDraw = True
+654.5424 	EXP 	cross: autoDraw = False
+654.5424 	EXP 	respp: autoDraw = True
+658.6638 	EXP 	New trial (rep=0, index=88): OrderedDict([('Index', 89), ('audio', 'block3_trial9_attendright_leadtarget.wav')])
+658.6796 	EXP 	respp: autoDraw = False
+658.6958 	EXP 	cross: autoDraw = True
+664.5345 	EXP 	cross: autoDraw = False
+664.5345 	EXP 	respp: autoDraw = True
+665.6199 	EXP 	New trial (rep=0, index=89): OrderedDict([('Index', 90), ('audio', 'block3_trial10_attendleft_leadtarget.wav')])
+665.6350 	EXP 	respp: autoDraw = False
+665.6515 	EXP 	cross: autoDraw = True
+671.5060 	EXP 	cross: autoDraw = False
+671.5060 	EXP 	respp: autoDraw = True
+672.5761 	EXP 	New trial (rep=0, index=90): OrderedDict([('Index', 91), ('audio', 'block3_trial11_attendright_leadtarget.wav')])
+672.5906 	EXP 	respp: autoDraw = False
+672.6074 	EXP 	cross: autoDraw = True
+678.4620 	EXP 	cross: autoDraw = False
+678.4620 	EXP 	respp: autoDraw = True
+679.4311 	EXP 	New trial (rep=0, index=91): OrderedDict([('Index', 92), ('audio', 'block3_trial12_attendleft_leadmasker.wav')])
+679.4459 	EXP 	respp: autoDraw = False
+679.4627 	EXP 	cross: autoDraw = True
+685.3340 	EXP 	cross: autoDraw = False
+685.3340 	EXP 	respp: autoDraw = True
+686.4200 	EXP 	New trial (rep=0, index=92): OrderedDict([('Index', 93), ('audio', 'block3_trial13_attendleft_leadtarget.wav')])
+686.4350 	EXP 	respp: autoDraw = False
+686.4517 	EXP 	cross: autoDraw = True
+692.3068 	EXP 	cross: autoDraw = False
+692.3068 	EXP 	respp: autoDraw = True
+693.5924 	EXP 	New trial (rep=0, index=93): OrderedDict([('Index', 94), ('audio', 'block3_trial14_attendleft_leadtarget.wav')])
+693.6073 	EXP 	respp: autoDraw = False
+693.6244 	EXP 	cross: autoDraw = True
+699.4954 	EXP 	cross: autoDraw = False
+699.4954 	EXP 	respp: autoDraw = True
+701.4324 	EXP 	New trial (rep=0, index=94): OrderedDict([('Index', 95), ('audio', 'block3_trial15_attendleft_leadtarget.wav')])
+701.4471 	EXP 	respp: autoDraw = False
+701.4636 	EXP 	cross: autoDraw = True
+707.3015 	EXP 	cross: autoDraw = False
+707.3015 	EXP 	respp: autoDraw = True
+708.2715 	EXP 	New trial (rep=0, index=95): OrderedDict([('Index', 96), ('audio', 'block3_trial16_attendright_leadtarget.wav')])
+708.2859 	EXP 	respp: autoDraw = False
+708.3028 	EXP 	cross: autoDraw = True
+714.1742 	EXP 	cross: autoDraw = False
+714.1742 	EXP 	respp: autoDraw = True
+715.3601 	EXP 	New trial (rep=0, index=96): OrderedDict([('Index', 97), ('audio', 'block3_trial17_attendleft_leadtarget.wav')])
+715.3749 	EXP 	respp: autoDraw = False
+715.3916 	EXP 	cross: autoDraw = True
+721.2294 	EXP 	cross: autoDraw = False
+721.2294 	EXP 	respp: autoDraw = True
+722.4826 	EXP 	New trial (rep=0, index=97): OrderedDict([('Index', 98), ('audio', 'block3_trial18_attendleft_leadmasker.wav')])
+722.4975 	EXP 	respp: autoDraw = False
+722.5137 	EXP 	cross: autoDraw = True
+728.3857 	EXP 	cross: autoDraw = False
+728.3857 	EXP 	respp: autoDraw = True
+729.4047 	EXP 	New trial (rep=0, index=98): OrderedDict([('Index', 99), ('audio', 'block3_trial19_attendright_leadmasker.wav')])
+729.4195 	EXP 	respp: autoDraw = False
+729.4360 	EXP 	cross: autoDraw = True
+735.3083 	EXP 	cross: autoDraw = False
+735.3083 	EXP 	respp: autoDraw = True
+736.4105 	EXP 	New trial (rep=0, index=99): OrderedDict([('Index', 100), ('audio', 'block3_trial20_attendright_leadmasker.wav')])
+736.4253 	EXP 	respp: autoDraw = False
+736.4422 	EXP 	cross: autoDraw = True
+742.3134 	EXP 	cross: autoDraw = False
+742.3134 	EXP 	respp: autoDraw = True
+744.4168 	EXP 	New trial (rep=0, index=100): OrderedDict([('Index', 101), ('audio', 'block3_trial21_attendright_leadtarget.wav')])
+744.4315 	EXP 	respp: autoDraw = False
+744.4482 	EXP 	cross: autoDraw = True
+750.3029 	EXP 	cross: autoDraw = False
+750.3029 	EXP 	respp: autoDraw = True
+751.5228 	EXP 	New trial (rep=0, index=101): OrderedDict([('Index', 102), ('audio', 'block3_trial22_attendright_leadmasker.wav')])
+751.5375 	EXP 	respp: autoDraw = False
+751.5543 	EXP 	cross: autoDraw = True
+757.4090 	EXP 	cross: autoDraw = False
+757.4090 	EXP 	respp: autoDraw = True
+758.9951 	EXP 	New trial (rep=0, index=102): OrderedDict([('Index', 103), ('audio', 'block3_trial23_attendright_leadtarget.wav')])
+759.0100 	EXP 	respp: autoDraw = False
+759.0265 	EXP 	cross: autoDraw = True
+764.8811 	EXP 	cross: autoDraw = False
+764.8811 	EXP 	respp: autoDraw = True
+766.3514 	EXP 	New trial (rep=0, index=103): OrderedDict([('Index', 104), ('audio', 'block3_trial24_attendleft_leadmasker.wav')])
+766.3662 	EXP 	respp: autoDraw = False
+766.3826 	EXP 	cross: autoDraw = True
+772.2207 	EXP 	cross: autoDraw = False
+772.2207 	EXP 	respp: autoDraw = True
+773.2568 	EXP 	New trial (rep=0, index=104): OrderedDict([('Index', 105), ('audio', 'block3_trial25_attendright_leadmasker.wav')])
+773.2715 	EXP 	respp: autoDraw = False
+773.2882 	EXP 	cross: autoDraw = True
+779.1428 	EXP 	cross: autoDraw = False
+779.1428 	EXP 	respp: autoDraw = True
+780.2787 	EXP 	New trial (rep=0, index=105): OrderedDict([('Index', 106), ('audio', 'block3_trial26_attendright_leadtarget.wav')])
+780.2936 	EXP 	respp: autoDraw = False
+780.3102 	EXP 	cross: autoDraw = True
+786.1654 	EXP 	cross: autoDraw = False
+786.1654 	EXP 	respp: autoDraw = True
+787.2682 	EXP 	New trial (rep=0, index=106): OrderedDict([('Index', 107), ('audio', 'block3_trial27_attendleft_leadtarget.wav')])
+787.2826 	EXP 	respp: autoDraw = False
+787.2995 	EXP 	cross: autoDraw = True
+793.1711 	EXP 	cross: autoDraw = False
+793.1711 	EXP 	respp: autoDraw = True
+794.4064 	EXP 	New trial (rep=0, index=107): OrderedDict([('Index', 108), ('audio', 'block3_trial28_attendleft_leadmasker.wav')])
+794.4217 	EXP 	respp: autoDraw = False
+794.4388 	EXP 	cross: autoDraw = True
+800.2770 	EXP 	cross: autoDraw = False
+800.2770 	EXP 	respp: autoDraw = True
+801.6296 	EXP 	New trial (rep=0, index=108): OrderedDict([('Index', 109), ('audio', 'block3_trial29_attendleft_leadtarget.wav')])
+801.6443 	EXP 	respp: autoDraw = False
+801.6610 	EXP 	cross: autoDraw = True
+807.5160 	EXP 	cross: autoDraw = False
+807.5160 	EXP 	respp: autoDraw = True
+808.8023 	EXP 	New trial (rep=0, index=109): OrderedDict([('Index', 110), ('audio', 'block3_trial30_attendright_leadtarget.wav')])
+808.8164 	EXP 	respp: autoDraw = False
+808.8334 	EXP 	cross: autoDraw = True
+814.6722 	EXP 	cross: autoDraw = False
+814.6722 	EXP 	respp: autoDraw = True
+815.7407 	EXP 	New trial (rep=0, index=110): OrderedDict([('Index', 111), ('audio', 'block3_trial31_attendleft_leadmasker.wav')])
+815.7558 	EXP 	respp: autoDraw = False
+815.7722 	EXP 	cross: autoDraw = True
+821.6439 	EXP 	cross: autoDraw = False
+821.6439 	EXP 	respp: autoDraw = True
+822.5801 	EXP 	New trial (rep=0, index=111): OrderedDict([('Index', 112), ('audio', 'block3_trial32_attendleft_leadtarget.wav')])
+822.5945 	EXP 	respp: autoDraw = False
+822.6110 	EXP 	cross: autoDraw = True
+828.4666 	EXP 	cross: autoDraw = False
+828.4666 	EXP 	respp: autoDraw = True
+832.5863 	EXP 	New trial (rep=0, index=112): OrderedDict([('Index', 113), ('audio', 'block3_trial33_attendleft_leadtarget.wav')])
+832.6025 	EXP 	respp: autoDraw = False
+832.6195 	EXP 	cross: autoDraw = True
+838.4911 	EXP 	cross: autoDraw = False
+838.4911 	EXP 	respp: autoDraw = True
+839.6273 	EXP 	New trial (rep=0, index=113): OrderedDict([('Index', 114), ('audio', 'block3_trial34_attendright_leadtarget.wav')])
+839.6413 	EXP 	respp: autoDraw = False
+839.6586 	EXP 	cross: autoDraw = True
+845.5132 	EXP 	cross: autoDraw = False
+845.5132 	EXP 	respp: autoDraw = True
+846.5156 	EXP 	New trial (rep=0, index=114): OrderedDict([('Index', 115), ('audio', 'block3_trial35_attendleft_leadmasker.wav')])
+846.5304 	EXP 	respp: autoDraw = False
+846.5474 	EXP 	cross: autoDraw = True
+852.4348 	EXP 	cross: autoDraw = False
+852.4348 	EXP 	respp: autoDraw = True
+853.7050 	EXP 	New trial (rep=0, index=115): OrderedDict([('Index', 116), ('audio', 'block3_trial36_attendleft_leadmasker.wav')])
+853.7193 	EXP 	respp: autoDraw = False
+853.7366 	EXP 	cross: autoDraw = True
+859.5740 	EXP 	cross: autoDraw = False
+859.5740 	EXP 	respp: autoDraw = True
+860.7606 	EXP 	New trial (rep=0, index=116): OrderedDict([('Index', 117), ('audio', 'block3_trial37_attendright_leadtarget.wav')])
+860.7754 	EXP 	respp: autoDraw = False
+860.7919 	EXP 	cross: autoDraw = True
+866.6297 	EXP 	cross: autoDraw = False
+866.6297 	EXP 	respp: autoDraw = True
+867.6991 	EXP 	New trial (rep=0, index=117): OrderedDict([('Index', 118), ('audio', 'block3_trial38_attendleft_leadtarget.wav')])
+867.7139 	EXP 	respp: autoDraw = False
+867.7305 	EXP 	cross: autoDraw = True
+873.6027 	EXP 	cross: autoDraw = False
+873.6027 	EXP 	respp: autoDraw = True
+874.5044 	EXP 	New trial (rep=0, index=118): OrderedDict([('Index', 119), ('audio', 'block3_trial39_attendleft_leadmasker.wav')])
+874.5196 	EXP 	respp: autoDraw = False
+874.5365 	EXP 	cross: autoDraw = True
+880.3745 	EXP 	cross: autoDraw = False
+880.3745 	EXP 	respp: autoDraw = True
+881.5103 	EXP 	New trial (rep=0, index=119): OrderedDict([('Index', 120), ('audio', 'block3_trial40_attendleft_leadmasker.wav')])
+881.5254 	EXP 	respp: autoDraw = False
+881.5418 	EXP 	cross: autoDraw = True
+887.3971 	EXP 	cross: autoDraw = False
+887.3971 	EXP 	respp: autoDraw = True
+888.6833 	EXP 	New trial (rep=0, index=120): OrderedDict([('Index', 121), ('audio', 'block4_trial1_attendright_leadmasker.wav')])
+888.6976 	EXP 	respp: autoDraw = False
+888.6976 	EXP 	breakk: autoDraw = True
+899.7730 	EXP 	breakk: autoDraw = False
+899.7899 	EXP 	cross: autoDraw = True
+905.6448 	EXP 	cross: autoDraw = False
+905.6448 	EXP 	respp: autoDraw = True
+906.7641 	EXP 	New trial (rep=0, index=121): OrderedDict([('Index', 122), ('audio', 'block4_trial2_attendleft_leadmasker.wav')])
+906.7788 	EXP 	respp: autoDraw = False
+906.7954 	EXP 	cross: autoDraw = True
+912.6503 	EXP 	cross: autoDraw = False
+912.6503 	EXP 	respp: autoDraw = True
+914.0030 	EXP 	New trial (rep=0, index=122): OrderedDict([('Index', 123), ('audio', 'block4_trial3_attendright_leadtarget.wav')])
+914.0181 	EXP 	respp: autoDraw = False
+914.0348 	EXP 	cross: autoDraw = True
+919.9063 	EXP 	cross: autoDraw = False
+919.9063 	EXP 	respp: autoDraw = True
+921.3262 	EXP 	New trial (rep=0, index=123): OrderedDict([('Index', 124), ('audio', 'block4_trial4_attendright_leadmasker.wav')])
+921.3405 	EXP 	respp: autoDraw = False
+921.3575 	EXP 	cross: autoDraw = True
+927.1954 	EXP 	cross: autoDraw = False
+927.1954 	EXP 	respp: autoDraw = True
+928.4645 	EXP 	New trial (rep=0, index=124): OrderedDict([('Index', 125), ('audio', 'block4_trial5_attendright_leadmasker.wav')])
+928.4794 	EXP 	respp: autoDraw = False
+928.4962 	EXP 	cross: autoDraw = True
+934.3518 	EXP 	cross: autoDraw = False
+934.3518 	EXP 	respp: autoDraw = True
+935.5876 	EXP 	New trial (rep=0, index=125): OrderedDict([('Index', 126), ('audio', 'block4_trial6_attendleft_leadmasker.wav')])
+935.6020 	EXP 	respp: autoDraw = False
+935.6183 	EXP 	cross: autoDraw = True
+941.4900 	EXP 	cross: autoDraw = False
+941.4900 	EXP 	respp: autoDraw = True
+942.6763 	EXP 	New trial (rep=0, index=126): OrderedDict([('Index', 127), ('audio', 'block4_trial7_attendleft_leadtarget.wav')])
+942.6908 	EXP 	respp: autoDraw = False
+942.7077 	EXP 	cross: autoDraw = True
+948.5624 	EXP 	cross: autoDraw = False
+948.5624 	EXP 	respp: autoDraw = True
+949.7150 	EXP 	New trial (rep=0, index=127): OrderedDict([('Index', 128), ('audio', 'block4_trial8_attendright_leadtarget.wav')])
+949.7297 	EXP 	respp: autoDraw = False
+949.7470 	EXP 	cross: autoDraw = True
+955.6188 	EXP 	cross: autoDraw = False
+955.6188 	EXP 	respp: autoDraw = True
+957.1377 	EXP 	New trial (rep=0, index=128): OrderedDict([('Index', 129), ('audio', 'block4_trial9_attendright_leadmasker.wav')])
+957.1527 	EXP 	respp: autoDraw = False
+957.1695 	EXP 	cross: autoDraw = True
+963.0406 	EXP 	cross: autoDraw = False
+963.0406 	EXP 	respp: autoDraw = True
+964.1606 	EXP 	New trial (rep=0, index=129): OrderedDict([('Index', 130), ('audio', 'block4_trial10_attendright_leadtarget.wav')])
+964.1748 	EXP 	respp: autoDraw = False
+964.1913 	EXP 	cross: autoDraw = True
+970.0630 	EXP 	cross: autoDraw = False
+970.0630 	EXP 	respp: autoDraw = True
+971.2320 	EXP 	New trial (rep=0, index=130): OrderedDict([('Index', 131), ('audio', 'block4_trial11_attendright_leadmasker.wav')])
+971.2469 	EXP 	respp: autoDraw = False
+971.2643 	EXP 	cross: autoDraw = True
+977.1190 	EXP 	cross: autoDraw = False
+977.1190 	EXP 	respp: autoDraw = True
+978.7223 	EXP 	New trial (rep=0, index=131): OrderedDict([('Index', 132), ('audio', 'block4_trial12_attendleft_leadmasker.wav')])
+978.7367 	EXP 	respp: autoDraw = False
+978.7532 	EXP 	cross: autoDraw = True
+984.5922 	EXP 	cross: autoDraw = False
+984.5922 	EXP 	respp: autoDraw = True
+985.6442 	EXP 	New trial (rep=0, index=132): OrderedDict([('Index', 133), ('audio', 'block4_trial13_attendleft_leadmasker.wav')])
+985.6590 	EXP 	respp: autoDraw = False
+985.6754 	EXP 	cross: autoDraw = True
+991.5643 	EXP 	cross: autoDraw = False
+991.5643 	EXP 	respp: autoDraw = True
+992.6997 	EXP 	New trial (rep=0, index=133): OrderedDict([('Index', 134), ('audio', 'block4_trial14_attendleft_leadmasker.wav')])
+992.7146 	EXP 	respp: autoDraw = False
+992.7309 	EXP 	cross: autoDraw = True
+998.5695 	EXP 	cross: autoDraw = False
+998.5695 	EXP 	respp: autoDraw = True
+1000.0385 	EXP 	New trial (rep=0, index=134): OrderedDict([('Index', 135), ('audio', 'block4_trial15_attendleft_leadtarget.wav')])
+1000.0541 	EXP 	respp: autoDraw = False
+1000.0709 	EXP 	cross: autoDraw = True
+1005.9089 	EXP 	cross: autoDraw = False
+1005.9089 	EXP 	respp: autoDraw = True
+1007.0115 	EXP 	New trial (rep=0, index=135): OrderedDict([('Index', 136), ('audio', 'block4_trial16_attendright_leadtarget.wav')])
+1007.0261 	EXP 	respp: autoDraw = False
+1007.0426 	EXP 	cross: autoDraw = True
+1012.9141 	EXP 	cross: autoDraw = False
+1012.9141 	EXP 	respp: autoDraw = True
+1014.4673 	EXP 	New trial (rep=0, index=136): OrderedDict([('Index', 137), ('audio', 'block4_trial17_attendleft_leadmasker.wav')])
+1014.4825 	EXP 	respp: autoDraw = False
+1014.4987 	EXP 	cross: autoDraw = True
+1020.3540 	EXP 	cross: autoDraw = False
+1020.3540 	EXP 	respp: autoDraw = True
+1021.5398 	EXP 	New trial (rep=0, index=137): OrderedDict([('Index', 138), ('audio', 'block4_trial18_attendright_leadmasker.wav')])
+1021.5544 	EXP 	respp: autoDraw = False
+1021.5713 	EXP 	cross: autoDraw = True
+1027.4098 	EXP 	cross: autoDraw = False
+1027.4098 	EXP 	respp: autoDraw = True
+1028.7456 	EXP 	New trial (rep=0, index=138): OrderedDict([('Index', 139), ('audio', 'block4_trial19_attendright_leadtarget.wav')])
+1028.7604 	EXP 	respp: autoDraw = False
+1028.7767 	EXP 	cross: autoDraw = True
+1034.6485 	EXP 	cross: autoDraw = False
+1034.6485 	EXP 	respp: autoDraw = True
+1036.0175 	EXP 	New trial (rep=0, index=139): OrderedDict([('Index', 140), ('audio', 'block4_trial20_attendleft_leadtarget.wav')])
+1036.0330 	EXP 	respp: autoDraw = False
+1036.0492 	EXP 	cross: autoDraw = True
+1041.9044 	EXP 	cross: autoDraw = False
+1041.9044 	EXP 	respp: autoDraw = True
+1042.9903 	EXP 	New trial (rep=0, index=140): OrderedDict([('Index', 141), ('audio', 'block4_trial21_attendleft_leadtarget.wav')])
+1043.0051 	EXP 	respp: autoDraw = False
+1043.0214 	EXP 	cross: autoDraw = True
+1048.8601 	EXP 	cross: autoDraw = False
+1048.8601 	EXP 	respp: autoDraw = True
+1050.2629 	EXP 	New trial (rep=0, index=141): OrderedDict([('Index', 142), ('audio', 'block4_trial22_attendright_leadtarget.wav')])
+1050.2778 	EXP 	respp: autoDraw = False
+1050.2943 	EXP 	cross: autoDraw = True
+1056.1490 	EXP 	cross: autoDraw = False
+1056.1490 	EXP 	respp: autoDraw = True
+1057.5353 	EXP 	New trial (rep=0, index=142): OrderedDict([('Index', 143), ('audio', 'block4_trial23_attendleft_leadmasker.wav')])
+1057.5500 	EXP 	respp: autoDraw = False
+1057.5672 	EXP 	cross: autoDraw = True
+1063.4548 	EXP 	cross: autoDraw = False
+1063.4548 	EXP 	respp: autoDraw = True
+1064.7747 	EXP 	New trial (rep=0, index=143): OrderedDict([('Index', 144), ('audio', 'block4_trial24_attendright_leadmasker.wav')])
+1064.7892 	EXP 	respp: autoDraw = False
+1064.8061 	EXP 	cross: autoDraw = True
+1070.6444 	EXP 	cross: autoDraw = False
+1070.6444 	EXP 	respp: autoDraw = True
+1072.1302 	EXP 	New trial (rep=0, index=144): OrderedDict([('Index', 145), ('audio', 'block4_trial25_attendleft_leadtarget.wav')])
+1072.1454 	EXP 	respp: autoDraw = False
+1072.1618 	EXP 	cross: autoDraw = True
+1078.0337 	EXP 	cross: autoDraw = False
+1078.0337 	EXP 	respp: autoDraw = True
+1079.7035 	EXP 	New trial (rep=0, index=145): OrderedDict([('Index', 146), ('audio', 'block4_trial26_attendright_leadtarget.wav')])
+1079.7177 	EXP 	respp: autoDraw = False
+1079.7343 	EXP 	cross: autoDraw = True
+1085.6062 	EXP 	cross: autoDraw = False
+1085.6062 	EXP 	respp: autoDraw = True
+1086.7255 	EXP 	New trial (rep=0, index=146): OrderedDict([('Index', 147), ('audio', 'block4_trial27_attendright_leadmasker.wav')])
+1086.7403 	EXP 	respp: autoDraw = False
+1086.7572 	EXP 	cross: autoDraw = True
+1092.6118 	EXP 	cross: autoDraw = False
+1092.6118 	EXP 	respp: autoDraw = True
+1093.6645 	EXP 	New trial (rep=0, index=147): OrderedDict([('Index', 148), ('audio', 'block4_trial28_attendleft_leadtarget.wav')])
+1093.6793 	EXP 	respp: autoDraw = False
+1093.6962 	EXP 	cross: autoDraw = True
+1099.5841 	EXP 	cross: autoDraw = False
+1099.5841 	EXP 	respp: autoDraw = True
+1100.9701 	EXP 	New trial (rep=0, index=148): OrderedDict([('Index', 149), ('audio', 'block4_trial29_attendright_leadmasker.wav')])
+1100.9853 	EXP 	respp: autoDraw = False
+1101.0016 	EXP 	cross: autoDraw = True
+1106.8729 	EXP 	cross: autoDraw = False
+1106.8729 	EXP 	respp: autoDraw = True
+1108.4760 	EXP 	New trial (rep=0, index=149): OrderedDict([('Index', 150), ('audio', 'block4_trial30_attendright_leadtarget.wav')])
+1108.4910 	EXP 	respp: autoDraw = False
+1108.5077 	EXP 	cross: autoDraw = True
+1114.3956 	EXP 	cross: autoDraw = False
+1114.3956 	EXP 	respp: autoDraw = True
+1115.7153 	EXP 	New trial (rep=0, index=150): OrderedDict([('Index', 151), ('audio', 'block4_trial31_attendleft_leadtarget.wav')])
+1115.7304 	EXP 	respp: autoDraw = False
+1115.7469 	EXP 	cross: autoDraw = True
+1121.5854 	EXP 	cross: autoDraw = False
+1121.5854 	EXP 	respp: autoDraw = True
+1122.5213 	EXP 	New trial (rep=0, index=151): OrderedDict([('Index', 152), ('audio', 'block4_trial32_attendright_leadtarget.wav')])
+1122.5354 	EXP 	respp: autoDraw = False
+1122.5523 	EXP 	cross: autoDraw = True
+1128.4070 	EXP 	cross: autoDraw = False
+1128.4070 	EXP 	respp: autoDraw = True
+1129.9766 	EXP 	New trial (rep=0, index=152): OrderedDict([('Index', 153), ('audio', 'block4_trial33_attendright_leadmasker.wav')])
+1129.9918 	EXP 	respp: autoDraw = False
+1130.0081 	EXP 	cross: autoDraw = True
+1135.8469 	EXP 	cross: autoDraw = False
+1135.8469 	EXP 	respp: autoDraw = True
+1139.9835 	EXP 	New trial (rep=0, index=153): OrderedDict([('Index', 154), ('audio', 'block4_trial34_attendleft_leadtarget.wav')])
+1139.9996 	EXP 	respp: autoDraw = False
+1140.0166 	EXP 	cross: autoDraw = True
+1145.8713 	EXP 	cross: autoDraw = False
+1145.8713 	EXP 	respp: autoDraw = True
+1147.3745 	EXP 	New trial (rep=0, index=154): OrderedDict([('Index', 155), ('audio', 'block4_trial35_attendleft_leadmasker.wav')])
+1147.3890 	EXP 	respp: autoDraw = False
+1147.4058 	EXP 	cross: autoDraw = True
+1153.2608 	EXP 	cross: autoDraw = False
+1153.2608 	EXP 	respp: autoDraw = True
+1154.2795 	EXP 	New trial (rep=0, index=155): OrderedDict([('Index', 156), ('audio', 'block4_trial36_attendright_leadtarget.wav')])
+1154.2945 	EXP 	respp: autoDraw = False
+1154.3109 	EXP 	cross: autoDraw = True
+1160.1831 	EXP 	cross: autoDraw = False
+1160.1831 	EXP 	respp: autoDraw = True
+1161.4022 	EXP 	New trial (rep=0, index=156): OrderedDict([('Index', 157), ('audio', 'block4_trial37_attendleft_leadtarget.wav')])
+1161.4169 	EXP 	respp: autoDraw = False
+1161.4336 	EXP 	cross: autoDraw = True
+1167.2890 	EXP 	cross: autoDraw = False
+1167.2890 	EXP 	respp: autoDraw = True
+1168.2741 	EXP 	New trial (rep=0, index=157): OrderedDict([('Index', 158), ('audio', 'block4_trial38_attendleft_leadmasker.wav')])
+1168.2889 	EXP 	respp: autoDraw = False
+1168.3057 	EXP 	cross: autoDraw = True
+1174.1610 	EXP 	cross: autoDraw = False
+1174.1610 	EXP 	respp: autoDraw = True
+1175.1632 	EXP 	New trial (rep=0, index=158): OrderedDict([('Index', 159), ('audio', 'block4_trial39_attendleft_leadmasker.wav')])
+1175.1777 	EXP 	respp: autoDraw = False
+1175.1945 	EXP 	cross: autoDraw = True
+1181.0830 	EXP 	cross: autoDraw = False
+1181.0830 	EXP 	respp: autoDraw = True
+1182.0188 	EXP 	New trial (rep=0, index=159): OrderedDict([('Index', 160), ('audio', 'block4_trial40_attendleft_leadtarget.wav')])
+1182.0335 	EXP 	respp: autoDraw = False
+1182.0502 	EXP 	cross: autoDraw = True
+1187.9058 	EXP 	cross: autoDraw = False
+1187.9058 	EXP 	respp: autoDraw = True
+1189.0081 	EXP 	New trial (rep=0, index=160): OrderedDict([('Index', 161), ('audio', 'block5_trial1_attendleft_leadtarget.wav')])
+1189.0224 	EXP 	respp: autoDraw = False
+1189.0224 	EXP 	breakk: autoDraw = True
+1197.9627 	EXP 	breakk: autoDraw = False
+1197.9792 	EXP 	cross: autoDraw = True
+1203.8350 	EXP 	cross: autoDraw = False
+1203.8350 	EXP 	respp: autoDraw = True
+1204.9036 	EXP 	New trial (rep=0, index=161): OrderedDict([('Index', 162), ('audio', 'block5_trial2_attendleft_leadmasker.wav')])
+1204.9188 	EXP 	respp: autoDraw = False
+1204.9353 	EXP 	cross: autoDraw = True
+1210.7902 	EXP 	cross: autoDraw = False
+1210.7902 	EXP 	respp: autoDraw = True
+1211.9428 	EXP 	New trial (rep=0, index=162): OrderedDict([('Index', 163), ('audio', 'block5_trial3_attendleft_leadtarget.wav')])
+1211.9573 	EXP 	respp: autoDraw = False
+1211.9740 	EXP 	cross: autoDraw = True
+1217.8623 	EXP 	cross: autoDraw = False
+1217.8623 	EXP 	respp: autoDraw = True
+1219.2656 	EXP 	New trial (rep=0, index=163): OrderedDict([('Index', 164), ('audio', 'block5_trial4_attendleft_leadtarget.wav')])
+1219.2801 	EXP 	respp: autoDraw = False
+1219.2965 	EXP 	cross: autoDraw = True
+1225.1517 	EXP 	cross: autoDraw = False
+1225.1517 	EXP 	respp: autoDraw = True
+1226.3544 	EXP 	New trial (rep=0, index=164): OrderedDict([('Index', 165), ('audio', 'block5_trial5_attendleft_leadmasker.wav')])
+1226.3692 	EXP 	respp: autoDraw = False
+1226.3855 	EXP 	cross: autoDraw = True
+1232.2580 	EXP 	cross: autoDraw = False
+1232.2580 	EXP 	respp: autoDraw = True
+1233.5272 	EXP 	New trial (rep=0, index=165): OrderedDict([('Index', 166), ('audio', 'block5_trial6_attendleft_leadtarget.wav')])
+1233.5413 	EXP 	respp: autoDraw = False
+1233.5582 	EXP 	cross: autoDraw = True
+1239.4132 	EXP 	cross: autoDraw = False
+1239.4132 	EXP 	respp: autoDraw = True
+1240.6159 	EXP 	New trial (rep=0, index=166): OrderedDict([('Index', 167), ('audio', 'block5_trial7_attendright_leadmasker.wav')])
+1240.6303 	EXP 	respp: autoDraw = False
+1240.6470 	EXP 	cross: autoDraw = True
+1246.5023 	EXP 	cross: autoDraw = False
+1246.5023 	EXP 	respp: autoDraw = True
+1247.9550 	EXP 	New trial (rep=0, index=167): OrderedDict([('Index', 168), ('audio', 'block5_trial8_attendright_leadtarget.wav')])
+1247.9701 	EXP 	respp: autoDraw = False
+1247.9865 	EXP 	cross: autoDraw = True
+1253.8413 	EXP 	cross: autoDraw = False
+1253.8413 	EXP 	respp: autoDraw = True
+1254.7768 	EXP 	New trial (rep=0, index=168): OrderedDict([('Index', 169), ('audio', 'block5_trial9_attendleft_leadmasker.wav')])
+1254.7917 	EXP 	respp: autoDraw = False
+1254.8084 	EXP 	cross: autoDraw = True
+1260.6801 	EXP 	cross: autoDraw = False
+1260.6801 	EXP 	respp: autoDraw = True
+1261.9830 	EXP 	New trial (rep=0, index=169): OrderedDict([('Index', 170), ('audio', 'block5_trial10_attendleft_leadtarget.wav')])
+1261.9978 	EXP 	respp: autoDraw = False
+1262.0143 	EXP 	cross: autoDraw = True
+1267.8697 	EXP 	cross: autoDraw = False
+1267.8697 	EXP 	respp: autoDraw = True
+1268.7055 	EXP 	New trial (rep=0, index=170): OrderedDict([('Index', 171), ('audio', 'block5_trial11_attendleft_leadtarget.wav')])
+1268.7199 	EXP 	respp: autoDraw = False
+1268.7366 	EXP 	cross: autoDraw = True
+1274.6085 	EXP 	cross: autoDraw = False
+1274.6085 	EXP 	respp: autoDraw = True
+1275.7273 	EXP 	New trial (rep=0, index=171): OrderedDict([('Index', 172), ('audio', 'block5_trial12_attendleft_leadmasker.wav')])
+1275.7423 	EXP 	respp: autoDraw = False
+1275.7591 	EXP 	cross: autoDraw = True
+1281.6135 	EXP 	cross: autoDraw = False
+1281.6135 	EXP 	respp: autoDraw = True
+1282.5326 	EXP 	New trial (rep=0, index=172): OrderedDict([('Index', 173), ('audio', 'block5_trial13_attendleft_leadmasker.wav')])
+1282.5477 	EXP 	respp: autoDraw = False
+1282.5642 	EXP 	cross: autoDraw = True
+1288.4526 	EXP 	cross: autoDraw = False
+1288.4526 	EXP 	respp: autoDraw = True
+1289.4384 	EXP 	New trial (rep=0, index=173): OrderedDict([('Index', 174), ('audio', 'block5_trial14_attendleft_leadmasker.wav')])
+1289.4534 	EXP 	respp: autoDraw = False
+1289.4698 	EXP 	cross: autoDraw = True
+1295.3243 	EXP 	cross: autoDraw = False
+1295.3243 	EXP 	respp: autoDraw = True
+1296.6945 	EXP 	New trial (rep=0, index=174): OrderedDict([('Index', 175), ('audio', 'block5_trial15_attendright_leadmasker.wav')])
+1296.7091 	EXP 	respp: autoDraw = False
+1296.7255 	EXP 	cross: autoDraw = True
+1302.6135 	EXP 	cross: autoDraw = False
+1302.6135 	EXP 	respp: autoDraw = True
+1303.6496 	EXP 	New trial (rep=0, index=175): OrderedDict([('Index', 176), ('audio', 'block5_trial16_attendright_leadtarget.wav')])
+1303.6643 	EXP 	respp: autoDraw = False
+1303.6813 	EXP 	cross: autoDraw = True
+1309.5190 	EXP 	cross: autoDraw = False
+1309.5190 	EXP 	respp: autoDraw = True
+1311.0888 	EXP 	New trial (rep=0, index=176): OrderedDict([('Index', 177), ('audio', 'block5_trial17_attendleft_leadmasker.wav')])
+1311.1040 	EXP 	respp: autoDraw = False
+1311.1204 	EXP 	cross: autoDraw = True
+1316.9583 	EXP 	cross: autoDraw = False
+1316.9583 	EXP 	respp: autoDraw = True
+1318.2778 	EXP 	New trial (rep=0, index=177): OrderedDict([('Index', 178), ('audio', 'block5_trial18_attendright_leadmasker.wav')])
+1318.2927 	EXP 	respp: autoDraw = False
+1318.3093 	EXP 	cross: autoDraw = True
+1324.1472 	EXP 	cross: autoDraw = False
+1324.1472 	EXP 	respp: autoDraw = True
+1325.6172 	EXP 	New trial (rep=0, index=178): OrderedDict([('Index', 179), ('audio', 'block5_trial19_attendright_leadtarget.wav')])
+1325.6323 	EXP 	respp: autoDraw = False
+1325.6490 	EXP 	cross: autoDraw = True
+1331.4871 	EXP 	cross: autoDraw = False
+1331.4871 	EXP 	respp: autoDraw = True
+1332.6068 	EXP 	New trial (rep=0, index=179): OrderedDict([('Index', 180), ('audio', 'block5_trial20_attendright_leadtarget.wav')])
+1332.6210 	EXP 	respp: autoDraw = False
+1332.6380 	EXP 	cross: autoDraw = True
+1338.5095 	EXP 	cross: autoDraw = False
+1338.5095 	EXP 	respp: autoDraw = True
+1339.7293 	EXP 	New trial (rep=0, index=180): OrderedDict([('Index', 181), ('audio', 'block5_trial21_attendleft_leadtarget.wav')])
+1339.7433 	EXP 	respp: autoDraw = False
+1339.7605 	EXP 	cross: autoDraw = True
+1345.6155 	EXP 	cross: autoDraw = False
+1345.6155 	EXP 	respp: autoDraw = True
+1346.8515 	EXP 	New trial (rep=0, index=181): OrderedDict([('Index', 182), ('audio', 'block5_trial22_attendright_leadtarget.wav')])
+1346.8663 	EXP 	respp: autoDraw = False
+1346.8830 	EXP 	cross: autoDraw = True
+1352.7710 	EXP 	cross: autoDraw = False
+1352.7710 	EXP 	respp: autoDraw = True
+1353.8235 	EXP 	New trial (rep=0, index=182): OrderedDict([('Index', 183), ('audio', 'block5_trial23_attendleft_leadmasker.wav')])
+1353.8380 	EXP 	respp: autoDraw = False
+1353.8552 	EXP 	cross: autoDraw = True
+1359.7267 	EXP 	cross: autoDraw = False
+1359.7267 	EXP 	respp: autoDraw = True
+1363.8300 	EXP 	New trial (rep=0, index=183): OrderedDict([('Index', 184), ('audio', 'block5_trial24_attendleft_leadtarget.wav')])
+1363.8466 	EXP 	respp: autoDraw = False
+1363.8627 	EXP 	cross: autoDraw = True
+1369.7180 	EXP 	cross: autoDraw = False
+1369.7180 	EXP 	respp: autoDraw = True
+1370.5037 	EXP 	New trial (rep=0, index=184): OrderedDict([('Index', 185), ('audio', 'block5_trial25_attendright_leadmasker.wav')])
+1370.5187 	EXP 	respp: autoDraw = False
+1370.5352 	EXP 	cross: autoDraw = True
+1376.4064 	EXP 	cross: autoDraw = False
+1376.4064 	EXP 	respp: autoDraw = True
+1377.7758 	EXP 	New trial (rep=0, index=185): OrderedDict([('Index', 186), ('audio', 'block5_trial26_attendleft_leadmasker.wav')])
+1377.7908 	EXP 	respp: autoDraw = False
+1377.8078 	EXP 	cross: autoDraw = True
+1383.6959 	EXP 	cross: autoDraw = False
+1383.6959 	EXP 	respp: autoDraw = True
+1385.1147 	EXP 	New trial (rep=0, index=186): OrderedDict([('Index', 187), ('audio', 'block5_trial27_attendright_leadmasker.wav')])
+1385.1301 	EXP 	respp: autoDraw = False
+1385.1465 	EXP 	cross: autoDraw = True
+1391.0344 	EXP 	cross: autoDraw = False
+1391.0344 	EXP 	respp: autoDraw = True
+1392.1872 	EXP 	New trial (rep=0, index=187): OrderedDict([('Index', 188), ('audio', 'block5_trial28_attendright_leadmasker.wav')])
+1392.2025 	EXP 	respp: autoDraw = False
+1392.2191 	EXP 	cross: autoDraw = True
+1398.0912 	EXP 	cross: autoDraw = False
+1398.0912 	EXP 	respp: autoDraw = True
+1399.3936 	EXP 	New trial (rep=0, index=188): OrderedDict([('Index', 189), ('audio', 'block5_trial29_attendright_leadmasker.wav')])
+1399.4082 	EXP 	respp: autoDraw = False
+1399.4249 	EXP 	cross: autoDraw = True
+1405.2796 	EXP 	cross: autoDraw = False
+1405.2796 	EXP 	respp: autoDraw = True
+1406.7497 	EXP 	New trial (rep=0, index=189): OrderedDict([('Index', 190), ('audio', 'block5_trial30_attendright_leadmasker.wav')])
+1406.7644 	EXP 	respp: autoDraw = False
+1406.7813 	EXP 	cross: autoDraw = True
+1412.6190 	EXP 	cross: autoDraw = False
+1412.6190 	EXP 	respp: autoDraw = True
+1413.7216 	EXP 	New trial (rep=0, index=190): OrderedDict([('Index', 191), ('audio', 'block5_trial31_attendleft_leadtarget.wav')])
+1413.7364 	EXP 	respp: autoDraw = False
+1413.7533 	EXP 	cross: autoDraw = True
+1419.6413 	EXP 	cross: autoDraw = False
+1419.6413 	EXP 	respp: autoDraw = True
+1420.9448 	EXP 	New trial (rep=0, index=191): OrderedDict([('Index', 192), ('audio', 'block5_trial32_attendright_leadtarget.wav')])
+1420.9586 	EXP 	respp: autoDraw = False
+1420.9761 	EXP 	cross: autoDraw = True
+1426.8302 	EXP 	cross: autoDraw = False
+1426.8302 	EXP 	respp: autoDraw = True
+1428.2666 	EXP 	New trial (rep=0, index=192): OrderedDict([('Index', 193), ('audio', 'block5_trial33_attendright_leadmasker.wav')])
+1428.2818 	EXP 	respp: autoDraw = False
+1428.2983 	EXP 	cross: autoDraw = True
+1434.1699 	EXP 	cross: autoDraw = False
+1434.1699 	EXP 	respp: autoDraw = True
+1435.4052 	EXP 	New trial (rep=0, index=193): OrderedDict([('Index', 194), ('audio', 'block5_trial34_attendright_leadtarget.wav')])
+1435.4201 	EXP 	respp: autoDraw = False
+1435.4368 	EXP 	cross: autoDraw = True
+1441.2754 	EXP 	cross: autoDraw = False
+1441.2754 	EXP 	respp: autoDraw = True
+1442.4778 	EXP 	New trial (rep=0, index=194): OrderedDict([('Index', 195), ('audio', 'block5_trial35_attendleft_leadtarget.wav')])
+1442.4924 	EXP 	respp: autoDraw = False
+1442.5094 	EXP 	cross: autoDraw = True
+1448.3811 	EXP 	cross: autoDraw = False
+1448.3811 	EXP 	respp: autoDraw = True
+1449.6502 	EXP 	New trial (rep=0, index=195): OrderedDict([('Index', 196), ('audio', 'block5_trial36_attendleft_leadmasker.wav')])
+1449.6650 	EXP 	respp: autoDraw = False
+1449.6816 	EXP 	cross: autoDraw = True
+1455.5369 	EXP 	cross: autoDraw = False
+1455.5369 	EXP 	respp: autoDraw = True
+1456.9063 	EXP 	New trial (rep=0, index=196): OrderedDict([('Index', 197), ('audio', 'block5_trial37_attendright_leadtarget.wav')])
+1456.9212 	EXP 	respp: autoDraw = False
+1456.9381 	EXP 	cross: autoDraw = True
+1462.7762 	EXP 	cross: autoDraw = False
+1462.7762 	EXP 	respp: autoDraw = True
+1464.1126 	EXP 	New trial (rep=0, index=197): OrderedDict([('Index', 198), ('audio', 'block5_trial38_attendright_leadtarget.wav')])
+1464.1272 	EXP 	respp: autoDraw = False
+1464.1440 	EXP 	cross: autoDraw = True
+1470.0151 	EXP 	cross: autoDraw = False
+1470.0151 	EXP 	respp: autoDraw = True
+1471.0677 	EXP 	New trial (rep=0, index=198): OrderedDict([('Index', 199), ('audio', 'block5_trial39_attendright_leadmasker.wav')])
+1471.0829 	EXP 	respp: autoDraw = False
+1471.0990 	EXP 	cross: autoDraw = True
+1476.9374 	EXP 	cross: autoDraw = False
+1476.9374 	EXP 	respp: autoDraw = True
+1477.9733 	EXP 	New trial (rep=0, index=199): OrderedDict([('Index', 200), ('audio', 'block5_trial40_attendright_leadtarget.wav')])
+1477.9879 	EXP 	respp: autoDraw = False
+1478.0045 	EXP 	cross: autoDraw = True
+1483.8600 	EXP 	cross: autoDraw = False
+1483.8600 	EXP 	respp: autoDraw = True
+1484.9119 	EXP 	New trial (rep=0, index=200): OrderedDict([('Index', 201), ('audio', 'block6_trial1_attendright_leadmasker.wav')])
+1484.9268 	EXP 	respp: autoDraw = False
+1484.9268 	EXP 	breakk: autoDraw = True
+1492.1494 	EXP 	breakk: autoDraw = False
+1492.1661 	EXP 	cross: autoDraw = True
+1498.0220 	EXP 	cross: autoDraw = False
+1498.0220 	EXP 	respp: autoDraw = True
+1498.6236 	EXP 	New trial (rep=0, index=201): OrderedDict([('Index', 202), ('audio', 'block6_trial2_attendright_leadmasker.wav')])
+1498.6378 	EXP 	respp: autoDraw = False
+1498.6550 	EXP 	cross: autoDraw = True
+1504.5263 	EXP 	cross: autoDraw = False
+1504.5263 	EXP 	respp: autoDraw = True
+1505.6293 	EXP 	New trial (rep=0, index=202): OrderedDict([('Index', 203), ('audio', 'block6_trial3_attendright_leadmasker.wav')])
+1505.6434 	EXP 	respp: autoDraw = False
+1505.6603 	EXP 	cross: autoDraw = True
+1511.5317 	EXP 	cross: autoDraw = False
+1511.5317 	EXP 	respp: autoDraw = True
+1512.5177 	EXP 	New trial (rep=0, index=203): OrderedDict([('Index', 204), ('audio', 'block6_trial4_attendright_leadmasker.wav')])
+1512.5322 	EXP 	respp: autoDraw = False
+1512.5490 	EXP 	cross: autoDraw = True
+1518.4040 	EXP 	cross: autoDraw = False
+1518.4040 	EXP 	respp: autoDraw = True
+1519.4400 	EXP 	New trial (rep=0, index=204): OrderedDict([('Index', 205), ('audio', 'block6_trial5_attendleft_leadmasker.wav')])
+1519.4545 	EXP 	respp: autoDraw = False
+1519.4713 	EXP 	cross: autoDraw = True
+1525.3261 	EXP 	cross: autoDraw = False
+1525.3261 	EXP 	respp: autoDraw = True
+1526.2122 	EXP 	New trial (rep=0, index=205): OrderedDict([('Index', 206), ('audio', 'block6_trial6_attendleft_leadtarget.wav')])
+1526.2269 	EXP 	respp: autoDraw = False
+1526.2436 	EXP 	cross: autoDraw = True
+1532.1157 	EXP 	cross: autoDraw = False
+1532.1157 	EXP 	respp: autoDraw = True
+1533.3343 	EXP 	New trial (rep=0, index=206): OrderedDict([('Index', 207), ('audio', 'block6_trial7_attendright_leadmasker.wav')])
+1533.3493 	EXP 	respp: autoDraw = False
+1533.3659 	EXP 	cross: autoDraw = True
+1539.2211 	EXP 	cross: autoDraw = False
+1539.2211 	EXP 	respp: autoDraw = True
+1540.2572 	EXP 	New trial (rep=0, index=207): OrderedDict([('Index', 208), ('audio', 'block6_trial8_attendleft_leadmasker.wav')])
+1540.2714 	EXP 	respp: autoDraw = False
+1540.2881 	EXP 	cross: autoDraw = True
+1546.1428 	EXP 	cross: autoDraw = False
+1546.1428 	EXP 	respp: autoDraw = True
+1547.3295 	EXP 	New trial (rep=0, index=208): OrderedDict([('Index', 209), ('audio', 'block6_trial9_attendright_leadtarget.wav')])
+1547.3435 	EXP 	respp: autoDraw = False
+1547.3603 	EXP 	cross: autoDraw = True
+1553.2488 	EXP 	cross: autoDraw = False
+1553.2488 	EXP 	respp: autoDraw = True
+1554.2512 	EXP 	New trial (rep=0, index=209): OrderedDict([('Index', 210), ('audio', 'block6_trial10_attendright_leadtarget.wav')])
+1554.2658 	EXP 	respp: autoDraw = False
+1554.2825 	EXP 	cross: autoDraw = True
+1560.1540 	EXP 	cross: autoDraw = False
+1560.1540 	EXP 	respp: autoDraw = True
+1561.4737 	EXP 	New trial (rep=0, index=210): OrderedDict([('Index', 211), ('audio', 'block6_trial11_attendright_leadmasker.wav')])
+1561.4883 	EXP 	respp: autoDraw = False
+1561.5050 	EXP 	cross: autoDraw = True
+1567.3609 	EXP 	cross: autoDraw = False
+1567.3609 	EXP 	respp: autoDraw = True
+1568.6463 	EXP 	New trial (rep=0, index=211): OrderedDict([('Index', 212), ('audio', 'block6_trial12_attendleft_leadmasker.wav')])
+1568.6609 	EXP 	respp: autoDraw = False
+1568.6776 	EXP 	cross: autoDraw = True
+1574.5490 	EXP 	cross: autoDraw = False
+1574.5490 	EXP 	respp: autoDraw = True
+1575.6517 	EXP 	New trial (rep=0, index=212): OrderedDict([('Index', 213), ('audio', 'block6_trial13_attendleft_leadtarget.wav')])
+1575.6664 	EXP 	respp: autoDraw = False
+1575.6832 	EXP 	cross: autoDraw = True
+1581.5222 	EXP 	cross: autoDraw = False
+1581.5222 	EXP 	respp: autoDraw = True
+1583.0245 	EXP 	New trial (rep=0, index=213): OrderedDict([('Index', 214), ('audio', 'block6_trial14_attendright_leadtarget.wav')])
+1583.0393 	EXP 	respp: autoDraw = False
+1583.0555 	EXP 	cross: autoDraw = True
+1588.9106 	EXP 	cross: autoDraw = False
+1588.9106 	EXP 	respp: autoDraw = True
+1590.2801 	EXP 	New trial (rep=0, index=214): OrderedDict([('Index', 215), ('audio', 'block6_trial15_attendleft_leadtarget.wav')])
+1590.2947 	EXP 	respp: autoDraw = False
+1590.3122 	EXP 	cross: autoDraw = True
+1596.1500 	EXP 	cross: autoDraw = False
+1596.1500 	EXP 	respp: autoDraw = True
+1597.1855 	EXP 	New trial (rep=0, index=215): OrderedDict([('Index', 216), ('audio', 'block6_trial16_attendright_leadtarget.wav')])
+1597.2007 	EXP 	respp: autoDraw = False
+1597.2170 	EXP 	cross: autoDraw = True
+1603.0721 	EXP 	cross: autoDraw = False
+1603.0721 	EXP 	respp: autoDraw = True
+1604.2584 	EXP 	New trial (rep=0, index=216): OrderedDict([('Index', 217), ('audio', 'block6_trial17_attendright_leadmasker.wav')])
+1604.2728 	EXP 	respp: autoDraw = False
+1604.2899 	EXP 	cross: autoDraw = True
+1610.1278 	EXP 	cross: autoDraw = False
+1610.1278 	EXP 	respp: autoDraw = True
+1611.7811 	EXP 	New trial (rep=0, index=217): OrderedDict([('Index', 218), ('audio', 'block6_trial18_attendleft_leadtarget.wav')])
+1611.7955 	EXP 	respp: autoDraw = False
+1611.8125 	EXP 	cross: autoDraw = True
+1617.7013 	EXP 	cross: autoDraw = False
+1617.7013 	EXP 	respp: autoDraw = True
+1619.5201 	EXP 	New trial (rep=0, index=218): OrderedDict([('Index', 219), ('audio', 'block6_trial19_attendleft_leadmasker.wav')])
+1619.5354 	EXP 	respp: autoDraw = False
+1619.5519 	EXP 	cross: autoDraw = True
+1625.4069 	EXP 	cross: autoDraw = False
+1625.4069 	EXP 	respp: autoDraw = True
+1626.8761 	EXP 	New trial (rep=0, index=219): OrderedDict([('Index', 220), ('audio', 'block6_trial20_attendleft_leadtarget.wav')])
+1626.8912 	EXP 	respp: autoDraw = False
+1626.9077 	EXP 	cross: autoDraw = True
+1632.7955 	EXP 	cross: autoDraw = False
+1632.7955 	EXP 	respp: autoDraw = True
+1633.9154 	EXP 	New trial (rep=0, index=220): OrderedDict([('Index', 221), ('audio', 'block6_trial21_attendleft_leadmasker.wav')])
+1633.9303 	EXP 	respp: autoDraw = False
+1633.9465 	EXP 	cross: autoDraw = True
+1639.8021 	EXP 	cross: autoDraw = False
+1639.8021 	EXP 	respp: autoDraw = True
+1640.9875 	EXP 	New trial (rep=0, index=221): OrderedDict([('Index', 222), ('audio', 'block6_trial22_attendleft_leadmasker.wav')])
+1641.0023 	EXP 	respp: autoDraw = False
+1641.0190 	EXP 	cross: autoDraw = True
+1646.9074 	EXP 	cross: autoDraw = False
+1646.9074 	EXP 	respp: autoDraw = True
+1648.1101 	EXP 	New trial (rep=0, index=222): OrderedDict([('Index', 223), ('audio', 'block6_trial23_attendright_leadmasker.wav')])
+1648.1251 	EXP 	respp: autoDraw = False
+1648.1414 	EXP 	cross: autoDraw = True
+1654.0136 	EXP 	cross: autoDraw = False
+1654.0136 	EXP 	respp: autoDraw = True
+1655.4991 	EXP 	New trial (rep=0, index=223): OrderedDict([('Index', 224), ('audio', 'block6_trial24_attendleft_leadtarget.wav')])
+1655.5144 	EXP 	respp: autoDraw = False
+1655.5308 	EXP 	cross: autoDraw = True
+1661.4021 	EXP 	cross: autoDraw = False
+1661.4021 	EXP 	respp: autoDraw = True
+1662.5888 	EXP 	New trial (rep=0, index=224): OrderedDict([('Index', 225), ('audio', 'block6_trial25_attendleft_leadtarget.wav')])
+1662.6032 	EXP 	respp: autoDraw = False
+1662.6201 	EXP 	cross: autoDraw = True
+1668.5080 	EXP 	cross: autoDraw = False
+1668.5080 	EXP 	respp: autoDraw = True
+1669.4102 	EXP 	New trial (rep=0, index=225): OrderedDict([('Index', 226), ('audio', 'block6_trial26_attendright_leadtarget.wav')])
+1669.4256 	EXP 	respp: autoDraw = False
+1669.4422 	EXP 	cross: autoDraw = True
+1675.2806 	EXP 	cross: autoDraw = False
+1675.2806 	EXP 	respp: autoDraw = True
+1676.0329 	EXP 	New trial (rep=0, index=226): OrderedDict([('Index', 227), ('audio', 'block6_trial27_attendleft_leadmasker.wav')])
+1676.0470 	EXP 	respp: autoDraw = False
+1676.0640 	EXP 	cross: autoDraw = True
+1681.9184 	EXP 	cross: autoDraw = False
+1681.9184 	EXP 	respp: autoDraw = True
+1682.8711 	EXP 	New trial (rep=0, index=227): OrderedDict([('Index', 228), ('audio', 'block6_trial28_attendleft_leadtarget.wav')])
+1682.8859 	EXP 	respp: autoDraw = False
+1682.9031 	EXP 	cross: autoDraw = True
+1688.7575 	EXP 	cross: autoDraw = False
+1688.7575 	EXP 	respp: autoDraw = True
+1689.7772 	EXP 	New trial (rep=0, index=228): OrderedDict([('Index', 229), ('audio', 'block6_trial29_attendright_leadtarget.wav')])
+1689.7914 	EXP 	respp: autoDraw = False
+1689.8085 	EXP 	cross: autoDraw = True
+1695.6628 	EXP 	cross: autoDraw = False
+1695.6628 	EXP 	respp: autoDraw = True
+1696.6992 	EXP 	New trial (rep=0, index=229): OrderedDict([('Index', 230), ('audio', 'block6_trial30_attendleft_leadmasker.wav')])
+1696.7139 	EXP 	respp: autoDraw = False
+1696.7306 	EXP 	cross: autoDraw = True
+1702.5854 	EXP 	cross: autoDraw = False
+1702.5854 	EXP 	respp: autoDraw = True
+1703.6711 	EXP 	New trial (rep=0, index=230): OrderedDict([('Index', 231), ('audio', 'block6_trial31_attendleft_leadmasker.wav')])
+1703.6862 	EXP 	respp: autoDraw = False
+1703.7028 	EXP 	cross: autoDraw = True
+1709.5578 	EXP 	cross: autoDraw = False
+1709.5578 	EXP 	respp: autoDraw = True
+1711.0444 	EXP 	New trial (rep=0, index=231): OrderedDict([('Index', 232), ('audio', 'block6_trial32_attendright_leadtarget.wav')])
+1711.0588 	EXP 	respp: autoDraw = False
+1711.0755 	EXP 	cross: autoDraw = True
+1716.9301 	EXP 	cross: autoDraw = False
+1716.9301 	EXP 	respp: autoDraw = True
+1717.8662 	EXP 	New trial (rep=0, index=232): OrderedDict([('Index', 233), ('audio', 'block6_trial33_attendright_leadtarget.wav')])
+1717.8812 	EXP 	respp: autoDraw = False
+1717.8976 	EXP 	cross: autoDraw = True
+1723.7698 	EXP 	cross: autoDraw = False
+1723.7698 	EXP 	respp: autoDraw = True
+1724.5216 	EXP 	New trial (rep=0, index=233): OrderedDict([('Index', 234), ('audio', 'block6_trial34_attendright_leadtarget.wav')])
+1724.5365 	EXP 	respp: autoDraw = False
+1724.5529 	EXP 	cross: autoDraw = True
+1730.4085 	EXP 	cross: autoDraw = False
+1730.4085 	EXP 	respp: autoDraw = True
+1731.4936 	EXP 	New trial (rep=0, index=234): OrderedDict([('Index', 235), ('audio', 'block6_trial35_attendleft_leadtarget.wav')])
+1731.5082 	EXP 	respp: autoDraw = False
+1731.5253 	EXP 	cross: autoDraw = True
+1737.3633 	EXP 	cross: autoDraw = False
+1737.3633 	EXP 	respp: autoDraw = True
+1738.4163 	EXP 	New trial (rep=0, index=235): OrderedDict([('Index', 236), ('audio', 'block6_trial36_attendright_leadmasker.wav')])
+1738.4311 	EXP 	respp: autoDraw = False
+1738.4476 	EXP 	cross: autoDraw = True
+1744.2855 	EXP 	cross: autoDraw = False
+1744.2855 	EXP 	respp: autoDraw = True
+1745.2220 	EXP 	New trial (rep=0, index=236): OrderedDict([('Index', 237), ('audio', 'block6_trial37_attendleft_leadmasker.wav')])
+1745.2360 	EXP 	respp: autoDraw = False
+1745.2533 	EXP 	cross: autoDraw = True
+1751.1242 	EXP 	cross: autoDraw = False
+1751.1242 	EXP 	respp: autoDraw = True
+1752.6273 	EXP 	New trial (rep=0, index=237): OrderedDict([('Index', 238), ('audio', 'block6_trial38_attendright_leadmasker.wav')])
+1752.6425 	EXP 	respp: autoDraw = False
+1752.6586 	EXP 	cross: autoDraw = True
+1758.4971 	EXP 	cross: autoDraw = False
+1758.4971 	EXP 	respp: autoDraw = True
+1759.4324 	EXP 	New trial (rep=0, index=238): OrderedDict([('Index', 239), ('audio', 'block6_trial39_attendright_leadtarget.wav')])
+1759.4474 	EXP 	respp: autoDraw = False
+1759.4646 	EXP 	cross: autoDraw = True
+1765.3361 	EXP 	cross: autoDraw = False
+1765.3361 	EXP 	respp: autoDraw = True
+1766.3219 	EXP 	New trial (rep=0, index=239): OrderedDict([('Index', 240), ('audio', 'block6_trial40_attendleft_leadtarget.wav')])
+1766.3366 	EXP 	respp: autoDraw = False
+1766.3533 	EXP 	cross: autoDraw = True
+1772.2079 	EXP 	cross: autoDraw = False
+1772.2079 	EXP 	respp: autoDraw = True
+1773.1770 	EXP 	New trial (rep=0, index=240): OrderedDict([('Index', 241), ('audio', 'block7_trial1_attendright_leadtarget.wav')])
+1773.1918 	EXP 	respp: autoDraw = False
+1773.1918 	EXP 	breakk: autoDraw = True
+1788.0377 	EXP 	breakk: autoDraw = False
+1788.0540 	EXP 	cross: autoDraw = True
+1793.9421 	EXP 	cross: autoDraw = False
+1793.9421 	EXP 	respp: autoDraw = True
+1794.3280 	EXP 	New trial (rep=0, index=241): OrderedDict([('Index', 242), ('audio', 'block7_trial2_attendleft_leadmasker.wav')])
+1794.3423 	EXP 	respp: autoDraw = False
+1794.3591 	EXP 	cross: autoDraw = True
+1800.1972 	EXP 	cross: autoDraw = False
+1800.1972 	EXP 	respp: autoDraw = True
+1800.9663 	EXP 	New trial (rep=0, index=242): OrderedDict([('Index', 243), ('audio', 'block7_trial3_attendleft_leadtarget.wav')])
+1800.9811 	EXP 	respp: autoDraw = False
+1800.9978 	EXP 	cross: autoDraw = True
+1806.8526 	EXP 	cross: autoDraw = False
+1806.8526 	EXP 	respp: autoDraw = True
+1807.7388 	EXP 	New trial (rep=0, index=243): OrderedDict([('Index', 244), ('audio', 'block7_trial4_attendleft_leadtarget.wav')])
+1807.7529 	EXP 	respp: autoDraw = False
+1807.7700 	EXP 	cross: autoDraw = True
+1813.6252 	EXP 	cross: autoDraw = False
+1813.6252 	EXP 	respp: autoDraw = True
+1814.4439 	EXP 	New trial (rep=0, index=244): OrderedDict([('Index', 245), ('audio', 'block7_trial5_attendright_leadmasker.wav')])
+1814.4587 	EXP 	respp: autoDraw = False
+1814.4753 	EXP 	cross: autoDraw = True
+1820.3634 	EXP 	cross: autoDraw = False
+1820.3634 	EXP 	respp: autoDraw = True
+1821.4324 	EXP 	New trial (rep=0, index=245): OrderedDict([('Index', 246), ('audio', 'block7_trial6_attendright_leadmasker.wav')])
+1821.4472 	EXP 	respp: autoDraw = False
+1821.4645 	EXP 	cross: autoDraw = True
+1827.3189 	EXP 	cross: autoDraw = False
+1827.3189 	EXP 	respp: autoDraw = True
+1828.3386 	EXP 	New trial (rep=0, index=246): OrderedDict([('Index', 247), ('audio', 'block7_trial7_attendright_leadmasker.wav')])
+1828.3532 	EXP 	respp: autoDraw = False
+1828.3698 	EXP 	cross: autoDraw = True
+1834.2412 	EXP 	cross: autoDraw = False
+1834.2412 	EXP 	respp: autoDraw = True
+1838.3452 	EXP 	New trial (rep=0, index=247): OrderedDict([('Index', 248), ('audio', 'block7_trial8_attendright_leadtarget.wav')])
+1838.3613 	EXP 	respp: autoDraw = False
+1838.3779 	EXP 	cross: autoDraw = True
+1844.2330 	EXP 	cross: autoDraw = False
+1844.2330 	EXP 	respp: autoDraw = True
+1845.2185 	EXP 	New trial (rep=0, index=248): OrderedDict([('Index', 249), ('audio', 'block7_trial9_attendright_leadmasker.wav')])
+1845.2337 	EXP 	respp: autoDraw = False
+1845.2500 	EXP 	cross: autoDraw = True
+1851.1052 	EXP 	cross: autoDraw = False
+1851.1052 	EXP 	respp: autoDraw = True
+1852.6919 	EXP 	New trial (rep=0, index=249): OrderedDict([('Index', 250), ('audio', 'block7_trial10_attendleft_leadmasker.wav')])
+1852.7060 	EXP 	respp: autoDraw = False
+1852.7226 	EXP 	cross: autoDraw = True
+1858.5782 	EXP 	cross: autoDraw = False
+1858.5782 	EXP 	respp: autoDraw = True
+1860.0644 	EXP 	New trial (rep=0, index=250): OrderedDict([('Index', 251), ('audio', 'block7_trial11_attendleft_leadtarget.wav')])
+1860.0783 	EXP 	respp: autoDraw = False
+1860.0954 	EXP 	cross: autoDraw = True
+1865.9664 	EXP 	cross: autoDraw = False
+1865.9664 	EXP 	respp: autoDraw = True
+1867.0857 	EXP 	New trial (rep=0, index=251): OrderedDict([('Index', 252), ('audio', 'block7_trial12_attendright_leadtarget.wav')])
+1867.1011 	EXP 	respp: autoDraw = False
+1867.1174 	EXP 	cross: autoDraw = True
+1872.9727 	EXP 	cross: autoDraw = False
+1872.9727 	EXP 	respp: autoDraw = True
+1874.0081 	EXP 	New trial (rep=0, index=252): OrderedDict([('Index', 253), ('audio', 'block7_trial13_attendleft_leadmasker.wav')])
+1874.0233 	EXP 	respp: autoDraw = False
+1874.0397 	EXP 	cross: autoDraw = True
+1879.8947 	EXP 	cross: autoDraw = False
+1879.8947 	EXP 	respp: autoDraw = True
+1880.9807 	EXP 	New trial (rep=0, index=253): OrderedDict([('Index', 254), ('audio', 'block7_trial14_attendleft_leadmasker.wav')])
+1880.9952 	EXP 	respp: autoDraw = False
+1881.0121 	EXP 	cross: autoDraw = True
+1886.8669 	EXP 	cross: autoDraw = False
+1886.8669 	EXP 	respp: autoDraw = True
+1887.9031 	EXP 	New trial (rep=0, index=254): OrderedDict([('Index', 255), ('audio', 'block7_trial15_attendleft_leadtarget.wav')])
+1887.9179 	EXP 	respp: autoDraw = False
+1887.9344 	EXP 	cross: autoDraw = True
+1893.7722 	EXP 	cross: autoDraw = False
+1893.7722 	EXP 	respp: autoDraw = True
+1897.9096 	EXP 	New trial (rep=0, index=255): OrderedDict([('Index', 256), ('audio', 'block7_trial16_attendright_leadmasker.wav')])
+1897.9261 	EXP 	respp: autoDraw = False
+1897.9426 	EXP 	cross: autoDraw = True
+1903.8141 	EXP 	cross: autoDraw = False
+1903.8141 	EXP 	respp: autoDraw = True
+1904.5330 	EXP 	New trial (rep=0, index=256): OrderedDict([('Index', 257), ('audio', 'block7_trial17_attendright_leadtarget.wav')])
+1904.5475 	EXP 	respp: autoDraw = False
+1904.5643 	EXP 	cross: autoDraw = True
+1910.4029 	EXP 	cross: autoDraw = False
+1910.4029 	EXP 	respp: autoDraw = True
+1911.6715 	EXP 	New trial (rep=0, index=257): OrderedDict([('Index', 258), ('audio', 'block7_trial18_attendright_leadtarget.wav')])
+1911.6866 	EXP 	respp: autoDraw = False
+1911.7032 	EXP 	cross: autoDraw = True
+1917.5588 	EXP 	cross: autoDraw = False
+1917.5588 	EXP 	respp: autoDraw = True
+1918.5776 	EXP 	New trial (rep=0, index=258): OrderedDict([('Index', 259), ('audio', 'block7_trial19_attendleft_leadtarget.wav')])
+1918.5924 	EXP 	respp: autoDraw = False
+1918.6090 	EXP 	cross: autoDraw = True
+1924.4806 	EXP 	cross: autoDraw = False
+1924.4806 	EXP 	respp: autoDraw = True
+1925.5000 	EXP 	New trial (rep=0, index=259): OrderedDict([('Index', 260), ('audio', 'block7_trial20_attendright_leadmasker.wav')])
+1925.5146 	EXP 	respp: autoDraw = False
+1925.5312 	EXP 	cross: autoDraw = True
+1931.4032 	EXP 	cross: autoDraw = False
+1931.4032 	EXP 	respp: autoDraw = True
+1932.5059 	EXP 	New trial (rep=0, index=260): OrderedDict([('Index', 261), ('audio', 'block7_trial21_attendleft_leadmasker.wav')])
+1932.5200 	EXP 	respp: autoDraw = False
+1932.5373 	EXP 	cross: autoDraw = True
+1938.4087 	EXP 	cross: autoDraw = False
+1938.4087 	EXP 	respp: autoDraw = True
+1939.3939 	EXP 	New trial (rep=0, index=261): OrderedDict([('Index', 262), ('audio', 'block7_trial22_attendleft_leadtarget.wav')])
+1939.4091 	EXP 	respp: autoDraw = False
+1939.4259 	EXP 	cross: autoDraw = True
+1945.2814 	EXP 	cross: autoDraw = False
+1945.2814 	EXP 	respp: autoDraw = True
+1946.2668 	EXP 	New trial (rep=0, index=262): OrderedDict([('Index', 263), ('audio', 'block7_trial23_attendright_leadmasker.wav')])
+1946.2812 	EXP 	respp: autoDraw = False
+1946.2978 	EXP 	cross: autoDraw = True
+1952.1535 	EXP 	cross: autoDraw = False
+1952.1535 	EXP 	respp: autoDraw = True
+1953.2052 	EXP 	New trial (rep=0, index=263): OrderedDict([('Index', 264), ('audio', 'block7_trial24_attendright_leadtarget.wav')])
+1953.2203 	EXP 	respp: autoDraw = False
+1953.2372 	EXP 	cross: autoDraw = True
+1959.1252 	EXP 	cross: autoDraw = False
+1959.1252 	EXP 	respp: autoDraw = True
+1959.9443 	EXP 	New trial (rep=0, index=264): OrderedDict([('Index', 265), ('audio', 'block7_trial25_attendright_leadtarget.wav')])
+1959.9589 	EXP 	respp: autoDraw = False
+1959.9757 	EXP 	cross: autoDraw = True
+1965.8469 	EXP 	cross: autoDraw = False
+1965.8469 	EXP 	respp: autoDraw = True
+1966.8666 	EXP 	New trial (rep=0, index=265): OrderedDict([('Index', 266), ('audio', 'block7_trial26_attendleft_leadmasker.wav')])
+1966.8813 	EXP 	respp: autoDraw = False
+1966.8981 	EXP 	cross: autoDraw = True
+1972.7699 	EXP 	cross: autoDraw = False
+1972.7699 	EXP 	respp: autoDraw = True
+1973.7555 	EXP 	New trial (rep=0, index=266): OrderedDict([('Index', 267), ('audio', 'block7_trial27_attendright_leadmasker.wav')])
+1973.7700 	EXP 	respp: autoDraw = False
+1973.7866 	EXP 	cross: autoDraw = True
+1979.6419 	EXP 	cross: autoDraw = False
+1979.6419 	EXP 	respp: autoDraw = True
+1980.6441 	EXP 	New trial (rep=0, index=267): OrderedDict([('Index', 268), ('audio', 'block7_trial28_attendright_leadmasker.wav')])
+1980.6591 	EXP 	respp: autoDraw = False
+1980.6756 	EXP 	cross: autoDraw = True
+1986.5138 	EXP 	cross: autoDraw = False
+1986.5138 	EXP 	respp: autoDraw = True
+1987.8328 	EXP 	New trial (rep=0, index=268): OrderedDict([('Index', 269), ('audio', 'block7_trial29_attendleft_leadmasker.wav')])
+1987.8483 	EXP 	respp: autoDraw = False
+1987.8645 	EXP 	cross: autoDraw = True
+1993.7198 	EXP 	cross: autoDraw = False
+1993.7198 	EXP 	respp: autoDraw = True
+1994.8891 	EXP 	New trial (rep=0, index=269): OrderedDict([('Index', 270), ('audio', 'block7_trial30_attendleft_leadtarget.wav')])
+1994.9036 	EXP 	respp: autoDraw = False
+1994.9204 	EXP 	cross: autoDraw = True
+2000.7748 	EXP 	cross: autoDraw = False
+2000.7748 	EXP 	respp: autoDraw = True
+2001.9280 	EXP 	New trial (rep=0, index=270): OrderedDict([('Index', 271), ('audio', 'block7_trial31_attendleft_leadtarget.wav')])
+2001.9428 	EXP 	respp: autoDraw = False
+2001.9591 	EXP 	cross: autoDraw = True
+2007.8314 	EXP 	cross: autoDraw = False
+2007.8314 	EXP 	respp: autoDraw = True
+2008.8502 	EXP 	New trial (rep=0, index=271): OrderedDict([('Index', 272), ('audio', 'block7_trial32_attendright_leadmasker.wav')])
+2008.8651 	EXP 	respp: autoDraw = False
+2008.8816 	EXP 	cross: autoDraw = True
+2014.7534 	EXP 	cross: autoDraw = False
+2014.7534 	EXP 	respp: autoDraw = True
+2015.8391 	EXP 	New trial (rep=0, index=272): OrderedDict([('Index', 273), ('audio', 'block7_trial33_attendright_leadtarget.wav')])
+2015.8535 	EXP 	respp: autoDraw = False
+2015.8704 	EXP 	cross: autoDraw = True
+2021.7250 	EXP 	cross: autoDraw = False
+2021.7250 	EXP 	respp: autoDraw = True
+2022.7951 	EXP 	New trial (rep=0, index=273): OrderedDict([('Index', 274), ('audio', 'block7_trial34_attendleft_leadtarget.wav')])
+2022.8093 	EXP 	respp: autoDraw = False
+2022.8261 	EXP 	cross: autoDraw = True
+2028.6806 	EXP 	cross: autoDraw = False
+2028.6806 	EXP 	respp: autoDraw = True
+2029.4503 	EXP 	New trial (rep=0, index=274): OrderedDict([('Index', 275), ('audio', 'block7_trial35_attendright_leadtarget.wav')])
+2029.4648 	EXP 	respp: autoDraw = False
+2029.4814 	EXP 	cross: autoDraw = True
+2035.3193 	EXP 	cross: autoDraw = False
+2035.3193 	EXP 	respp: autoDraw = True
+2036.5726 	EXP 	New trial (rep=0, index=275): OrderedDict([('Index', 276), ('audio', 'block7_trial36_attendleft_leadmasker.wav')])
+2036.5875 	EXP 	respp: autoDraw = False
+2036.6040 	EXP 	cross: autoDraw = True
+2042.4755 	EXP 	cross: autoDraw = False
+2042.4755 	EXP 	respp: autoDraw = True
+2043.8780 	EXP 	New trial (rep=0, index=276): OrderedDict([('Index', 277), ('audio', 'block7_trial37_attendleft_leadtarget.wav')])
+2043.8929 	EXP 	respp: autoDraw = False
+2043.9100 	EXP 	cross: autoDraw = True
+2049.7643 	EXP 	cross: autoDraw = False
+2049.7643 	EXP 	respp: autoDraw = True
+2050.7340 	EXP 	New trial (rep=0, index=277): OrderedDict([('Index', 278), ('audio', 'block7_trial38_attendleft_leadmasker.wav')])
+2050.7489 	EXP 	respp: autoDraw = False
+2050.7653 	EXP 	cross: autoDraw = True
+2056.6370 	EXP 	cross: autoDraw = False
+2056.6370 	EXP 	respp: autoDraw = True
+2057.7060 	EXP 	New trial (rep=0, index=278): OrderedDict([('Index', 279), ('audio', 'block7_trial39_attendright_leadtarget.wav')])
+2057.7211 	EXP 	respp: autoDraw = False
+2057.7372 	EXP 	cross: autoDraw = True
+2063.6096 	EXP 	cross: autoDraw = False
+2063.6096 	EXP 	respp: autoDraw = True
+2064.8621 	EXP 	New trial (rep=0, index=279): OrderedDict([('Index', 280), ('audio', 'block7_trial40_attendleft_leadmasker.wav')])
+2064.8768 	EXP 	respp: autoDraw = False
+2064.8937 	EXP 	cross: autoDraw = True
+2070.7651 	EXP 	cross: autoDraw = False
+2070.7651 	EXP 	respp: autoDraw = True
+2072.0344 	EXP 	New trial (rep=0, index=280): OrderedDict([('Index', 281), ('audio', 'block8_trial1_attendleft_leadmasker.wav')])
+2072.0491 	EXP 	respp: autoDraw = False
+2072.0491 	EXP 	breakk: autoDraw = True
+2080.1222 	EXP 	breakk: autoDraw = False
+2080.1385 	EXP 	cross: autoDraw = True
+2085.9938 	EXP 	cross: autoDraw = False
+2085.9938 	EXP 	respp: autoDraw = True
+2087.0131 	EXP 	New trial (rep=0, index=281): OrderedDict([('Index', 282), ('audio', 'block8_trial2_attendright_leadmasker.wav')])
+2087.0274 	EXP 	respp: autoDraw = False
+2087.0445 	EXP 	cross: autoDraw = True
+2092.9161 	EXP 	cross: autoDraw = False
+2092.9161 	EXP 	respp: autoDraw = True
+2094.3862 	EXP 	New trial (rep=0, index=282): OrderedDict([('Index', 283), ('audio', 'block8_trial3_attendleft_leadtarget.wav')])
+2094.4003 	EXP 	respp: autoDraw = False
+2094.4168 	EXP 	cross: autoDraw = True
+2100.2886 	EXP 	cross: autoDraw = False
+2100.2886 	EXP 	respp: autoDraw = True
+2101.1082 	EXP 	New trial (rep=0, index=283): OrderedDict([('Index', 284), ('audio', 'block8_trial4_attendleft_leadmasker.wav')])
+2101.1227 	EXP 	respp: autoDraw = False
+2101.1391 	EXP 	cross: autoDraw = True
+2106.9770 	EXP 	cross: autoDraw = False
+2106.9770 	EXP 	respp: autoDraw = True
+2107.8299 	EXP 	New trial (rep=0, index=284): OrderedDict([('Index', 285), ('audio', 'block8_trial5_attendright_leadmasker.wav')])
+2107.8441 	EXP 	respp: autoDraw = False
+2107.8612 	EXP 	cross: autoDraw = True
+2113.7160 	EXP 	cross: autoDraw = False
+2113.7160 	EXP 	respp: autoDraw = True
+2114.8187 	EXP 	New trial (rep=0, index=285): OrderedDict([('Index', 286), ('audio', 'block8_trial6_attendleft_leadmasker.wav')])
+2114.8337 	EXP 	respp: autoDraw = False
+2114.8501 	EXP 	cross: autoDraw = True
+2120.7211 	EXP 	cross: autoDraw = False
+2120.7211 	EXP 	respp: autoDraw = True
+2121.7909 	EXP 	New trial (rep=0, index=286): OrderedDict([('Index', 287), ('audio', 'block8_trial7_attendleft_leadmasker.wav')])
+2121.8055 	EXP 	respp: autoDraw = False
+2121.8224 	EXP 	cross: autoDraw = True
+2127.6943 	EXP 	cross: autoDraw = False
+2127.6943 	EXP 	respp: autoDraw = True
+2128.7630 	EXP 	New trial (rep=0, index=287): OrderedDict([('Index', 288), ('audio', 'block8_trial8_attendleft_leadtarget.wav')])
+2128.7778 	EXP 	respp: autoDraw = False
+2128.7946 	EXP 	cross: autoDraw = True
+2134.6657 	EXP 	cross: autoDraw = False
+2134.6657 	EXP 	respp: autoDraw = True
+2135.7022 	EXP 	New trial (rep=0, index=288): OrderedDict([('Index', 289), ('audio', 'block8_trial9_attendleft_leadmasker.wav')])
+2135.7166 	EXP 	respp: autoDraw = False
+2135.7335 	EXP 	cross: autoDraw = True
+2141.5719 	EXP 	cross: autoDraw = False
+2141.5719 	EXP 	respp: autoDraw = True
+2142.4575 	EXP 	New trial (rep=0, index=289): OrderedDict([('Index', 290), ('audio', 'block8_trial10_attendright_leadtarget.wav')])
+2142.4721 	EXP 	respp: autoDraw = False
+2142.4890 	EXP 	cross: autoDraw = True
+2148.3610 	EXP 	cross: autoDraw = False
+2148.3610 	EXP 	respp: autoDraw = True
+2149.6467 	EXP 	New trial (rep=0, index=290): OrderedDict([('Index', 291), ('audio', 'block8_trial11_attendright_leadtarget.wav')])
+2149.6612 	EXP 	respp: autoDraw = False
+2149.6781 	EXP 	cross: autoDraw = True
+2155.5498 	EXP 	cross: autoDraw = False
+2155.5498 	EXP 	respp: autoDraw = True
+2156.4188 	EXP 	New trial (rep=0, index=291): OrderedDict([('Index', 292), ('audio', 'block8_trial12_attendright_leadtarget.wav')])
+2156.4332 	EXP 	respp: autoDraw = False
+2156.4503 	EXP 	cross: autoDraw = True
+2162.2892 	EXP 	cross: autoDraw = False
+2162.2892 	EXP 	respp: autoDraw = True
+2166.4256 	EXP 	New trial (rep=0, index=292): OrderedDict([('Index', 293), ('audio', 'block8_trial13_attendright_leadmasker.wav')])
+2166.4419 	EXP 	respp: autoDraw = False
+2166.4585 	EXP 	cross: autoDraw = True
+2172.3134 	EXP 	cross: autoDraw = False
+2172.3134 	EXP 	respp: autoDraw = True
+2173.2003 	EXP 	New trial (rep=0, index=293): OrderedDict([('Index', 294), ('audio', 'block8_trial14_attendleft_leadmasker.wav')])
+2173.2140 	EXP 	respp: autoDraw = False
+2173.2302 	EXP 	cross: autoDraw = True
+2179.1026 	EXP 	cross: autoDraw = False
+2179.1026 	EXP 	respp: autoDraw = True
+2180.0216 	EXP 	New trial (rep=0, index=294): OrderedDict([('Index', 295), ('audio', 'block8_trial15_attendright_leadmasker.wav')])
+2180.0359 	EXP 	respp: autoDraw = False
+2180.0522 	EXP 	cross: autoDraw = True
+2185.9241 	EXP 	cross: autoDraw = False
+2185.9241 	EXP 	respp: autoDraw = True
+2186.9432 	EXP 	New trial (rep=0, index=295): OrderedDict([('Index', 296), ('audio', 'block8_trial16_attendleft_leadtarget.wav')])
+2186.9579 	EXP 	respp: autoDraw = False
+2186.9746 	EXP 	cross: autoDraw = True
+2192.8469 	EXP 	cross: autoDraw = False
+2192.8469 	EXP 	respp: autoDraw = True
+2193.6820 	EXP 	New trial (rep=0, index=296): OrderedDict([('Index', 297), ('audio', 'block8_trial17_attendleft_leadtarget.wav')])
+2193.6966 	EXP 	respp: autoDraw = False
+2193.7133 	EXP 	cross: autoDraw = True
+2199.5852 	EXP 	cross: autoDraw = False
+2199.5852 	EXP 	respp: autoDraw = True
+2201.0050 	EXP 	New trial (rep=0, index=297): OrderedDict([('Index', 298), ('audio', 'block8_trial18_attendleft_leadmasker.wav')])
+2201.0191 	EXP 	respp: autoDraw = False
+2201.0363 	EXP 	cross: autoDraw = True
+2206.9245 	EXP 	cross: autoDraw = False
+2206.9245 	EXP 	respp: autoDraw = True
+2208.0766 	EXP 	New trial (rep=0, index=298): OrderedDict([('Index', 299), ('audio', 'block8_trial19_attendright_leadtarget.wav')])
+2208.0918 	EXP 	respp: autoDraw = False
+2208.1084 	EXP 	cross: autoDraw = True
+2213.9800 	EXP 	cross: autoDraw = False
+2213.9800 	EXP 	respp: autoDraw = True
+2215.2664 	EXP 	New trial (rep=0, index=299): OrderedDict([('Index', 300), ('audio', 'block8_trial20_attendright_leadtarget.wav')])
+2215.2812 	EXP 	respp: autoDraw = False
+2215.2977 	EXP 	cross: autoDraw = True
+2221.1690 	EXP 	cross: autoDraw = False
+2221.1690 	EXP 	respp: autoDraw = True
+2222.1051 	EXP 	New trial (rep=0, index=300): OrderedDict([('Index', 301), ('audio', 'block8_trial21_attendright_leadtarget.wav')])
+2222.1197 	EXP 	respp: autoDraw = False
+2222.1364 	EXP 	cross: autoDraw = True
+2228.0079 	EXP 	cross: autoDraw = False
+2228.0079 	EXP 	respp: autoDraw = True
+2229.1103 	EXP 	New trial (rep=0, index=301): OrderedDict([('Index', 302), ('audio', 'block8_trial22_attendleft_leadtarget.wav')])
+2229.1254 	EXP 	respp: autoDraw = False
+2229.1424 	EXP 	cross: autoDraw = True
+2235.0139 	EXP 	cross: autoDraw = False
+2235.0139 	EXP 	respp: autoDraw = True
+2235.9996 	EXP 	New trial (rep=0, index=302): OrderedDict([('Index', 303), ('audio', 'block8_trial23_attendright_leadmasker.wav')])
+2236.0142 	EXP 	respp: autoDraw = False
+2236.0307 	EXP 	cross: autoDraw = True
+2241.8861 	EXP 	cross: autoDraw = False
+2241.8861 	EXP 	respp: autoDraw = True
+2243.2388 	EXP 	New trial (rep=0, index=303): OrderedDict([('Index', 304), ('audio', 'block8_trial24_attendright_leadmasker.wav')])
+2243.2530 	EXP 	respp: autoDraw = False
+2243.2700 	EXP 	cross: autoDraw = True
+2249.1245 	EXP 	cross: autoDraw = False
+2249.1245 	EXP 	respp: autoDraw = True
+2250.3443 	EXP 	New trial (rep=0, index=304): OrderedDict([('Index', 305), ('audio', 'block8_trial25_attendright_leadmasker.wav')])
+2250.3593 	EXP 	respp: autoDraw = False
+2250.3756 	EXP 	cross: autoDraw = True
+2256.2307 	EXP 	cross: autoDraw = False
+2256.2307 	EXP 	respp: autoDraw = True
+2257.4499 	EXP 	New trial (rep=0, index=305): OrderedDict([('Index', 306), ('audio', 'block8_trial26_attendleft_leadmasker.wav')])
+2257.4646 	EXP 	respp: autoDraw = False
+2257.4813 	EXP 	cross: autoDraw = True
+2263.3365 	EXP 	cross: autoDraw = False
+2263.3365 	EXP 	respp: autoDraw = True
+2264.3222 	EXP 	New trial (rep=0, index=306): OrderedDict([('Index', 307), ('audio', 'block8_trial27_attendright_leadtarget.wav')])
+2264.3373 	EXP 	respp: autoDraw = False
+2264.3537 	EXP 	cross: autoDraw = True
+2270.2082 	EXP 	cross: autoDraw = False
+2270.2082 	EXP 	respp: autoDraw = True
+2271.1110 	EXP 	New trial (rep=0, index=307): OrderedDict([('Index', 308), ('audio', 'block8_trial28_attendleft_leadtarget.wav')])
+2271.1255 	EXP 	respp: autoDraw = False
+2271.1425 	EXP 	cross: autoDraw = True
+2276.9975 	EXP 	cross: autoDraw = False
+2276.9975 	EXP 	respp: autoDraw = True
+2277.8998 	EXP 	New trial (rep=0, index=308): OrderedDict([('Index', 309), ('audio', 'block8_trial29_attendleft_leadtarget.wav')])
+2277.9145 	EXP 	respp: autoDraw = False
+2277.9314 	EXP 	cross: autoDraw = True
+2283.7695 	EXP 	cross: autoDraw = False
+2283.7695 	EXP 	respp: autoDraw = True
+2284.9054 	EXP 	New trial (rep=0, index=309): OrderedDict([('Index', 310), ('audio', 'block8_trial30_attendright_leadmasker.wav')])
+2284.9202 	EXP 	respp: autoDraw = False
+2284.9368 	EXP 	cross: autoDraw = True
+2290.7924 	EXP 	cross: autoDraw = False
+2290.7924 	EXP 	respp: autoDraw = True
+2291.6443 	EXP 	New trial (rep=0, index=310): OrderedDict([('Index', 311), ('audio', 'block8_trial31_attendright_leadmasker.wav')])
+2291.6590 	EXP 	respp: autoDraw = False
+2291.6758 	EXP 	cross: autoDraw = True
+2297.5140 	EXP 	cross: autoDraw = False
+2297.5140 	EXP 	respp: autoDraw = True
+2298.4993 	EXP 	New trial (rep=0, index=311): OrderedDict([('Index', 312), ('audio', 'block8_trial32_attendright_leadmasker.wav')])
+2298.5146 	EXP 	respp: autoDraw = False
+2298.5313 	EXP 	cross: autoDraw = True
+2304.3860 	EXP 	cross: autoDraw = False
+2304.3860 	EXP 	respp: autoDraw = True
+2305.4384 	EXP 	New trial (rep=0, index=312): OrderedDict([('Index', 313), ('audio', 'block8_trial33_attendright_leadtarget.wav')])
+2305.4538 	EXP 	respp: autoDraw = False
+2305.4701 	EXP 	cross: autoDraw = True
+2311.3081 	EXP 	cross: autoDraw = False
+2311.3081 	EXP 	respp: autoDraw = True
+2312.0606 	EXP 	New trial (rep=0, index=313): OrderedDict([('Index', 314), ('audio', 'block8_trial34_attendleft_leadtarget.wav')])
+2312.0754 	EXP 	respp: autoDraw = False
+2312.0920 	EXP 	cross: autoDraw = True
+2317.9469 	EXP 	cross: autoDraw = False
+2317.9469 	EXP 	respp: autoDraw = True
+2319.2160 	EXP 	New trial (rep=0, index=314): OrderedDict([('Index', 315), ('audio', 'block8_trial35_attendright_leadtarget.wav')])
+2319.2312 	EXP 	respp: autoDraw = False
+2319.2478 	EXP 	cross: autoDraw = True
+2325.1025 	EXP 	cross: autoDraw = False
+2325.1025 	EXP 	respp: autoDraw = True
+2326.6888 	EXP 	New trial (rep=0, index=315): OrderedDict([('Index', 316), ('audio', 'block8_trial36_attendleft_leadmasker.wav')])
+2326.7037 	EXP 	respp: autoDraw = False
+2326.7205 	EXP 	cross: autoDraw = True
+2332.5752 	EXP 	cross: autoDraw = False
+2332.5752 	EXP 	respp: autoDraw = True
+2333.7453 	EXP 	New trial (rep=0, index=316): OrderedDict([('Index', 317), ('audio', 'block8_trial37_attendright_leadtarget.wav')])
+2333.7592 	EXP 	respp: autoDraw = False
+2333.7759 	EXP 	cross: autoDraw = True
+2339.6475 	EXP 	cross: autoDraw = False
+2339.6475 	EXP 	respp: autoDraw = True
+2340.7005 	EXP 	New trial (rep=0, index=317): OrderedDict([('Index', 318), ('audio', 'block8_trial38_attendleft_leadtarget.wav')])
+2340.7152 	EXP 	respp: autoDraw = False
+2340.7314 	EXP 	cross: autoDraw = True
+2346.6036 	EXP 	cross: autoDraw = False
+2346.6036 	EXP 	respp: autoDraw = True
+2347.7063 	EXP 	New trial (rep=0, index=318): OrderedDict([('Index', 319), ('audio', 'block8_trial39_attendleft_leadmasker.wav')])
+2347.7204 	EXP 	respp: autoDraw = False
+2347.7373 	EXP 	cross: autoDraw = True
+2353.6252 	EXP 	cross: autoDraw = False
+2353.6252 	EXP 	respp: autoDraw = True
+2354.4782 	EXP 	New trial (rep=0, index=319): OrderedDict([('Index', 320), ('audio', 'block8_trial40_attendleft_leadtarget.wav')])
+2354.4927 	EXP 	respp: autoDraw = False
+2354.5093 	EXP 	cross: autoDraw = True
+2360.3476 	EXP 	cross: autoDraw = False
+2360.3476 	EXP 	respp: autoDraw = True
+2361.5178 	EXP 	New trial (rep=0, index=320): OrderedDict([('Index', 321), ('audio', 'block9_trial1_attendright_leadmasker.wav')])
+2361.5314 	EXP 	respp: autoDraw = False
+2361.5314 	EXP 	breakk: autoDraw = True
+2368.6875 	EXP 	breakk: autoDraw = False
+2368.7042 	EXP 	cross: autoDraw = True
+2374.5592 	EXP 	cross: autoDraw = False
+2374.5592 	EXP 	respp: autoDraw = True
+2375.2783 	EXP 	New trial (rep=0, index=321): OrderedDict([('Index', 322), ('audio', 'block9_trial2_attendright_leadmasker.wav')])
+2375.2926 	EXP 	respp: autoDraw = False
+2375.3098 	EXP 	cross: autoDraw = True
+2381.1643 	EXP 	cross: autoDraw = False
+2381.1643 	EXP 	respp: autoDraw = True
+2382.2502 	EXP 	New trial (rep=0, index=322): OrderedDict([('Index', 323), ('audio', 'block9_trial3_attendright_leadtarget.wav')])
+2382.2651 	EXP 	respp: autoDraw = False
+2382.2820 	EXP 	cross: autoDraw = True
+2388.1198 	EXP 	cross: autoDraw = False
+2388.1198 	EXP 	respp: autoDraw = True
+2389.5562 	EXP 	New trial (rep=0, index=323): OrderedDict([('Index', 324), ('audio', 'block9_trial4_attendleft_leadmasker.wav')])
+2389.5712 	EXP 	respp: autoDraw = False
+2389.5878 	EXP 	cross: autoDraw = True
+2395.4593 	EXP 	cross: autoDraw = False
+2395.4593 	EXP 	respp: autoDraw = True
+2396.5788 	EXP 	New trial (rep=0, index=324): OrderedDict([('Index', 325), ('audio', 'block9_trial5_attendright_leadtarget.wav')])
+2396.5934 	EXP 	respp: autoDraw = False
+2396.6100 	EXP 	cross: autoDraw = True
+2402.4810 	EXP 	cross: autoDraw = False
+2402.4810 	EXP 	respp: autoDraw = True
+2403.3670 	EXP 	New trial (rep=0, index=325): OrderedDict([('Index', 326), ('audio', 'block9_trial6_attendleft_leadtarget.wav')])
+2403.3823 	EXP 	respp: autoDraw = False
+2403.3991 	EXP 	cross: autoDraw = True
+2409.2532 	EXP 	cross: autoDraw = False
+2409.2532 	EXP 	respp: autoDraw = True
+2410.5401 	EXP 	New trial (rep=0, index=326): OrderedDict([('Index', 327), ('audio', 'block9_trial7_attendleft_leadtarget.wav')])
+2410.5543 	EXP 	respp: autoDraw = False
+2410.5712 	EXP 	cross: autoDraw = True
+2416.4593 	EXP 	cross: autoDraw = False
+2416.4593 	EXP 	respp: autoDraw = True
+2417.5116 	EXP 	New trial (rep=0, index=327): OrderedDict([('Index', 328), ('audio', 'block9_trial8_attendright_leadtarget.wav')])
+2417.5267 	EXP 	respp: autoDraw = False
+2417.5434 	EXP 	cross: autoDraw = True
+2423.4146 	EXP 	cross: autoDraw = False
+2423.4146 	EXP 	respp: autoDraw = True
+2424.1840 	EXP 	New trial (rep=0, index=328): OrderedDict([('Index', 329), ('audio', 'block9_trial9_attendleft_leadmasker.wav')])
+2424.1990 	EXP 	respp: autoDraw = False
+2424.2153 	EXP 	cross: autoDraw = True
+2430.0533 	EXP 	cross: autoDraw = False
+2430.0533 	EXP 	respp: autoDraw = True
+2431.0394 	EXP 	New trial (rep=0, index=329): OrderedDict([('Index', 330), ('audio', 'block9_trial10_attendleft_leadtarget.wav')])
+2431.0546 	EXP 	respp: autoDraw = False
+2431.0710 	EXP 	cross: autoDraw = True
+2436.9260 	EXP 	cross: autoDraw = False
+2436.9260 	EXP 	respp: autoDraw = True
+2438.2125 	EXP 	New trial (rep=0, index=330): OrderedDict([('Index', 331), ('audio', 'block9_trial11_attendleft_leadtarget.wav')])
+2438.2265 	EXP 	respp: autoDraw = False
+2438.2433 	EXP 	cross: autoDraw = True
+2444.0820 	EXP 	cross: autoDraw = False
+2444.0820 	EXP 	respp: autoDraw = True
+2445.5179 	EXP 	New trial (rep=0, index=331): OrderedDict([('Index', 332), ('audio', 'block9_trial12_attendleft_leadtarget.wav')])
+2445.5326 	EXP 	respp: autoDraw = False
+2445.5499 	EXP 	cross: autoDraw = True
+2451.4209 	EXP 	cross: autoDraw = False
+2451.4209 	EXP 	respp: autoDraw = True
+2452.8739 	EXP 	New trial (rep=0, index=332): OrderedDict([('Index', 333), ('audio', 'block9_trial13_attendright_leadtarget.wav')])
+2452.8887 	EXP 	respp: autoDraw = False
+2452.9055 	EXP 	cross: autoDraw = True
+2458.7604 	EXP 	cross: autoDraw = False
+2458.7604 	EXP 	respp: autoDraw = True
+2459.7960 	EXP 	New trial (rep=0, index=333): OrderedDict([('Index', 334), ('audio', 'block9_trial14_attendright_leadtarget.wav')])
+2459.8105 	EXP 	respp: autoDraw = False
+2459.8272 	EXP 	cross: autoDraw = True
+2465.6827 	EXP 	cross: autoDraw = False
+2465.6827 	EXP 	respp: autoDraw = True
+2466.8685 	EXP 	New trial (rep=0, index=334): OrderedDict([('Index', 335), ('audio', 'block9_trial15_attendright_leadtarget.wav')])
+2466.8832 	EXP 	respp: autoDraw = False
+2466.8998 	EXP 	cross: autoDraw = True
+2472.7884 	EXP 	cross: autoDraw = False
+2472.7884 	EXP 	respp: autoDraw = True
+2474.2077 	EXP 	New trial (rep=0, index=335): OrderedDict([('Index', 336), ('audio', 'block9_trial16_attendright_leadmasker.wav')])
+2474.2225 	EXP 	respp: autoDraw = False
+2474.2389 	EXP 	cross: autoDraw = True
+2480.1269 	EXP 	cross: autoDraw = False
+2480.1269 	EXP 	respp: autoDraw = True
+2481.6799 	EXP 	New trial (rep=0, index=336): OrderedDict([('Index', 337), ('audio', 'block9_trial17_attendright_leadtarget.wav')])
+2481.6946 	EXP 	respp: autoDraw = False
+2481.7116 	EXP 	cross: autoDraw = True
+2487.5503 	EXP 	cross: autoDraw = False
+2487.5503 	EXP 	respp: autoDraw = True
+2488.8861 	EXP 	New trial (rep=0, index=337): OrderedDict([('Index', 338), ('audio', 'block9_trial18_attendleft_leadmasker.wav')])
+2488.9010 	EXP 	respp: autoDraw = False
+2488.9174 	EXP 	cross: autoDraw = True
+2494.7886 	EXP 	cross: autoDraw = False
+2494.7886 	EXP 	respp: autoDraw = True
+2495.5917 	EXP 	New trial (rep=0, index=338): OrderedDict([('Index', 339), ('audio', 'block9_trial19_attendright_leadmasker.wav')])
+2495.6061 	EXP 	respp: autoDraw = False
+2495.6231 	EXP 	cross: autoDraw = True
+2501.4775 	EXP 	cross: autoDraw = False
+2501.4775 	EXP 	respp: autoDraw = True
+2502.4802 	EXP 	New trial (rep=0, index=339): OrderedDict([('Index', 340), ('audio', 'block9_trial20_attendright_leadmasker.wav')])
+2502.4955 	EXP 	respp: autoDraw = False
+2502.5116 	EXP 	cross: autoDraw = True
+2508.3501 	EXP 	cross: autoDraw = False
+2508.3501 	EXP 	respp: autoDraw = True
+2509.0356 	EXP 	New trial (rep=0, index=340): OrderedDict([('Index', 341), ('audio', 'block9_trial21_attendleft_leadmasker.wav')])
+2509.0502 	EXP 	respp: autoDraw = False
+2509.0670 	EXP 	cross: autoDraw = True
+2514.9554 	EXP 	cross: autoDraw = False
+2514.9554 	EXP 	respp: autoDraw = True
+2515.8242 	EXP 	New trial (rep=0, index=341): OrderedDict([('Index', 342), ('audio', 'block9_trial22_attendright_leadmasker.wav')])
+2515.8391 	EXP 	respp: autoDraw = False
+2515.8556 	EXP 	cross: autoDraw = True
+2521.7277 	EXP 	cross: autoDraw = False
+2521.7277 	EXP 	respp: autoDraw = True
+2522.6297 	EXP 	New trial (rep=0, index=342): OrderedDict([('Index', 343), ('audio', 'block9_trial23_attendleft_leadmasker.wav')])
+2522.6444 	EXP 	respp: autoDraw = False
+2522.6614 	EXP 	cross: autoDraw = True
+2528.5162 	EXP 	cross: autoDraw = False
+2528.5162 	EXP 	respp: autoDraw = True
+2529.7689 	EXP 	New trial (rep=0, index=343): OrderedDict([('Index', 344), ('audio', 'block9_trial24_attendright_leadmasker.wav')])
+2529.7835 	EXP 	respp: autoDraw = False
+2529.8001 	EXP 	cross: autoDraw = True
+2535.6550 	EXP 	cross: autoDraw = False
+2535.6550 	EXP 	respp: autoDraw = True
+2536.8080 	EXP 	New trial (rep=0, index=344): OrderedDict([('Index', 345), ('audio', 'block9_trial25_attendleft_leadmasker.wav')])
+2536.8232 	EXP 	respp: autoDraw = False
+2536.8392 	EXP 	cross: autoDraw = True
+2542.7277 	EXP 	cross: autoDraw = False
+2542.7277 	EXP 	respp: autoDraw = True
+2543.8633 	EXP 	New trial (rep=0, index=345): OrderedDict([('Index', 346), ('audio', 'block9_trial26_attendleft_leadtarget.wav')])
+2543.8781 	EXP 	respp: autoDraw = False
+2543.8950 	EXP 	cross: autoDraw = True
+2549.7332 	EXP 	cross: autoDraw = False
+2549.7332 	EXP 	respp: autoDraw = True
+2550.7696 	EXP 	New trial (rep=0, index=346): OrderedDict([('Index', 347), ('audio', 'block9_trial27_attendleft_leadtarget.wav')])
+2550.7842 	EXP 	respp: autoDraw = False
+2550.8008 	EXP 	cross: autoDraw = True
+2556.6560 	EXP 	cross: autoDraw = False
+2556.6560 	EXP 	respp: autoDraw = True
+2558.1080 	EXP 	New trial (rep=0, index=347): OrderedDict([('Index', 348), ('audio', 'block9_trial28_attendright_leadmasker.wav')])
+2558.1230 	EXP 	respp: autoDraw = False
+2558.1400 	EXP 	cross: autoDraw = True
+2563.9944 	EXP 	cross: autoDraw = False
+2563.9944 	EXP 	respp: autoDraw = True
+2564.8803 	EXP 	New trial (rep=0, index=348): OrderedDict([('Index', 349), ('audio', 'block9_trial29_attendleft_leadmasker.wav')])
+2564.8952 	EXP 	respp: autoDraw = False
+2564.9119 	EXP 	cross: autoDraw = True
+2570.7670 	EXP 	cross: autoDraw = False
+2570.7670 	EXP 	respp: autoDraw = True
+2572.1537 	EXP 	New trial (rep=0, index=349): OrderedDict([('Index', 350), ('audio', 'block9_trial30_attendleft_leadtarget.wav')])
+2572.1678 	EXP 	respp: autoDraw = False
+2572.1842 	EXP 	cross: autoDraw = True
+2578.0560 	EXP 	cross: autoDraw = False
+2578.0560 	EXP 	respp: autoDraw = True
+2579.1751 	EXP 	New trial (rep=0, index=350): OrderedDict([('Index', 351), ('audio', 'block9_trial31_attendleft_leadmasker.wav')])
+2579.1899 	EXP 	respp: autoDraw = False
+2579.2068 	EXP 	cross: autoDraw = True
+2585.0783 	EXP 	cross: autoDraw = False
+2585.0783 	EXP 	respp: autoDraw = True
+2586.1645 	EXP 	New trial (rep=0, index=351): OrderedDict([('Index', 352), ('audio', 'block9_trial32_attendright_leadmasker.wav')])
+2586.1795 	EXP 	respp: autoDraw = False
+2586.1955 	EXP 	cross: autoDraw = True
+2592.0341 	EXP 	cross: autoDraw = False
+2592.0341 	EXP 	respp: autoDraw = True
+2592.9696 	EXP 	New trial (rep=0, index=352): OrderedDict([('Index', 353), ('audio', 'block9_trial33_attendleft_leadmasker.wav')])
+2592.9846 	EXP 	respp: autoDraw = False
+2593.0010 	EXP 	cross: autoDraw = True
+2598.8564 	EXP 	cross: autoDraw = False
+2598.8564 	EXP 	respp: autoDraw = True
+2599.9256 	EXP 	New trial (rep=0, index=353): OrderedDict([('Index', 354), ('audio', 'block9_trial34_attendright_leadmasker.wav')])
+2599.9401 	EXP 	respp: autoDraw = False
+2599.9565 	EXP 	cross: autoDraw = True
+2605.8289 	EXP 	cross: autoDraw = False
+2605.8289 	EXP 	respp: autoDraw = True
+2606.6641 	EXP 	New trial (rep=0, index=354): OrderedDict([('Index', 355), ('audio', 'block9_trial35_attendleft_leadtarget.wav')])
+2606.6787 	EXP 	respp: autoDraw = False
+2606.6953 	EXP 	cross: autoDraw = True
+2612.5679 	EXP 	cross: autoDraw = False
+2612.5679 	EXP 	respp: autoDraw = True
+2613.9701 	EXP 	New trial (rep=0, index=355): OrderedDict([('Index', 356), ('audio', 'block9_trial36_attendleft_leadtarget.wav')])
+2613.9845 	EXP 	respp: autoDraw = False
+2614.0016 	EXP 	cross: autoDraw = True
+2619.8567 	EXP 	cross: autoDraw = False
+2619.8567 	EXP 	respp: autoDraw = True
+2621.2257 	EXP 	New trial (rep=0, index=356): OrderedDict([('Index', 357), ('audio', 'block9_trial37_attendright_leadtarget.wav')])
+2621.2411 	EXP 	respp: autoDraw = False
+2621.2570 	EXP 	cross: autoDraw = True
+2627.0952 	EXP 	cross: autoDraw = False
+2627.0952 	EXP 	respp: autoDraw = True
+2628.0316 	EXP 	New trial (rep=0, index=357): OrderedDict([('Index', 358), ('audio', 'block9_trial38_attendleft_leadmasker.wav')])
+2628.0458 	EXP 	respp: autoDraw = False
+2628.0627 	EXP 	cross: autoDraw = True
+2633.9342 	EXP 	cross: autoDraw = False
+2633.9342 	EXP 	respp: autoDraw = True
+2635.0872 	EXP 	New trial (rep=0, index=358): OrderedDict([('Index', 359), ('audio', 'block9_trial39_attendright_leadtarget.wav')])
+2635.1015 	EXP 	respp: autoDraw = False
+2635.1183 	EXP 	cross: autoDraw = True
+2640.9901 	EXP 	cross: autoDraw = False
+2640.9901 	EXP 	respp: autoDraw = True
+2641.8255 	EXP 	New trial (rep=0, index=359): OrderedDict([('Index', 360), ('audio', 'block9_trial40_attendright_leadtarget.wav')])
+2641.8405 	EXP 	respp: autoDraw = False
+2641.8571 	EXP 	cross: autoDraw = True
+2647.7121 	EXP 	cross: autoDraw = False
+2647.7121 	EXP 	respp: autoDraw = True
+2648.7477 	EXP 	New trial (rep=0, index=360): OrderedDict([('Index', 361), ('audio', 'block10_trial1_attendright_leadtarget.wav')])
+2648.7627 	EXP 	respp: autoDraw = False
+2648.7627 	EXP 	breakk: autoDraw = True
+2655.2678 	EXP 	breakk: autoDraw = False
+2655.2848 	EXP 	cross: autoDraw = True
+2661.1400 	EXP 	cross: autoDraw = False
+2661.1400 	EXP 	respp: autoDraw = True
+2662.0751 	EXP 	New trial (rep=0, index=361): OrderedDict([('Index', 362), ('audio', 'block10_trial2_attendleft_leadmasker.wav')])
+2662.0903 	EXP 	respp: autoDraw = False
+2662.1069 	EXP 	cross: autoDraw = True
+2667.9613 	EXP 	cross: autoDraw = False
+2667.9613 	EXP 	respp: autoDraw = True
+2669.0312 	EXP 	New trial (rep=0, index=362): OrderedDict([('Index', 363), ('audio', 'block10_trial3_attendright_leadtarget.wav')])
+2669.0454 	EXP 	respp: autoDraw = False
+2669.0622 	EXP 	cross: autoDraw = True
+2674.9340 	EXP 	cross: autoDraw = False
+2674.9340 	EXP 	respp: autoDraw = True
+2675.8195 	EXP 	New trial (rep=0, index=363): OrderedDict([('Index', 364), ('audio', 'block10_trial4_attendleft_leadtarget.wav')])
+2675.8345 	EXP 	respp: autoDraw = False
+2675.8514 	EXP 	cross: autoDraw = True
+2681.7061 	EXP 	cross: autoDraw = False
+2681.7061 	EXP 	respp: autoDraw = True
+2683.0429 	EXP 	New trial (rep=0, index=364): OrderedDict([('Index', 365), ('audio', 'block10_trial5_attendright_leadmasker.wav')])
+2683.0567 	EXP 	respp: autoDraw = False
+2683.0738 	EXP 	cross: autoDraw = True
+2688.9618 	EXP 	cross: autoDraw = False
+2688.9618 	EXP 	respp: autoDraw = True
+2689.7473 	EXP 	New trial (rep=0, index=365): OrderedDict([('Index', 366), ('audio', 'block10_trial6_attendright_leadtarget.wav')])
+2689.7623 	EXP 	respp: autoDraw = False
+2689.7791 	EXP 	cross: autoDraw = True
+2695.6501 	EXP 	cross: autoDraw = False
+2695.6501 	EXP 	respp: autoDraw = True
+2696.5360 	EXP 	New trial (rep=0, index=366): OrderedDict([('Index', 367), ('audio', 'block10_trial7_attendright_leadmasker.wav')])
+2696.5511 	EXP 	respp: autoDraw = False
+2696.5678 	EXP 	cross: autoDraw = True
+2702.4227 	EXP 	cross: autoDraw = False
+2702.4227 	EXP 	respp: autoDraw = True
+2703.8426 	EXP 	New trial (rep=0, index=367): OrderedDict([('Index', 368), ('audio', 'block10_trial8_attendleft_leadmasker.wav')])
+2703.8567 	EXP 	respp: autoDraw = False
+2703.8736 	EXP 	cross: autoDraw = True
+2709.7115 	EXP 	cross: autoDraw = False
+2709.7115 	EXP 	respp: autoDraw = True
+2710.6480 	EXP 	New trial (rep=0, index=368): OrderedDict([('Index', 369), ('audio', 'block10_trial9_attendleft_leadtarget.wav')])
+2710.6624 	EXP 	respp: autoDraw = False
+2710.6792 	EXP 	cross: autoDraw = True
+2716.5341 	EXP 	cross: autoDraw = False
+2716.5341 	EXP 	respp: autoDraw = True
+2717.5701 	EXP 	New trial (rep=0, index=369): OrderedDict([('Index', 370), ('audio', 'block10_trial10_attendleft_leadtarget.wav')])
+2717.5846 	EXP 	respp: autoDraw = False
+2717.6013 	EXP 	cross: autoDraw = True
+2723.4563 	EXP 	cross: autoDraw = False
+2723.4563 	EXP 	respp: autoDraw = True
+2724.3755 	EXP 	New trial (rep=0, index=370): OrderedDict([('Index', 371), ('audio', 'block10_trial11_attendleft_leadtarget.wav')])
+2724.3904 	EXP 	respp: autoDraw = False
+2724.4070 	EXP 	cross: autoDraw = True
+2730.2947 	EXP 	cross: autoDraw = False
+2730.2947 	EXP 	respp: autoDraw = True
+2731.1974 	EXP 	New trial (rep=0, index=371): OrderedDict([('Index', 372), ('audio', 'block10_trial12_attendleft_leadtarget.wav')])
+2731.2126 	EXP 	respp: autoDraw = False
+2731.2291 	EXP 	cross: autoDraw = True
+2737.1177 	EXP 	cross: autoDraw = False
+2737.1177 	EXP 	respp: autoDraw = True
+2738.3530 	EXP 	New trial (rep=0, index=372): OrderedDict([('Index', 373), ('audio', 'block10_trial13_attendright_leadmasker.wav')])
+2738.3680 	EXP 	respp: autoDraw = False
+2738.3844 	EXP 	cross: autoDraw = True
+2744.2730 	EXP 	cross: autoDraw = False
+2744.2730 	EXP 	respp: autoDraw = True
+2745.4424 	EXP 	New trial (rep=0, index=373): OrderedDict([('Index', 374), ('audio', 'block10_trial14_attendright_leadtarget.wav')])
+2745.4572 	EXP 	respp: autoDraw = False
+2745.4739 	EXP 	cross: autoDraw = True
+2751.3292 	EXP 	cross: autoDraw = False
+2751.3292 	EXP 	respp: autoDraw = True
+2752.3981 	EXP 	New trial (rep=0, index=374): OrderedDict([('Index', 375), ('audio', 'block10_trial15_attendleft_leadmasker.wav')])
+2752.4128 	EXP 	respp: autoDraw = False
+2752.4293 	EXP 	cross: autoDraw = True
+2758.2844 	EXP 	cross: autoDraw = False
+2758.2844 	EXP 	respp: autoDraw = True
+2762.4050 	EXP 	New trial (rep=0, index=375): OrderedDict([('Index', 376), ('audio', 'block10_trial16_attendleft_leadmasker.wav')])
+2762.4207 	EXP 	respp: autoDraw = False
+2762.4375 	EXP 	cross: autoDraw = True
+2768.3260 	EXP 	cross: autoDraw = False
+2768.3260 	EXP 	respp: autoDraw = True
+2769.7620 	EXP 	New trial (rep=0, index=376): OrderedDict([('Index', 377), ('audio', 'block10_trial17_attendright_leadtarget.wav')])
+2769.7766 	EXP 	respp: autoDraw = False
+2769.7936 	EXP 	cross: autoDraw = True
+2775.6643 	EXP 	cross: autoDraw = False
+2775.6643 	EXP 	respp: autoDraw = True
+2776.6852 	EXP 	New trial (rep=0, index=377): OrderedDict([('Index', 378), ('audio', 'block10_trial18_attendright_leadtarget.wav')])
+2776.6991 	EXP 	respp: autoDraw = False
+2776.7157 	EXP 	cross: autoDraw = True
+2782.5700 	EXP 	cross: autoDraw = False
+2782.5700 	EXP 	respp: autoDraw = True
+2783.9563 	EXP 	New trial (rep=0, index=378): OrderedDict([('Index', 379), ('audio', 'block10_trial19_attendleft_leadmasker.wav')])
+2783.9715 	EXP 	respp: autoDraw = False
+2783.9878 	EXP 	cross: autoDraw = True
+2789.8762 	EXP 	cross: autoDraw = False
+2789.8762 	EXP 	respp: autoDraw = True
+2791.2468 	EXP 	New trial (rep=0, index=379): OrderedDict([('Index', 380), ('audio', 'block10_trial20_attendleft_leadmasker.wav')])
+2791.2608 	EXP 	respp: autoDraw = False
+2791.2772 	EXP 	cross: autoDraw = True
+2797.1650 	EXP 	cross: autoDraw = False
+2797.1650 	EXP 	respp: autoDraw = True
+2798.3684 	EXP 	New trial (rep=0, index=380): OrderedDict([('Index', 381), ('audio', 'block10_trial21_attendright_leadtarget.wav')])
+2798.3832 	EXP 	respp: autoDraw = False
+2798.3997 	EXP 	cross: autoDraw = True
+2804.2709 	EXP 	cross: autoDraw = False
+2804.2709 	EXP 	respp: autoDraw = True
+2805.5573 	EXP 	New trial (rep=0, index=381): OrderedDict([('Index', 382), ('audio', 'block10_trial22_attendright_leadtarget.wav')])
+2805.5723 	EXP 	respp: autoDraw = False
+2805.5888 	EXP 	cross: autoDraw = True
+2811.4602 	EXP 	cross: autoDraw = False
+2811.4602 	EXP 	respp: autoDraw = True
+2815.5644 	EXP 	New trial (rep=0, index=382): OrderedDict([('Index', 383), ('audio', 'block10_trial23_attendleft_leadtarget.wav')])
+2815.5800 	EXP 	respp: autoDraw = False
+2815.5969 	EXP 	cross: autoDraw = True
+2821.4520 	EXP 	cross: autoDraw = False
+2821.4520 	EXP 	respp: autoDraw = True
+2822.3536 	EXP 	New trial (rep=0, index=383): OrderedDict([('Index', 384), ('audio', 'block10_trial24_attendleft_leadmasker.wav')])
+2822.3690 	EXP 	respp: autoDraw = False
+2822.3858 	EXP 	cross: autoDraw = True
+2828.2237 	EXP 	cross: autoDraw = False
+2828.2237 	EXP 	respp: autoDraw = True
+2829.3099 	EXP 	New trial (rep=0, index=384): OrderedDict([('Index', 385), ('audio', 'block10_trial25_attendleft_leadmasker.wav')])
+2829.3248 	EXP 	respp: autoDraw = False
+2829.3414 	EXP 	cross: autoDraw = True
+2835.1964 	EXP 	cross: autoDraw = False
+2835.1964 	EXP 	respp: autoDraw = True
+2836.3985 	EXP 	New trial (rep=0, index=385): OrderedDict([('Index', 386), ('audio', 'block10_trial26_attendright_leadmasker.wav')])
+2836.4136 	EXP 	respp: autoDraw = False
+2836.4302 	EXP 	cross: autoDraw = True
+2842.3019 	EXP 	cross: autoDraw = False
+2842.3019 	EXP 	respp: autoDraw = True
+2843.6877 	EXP 	New trial (rep=0, index=386): OrderedDict([('Index', 387), ('audio', 'block10_trial27_attendleft_leadtarget.wav')])
+2843.7026 	EXP 	respp: autoDraw = False
+2843.7195 	EXP 	cross: autoDraw = True
+2849.5913 	EXP 	cross: autoDraw = False
+2849.5913 	EXP 	respp: autoDraw = True
+2850.5435 	EXP 	New trial (rep=0, index=387): OrderedDict([('Index', 388), ('audio', 'block10_trial28_attendright_leadmasker.wav')])
+2850.5583 	EXP 	respp: autoDraw = False
+2850.5746 	EXP 	cross: autoDraw = True
+2856.4131 	EXP 	cross: autoDraw = False
+2856.4131 	EXP 	respp: autoDraw = True
+2857.7992 	EXP 	New trial (rep=0, index=388): OrderedDict([('Index', 389), ('audio', 'block10_trial29_attendright_leadtarget.wav')])
+2857.8139 	EXP 	respp: autoDraw = False
+2857.8305 	EXP 	cross: autoDraw = True
+2863.7024 	EXP 	cross: autoDraw = False
+2863.7024 	EXP 	respp: autoDraw = True
+2864.9214 	EXP 	New trial (rep=0, index=389): OrderedDict([('Index', 390), ('audio', 'block10_trial30_attendleft_leadtarget.wav')])
+2864.9367 	EXP 	respp: autoDraw = False
+2864.9533 	EXP 	cross: autoDraw = True
+2870.8078 	EXP 	cross: autoDraw = False
+2870.8078 	EXP 	respp: autoDraw = True
+2872.2773 	EXP 	New trial (rep=0, index=390): OrderedDict([('Index', 391), ('audio', 'block10_trial31_attendleft_leadtarget.wav')])
+2872.2920 	EXP 	respp: autoDraw = False
+2872.3094 	EXP 	cross: autoDraw = True
+2878.1475 	EXP 	cross: autoDraw = False
+2878.1475 	EXP 	respp: autoDraw = True
+2879.3502 	EXP 	New trial (rep=0, index=391): OrderedDict([('Index', 392), ('audio', 'block10_trial32_attendright_leadtarget.wav')])
+2879.3647 	EXP 	respp: autoDraw = False
+2879.3814 	EXP 	cross: autoDraw = True
+2885.2533 	EXP 	cross: autoDraw = False
+2885.2533 	EXP 	respp: autoDraw = True
+2886.3720 	EXP 	New trial (rep=0, index=392): OrderedDict([('Index', 393), ('audio', 'block10_trial33_attendright_leadmasker.wav')])
+2886.3872 	EXP 	respp: autoDraw = False
+2886.4037 	EXP 	cross: autoDraw = True
+2892.2752 	EXP 	cross: autoDraw = False
+2892.2752 	EXP 	respp: autoDraw = True
+2893.7119 	EXP 	New trial (rep=0, index=393): OrderedDict([('Index', 394), ('audio', 'block10_trial34_attendright_leadmasker.wav')])
+2893.7264 	EXP 	respp: autoDraw = False
+2893.7433 	EXP 	cross: autoDraw = True
+2899.5977 	EXP 	cross: autoDraw = False
+2899.5977 	EXP 	respp: autoDraw = True
+2900.6175 	EXP 	New trial (rep=0, index=394): OrderedDict([('Index', 395), ('audio', 'block10_trial35_attendleft_leadmasker.wav')])
+2900.6316 	EXP 	respp: autoDraw = False
+2900.6485 	EXP 	cross: autoDraw = True
+2906.5201 	EXP 	cross: autoDraw = False
+2906.5201 	EXP 	respp: autoDraw = True
+2907.8728 	EXP 	New trial (rep=0, index=395): OrderedDict([('Index', 396), ('audio', 'block10_trial36_attendright_leadmasker.wav')])
+2907.8875 	EXP 	respp: autoDraw = False
+2907.9048 	EXP 	cross: autoDraw = True
+2913.7755 	EXP 	cross: autoDraw = False
+2913.7755 	EXP 	respp: autoDraw = True
+2914.7622 	EXP 	New trial (rep=0, index=396): OrderedDict([('Index', 397), ('audio', 'block10_trial37_attendleft_leadtarget.wav')])
+2914.7765 	EXP 	respp: autoDraw = False
+2914.7933 	EXP 	cross: autoDraw = True
+2920.6477 	EXP 	cross: autoDraw = False
+2920.6477 	EXP 	respp: autoDraw = True
+2921.6008 	EXP 	New trial (rep=0, index=397): OrderedDict([('Index', 398), ('audio', 'block10_trial38_attendright_leadmasker.wav')])
+2921.6153 	EXP 	respp: autoDraw = False
+2921.6320 	EXP 	cross: autoDraw = True
+2927.5206 	EXP 	cross: autoDraw = False
+2927.5206 	EXP 	respp: autoDraw = True
+2928.4562 	EXP 	New trial (rep=0, index=398): OrderedDict([('Index', 399), ('audio', 'block10_trial39_attendleft_leadmasker.wav')])
+2928.4708 	EXP 	respp: autoDraw = False
+2928.4876 	EXP 	cross: autoDraw = True
+2934.3423 	EXP 	cross: autoDraw = False
+2934.3423 	EXP 	respp: autoDraw = True
+2935.8118 	EXP 	New trial (rep=0, index=399): OrderedDict([('Index', 400), ('audio', 'block10_trial40_attendright_leadmasker.wav')])
+2935.8265 	EXP 	respp: autoDraw = False
+2935.8433 	EXP 	cross: autoDraw = True
+2941.7318 	EXP 	cross: autoDraw = False
+2941.7318 	EXP 	respp: autoDraw = True
+2942.9825 	EXP 	respp: autoDraw = False
+2942.9826 	EXP 	Trial_mult: status = STOPPED
+2943.1415 	EXP 	window1: mouseVisible = True
