@@ -1,0 +1,90 @@
+3.5585 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+3.5586 	ERROR 	Failed to load any of the audioLibs: ['sounddevice']. Falling back to PsychToolbox ('ptb') backend for sound. Be sure to add 'ptb' to preferences to avoid seeing this message again.
+3.6830 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice'] (in that order).
+4.1043 	WARNING 	Requested audio device 'ASIO Fireface USB' that is not available on this hardware. The 'audioDevice' preference should be one of ['3 - DELL U2415 (AMD High Definition Audio Device)', '4 - DELL U2415 (AMD High Definition Audio Device)', 'ADAT (3+4) (RME Fireface UCX II)', 'ADAT (5+6) (RME Fireface UCX II)', 'ADAT (7+8) (RME Fireface UCX II)', 'AES (RME Fireface UCX II)', 'Analog (1+2) (RME Fireface UCX II)', 'Analog (3+4) (RME Fireface UCX II)', 'Analog (5+6) (RME Fireface UCX II)', 'SPDIF coax. (RME Fireface UCX II)', 'SPDIF/ADAT (1+2) (RME Fireface UCX II)', 'Speakers (RME Fireface UCX II)', 'Speakers/Headphones (Realtek(R) Audio)']
+14.7029 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A37A84BCD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A37A84BC70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A37A84BAF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A37ADBE550>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.7030 	EXP 	window1: mouseVisible = True
+14.7030 	EXP 	window1: backgroundImage = ''
+14.7030 	EXP 	window1: backgroundFit = 'none'
+14.7048 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.7049 	EXP 	window1: recordFrameIntervals = False
+14.8692 	EXP 	window1: recordFrameIntervals = True
+15.0530 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+15.0530 	EXP 	window1: recordFrameIntervals = False
+15.0531 	EXP 	window1: mouseVisible = False
+19.3306 	EXP 	Trial_mult: status = STARTED
+19.3311 	EXP 	window1: mouseVisible = True
+19.4198 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+19.4200 	EXP 	window1: mouseVisible = True
+19.4242 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+19.4244 	EXP 	window1: mouseVisible = True
+19.4329 	EXP 	Created breakk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakk', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+19.4331 	EXP 	window1: mouseVisible = True
+19.4466 	EXP 	Created respp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respp', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0607 	EXP 	Instructions: autoDraw = True
+2.2499 	EXP 	Imported C:\Users\Lab User\Documents\GitHub\Bash_Dash_Gash\Stimcode\Audio\700\audio_file_paths.csv as conditions, 12 conditions, 2 params
+2.2502 	EXP 	Created sequence: sequential, trialTypes=12, nReps=1, seed=None
+2.2504 	EXP 	New trial (rep=0, index=0): OrderedDict([('Index', 1), ('audio', 'block1_trial1_attendleft_leadmasker.wav')])
+2.2513 	DATA 	Keypress: space
+2.2613 	EXP 	Instructions: autoDraw = False
+2.2780 	EXP 	cross: autoDraw = True
+8.1494 	EXP 	cross: autoDraw = False
+8.1494 	EXP 	respp: autoDraw = True
+12.2535 	EXP 	New trial (rep=0, index=1): OrderedDict([('Index', 2), ('audio', 'block1_trial2_attendleft_leadtarget.wav')])
+12.2694 	EXP 	respp: autoDraw = False
+12.2861 	EXP 	cross: autoDraw = True
+18.1413 	EXP 	cross: autoDraw = False
+18.1413 	EXP 	respp: autoDraw = True
+22.2613 	EXP 	New trial (rep=0, index=2): OrderedDict([('Index', 3), ('audio', 'block1_trial3_attendright_leadmasker.wav')])
+22.2773 	EXP 	respp: autoDraw = False
+22.2940 	EXP 	cross: autoDraw = True
+28.1655 	EXP 	cross: autoDraw = False
+28.1655 	EXP 	respp: autoDraw = True
+32.2526 	EXP 	New trial (rep=0, index=3): OrderedDict([('Index', 4), ('audio', 'block1_trial4_attendright_leadtarget.wav')])
+32.2688 	EXP 	respp: autoDraw = False
+32.2855 	EXP 	cross: autoDraw = True
+38.1574 	EXP 	cross: autoDraw = False
+38.1574 	EXP 	respp: autoDraw = True
+42.2607 	EXP 	New trial (rep=0, index=4): OrderedDict([('Index', 5), ('audio', 'block1_trial5_attendright_leadtarget.wav')])
+42.2768 	EXP 	respp: autoDraw = False
+42.2935 	EXP 	cross: autoDraw = True
+48.1482 	EXP 	cross: autoDraw = False
+48.1482 	EXP 	respp: autoDraw = True
+52.2520 	EXP 	New trial (rep=0, index=5): OrderedDict([('Index', 6), ('audio', 'block1_trial6_attendleft_leadmasker.wav')])
+52.2681 	EXP 	respp: autoDraw = False
+52.2848 	EXP 	cross: autoDraw = True
+58.1233 	EXP 	cross: autoDraw = False
+58.1233 	EXP 	respp: autoDraw = True
+62.2601 	EXP 	New trial (rep=0, index=6): OrderedDict([('Index', 7), ('audio', 'block1_trial7_attendleft_leadtarget.wav')])
+62.2761 	EXP 	respp: autoDraw = False
+62.2929 	EXP 	cross: autoDraw = True
+68.1642 	EXP 	cross: autoDraw = False
+68.1642 	EXP 	respp: autoDraw = True
+72.2514 	EXP 	New trial (rep=0, index=7): OrderedDict([('Index', 8), ('audio', 'block1_trial8_attendleft_leadtarget.wav')])
+72.2675 	EXP 	respp: autoDraw = False
+72.2842 	EXP 	cross: autoDraw = True
+78.1393 	EXP 	cross: autoDraw = False
+78.1393 	EXP 	respp: autoDraw = True
+82.2594 	EXP 	New trial (rep=0, index=8): OrderedDict([('Index', 9), ('audio', 'block1_trial9_attendleft_leadmasker.wav')])
+82.2756 	EXP 	respp: autoDraw = False
+82.2922 	EXP 	cross: autoDraw = True
+88.1636 	EXP 	cross: autoDraw = False
+88.1636 	EXP 	respp: autoDraw = True
+92.2674 	EXP 	New trial (rep=0, index=9): OrderedDict([('Index', 10), ('audio', 'block1_trial10_attendright_leadtarget.wav')])
+92.2836 	EXP 	respp: autoDraw = False
+92.3002 	EXP 	cross: autoDraw = True
+98.1049 	EXP 	cross: autoDraw = False
+98.1049 	EXP 	respp: autoDraw = True
+102.2587 	EXP 	New trial (rep=0, index=10): OrderedDict([('Index', 11), ('audio', 'block1_trial11_attendright_leadmasker.wav')])
+102.2749 	EXP 	respp: autoDraw = False
+102.2916 	EXP 	cross: autoDraw = True
+108.1463 	EXP 	cross: autoDraw = False
+108.1463 	EXP 	respp: autoDraw = True
+112.2668 	EXP 	New trial (rep=0, index=11): OrderedDict([('Index', 12), ('audio', 'block1_trial12_attendright_leadmasker.wav')])
+112.2829 	EXP 	respp: autoDraw = False
+112.2996 	EXP 	cross: autoDraw = True
+118.1214 	EXP 	cross: autoDraw = False
+118.1214 	EXP 	respp: autoDraw = True
+122.2742 	EXP 	respp: autoDraw = False
+122.2743 	EXP 	Trial_mult: status = STOPPED
+122.3527 	EXP 	window1: mouseVisible = True

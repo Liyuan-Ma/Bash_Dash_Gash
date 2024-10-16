@@ -341,7 +341,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Instruction" ---
     Instructions = visual.TextStim(win=win, name='Instructions',
-        text='Instructions :\n\n“Press 1 for ‘ba’, 2 for ‘da’, and 3 for ‘ga’. \n\nPress space to begin.”\n',
+        text='Instructions :\n\n“Press 1 for ‘bash’, 2 for ‘dash’, and 3 for ‘gash’. \n\nPress space to begin.”\n',
         font='Open Sans',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -390,7 +390,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Responses" ---
     respp = visual.TextStim(win=win, name='respp',
-        text='PRESS 1- for BASH ,2 for DASH and 3 for GASH \n\nReport the sequence :\n\n    1                    2                   3\nBASH            DASH          GASH',
+        text='Report the sequence :\n\n    1                    2                   3\nBASH            DASH          GASH',
         font='Open Sans',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
