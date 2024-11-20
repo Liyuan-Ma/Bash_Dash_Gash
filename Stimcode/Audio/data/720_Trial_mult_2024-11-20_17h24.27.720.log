@@ -1,0 +1,3260 @@
+4.0666 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+4.0666 	ERROR 	Failed to load any of the audioLibs: ['sounddevice']. Falling back to PsychToolbox ('ptb') backend for sound. Be sure to add 'ptb' to preferences to avoid seeing this message again.
+4.1904 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice'] (in that order).
+4.6270 	WARNING 	Requested audio device 'ASIO Fireface USB' that is not available on this hardware. The 'audioDevice' preference should be one of ['3 - DELL U2415 (AMD High Definition Audio Device)', '4 - DELL U2415 (AMD High Definition Audio Device)', 'ADAT (3+4) (RME Fireface UCX II)', 'ADAT (5+6) (RME Fireface UCX II)', 'ADAT (7+8) (RME Fireface UCX II)', 'AES (RME Fireface UCX II)', 'Analog (1+2) (RME Fireface UCX II)', 'Analog (3+4) (RME Fireface UCX II)', 'Analog (5+6) (RME Fireface UCX II)', 'SPDIF coax. (RME Fireface UCX II)', 'SPDIF/ADAT (1+2) (RME Fireface UCX II)', 'Speakers (RME Fireface UCX II)', 'Speakers/Headphones (Realtek(R) Audio)']
+68.3901 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F6DDDDACD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F6DDDDAC70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F6DDDDAAF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F6DE34E580>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+68.3902 	EXP 	window1: mouseVisible = True
+68.3902 	EXP 	window1: backgroundImage = ''
+68.3903 	EXP 	window1: backgroundFit = 'none'
+68.3922 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+68.3922 	EXP 	window1: recordFrameIntervals = False
+68.5560 	EXP 	window1: recordFrameIntervals = True
+68.7396 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+68.7396 	EXP 	window1: recordFrameIntervals = False
+68.7397 	EXP 	window1: mouseVisible = False
+73.7479 	EXP 	Trial_mult: status = STARTED
+73.7485 	EXP 	window1: mouseVisible = True
+73.8401 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+73.8403 	EXP 	window1: mouseVisible = True
+73.8440 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+73.8442 	EXP 	window1: mouseVisible = True
+73.8520 	EXP 	Created breakk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakk', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+73.8521 	EXP 	window1: mouseVisible = True
+73.8640 	EXP 	Created respp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respp', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0468 	EXP 	Instructions: autoDraw = True
+4.9323 	EXP 	Imported C:\Users\Lab User\Documents\GitHub\Bash_Dash_Gash\Stimcode\Audio\720\audio_file_paths.csv as conditions, 400 conditions, 2 params
+4.9339 	EXP 	Created sequence: sequential, trialTypes=400, nReps=1, seed=None
+4.9341 	EXP 	New trial (rep=0, index=0): OrderedDict([('Index', 1), ('audio', 'block1_trial1_attendright_leadmasker.wav')])
+4.9351 	DATA 	Keypress: space
+4.9506 	EXP 	Instructions: autoDraw = False
+4.9669 	EXP 	cross: autoDraw = True
+10.7886 	EXP 	cross: autoDraw = False
+10.7886 	EXP 	respp: autoDraw = True
+11.6590 	DATA 	Keypress: 1
+12.4591 	DATA 	Keypress: 2
+12.7756 	DATA 	Keypress: 3
+12.7930 	EXP 	New trial (rep=0, index=1): OrderedDict([('Index', 2), ('audio', 'block1_trial2_attendright_leadmasker.wav')])
+12.8063 	EXP 	respp: autoDraw = False
+12.8231 	EXP 	cross: autoDraw = True
+18.6784 	EXP 	cross: autoDraw = False
+18.6784 	EXP 	respp: autoDraw = True
+20.8829 	DATA 	Keypress: 1
+21.2157 	DATA 	Keypress: 3
+21.3984 	EXP 	New trial (rep=0, index=2): OrderedDict([('Index', 3), ('audio', 'block1_trial3_attendright_leadtarget.wav')])
+21.3991 	DATA 	Keypress: 2
+21.4131 	EXP 	respp: autoDraw = False
+21.4305 	EXP 	cross: autoDraw = True
+27.2683 	EXP 	cross: autoDraw = False
+27.2683 	EXP 	respp: autoDraw = True
+28.5557 	DATA 	Keypress: 1
+29.1226 	DATA 	Keypress: 2
+29.2714 	EXP 	New trial (rep=0, index=3): OrderedDict([('Index', 4), ('audio', 'block1_trial4_attendright_leadmasker.wav')])
+29.2721 	DATA 	Keypress: 3
+29.2861 	EXP 	respp: autoDraw = False
+29.3037 	EXP 	cross: autoDraw = True
+35.1750 	EXP 	cross: autoDraw = False
+35.1750 	EXP 	respp: autoDraw = True
+37.2622 	DATA 	Keypress: 2
+37.4459 	DATA 	Keypress: 1
+37.5951 	EXP 	New trial (rep=0, index=4): OrderedDict([('Index', 5), ('audio', 'block1_trial5_attendright_leadmasker.wav')])
+37.5958 	DATA 	Keypress: 3
+37.6095 	EXP 	respp: autoDraw = False
+37.6264 	EXP 	cross: autoDraw = True
+43.4820 	EXP 	cross: autoDraw = False
+43.4820 	EXP 	respp: autoDraw = True
+44.9854 	DATA 	Keypress: 2
+45.4522 	DATA 	Keypress: 3
+45.6351 	EXP 	New trial (rep=0, index=5): OrderedDict([('Index', 6), ('audio', 'block1_trial6_attendleft_leadtarget.wav')])
+45.6358 	DATA 	Keypress: 1
+45.6493 	EXP 	respp: autoDraw = False
+45.6667 	EXP 	cross: autoDraw = True
+51.5212 	EXP 	cross: autoDraw = False
+51.5212 	EXP 	respp: autoDraw = True
+53.8591 	DATA 	Keypress: 3
+54.1427 	DATA 	Keypress: 2
+54.5257 	EXP 	New trial (rep=0, index=6): OrderedDict([('Index', 7), ('audio', 'block1_trial7_attendleft_leadtarget.wav')])
+54.5264 	DATA 	Keypress: 1
+54.5397 	EXP 	respp: autoDraw = False
+54.5567 	EXP 	cross: autoDraw = True
+60.4288 	EXP 	cross: autoDraw = False
+60.4288 	EXP 	respp: autoDraw = True
+61.4647 	DATA 	Keypress: 1
+63.2502 	DATA 	Keypress: 3
+63.4327 	EXP 	New trial (rep=0, index=7): OrderedDict([('Index', 8), ('audio', 'block1_trial8_attendleft_leadmasker.wav')])
+63.4334 	DATA 	Keypress: 2
+63.4469 	EXP 	respp: autoDraw = False
+63.4640 	EXP 	cross: autoDraw = True
+69.3517 	EXP 	cross: autoDraw = False
+69.3517 	EXP 	respp: autoDraw = True
+70.9391 	DATA 	Keypress: 2
+71.3394 	DATA 	Keypress: 1
+71.6564 	DATA 	Keypress: 3
+71.6720 	EXP 	New trial (rep=0, index=8): OrderedDict([('Index', 9), ('audio', 'block1_trial9_attendleft_leadmasker.wav')])
+71.6873 	EXP 	respp: autoDraw = False
+71.7040 	EXP 	cross: autoDraw = True
+77.5589 	EXP 	cross: autoDraw = False
+77.5589 	EXP 	respp: autoDraw = True
+79.3630 	DATA 	Keypress: 2
+79.8804 	DATA 	Keypress: 1
+80.1626 	EXP 	New trial (rep=0, index=9): OrderedDict([('Index', 10), ('audio', 'block1_trial10_attendright_leadtarget.wav')])
+80.1633 	DATA 	Keypress: 3
+80.1769 	EXP 	respp: autoDraw = False
+80.1937 	EXP 	cross: autoDraw = True
+86.0657 	EXP 	cross: autoDraw = False
+86.0657 	EXP 	respp: autoDraw = True
+87.3363 	DATA 	Keypress: 1
+88.5200 	DATA 	Keypress: 3
+88.7197 	EXP 	New trial (rep=0, index=10): OrderedDict([('Index', 11), ('audio', 'block1_trial11_attendright_leadmasker.wav')])
+88.7204 	DATA 	Keypress: 2
+88.7338 	EXP 	respp: autoDraw = False
+88.7510 	EXP 	cross: autoDraw = True
+94.6059 	EXP 	cross: autoDraw = False
+94.6059 	EXP 	respp: autoDraw = True
+97.2771 	DATA 	Keypress: 1
+97.5271 	DATA 	Keypress: 2
+97.6611 	DATA 	Keypress: 3
+97.7772 	EXP 	New trial (rep=0, index=11): OrderedDict([('Index', 12), ('audio', 'block1_trial12_attendleft_leadtarget.wav')])
+97.7915 	EXP 	respp: autoDraw = False
+97.8082 	EXP 	cross: autoDraw = True
+103.6634 	EXP 	cross: autoDraw = False
+103.6634 	EXP 	respp: autoDraw = True
+104.5994 	DATA 	Keypress: 1
+104.8500 	DATA 	Keypress: 3
+105.1329 	EXP 	New trial (rep=0, index=12): OrderedDict([('Index', 13), ('audio', 'block1_trial13_attendright_leadmasker.wav')])
+105.1336 	DATA 	Keypress: 2
+105.1470 	EXP 	respp: autoDraw = False
+105.1646 	EXP 	cross: autoDraw = True
+111.0027 	EXP 	cross: autoDraw = False
+111.0027 	EXP 	respp: autoDraw = True
+113.4905 	DATA 	Keypress: 2
+114.4235 	DATA 	Keypress: 2
+114.6079 	DATA 	Keypress: 3
+114.6230 	EXP 	New trial (rep=0, index=13): OrderedDict([('Index', 14), ('audio', 'block1_trial14_attendright_leadtarget.wav')])
+114.6385 	EXP 	respp: autoDraw = False
+114.6547 	EXP 	cross: autoDraw = True
+120.5271 	EXP 	cross: autoDraw = False
+120.5271 	EXP 	respp: autoDraw = True
+122.1136 	DATA 	Keypress: 2
+123.0473 	DATA 	Keypress: 1
+123.2807 	EXP 	New trial (rep=0, index=14): OrderedDict([('Index', 15), ('audio', 'block1_trial15_attendleft_leadmasker.wav')])
+123.2814 	DATA 	Keypress: 3
+123.2949 	EXP 	respp: autoDraw = False
+123.3120 	EXP 	cross: autoDraw = True
+129.1666 	EXP 	cross: autoDraw = False
+129.1666 	EXP 	respp: autoDraw = True
+131.3379 	DATA 	Keypress: 2
+131.5380 	DATA 	Keypress: 3
+131.7204 	EXP 	New trial (rep=0, index=15): OrderedDict([('Index', 16), ('audio', 'block1_trial16_attendleft_leadmasker.wav')])
+131.7211 	DATA 	Keypress: 1
+131.7350 	EXP 	respp: autoDraw = False
+131.7522 	EXP 	cross: autoDraw = True
+137.6570 	EXP 	cross: autoDraw = False
+137.6570 	EXP 	respp: autoDraw = True
+139.2106 	DATA 	Keypress: 2
+139.9116 	DATA 	Keypress: 3
+140.3779 	EXP 	New trial (rep=0, index=16): OrderedDict([('Index', 17), ('audio', 'block1_trial17_attendleft_leadtarget.wav')])
+140.3786 	DATA 	Keypress: 1
+140.3919 	EXP 	respp: autoDraw = False
+140.4090 	EXP 	cross: autoDraw = True
+146.2473 	EXP 	cross: autoDraw = False
+146.2473 	EXP 	respp: autoDraw = True
+147.2175 	DATA 	Keypress: 3
+147.9837 	DATA 	Keypress: 2
+148.8178 	EXP 	New trial (rep=0, index=17): OrderedDict([('Index', 18), ('audio', 'block1_trial18_attendleft_leadtarget.wav')])
+148.8185 	DATA 	Keypress: 1
+148.8320 	EXP 	respp: autoDraw = False
+148.8491 	EXP 	cross: autoDraw = True
+154.7043 	EXP 	cross: autoDraw = False
+154.7043 	EXP 	respp: autoDraw = True
+155.8739 	DATA 	Keypress: 2
+156.3415 	DATA 	Keypress: 3
+156.7739 	EXP 	New trial (rep=0, index=18): OrderedDict([('Index', 19), ('audio', 'block1_trial19_attendright_leadtarget.wav')])
+156.7746 	DATA 	Keypress: 1
+156.7884 	EXP 	respp: autoDraw = False
+156.8056 	EXP 	cross: autoDraw = True
+162.6940 	EXP 	cross: autoDraw = False
+162.6940 	EXP 	respp: autoDraw = True
+163.6805 	DATA 	Keypress: 1
+163.9135 	DATA 	Keypress: 2
+164.0811 	DATA 	Keypress: 3
+164.2133 	EXP 	New trial (rep=0, index=19): OrderedDict([('Index', 20), ('audio', 'block1_trial20_attendright_leadtarget.wav')])
+164.2285 	EXP 	respp: autoDraw = False
+164.2449 	EXP 	cross: autoDraw = True
+170.1161 	EXP 	cross: autoDraw = False
+170.1161 	EXP 	respp: autoDraw = True
+171.3366 	DATA 	Keypress: 2
+171.7372 	DATA 	Keypress: 3
+172.0698 	EXP 	New trial (rep=0, index=20): OrderedDict([('Index', 21), ('audio', 'block1_trial21_attendright_leadtarget.wav')])
+172.0705 	DATA 	Keypress: 1
+172.0840 	EXP 	respp: autoDraw = False
+172.1011 	EXP 	cross: autoDraw = True
+177.9726 	EXP 	cross: autoDraw = False
+177.9726 	EXP 	respp: autoDraw = True
+178.8756 	DATA 	Keypress: 2
+179.3765 	DATA 	Keypress: 3
+179.6265 	EXP 	New trial (rep=0, index=21): OrderedDict([('Index', 22), ('audio', 'block1_trial22_attendright_leadmasker.wav')])
+179.6273 	DATA 	Keypress: 1
+179.6401 	EXP 	respp: autoDraw = False
+179.6572 	EXP 	cross: autoDraw = True
+185.5286 	EXP 	cross: autoDraw = False
+185.5286 	EXP 	respp: autoDraw = True
+188.1501 	DATA 	Keypress: 3
+188.5999 	DATA 	Keypress: 2
+189.3497 	EXP 	New trial (rep=0, index=22): OrderedDict([('Index', 23), ('audio', 'block1_trial23_attendright_leadmasker.wav')])
+189.3504 	DATA 	Keypress: 1
+189.3644 	EXP 	respp: autoDraw = False
+189.3815 	EXP 	cross: autoDraw = True
+195.2363 	EXP 	cross: autoDraw = False
+195.2363 	EXP 	respp: autoDraw = True
+196.0896 	DATA 	Keypress: 1
+196.2229 	DATA 	Keypress: 2
+196.3570 	DATA 	Keypress: 3
+196.5058 	EXP 	New trial (rep=0, index=23): OrderedDict([('Index', 24), ('audio', 'block1_trial24_attendright_leadtarget.wav')])
+196.5205 	EXP 	respp: autoDraw = False
+196.5375 	EXP 	cross: autoDraw = True
+202.3922 	EXP 	cross: autoDraw = False
+202.3922 	EXP 	respp: autoDraw = True
+203.2458 	DATA 	Keypress: 2
+203.5790 	DATA 	Keypress: 1
+203.8120 	EXP 	New trial (rep=0, index=24): OrderedDict([('Index', 25), ('audio', 'block1_trial25_attendright_leadtarget.wav')])
+203.8128 	DATA 	Keypress: 3
+203.8262 	EXP 	respp: autoDraw = False
+203.8435 	EXP 	cross: autoDraw = True
+209.6813 	EXP 	cross: autoDraw = False
+209.6813 	EXP 	respp: autoDraw = True
+211.1515 	DATA 	Keypress: 1
+212.2026 	DATA 	Keypress: 2
+212.4018 	EXP 	New trial (rep=0, index=25): OrderedDict([('Index', 26), ('audio', 'block1_trial26_attendleft_leadmasker.wav')])
+212.4026 	DATA 	Keypress: 3
+212.4163 	EXP 	respp: autoDraw = False
+212.4332 	EXP 	cross: autoDraw = True
+218.2711 	EXP 	cross: autoDraw = False
+218.2711 	EXP 	respp: autoDraw = True
+220.6265 	DATA 	Keypress: 2
+221.6266 	DATA 	Keypress: 1
+221.8598 	EXP 	New trial (rep=0, index=26): OrderedDict([('Index', 27), ('audio', 'block1_trial27_attendleft_leadmasker.wav')])
+221.8605 	DATA 	Keypress: 3
+221.8740 	EXP 	respp: autoDraw = False
+221.8912 	EXP 	cross: autoDraw = True
+227.7454 	EXP 	cross: autoDraw = False
+227.7454 	EXP 	respp: autoDraw = True
+229.5501 	DATA 	Keypress: 2
+230.7511 	DATA 	Keypress: 3
+231.4504 	EXP 	New trial (rep=0, index=27): OrderedDict([('Index', 28), ('audio', 'block1_trial28_attendleft_leadtarget.wav')])
+231.4512 	DATA 	Keypress: 1
+231.4650 	EXP 	respp: autoDraw = False
+231.4818 	EXP 	cross: autoDraw = True
+237.3706 	EXP 	cross: autoDraw = False
+237.3706 	EXP 	respp: autoDraw = True
+238.1567 	DATA 	Keypress: 3
+238.8739 	DATA 	Keypress: 2
+239.3408 	EXP 	New trial (rep=0, index=28): OrderedDict([('Index', 29), ('audio', 'block1_trial29_attendright_leadmasker.wav')])
+239.3415 	DATA 	Keypress: 1
+239.3546 	EXP 	respp: autoDraw = False
+239.3716 	EXP 	cross: autoDraw = True
+245.2103 	EXP 	cross: autoDraw = False
+245.2103 	EXP 	respp: autoDraw = True
+246.4634 	DATA 	Keypress: 3
+248.2316 	DATA 	Keypress: 2
+248.4311 	EXP 	New trial (rep=0, index=29): OrderedDict([('Index', 30), ('audio', 'block1_trial30_attendright_leadtarget.wav')])
+248.4318 	DATA 	Keypress: 1
+248.4453 	EXP 	respp: autoDraw = False
+248.4622 	EXP 	cross: autoDraw = True
+254.3175 	EXP 	cross: autoDraw = False
+254.3175 	EXP 	respp: autoDraw = True
+256.3045 	DATA 	Keypress: 3
+256.7212 	DATA 	Keypress: 1
+256.8880 	DATA 	Keypress: 2
+256.9039 	EXP 	New trial (rep=0, index=30): OrderedDict([('Index', 31), ('audio', 'block1_trial31_attendleft_leadtarget.wav')])
+256.9190 	EXP 	respp: autoDraw = False
+256.9355 	EXP 	cross: autoDraw = True
+262.8071 	EXP 	cross: autoDraw = False
+262.8071 	EXP 	respp: autoDraw = True
+263.3433 	DATA 	Keypress: 1
+263.5105 	DATA 	Keypress: 2
+263.6269 	DATA 	Keypress: 3
+263.7601 	EXP 	New trial (rep=0, index=31): OrderedDict([('Index', 32), ('audio', 'block1_trial32_attendleft_leadtarget.wav')])
+263.7748 	EXP 	respp: autoDraw = False
+263.7911 	EXP 	cross: autoDraw = True
+269.6456 	EXP 	cross: autoDraw = False
+269.6456 	EXP 	respp: autoDraw = True
+270.3991 	DATA 	Keypress: 2
+270.9665 	DATA 	Keypress: 1
+271.4996 	EXP 	New trial (rep=0, index=32): OrderedDict([('Index', 33), ('audio', 'block1_trial33_attendleft_leadmasker.wav')])
+271.5004 	DATA 	Keypress: 3
+271.5139 	EXP 	respp: autoDraw = False
+271.5308 	EXP 	cross: autoDraw = True
+277.3855 	EXP 	cross: autoDraw = False
+277.3855 	EXP 	respp: autoDraw = True
+278.3728 	DATA 	Keypress: 2
+278.9226 	DATA 	Keypress: 3
+279.0722 	EXP 	New trial (rep=0, index=33): OrderedDict([('Index', 34), ('audio', 'block1_trial34_attendright_leadtarget.wav')])
+279.0729 	DATA 	Keypress: 1
+279.0868 	EXP 	respp: autoDraw = False
+279.1038 	EXP 	cross: autoDraw = True
+284.9579 	EXP 	cross: autoDraw = False
+284.9579 	EXP 	respp: autoDraw = True
+285.9954 	DATA 	Keypress: 2
+286.5453 	DATA 	Keypress: 1
+287.3289 	EXP 	New trial (rep=0, index=34): OrderedDict([('Index', 35), ('audio', 'block1_trial35_attendright_leadmasker.wav')])
+287.3296 	DATA 	Keypress: 3
+287.3436 	EXP 	respp: autoDraw = False
+287.3606 	EXP 	cross: autoDraw = True
+293.2321 	EXP 	cross: autoDraw = False
+293.2321 	EXP 	respp: autoDraw = True
+295.3197 	DATA 	Keypress: 3
+296.7035 	DATA 	Keypress: 1
+296.9200 	EXP 	New trial (rep=0, index=35): OrderedDict([('Index', 36), ('audio', 'block1_trial36_attendleft_leadmasker.wav')])
+296.9207 	DATA 	Keypress: 2
+296.9345 	EXP 	respp: autoDraw = False
+296.9513 	EXP 	cross: autoDraw = True
+302.7893 	EXP 	cross: autoDraw = False
+302.7893 	EXP 	respp: autoDraw = True
+303.7427 	DATA 	Keypress: 3
+305.1102 	DATA 	Keypress: 1
+305.3099 	EXP 	New trial (rep=0, index=36): OrderedDict([('Index', 37), ('audio', 'block1_trial37_attendleft_leadtarget.wav')])
+305.3106 	DATA 	Keypress: 2
+305.3249 	EXP 	respp: autoDraw = False
+305.3415 	EXP 	cross: autoDraw = True
+311.1958 	EXP 	cross: autoDraw = False
+311.1958 	EXP 	respp: autoDraw = True
+312.0664 	DATA 	Keypress: 3
+312.3993 	DATA 	Keypress: 2
+312.7829 	EXP 	New trial (rep=0, index=37): OrderedDict([('Index', 38), ('audio', 'block1_trial38_attendleft_leadmasker.wav')])
+312.7836 	DATA 	Keypress: 1
+312.7970 	EXP 	respp: autoDraw = False
+312.8138 	EXP 	cross: autoDraw = True
+318.6851 	EXP 	cross: autoDraw = False
+318.6851 	EXP 	respp: autoDraw = True
+319.6050 	DATA 	Keypress: 3
+320.2229 	DATA 	Keypress: 1
+320.5388 	EXP 	New trial (rep=0, index=38): OrderedDict([('Index', 39), ('audio', 'block1_trial39_attendleft_leadtarget.wav')])
+320.5395 	DATA 	Keypress: 2
+320.5533 	EXP 	respp: autoDraw = False
+320.5701 	EXP 	cross: autoDraw = True
+326.4414 	EXP 	cross: autoDraw = False
+326.4414 	EXP 	respp: autoDraw = True
+327.5952 	DATA 	Keypress: 1
+328.0627 	DATA 	Keypress: 3
+328.2621 	EXP 	New trial (rep=0, index=39): OrderedDict([('Index', 40), ('audio', 'block1_trial40_attendleft_leadmasker.wav')])
+328.2629 	DATA 	Keypress: 2
+328.2764 	EXP 	respp: autoDraw = False
+328.2933 	EXP 	cross: autoDraw = True
+334.1476 	EXP 	cross: autoDraw = False
+334.1476 	EXP 	respp: autoDraw = True
+336.6524 	DATA 	Keypress: 2
+336.8526 	DATA 	Keypress: 1
+337.0359 	EXP 	New trial (rep=0, index=40): OrderedDict([('Index', 41), ('audio', 'block2_trial1_attendleft_leadmasker.wav')])
+337.0380 	DATA 	Keypress: 3
+337.0501 	EXP 	respp: autoDraw = False
+337.0501 	EXP 	breakk: autoDraw = True
+416.4662 	DATA 	Keypress: space
+416.4969 	EXP 	breakk: autoDraw = False
+416.5141 	EXP 	cross: autoDraw = True
+422.3685 	EXP 	cross: autoDraw = False
+422.3685 	EXP 	respp: autoDraw = True
+424.3230 	DATA 	Keypress: 1
+425.2068 	DATA 	Keypress: 3
+425.7898 	EXP 	New trial (rep=0, index=41): OrderedDict([('Index', 42), ('audio', 'block2_trial2_attendleft_leadtarget.wav')])
+425.7906 	DATA 	Keypress: 1
+425.8044 	EXP 	respp: autoDraw = False
+425.8216 	EXP 	cross: autoDraw = True
+431.6595 	EXP 	cross: autoDraw = False
+431.6595 	EXP 	respp: autoDraw = True
+432.1958 	DATA 	Keypress: 2
+432.3788 	DATA 	Keypress: 2
+432.6124 	EXP 	New trial (rep=0, index=42): OrderedDict([('Index', 43), ('audio', 'block2_trial3_attendright_leadtarget.wav')])
+432.6131 	DATA 	Keypress: 1
+432.6267 	EXP 	respp: autoDraw = False
+432.6437 	EXP 	cross: autoDraw = True
+438.4986 	EXP 	cross: autoDraw = False
+438.4986 	EXP 	respp: autoDraw = True
+439.5350 	DATA 	Keypress: 3
+440.1017 	DATA 	Keypress: 1
+441.4188 	EXP 	New trial (rep=0, index=43): OrderedDict([('Index', 44), ('audio', 'block2_trial4_attendright_leadtarget.wav')])
+441.4195 	DATA 	Keypress: 1
+441.4342 	EXP 	respp: autoDraw = False
+441.4506 	EXP 	cross: autoDraw = True
+447.3219 	EXP 	cross: autoDraw = False
+447.3219 	EXP 	respp: autoDraw = True
+447.8250 	DATA 	Keypress: 2
+448.1084 	DATA 	Keypress: 3
+448.3078 	EXP 	New trial (rep=0, index=44): OrderedDict([('Index', 45), ('audio', 'block2_trial5_attendright_leadtarget.wav')])
+448.3085 	DATA 	Keypress: 3
+448.3231 	EXP 	respp: autoDraw = False
+448.3394 	EXP 	cross: autoDraw = True
+454.1943 	EXP 	cross: autoDraw = False
+454.1943 	EXP 	respp: autoDraw = True
+454.7803 	DATA 	Keypress: 2
+455.0971 	DATA 	Keypress: 3
+455.3637 	EXP 	New trial (rep=0, index=45): OrderedDict([('Index', 46), ('audio', 'block2_trial6_attendright_leadmasker.wav')])
+455.3644 	DATA 	Keypress: 3
+455.3784 	EXP 	respp: autoDraw = False
+455.3952 	EXP 	cross: autoDraw = True
+461.2501 	EXP 	cross: autoDraw = False
+461.2501 	EXP 	respp: autoDraw = True
+462.1365 	DATA 	Keypress: 3
+462.4529 	DATA 	Keypress: 2
+462.6532 	EXP 	New trial (rep=0, index=46): OrderedDict([('Index', 47), ('audio', 'block2_trial7_attendright_leadtarget.wav')])
+462.6539 	DATA 	Keypress: 2
+462.6673 	EXP 	respp: autoDraw = False
+462.6842 	EXP 	cross: autoDraw = True
+468.5397 	EXP 	cross: autoDraw = False
+468.5397 	EXP 	respp: autoDraw = True
+469.1589 	DATA 	Keypress: 1
+469.3760 	DATA 	Keypress: 1
+469.6754 	EXP 	New trial (rep=0, index=47): OrderedDict([('Index', 48), ('audio', 'block2_trial8_attendright_leadmasker.wav')])
+469.6761 	DATA 	Keypress: 2
+469.6901 	EXP 	respp: autoDraw = False
+469.7069 	EXP 	cross: autoDraw = True
+475.5444 	EXP 	cross: autoDraw = False
+475.5444 	EXP 	respp: autoDraw = True
+477.5157 	DATA 	Keypress: 3
+477.8155 	DATA 	Keypress: 2
+477.9820 	EXP 	New trial (rep=0, index=48): OrderedDict([('Index', 49), ('audio', 'block2_trial9_attendright_leadtarget.wav')])
+477.9827 	DATA 	Keypress: 3
+477.9963 	EXP 	respp: autoDraw = False
+478.0130 	EXP 	cross: autoDraw = True
+483.8679 	EXP 	cross: autoDraw = False
+483.8679 	EXP 	respp: autoDraw = True
+484.7880 	DATA 	Keypress: 3
+485.0718 	DATA 	Keypress: 2
+485.2377 	EXP 	New trial (rep=0, index=49): OrderedDict([('Index', 50), ('audio', 'block2_trial10_attendleft_leadmasker.wav')])
+485.2385 	DATA 	Keypress: 2
+485.2524 	EXP 	respp: autoDraw = False
+485.2687 	EXP 	cross: autoDraw = True
+491.1572 	EXP 	cross: autoDraw = False
+491.1572 	EXP 	respp: autoDraw = True
+491.8099 	DATA 	Keypress: 2
+492.1105 	DATA 	Keypress: 2
+492.3770 	DATA 	Keypress: 2
+492.3932 	EXP 	New trial (rep=0, index=50): OrderedDict([('Index', 51), ('audio', 'block2_trial11_attendleft_leadmasker.wav')])
+492.4084 	EXP 	respp: autoDraw = False
+492.4249 	EXP 	cross: autoDraw = True
+498.3130 	EXP 	cross: autoDraw = False
+498.3130 	EXP 	respp: autoDraw = True
+498.9654 	DATA 	Keypress: 1
+499.1328 	DATA 	Keypress: 2
+499.2989 	EXP 	New trial (rep=0, index=51): OrderedDict([('Index', 52), ('audio', 'block2_trial12_attendleft_leadmasker.wav')])
+499.2998 	DATA 	Keypress: 3
+499.3137 	EXP 	respp: autoDraw = False
+499.3305 	EXP 	cross: autoDraw = True
+505.1848 	EXP 	cross: autoDraw = False
+505.1848 	EXP 	respp: autoDraw = True
+505.9554 	DATA 	Keypress: 3
+506.3554 	DATA 	Keypress: 2
+506.7047 	EXP 	New trial (rep=0, index=52): OrderedDict([('Index', 53), ('audio', 'block2_trial13_attendright_leadmasker.wav')])
+506.7054 	DATA 	Keypress: 3
+506.7195 	EXP 	respp: autoDraw = False
+506.7363 	EXP 	cross: autoDraw = True
+512.6083 	EXP 	cross: autoDraw = False
+512.6083 	EXP 	respp: autoDraw = True
+513.6111 	DATA 	Keypress: 3
+514.5123 	DATA 	Keypress: 1
+514.7779 	EXP 	New trial (rep=0, index=53): OrderedDict([('Index', 54), ('audio', 'block2_trial14_attendright_leadmasker.wav')])
+514.7786 	DATA 	Keypress: 1
+514.7930 	EXP 	respp: autoDraw = False
+514.8092 	EXP 	cross: autoDraw = True
+520.6808 	EXP 	cross: autoDraw = False
+520.6808 	EXP 	respp: autoDraw = True
+522.5516 	DATA 	Keypress: 1
+524.3199 	DATA 	Keypress: 2
+524.6365 	EXP 	New trial (rep=0, index=54): OrderedDict([('Index', 55), ('audio', 'block2_trial15_attendleft_leadmasker.wav')])
+524.6373 	DATA 	Keypress: 3
+524.6509 	EXP 	respp: autoDraw = False
+524.6675 	EXP 	cross: autoDraw = True
+530.5393 	EXP 	cross: autoDraw = False
+530.5393 	EXP 	respp: autoDraw = True
+531.5591 	DATA 	Keypress: 3
+532.1593 	DATA 	Keypress: 2
+532.5932 	DATA 	Keypress: 1
+532.6096 	EXP 	New trial (rep=0, index=55): OrderedDict([('Index', 56), ('audio', 'block2_trial16_attendleft_leadtarget.wav')])
+532.6237 	EXP 	respp: autoDraw = False
+532.6401 	EXP 	cross: autoDraw = True
+538.5118 	EXP 	cross: autoDraw = False
+538.5118 	EXP 	respp: autoDraw = True
+538.9985 	DATA 	Keypress: 2
+539.4488 	DATA 	Keypress: 2
+540.2319 	DATA 	Keypress: 3
+540.2482 	EXP 	New trial (rep=0, index=56): OrderedDict([('Index', 57), ('audio', 'block2_trial17_attendleft_leadmasker.wav')])
+540.2631 	EXP 	respp: autoDraw = False
+540.2798 	EXP 	cross: autoDraw = True
+546.1351 	EXP 	cross: autoDraw = False
+546.1351 	EXP 	respp: autoDraw = True
+547.0547 	DATA 	Keypress: 2
+547.4714 	DATA 	Keypress: 1
+547.7041 	EXP 	New trial (rep=0, index=57): OrderedDict([('Index', 58), ('audio', 'block2_trial18_attendleft_leadtarget.wav')])
+547.7048 	DATA 	Keypress: 3
+547.7187 	EXP 	respp: autoDraw = False
+547.7354 	EXP 	cross: autoDraw = True
+553.6073 	EXP 	cross: autoDraw = False
+553.6073 	EXP 	respp: autoDraw = True
+554.0767 	DATA 	Keypress: 1
+554.3271 	DATA 	Keypress: 1
+554.5766 	EXP 	New trial (rep=0, index=58): OrderedDict([('Index', 59), ('audio', 'block2_trial19_attendleft_leadmasker.wav')])
+554.5773 	DATA 	Keypress: 2
+554.5914 	EXP 	respp: autoDraw = False
+554.6077 	EXP 	cross: autoDraw = True
+560.4796 	EXP 	cross: autoDraw = False
+560.4796 	EXP 	respp: autoDraw = True
+561.4827 	DATA 	Keypress: 2
+561.8500 	DATA 	Keypress: 2
+562.1667 	DATA 	Keypress: 2
+562.1825 	EXP 	New trial (rep=0, index=59): OrderedDict([('Index', 60), ('audio', 'block2_trial20_attendright_leadmasker.wav')])
+562.1975 	EXP 	respp: autoDraw = False
+562.2140 	EXP 	cross: autoDraw = True
+568.0521 	EXP 	cross: autoDraw = False
+568.0521 	EXP 	respp: autoDraw = True
+568.5224 	DATA 	Keypress: 3
+568.7392 	DATA 	Keypress: 3
+568.9376 	EXP 	New trial (rep=0, index=60): OrderedDict([('Index', 61), ('audio', 'block2_trial21_attendright_leadtarget.wav')])
+568.9383 	DATA 	Keypress: 1
+568.9529 	EXP 	respp: autoDraw = False
+568.9697 	EXP 	cross: autoDraw = True
+574.8417 	EXP 	cross: autoDraw = False
+574.8417 	EXP 	respp: autoDraw = True
+575.3939 	DATA 	Keypress: 1
+575.6277 	DATA 	Keypress: 2
+577.4961 	DATA 	Keypress: 3
+577.5121 	EXP 	New trial (rep=0, index=61): OrderedDict([('Index', 62), ('audio', 'block2_trial22_attendleft_leadtarget.wav')])
+577.5264 	EXP 	respp: autoDraw = False
+577.5434 	EXP 	cross: autoDraw = True
+583.4317 	EXP 	cross: autoDraw = False
+583.4317 	EXP 	respp: autoDraw = True
+584.3512 	DATA 	Keypress: 3
+584.6848 	DATA 	Keypress: 2
+585.0011 	EXP 	New trial (rep=0, index=62): OrderedDict([('Index', 63), ('audio', 'block2_trial23_attendleft_leadtarget.wav')])
+585.0018 	DATA 	Keypress: 3
+585.0158 	EXP 	respp: autoDraw = False
+585.0322 	EXP 	cross: autoDraw = True
+590.9047 	EXP 	cross: autoDraw = False
+590.9047 	EXP 	respp: autoDraw = True
+591.4237 	DATA 	Keypress: 2
+592.1906 	DATA 	Keypress: 2
+594.0416 	EXP 	New trial (rep=0, index=63): OrderedDict([('Index', 64), ('audio', 'block2_trial24_attendleft_leadtarget.wav')])
+594.0423 	DATA 	Keypress: 1
+594.0563 	EXP 	respp: autoDraw = False
+594.0728 	EXP 	cross: autoDraw = True
+599.9113 	EXP 	cross: autoDraw = False
+599.9113 	EXP 	respp: autoDraw = True
+600.4641 	DATA 	Keypress: 2
+600.7977 	DATA 	Keypress: 1
+601.0310 	EXP 	New trial (rep=0, index=64): OrderedDict([('Index', 65), ('audio', 'block2_trial25_attendright_leadmasker.wav')])
+601.0317 	DATA 	Keypress: 2
+601.0454 	EXP 	respp: autoDraw = False
+601.0620 	EXP 	cross: autoDraw = True
+606.9166 	EXP 	cross: autoDraw = False
+606.9166 	EXP 	respp: autoDraw = True
+607.4027 	DATA 	Keypress: 2
+607.8368 	DATA 	Keypress: 3
+608.1700 	DATA 	Keypress: 3
+611.0371 	EXP 	New trial (rep=0, index=65): OrderedDict([('Index', 66), ('audio', 'block2_trial26_attendright_leadmasker.wav')])
+611.0536 	EXP 	respp: autoDraw = False
+611.0700 	EXP 	cross: autoDraw = True
+616.9086 	EXP 	cross: autoDraw = False
+616.9086 	EXP 	respp: autoDraw = True
+618.0281 	DATA 	Keypress: 3
+618.6119 	DATA 	Keypress: 1
+618.9448 	EXP 	New trial (rep=0, index=66): OrderedDict([('Index', 67), ('audio', 'block2_trial27_attendright_leadtarget.wav')])
+618.9455 	DATA 	Keypress: 2
+618.9594 	EXP 	respp: autoDraw = False
+618.9760 	EXP 	cross: autoDraw = True
+624.8478 	EXP 	cross: autoDraw = False
+624.8478 	EXP 	respp: autoDraw = True
+625.2504 	DATA 	Keypress: 2
+625.4514 	DATA 	Keypress: 2
+625.7008 	EXP 	New trial (rep=0, index=67): OrderedDict([('Index', 68), ('audio', 'block2_trial28_attendleft_leadmasker.wav')])
+625.7015 	DATA 	Keypress: 3
+625.7148 	EXP 	respp: autoDraw = False
+625.7318 	EXP 	cross: autoDraw = True
+631.5870 	EXP 	cross: autoDraw = False
+631.5870 	EXP 	respp: autoDraw = True
+632.6562 	DATA 	Keypress: 2
+634.5751 	DATA 	Keypress: 1
+635.0573 	EXP 	New trial (rep=0, index=68): OrderedDict([('Index', 69), ('audio', 'block2_trial29_attendright_leadtarget.wav')])
+635.0580 	DATA 	Keypress: 1
+635.0726 	EXP 	respp: autoDraw = False
+635.0896 	EXP 	cross: autoDraw = True
+640.9605 	EXP 	cross: autoDraw = False
+640.9605 	EXP 	respp: autoDraw = True
+642.3480 	DATA 	Keypress: 2
+642.6476 	DATA 	Keypress: 2
+643.3816 	EXP 	New trial (rep=0, index=69): OrderedDict([('Index', 70), ('audio', 'block2_trial30_attendleft_leadtarget.wav')])
+643.3823 	DATA 	Keypress: 2
+643.3961 	EXP 	respp: autoDraw = False
+643.4129 	EXP 	cross: autoDraw = True
+649.2852 	EXP 	cross: autoDraw = False
+649.2852 	EXP 	respp: autoDraw = True
+650.1376 	DATA 	Keypress: 2
+650.4713 	DATA 	Keypress: 3
+650.6707 	EXP 	New trial (rep=0, index=70): OrderedDict([('Index', 71), ('audio', 'block2_trial31_attendright_leadmasker.wav')])
+650.6714 	DATA 	Keypress: 1
+650.6848 	EXP 	respp: autoDraw = False
+650.7018 	EXP 	cross: autoDraw = True
+656.5737 	EXP 	cross: autoDraw = False
+656.5737 	EXP 	respp: autoDraw = True
+657.1591 	DATA 	Keypress: 2
+657.5268 	DATA 	Keypress: 1
+657.7932 	EXP 	New trial (rep=0, index=71): OrderedDict([('Index', 72), ('audio', 'block2_trial32_attendleft_leadtarget.wav')])
+657.7939 	DATA 	Keypress: 1
+657.8077 	EXP 	respp: autoDraw = False
+657.8243 	EXP 	cross: autoDraw = True
+663.6788 	EXP 	cross: autoDraw = False
+663.6788 	EXP 	respp: autoDraw = True
+664.4483 	DATA 	Keypress: 3
+664.7993 	DATA 	Keypress: 2
+665.0152 	EXP 	New trial (rep=0, index=72): OrderedDict([('Index', 73), ('audio', 'block2_trial33_attendright_leadtarget.wav')])
+665.0159 	DATA 	Keypress: 2
+665.0299 	EXP 	respp: autoDraw = False
+665.0464 	EXP 	cross: autoDraw = True
+670.9185 	EXP 	cross: autoDraw = False
+670.9185 	EXP 	respp: autoDraw = True
+671.7714 	DATA 	Keypress: 3
+672.3055 	DATA 	Keypress: 3
+672.9549 	EXP 	New trial (rep=0, index=73): OrderedDict([('Index', 74), ('audio', 'block2_trial34_attendright_leadtarget.wav')])
+672.9556 	DATA 	Keypress: 1
+672.9699 	EXP 	respp: autoDraw = False
+672.9863 	EXP 	cross: autoDraw = True
+678.8580 	EXP 	cross: autoDraw = False
+678.8580 	EXP 	respp: autoDraw = True
+679.5613 	DATA 	Keypress: 1
+679.7278 	DATA 	Keypress: 2
+679.9114 	DATA 	Keypress: 3
+680.0272 	EXP 	New trial (rep=0, index=74): OrderedDict([('Index', 75), ('audio', 'block2_trial35_attendright_leadmasker.wav')])
+680.0417 	EXP 	respp: autoDraw = False
+680.0591 	EXP 	cross: autoDraw = True
+685.9132 	EXP 	cross: autoDraw = False
+685.9132 	EXP 	respp: autoDraw = True
+686.3998 	DATA 	Keypress: 3
+686.5995 	DATA 	Keypress: 3
+686.7663 	EXP 	New trial (rep=0, index=75): OrderedDict([('Index', 76), ('audio', 'block2_trial36_attendleft_leadtarget.wav')])
+686.7670 	DATA 	Keypress: 1
+686.7809 	EXP 	respp: autoDraw = False
+686.7976 	EXP 	cross: autoDraw = True
+692.6525 	EXP 	cross: autoDraw = False
+692.6525 	EXP 	respp: autoDraw = True
+693.3219 	DATA 	Keypress: 3
+693.6385 	DATA 	Keypress: 2
+693.9217 	EXP 	New trial (rep=0, index=76): OrderedDict([('Index', 77), ('audio', 'block2_trial37_attendleft_leadmasker.wav')])
+693.9224 	DATA 	Keypress: 3
+693.9365 	EXP 	respp: autoDraw = False
+693.9531 	EXP 	cross: autoDraw = True
+699.8083 	EXP 	cross: autoDraw = False
+699.8083 	EXP 	respp: autoDraw = True
+700.5110 	DATA 	Keypress: 2
+701.0447 	DATA 	Keypress: 3
+701.4946 	EXP 	New trial (rep=0, index=77): OrderedDict([('Index', 78), ('audio', 'block2_trial38_attendleft_leadtarget.wav')])
+701.4953 	DATA 	Keypress: 2
+701.5090 	EXP 	respp: autoDraw = False
+701.5262 	EXP 	cross: autoDraw = True
+707.3809 	EXP 	cross: autoDraw = False
+707.3809 	EXP 	respp: autoDraw = True
+708.0507 	DATA 	Keypress: 2
+709.5187 	DATA 	Keypress: 3
+710.1691 	DATA 	Keypress: 1
+710.1850 	EXP 	New trial (rep=0, index=78): OrderedDict([('Index', 79), ('audio', 'block2_trial39_attendright_leadmasker.wav')])
+710.1998 	EXP 	respp: autoDraw = False
+710.2164 	EXP 	cross: autoDraw = True
+716.0545 	EXP 	cross: autoDraw = False
+716.0545 	EXP 	respp: autoDraw = True
+716.5075 	DATA 	Keypress: 2
+716.7408 	DATA 	Keypress: 2
+716.9570 	EXP 	New trial (rep=0, index=79): OrderedDict([('Index', 80), ('audio', 'block2_trial40_attendleft_leadmasker.wav')])
+716.9577 	DATA 	Keypress: 3
+716.9716 	EXP 	respp: autoDraw = False
+716.9882 	EXP 	cross: autoDraw = True
+722.8432 	EXP 	cross: autoDraw = False
+722.8432 	EXP 	respp: autoDraw = True
+724.2466 	DATA 	Keypress: 2
+724.7971 	DATA 	Keypress: 1
+724.8638 	EXP 	New trial (rep=0, index=80): OrderedDict([('Index', 81), ('audio', 'block3_trial1_attendright_leadmasker.wav')])
+724.8657 	DATA 	Keypress: 1
+724.8780 	EXP 	respp: autoDraw = False
+724.8780 	EXP 	breakk: autoDraw = True
+739.2244 	DATA 	Keypress: space
+739.2562 	EXP 	breakk: autoDraw = False
+739.2733 	EXP 	cross: autoDraw = True
+745.1285 	EXP 	cross: autoDraw = False
+745.1285 	EXP 	respp: autoDraw = True
+745.9146 	DATA 	Keypress: 2
+746.2647 	DATA 	Keypress: 3
+746.6643 	EXP 	New trial (rep=0, index=81): OrderedDict([('Index', 82), ('audio', 'block3_trial2_attendright_leadmasker.wav')])
+746.6650 	DATA 	Keypress: 3
+746.6788 	EXP 	respp: autoDraw = False
+746.6955 	EXP 	cross: autoDraw = True
+752.5502 	EXP 	cross: autoDraw = False
+752.5502 	EXP 	respp: autoDraw = True
+753.1865 	DATA 	Keypress: 3
+753.4539 	DATA 	Keypress: 3
+753.6531 	EXP 	New trial (rep=0, index=82): OrderedDict([('Index', 83), ('audio', 'block3_trial3_attendright_leadmasker.wav')])
+753.6538 	DATA 	Keypress: 3
+753.6680 	EXP 	respp: autoDraw = False
+753.6847 	EXP 	cross: autoDraw = True
+759.5232 	EXP 	cross: autoDraw = False
+759.5232 	EXP 	respp: autoDraw = True
+759.9255 	DATA 	Keypress: 3
+761.9604 	DATA 	Keypress: 1
+762.9938 	EXP 	New trial (rep=0, index=83): OrderedDict([('Index', 84), ('audio', 'block3_trial4_attendright_leadmasker.wav')])
+762.9945 	DATA 	Keypress: 3
+763.0083 	EXP 	respp: autoDraw = False
+763.0257 	EXP 	cross: autoDraw = True
+768.9141 	EXP 	cross: autoDraw = False
+768.9141 	EXP 	respp: autoDraw = True
+770.9346 	DATA 	Keypress: 3
+771.6518 	DATA 	Keypress: 1
+772.1677 	EXP 	New trial (rep=0, index=84): OrderedDict([('Index', 85), ('audio', 'block3_trial5_attendright_leadmasker.wav')])
+772.1685 	DATA 	Keypress: 2
+772.1827 	EXP 	respp: autoDraw = False
+772.1996 	EXP 	cross: autoDraw = True
+778.0546 	EXP 	cross: autoDraw = False
+778.0546 	EXP 	respp: autoDraw = True
+778.6069 	DATA 	Keypress: 2
+779.3743 	DATA 	Keypress: 3
+779.6074 	DATA 	Keypress: 3
+779.6233 	EXP 	New trial (rep=0, index=85): OrderedDict([('Index', 86), ('audio', 'block3_trial6_attendright_leadtarget.wav')])
+779.6386 	EXP 	respp: autoDraw = False
+779.6549 	EXP 	cross: autoDraw = True
+785.5266 	EXP 	cross: autoDraw = False
+785.5266 	EXP 	respp: autoDraw = True
+786.3132 	DATA 	Keypress: 2
+786.8140 	DATA 	Keypress: 2
+787.2474 	EXP 	New trial (rep=0, index=86): OrderedDict([('Index', 87), ('audio', 'block3_trial7_attendleft_leadmasker.wav')])
+787.2482 	DATA 	Keypress: 1
+787.2611 	EXP 	respp: autoDraw = False
+787.2784 	EXP 	cross: autoDraw = True
+793.1502 	EXP 	cross: autoDraw = False
+793.1502 	EXP 	respp: autoDraw = True
+793.8192 	DATA 	Keypress: 3
+794.1528 	DATA 	Keypress: 3
+794.3856 	EXP 	New trial (rep=0, index=87): OrderedDict([('Index', 88), ('audio', 'block3_trial8_attendright_leadmasker.wav')])
+794.3863 	DATA 	Keypress: 2
+794.4008 	EXP 	respp: autoDraw = False
+794.4172 	EXP 	cross: autoDraw = True
+800.3055 	EXP 	cross: autoDraw = False
+800.3055 	EXP 	respp: autoDraw = True
+801.3924 	DATA 	Keypress: 3
+801.9592 	DATA 	Keypress: 1
+802.6258 	EXP 	New trial (rep=0, index=88): OrderedDict([('Index', 89), ('audio', 'block3_trial9_attendright_leadtarget.wav')])
+802.6265 	DATA 	Keypress: 1
+802.6402 	EXP 	respp: autoDraw = False
+802.6573 	EXP 	cross: autoDraw = True
+808.5118 	EXP 	cross: autoDraw = False
+808.5118 	EXP 	respp: autoDraw = True
+809.1147 	DATA 	Keypress: 1
+810.0155 	DATA 	Keypress: 1
+810.5320 	EXP 	New trial (rep=0, index=89): OrderedDict([('Index', 90), ('audio', 'block3_trial10_attendleft_leadtarget.wav')])
+810.5328 	DATA 	Keypress: 2
+810.5467 	EXP 	respp: autoDraw = False
+810.5632 	EXP 	cross: autoDraw = True
+816.4184 	EXP 	cross: autoDraw = False
+816.4184 	EXP 	respp: autoDraw = True
+817.7053 	DATA 	Keypress: 1
+818.4727 	DATA 	Keypress: 3
+818.8891 	DATA 	Keypress: 3
+818.9054 	EXP 	New trial (rep=0, index=90): OrderedDict([('Index', 91), ('audio', 'block3_trial11_attendright_leadtarget.wav')])
+818.9200 	EXP 	respp: autoDraw = False
+818.9370 	EXP 	cross: autoDraw = True
+824.8250 	EXP 	cross: autoDraw = False
+824.8250 	EXP 	respp: autoDraw = True
+825.3612 	DATA 	Keypress: 2
+826.0453 	DATA 	Keypress: 3
+826.6619 	EXP 	New trial (rep=0, index=91): OrderedDict([('Index', 92), ('audio', 'block3_trial12_attendleft_leadmasker.wav')])
+826.6627 	DATA 	Keypress: 1
+826.6766 	EXP 	respp: autoDraw = False
+826.6930 	EXP 	cross: autoDraw = True
+832.5813 	EXP 	cross: autoDraw = False
+832.5813 	EXP 	respp: autoDraw = True
+833.9347 	DATA 	Keypress: 2
+834.2691 	DATA 	Keypress: 2
+834.5844 	EXP 	New trial (rep=0, index=92): OrderedDict([('Index', 93), ('audio', 'block3_trial13_attendleft_leadtarget.wav')])
+834.5851 	DATA 	Keypress: 3
+834.5992 	EXP 	respp: autoDraw = False
+834.6157 	EXP 	cross: autoDraw = True
+840.4714 	EXP 	cross: autoDraw = False
+840.4714 	EXP 	respp: autoDraw = True
+841.3244 	DATA 	Keypress: 1
+843.3253 	DATA 	Keypress: 2
+843.9766 	DATA 	Keypress: 2
+843.9925 	EXP 	New trial (rep=0, index=93): OrderedDict([('Index', 94), ('audio', 'block3_trial14_attendleft_leadtarget.wav')])
+844.0069 	EXP 	respp: autoDraw = False
+844.0236 	EXP 	cross: autoDraw = True
+849.8956 	EXP 	cross: autoDraw = False
+849.8956 	EXP 	respp: autoDraw = True
+851.0315 	DATA 	Keypress: 3
+851.8989 	DATA 	Keypress: 1
+852.1485 	EXP 	New trial (rep=0, index=94): OrderedDict([('Index', 95), ('audio', 'block3_trial15_attendleft_leadtarget.wav')])
+852.1492 	DATA 	Keypress: 3
+852.1632 	EXP 	respp: autoDraw = False
+852.1801 	EXP 	cross: autoDraw = True
+858.0181 	EXP 	cross: autoDraw = False
+858.0181 	EXP 	respp: autoDraw = True
+858.7882 	DATA 	Keypress: 3
+859.4050 	DATA 	Keypress: 3
+860.8723 	EXP 	New trial (rep=0, index=95): OrderedDict([('Index', 96), ('audio', 'block3_trial16_attendright_leadtarget.wav')])
+860.8730 	DATA 	Keypress: 1
+860.8874 	EXP 	respp: autoDraw = False
+860.9038 	EXP 	cross: autoDraw = True
+866.7588 	EXP 	cross: autoDraw = False
+866.7588 	EXP 	respp: autoDraw = True
+868.4621 	DATA 	Keypress: 1
+868.8632 	DATA 	Keypress: 1
+869.2621 	EXP 	New trial (rep=0, index=96): OrderedDict([('Index', 97), ('audio', 'block3_trial17_attendleft_leadtarget.wav')])
+869.2628 	DATA 	Keypress: 1
+869.2775 	EXP 	respp: autoDraw = False
+869.2936 	EXP 	cross: autoDraw = True
+875.1650 	EXP 	cross: autoDraw = False
+875.1650 	EXP 	respp: autoDraw = True
+875.8188 	DATA 	Keypress: 2
+877.5533 	DATA 	Keypress: 3
+877.8867 	DATA 	Keypress: 2
+879.2690 	EXP 	New trial (rep=0, index=97): OrderedDict([('Index', 98), ('audio', 'block3_trial18_attendleft_leadmasker.wav')])
+879.2856 	EXP 	respp: autoDraw = False
+879.3017 	EXP 	cross: autoDraw = True
+885.1908 	EXP 	cross: autoDraw = False
+885.1908 	EXP 	respp: autoDraw = True
+886.2608 	DATA 	Keypress: 2
+886.9607 	DATA 	Keypress: 1
+887.3605 	EXP 	New trial (rep=0, index=98): OrderedDict([('Index', 99), ('audio', 'block3_trial19_attendright_leadmasker.wav')])
+887.3611 	DATA 	Keypress: 2
+887.3748 	EXP 	respp: autoDraw = False
+887.3917 	EXP 	cross: autoDraw = True
+893.2630 	EXP 	cross: autoDraw = False
+893.2630 	EXP 	respp: autoDraw = True
+894.7006 	DATA 	Keypress: 1
+895.8177 	DATA 	Keypress: 2
+896.3347 	EXP 	New trial (rep=0, index=99): OrderedDict([('Index', 100), ('audio', 'block3_trial20_attendright_leadmasker.wav')])
+896.3354 	DATA 	Keypress: 3
+896.3489 	EXP 	respp: autoDraw = False
+896.3658 	EXP 	cross: autoDraw = True
+902.2375 	EXP 	cross: autoDraw = False
+902.2375 	EXP 	respp: autoDraw = True
+904.0243 	DATA 	Keypress: 3
+904.9753 	DATA 	Keypress: 3
+905.3081 	EXP 	New trial (rep=0, index=100): OrderedDict([('Index', 101), ('audio', 'block3_trial21_attendright_leadtarget.wav')])
+905.3088 	DATA 	Keypress: 1
+905.3230 	EXP 	respp: autoDraw = False
+905.3398 	EXP 	cross: autoDraw = True
+911.1948 	EXP 	cross: autoDraw = False
+911.1948 	EXP 	respp: autoDraw = True
+912.2978 	DATA 	Keypress: 2
+912.9151 	DATA 	Keypress: 2
+913.5982 	EXP 	New trial (rep=0, index=101): OrderedDict([('Index', 102), ('audio', 'block3_trial22_attendright_leadmasker.wav')])
+913.5990 	DATA 	Keypress: 1
+913.6130 	EXP 	respp: autoDraw = False
+913.6296 	EXP 	cross: autoDraw = True
+919.5007 	EXP 	cross: autoDraw = False
+919.5007 	EXP 	respp: autoDraw = True
+921.1384 	DATA 	Keypress: 3
+921.9889 	DATA 	Keypress: 2
+923.6046 	EXP 	New trial (rep=0, index=102): OrderedDict([('Index', 103), ('audio', 'block3_trial23_attendright_leadtarget.wav')])
+923.6210 	EXP 	respp: autoDraw = False
+923.6377 	EXP 	cross: autoDraw = True
+923.9063 	DATA 	Keypress: 2
+929.4930 	EXP 	cross: autoDraw = False
+929.4930 	EXP 	respp: autoDraw = True
+930.3455 	DATA 	Keypress: 3
+931.0466 	DATA 	Keypress: 1
+932.4803 	EXP 	New trial (rep=0, index=103): OrderedDict([('Index', 104), ('audio', 'block3_trial24_attendleft_leadmasker.wav')])
+932.4811 	DATA 	Keypress: 1
+932.4950 	EXP 	respp: autoDraw = False
+932.5110 	EXP 	cross: autoDraw = True
+938.3667 	EXP 	cross: autoDraw = False
+938.3667 	EXP 	respp: autoDraw = True
+938.9190 	DATA 	Keypress: 1
+939.1692 	DATA 	Keypress: 3
+939.4023 	EXP 	New trial (rep=0, index=104): OrderedDict([('Index', 105), ('audio', 'block3_trial25_attendright_leadmasker.wav')])
+939.4030 	DATA 	Keypress: 1
+939.4172 	EXP 	respp: autoDraw = False
+939.4337 	EXP 	cross: autoDraw = True
+945.2884 	EXP 	cross: autoDraw = False
+945.2884 	EXP 	respp: autoDraw = True
+946.1249 	DATA 	Keypress: 1
+946.4086 	DATA 	Keypress: 1
+946.7583 	EXP 	New trial (rep=0, index=105): OrderedDict([('Index', 106), ('audio', 'block3_trial26_attendright_leadtarget.wav')])
+946.7590 	DATA 	Keypress: 1
+946.7730 	EXP 	respp: autoDraw = False
+946.7891 	EXP 	cross: autoDraw = True
+952.6614 	EXP 	cross: autoDraw = False
+952.6614 	EXP 	respp: autoDraw = True
+954.0646 	DATA 	Keypress: 1
+955.6491 	DATA 	Keypress: 2
+955.8988 	EXP 	New trial (rep=0, index=106): OrderedDict([('Index', 107), ('audio', 'block3_trial27_attendleft_leadtarget.wav')])
+955.8996 	DATA 	Keypress: 1
+955.9133 	EXP 	respp: autoDraw = False
+955.9298 	EXP 	cross: autoDraw = True
+961.8179 	EXP 	cross: autoDraw = False
+961.8179 	EXP 	respp: autoDraw = True
+962.7721 	DATA 	Keypress: 1
+963.1722 	DATA 	Keypress: 2
+963.4885 	EXP 	New trial (rep=0, index=107): OrderedDict([('Index', 108), ('audio', 'block3_trial28_attendleft_leadmasker.wav')])
+963.4892 	DATA 	Keypress: 2
+963.5032 	EXP 	respp: autoDraw = False
+963.5196 	EXP 	cross: autoDraw = True
+969.3740 	EXP 	cross: autoDraw = False
+969.3740 	EXP 	respp: autoDraw = True
+970.9444 	DATA 	Keypress: 1
+971.4283 	DATA 	Keypress: 3
+972.0615 	EXP 	New trial (rep=0, index=108): OrderedDict([('Index', 109), ('audio', 'block3_trial29_attendleft_leadtarget.wav')])
+972.0622 	DATA 	Keypress: 1
+972.0758 	EXP 	respp: autoDraw = False
+972.0931 	EXP 	cross: autoDraw = True
+977.9813 	EXP 	cross: autoDraw = False
+977.9813 	EXP 	respp: autoDraw = True
+978.8848 	DATA 	Keypress: 2
+979.5519 	DATA 	Keypress: 3
+979.9177 	EXP 	New trial (rep=0, index=109): OrderedDict([('Index', 110), ('audio', 'block3_trial30_attendright_leadtarget.wav')])
+979.9184 	DATA 	Keypress: 1
+979.9330 	EXP 	respp: autoDraw = False
+979.9493 	EXP 	cross: autoDraw = True
+985.8210 	EXP 	cross: autoDraw = False
+985.8210 	EXP 	respp: autoDraw = True
+986.5906 	DATA 	Keypress: 2
+987.1411 	DATA 	Keypress: 3
+987.5409 	EXP 	New trial (rep=0, index=110): OrderedDict([('Index', 111), ('audio', 'block3_trial31_attendleft_leadmasker.wav')])
+987.5416 	DATA 	Keypress: 1
+987.5557 	EXP 	respp: autoDraw = False
+987.5719 	EXP 	cross: autoDraw = True
+993.4435 	EXP 	cross: autoDraw = False
+993.4435 	EXP 	respp: autoDraw = True
+994.4970 	DATA 	Keypress: 3
+995.0644 	DATA 	Keypress: 2
+996.1648 	EXP 	New trial (rep=0, index=111): OrderedDict([('Index', 112), ('audio', 'block3_trial32_attendleft_leadtarget.wav')])
+996.1655 	DATA 	Keypress: 3
+996.1788 	EXP 	respp: autoDraw = False
+996.1957 	EXP 	cross: autoDraw = True
+1002.0835 	EXP 	cross: autoDraw = False
+1002.0835 	EXP 	respp: autoDraw = True
+1003.0701 	DATA 	Keypress: 2
+1004.1380 	DATA 	Keypress: 1
+1004.5880 	EXP 	New trial (rep=0, index=112): OrderedDict([('Index', 113), ('audio', 'block3_trial33_attendleft_leadtarget.wav')])
+1004.5887 	DATA 	Keypress: 2
+1004.6028 	EXP 	respp: autoDraw = False
+1004.6191 	EXP 	cross: autoDraw = True
+1010.4742 	EXP 	cross: autoDraw = False
+1010.4742 	EXP 	respp: autoDraw = True
+1011.1107 	DATA 	Keypress: 3
+1011.3273 	DATA 	Keypress: 3
+1011.6105 	EXP 	New trial (rep=0, index=113): OrderedDict([('Index', 114), ('audio', 'block3_trial34_attendright_leadtarget.wav')])
+1011.6113 	DATA 	Keypress: 1
+1011.6247 	EXP 	respp: autoDraw = False
+1011.6414 	EXP 	cross: autoDraw = True
+1017.4967 	EXP 	cross: autoDraw = False
+1017.4967 	EXP 	respp: autoDraw = True
+1018.4494 	DATA 	Keypress: 3
+1018.9168 	DATA 	Keypress: 1
+1019.1996 	EXP 	New trial (rep=0, index=114): OrderedDict([('Index', 115), ('audio', 'block3_trial35_attendleft_leadmasker.wav')])
+1019.2004 	DATA 	Keypress: 3
+1019.2139 	EXP 	respp: autoDraw = False
+1019.2312 	EXP 	cross: autoDraw = True
+1025.1022 	EXP 	cross: autoDraw = False
+1025.1022 	EXP 	respp: autoDraw = True
+1026.1725 	DATA 	Keypress: 2
+1026.4895 	DATA 	Keypress: 1
+1026.8053 	EXP 	New trial (rep=0, index=115): OrderedDict([('Index', 116), ('audio', 'block3_trial36_attendleft_leadmasker.wav')])
+1026.8060 	DATA 	Keypress: 3
+1026.8201 	EXP 	respp: autoDraw = False
+1026.8367 	EXP 	cross: autoDraw = True
+1032.6750 	EXP 	cross: autoDraw = False
+1032.6750 	EXP 	respp: autoDraw = True
+1033.7118 	DATA 	Keypress: 3
+1033.9621 	DATA 	Keypress: 3
+1034.1785 	EXP 	New trial (rep=0, index=116): OrderedDict([('Index', 117), ('audio', 'block3_trial37_attendright_leadtarget.wav')])
+1034.1792 	DATA 	Keypress: 3
+1034.1930 	EXP 	respp: autoDraw = False
+1034.2095 	EXP 	cross: autoDraw = True
+1040.0645 	EXP 	cross: autoDraw = False
+1040.0645 	EXP 	respp: autoDraw = True
+1040.9672 	DATA 	Keypress: 2
+1041.5345 	DATA 	Keypress: 2
+1042.3524 	DATA 	Keypress: 2
+1042.3676 	EXP 	New trial (rep=0, index=117): OrderedDict([('Index', 118), ('audio', 'block3_trial38_attendleft_leadtarget.wav')])
+1042.3825 	EXP 	respp: autoDraw = False
+1042.3997 	EXP 	cross: autoDraw = True
+1048.2882 	EXP 	cross: autoDraw = False
+1048.2882 	EXP 	respp: autoDraw = True
+1049.6749 	DATA 	Keypress: 1
+1050.6085 	DATA 	Keypress: 3
+1050.9587 	EXP 	New trial (rep=0, index=118): OrderedDict([('Index', 119), ('audio', 'block3_trial39_attendleft_leadmasker.wav')])
+1050.9594 	DATA 	Keypress: 2
+1050.9731 	EXP 	respp: autoDraw = False
+1050.9900 	EXP 	cross: autoDraw = True
+1056.8780 	EXP 	cross: autoDraw = False
+1056.8780 	EXP 	respp: autoDraw = True
+1057.8981 	DATA 	Keypress: 1
+1058.0481 	DATA 	Keypress: 2
+1058.2151 	DATA 	Keypress: 3
+1060.9647 	EXP 	New trial (rep=0, index=119): OrderedDict([('Index', 120), ('audio', 'block3_trial40_attendleft_leadmasker.wav')])
+1060.9810 	EXP 	respp: autoDraw = False
+1060.9978 	EXP 	cross: autoDraw = True
+1066.8524 	EXP 	cross: autoDraw = False
+1066.8524 	EXP 	respp: autoDraw = True
+1067.5054 	DATA 	Keypress: 1
+1067.7053 	DATA 	Keypress: 2
+1067.8883 	EXP 	New trial (rep=0, index=120): OrderedDict([('Index', 121), ('audio', 'block4_trial1_attendright_leadmasker.wav')])
+1067.8902 	DATA 	Keypress: 2
+1067.9031 	EXP 	respp: autoDraw = False
+1067.9031 	EXP 	breakk: autoDraw = True
+1074.9444 	DATA 	Keypress: space
+1074.9922 	EXP 	breakk: autoDraw = False
+1075.0087 	EXP 	cross: autoDraw = True
+1080.8810 	EXP 	cross: autoDraw = False
+1080.8810 	EXP 	respp: autoDraw = True
+1081.5504 	DATA 	Keypress: 1
+1081.8338 	DATA 	Keypress: 1
+1082.0997 	EXP 	New trial (rep=0, index=121): OrderedDict([('Index', 122), ('audio', 'block4_trial2_attendleft_leadmasker.wav')])
+1082.1003 	DATA 	Keypress: 1
+1082.1144 	EXP 	respp: autoDraw = False
+1082.1317 	EXP 	cross: autoDraw = True
+1087.9863 	EXP 	cross: autoDraw = False
+1087.9863 	EXP 	respp: autoDraw = True
+1089.0230 	DATA 	Keypress: 1
+1089.3396 	DATA 	Keypress: 3
+1089.5559 	EXP 	New trial (rep=0, index=122): OrderedDict([('Index', 123), ('audio', 'block4_trial3_attendright_leadtarget.wav')])
+1089.5567 	DATA 	Keypress: 2
+1089.5710 	EXP 	respp: autoDraw = False
+1089.5875 	EXP 	cross: autoDraw = True
+1095.4588 	EXP 	cross: autoDraw = False
+1095.4588 	EXP 	respp: autoDraw = True
+1096.4124 	DATA 	Keypress: 1
+1096.8792 	DATA 	Keypress: 3
+1098.0961 	EXP 	New trial (rep=0, index=123): OrderedDict([('Index', 124), ('audio', 'block4_trial4_attendright_leadmasker.wav')])
+1098.0969 	DATA 	Keypress: 1
+1098.1110 	EXP 	respp: autoDraw = False
+1098.1277 	EXP 	cross: autoDraw = True
+1104.0165 	EXP 	cross: autoDraw = False
+1104.0165 	EXP 	respp: autoDraw = True
+1104.7525 	DATA 	Keypress: 2
+1105.4527 	DATA 	Keypress: 3
+1105.8855 	EXP 	New trial (rep=0, index=124): OrderedDict([('Index', 125), ('audio', 'block4_trial5_attendright_leadmasker.wav')])
+1105.8862 	DATA 	Keypress: 1
+1105.9006 	EXP 	respp: autoDraw = False
+1105.9173 	EXP 	cross: autoDraw = True
+1111.7723 	EXP 	cross: autoDraw = False
+1111.7723 	EXP 	respp: autoDraw = True
+1112.7749 	DATA 	Keypress: 3
+1113.1592 	DATA 	Keypress: 3
+1113.3924 	DATA 	Keypress: 2
+1113.4084 	EXP 	New trial (rep=0, index=125): OrderedDict([('Index', 126), ('audio', 'block4_trial6_attendleft_leadmasker.wav')])
+1113.4231 	EXP 	respp: autoDraw = False
+1113.4400 	EXP 	cross: autoDraw = True
+1119.2949 	EXP 	cross: autoDraw = False
+1119.2949 	EXP 	respp: autoDraw = True
+1120.1478 	DATA 	Keypress: 1
+1120.3649 	DATA 	Keypress: 2
+1120.5142 	EXP 	New trial (rep=0, index=126): OrderedDict([('Index', 127), ('audio', 'block4_trial7_attendleft_leadtarget.wav')])
+1120.5150 	DATA 	Keypress: 3
+1120.5291 	EXP 	respp: autoDraw = False
+1120.5457 	EXP 	cross: autoDraw = True
+1126.4007 	EXP 	cross: autoDraw = False
+1126.4007 	EXP 	respp: autoDraw = True
+1127.4869 	DATA 	Keypress: 3
+1127.7875 	DATA 	Keypress: 2
+1127.9533 	EXP 	New trial (rep=0, index=127): OrderedDict([('Index', 128), ('audio', 'block4_trial8_attendright_leadtarget.wav')])
+1127.9541 	DATA 	Keypress: 2
+1127.9682 	EXP 	respp: autoDraw = False
+1127.9851 	EXP 	cross: autoDraw = True
+1133.8739 	EXP 	cross: autoDraw = False
+1133.8739 	EXP 	respp: autoDraw = True
+1134.5426 	DATA 	Keypress: 3
+1136.2443 	DATA 	Keypress: 2
+1136.6771 	EXP 	New trial (rep=0, index=128): OrderedDict([('Index', 129), ('audio', 'block4_trial9_attendright_leadmasker.wav')])
+1136.6778 	DATA 	Keypress: 3
+1136.6922 	EXP 	respp: autoDraw = False
+1136.7084 	EXP 	cross: autoDraw = True
+1142.5465 	EXP 	cross: autoDraw = False
+1142.5465 	EXP 	respp: autoDraw = True
+1144.1169 	DATA 	Keypress: 2
+1145.5012 	DATA 	Keypress: 2
+1146.3517 	EXP 	New trial (rep=0, index=129): OrderedDict([('Index', 130), ('audio', 'block4_trial10_attendright_leadtarget.wav')])
+1146.3524 	DATA 	Keypress: 3
+1146.3663 	EXP 	respp: autoDraw = False
+1146.3827 	EXP 	cross: autoDraw = True
+1152.2543 	EXP 	cross: autoDraw = False
+1152.2543 	EXP 	respp: autoDraw = True
+1153.4246 	DATA 	Keypress: 3
+1153.8585 	DATA 	Keypress: 2
+1154.2749 	EXP 	New trial (rep=0, index=130): OrderedDict([('Index', 131), ('audio', 'block4_trial11_attendright_leadmasker.wav')])
+1154.2756 	DATA 	Keypress: 3
+1154.2892 	EXP 	respp: autoDraw = False
+1154.3059 	EXP 	cross: autoDraw = True
+1160.1608 	EXP 	cross: autoDraw = False
+1160.1608 	EXP 	respp: autoDraw = True
+1161.1977 	DATA 	Keypress: 3
+1161.7310 	DATA 	Keypress: 1
+1162.0641 	EXP 	New trial (rep=0, index=131): OrderedDict([('Index', 132), ('audio', 'block4_trial12_attendleft_leadmasker.wav')])
+1162.0649 	DATA 	Keypress: 2
+1162.0786 	EXP 	respp: autoDraw = False
+1162.0954 	EXP 	cross: autoDraw = True
+1167.9502 	EXP 	cross: autoDraw = False
+1167.9502 	EXP 	respp: autoDraw = True
+1168.7868 	DATA 	Keypress: 1
+1169.5712 	DATA 	Keypress: 3
+1170.6706 	EXP 	New trial (rep=0, index=132): OrderedDict([('Index', 133), ('audio', 'block4_trial13_attendleft_leadmasker.wav')])
+1170.6713 	DATA 	Keypress: 1
+1170.6858 	EXP 	respp: autoDraw = False
+1170.7026 	EXP 	cross: autoDraw = True
+1176.5405 	EXP 	cross: autoDraw = False
+1176.5405 	EXP 	respp: autoDraw = True
+1177.4440 	DATA 	Keypress: 3
+1177.7107 	DATA 	Keypress: 3
+1177.9613 	DATA 	Keypress: 3
+1180.6775 	EXP 	New trial (rep=0, index=133): OrderedDict([('Index', 134), ('audio', 'block4_trial14_attendleft_leadmasker.wav')])
+1180.6940 	EXP 	respp: autoDraw = False
+1180.7101 	EXP 	cross: autoDraw = True
+1186.5821 	EXP 	cross: autoDraw = False
+1186.5821 	EXP 	respp: autoDraw = True
+1187.5686 	DATA 	Keypress: 3
+1187.8191 	DATA 	Keypress: 3
+1188.1021 	EXP 	New trial (rep=0, index=134): OrderedDict([('Index', 135), ('audio', 'block4_trial15_attendleft_leadtarget.wav')])
+1188.1028 	DATA 	Keypress: 2
+1188.1164 	EXP 	respp: autoDraw = False
+1188.1328 	EXP 	cross: autoDraw = True
+1194.0045 	EXP 	cross: autoDraw = False
+1194.0045 	EXP 	respp: autoDraw = True
+1194.9247 	DATA 	Keypress: 1
+1196.3257 	DATA 	Keypress: 3
+1197.7599 	DATA 	Keypress: 3
+1197.7760 	EXP 	New trial (rep=0, index=135): OrderedDict([('Index', 136), ('audio', 'block4_trial16_attendright_leadtarget.wav')])
+1197.7905 	EXP 	respp: autoDraw = False
+1197.8077 	EXP 	cross: autoDraw = True
+1203.6620 	EXP 	cross: autoDraw = False
+1203.6620 	EXP 	respp: autoDraw = True
+1204.7324 	DATA 	Keypress: 3
+1206.4506 	DATA 	Keypress: 3
+1206.7668 	EXP 	New trial (rep=0, index=136): OrderedDict([('Index', 137), ('audio', 'block4_trial17_attendleft_leadmasker.wav')])
+1206.7675 	DATA 	Keypress: 3
+1206.7810 	EXP 	respp: autoDraw = False
+1206.7980 	EXP 	cross: autoDraw = True
+1212.6701 	EXP 	cross: autoDraw = False
+1212.6701 	EXP 	respp: autoDraw = True
+1213.5898 	DATA 	Keypress: 3
+1214.1566 	DATA 	Keypress: 2
+1214.5897 	EXP 	New trial (rep=0, index=137): OrderedDict([('Index', 138), ('audio', 'block4_trial18_attendright_leadmasker.wav')])
+1214.5904 	DATA 	Keypress: 3
+1214.6045 	EXP 	respp: autoDraw = False
+1214.6210 	EXP 	cross: autoDraw = True
+1220.4759 	EXP 	cross: autoDraw = False
+1220.4759 	EXP 	respp: autoDraw = True
+1221.8960 	DATA 	Keypress: 3
+1222.2464 	DATA 	Keypress: 3
+1222.4636 	DATA 	Keypress: 2
+1222.4793 	EXP 	New trial (rep=0, index=138): OrderedDict([('Index', 139), ('audio', 'block4_trial19_attendright_leadtarget.wav')])
+1222.4941 	EXP 	respp: autoDraw = False
+1222.5110 	EXP 	cross: autoDraw = True
+1228.3657 	EXP 	cross: autoDraw = False
+1228.3657 	EXP 	respp: autoDraw = True
+1228.7846 	DATA 	Keypress: 3
+1229.0687 	DATA 	Keypress: 3
+1229.3014 	EXP 	New trial (rep=0, index=139): OrderedDict([('Index', 140), ('audio', 'block4_trial20_attendleft_leadtarget.wav')])
+1229.3022 	DATA 	Keypress: 3
+1229.3164 	EXP 	respp: autoDraw = False
+1229.3331 	EXP 	cross: autoDraw = True
+1235.2049 	EXP 	cross: autoDraw = False
+1235.2049 	EXP 	respp: autoDraw = True
+1236.2073 	DATA 	Keypress: 2
+1236.8244 	DATA 	Keypress: 3
+1237.1577 	EXP 	New trial (rep=0, index=140): OrderedDict([('Index', 141), ('audio', 'block4_trial21_attendleft_leadtarget.wav')])
+1237.1584 	DATA 	Keypress: 1
+1237.1722 	EXP 	respp: autoDraw = False
+1237.1890 	EXP 	cross: autoDraw = True
+1243.0440 	EXP 	cross: autoDraw = False
+1243.0440 	EXP 	respp: autoDraw = True
+1243.9635 	DATA 	Keypress: 2
+1244.8647 	DATA 	Keypress: 3
+1245.1139 	EXP 	New trial (rep=0, index=141): OrderedDict([('Index', 142), ('audio', 'block4_trial22_attendright_leadtarget.wav')])
+1245.1146 	DATA 	Keypress: 2
+1245.1285 	EXP 	respp: autoDraw = False
+1245.1453 	EXP 	cross: autoDraw = True
+1250.9835 	EXP 	cross: autoDraw = False
+1250.9835 	EXP 	respp: autoDraw = True
+1251.5868 	DATA 	Keypress: 1
+1251.7537 	DATA 	Keypress: 2
+1251.9031 	EXP 	New trial (rep=0, index=142): OrderedDict([('Index', 143), ('audio', 'block4_trial23_attendleft_leadmasker.wav')])
+1251.9038 	DATA 	Keypress: 3
+1251.9177 	EXP 	respp: autoDraw = False
+1251.9342 	EXP 	cross: autoDraw = True
+1257.8227 	EXP 	cross: autoDraw = False
+1257.8227 	EXP 	respp: autoDraw = True
+1258.5425 	DATA 	Keypress: 2
+1259.0759 	DATA 	Keypress: 3
+1259.4090 	EXP 	New trial (rep=0, index=143): OrderedDict([('Index', 144), ('audio', 'block4_trial24_attendright_leadmasker.wav')])
+1259.4097 	DATA 	Keypress: 1
+1259.4238 	EXP 	respp: autoDraw = False
+1259.4401 	EXP 	cross: autoDraw = True
+1265.2954 	EXP 	cross: autoDraw = False
+1265.2954 	EXP 	respp: autoDraw = True
+1266.0314 	DATA 	Keypress: 3
+1266.3988 	DATA 	Keypress: 2
+1266.6148 	EXP 	New trial (rep=0, index=144): OrderedDict([('Index', 145), ('audio', 'block4_trial25_attendleft_leadtarget.wav')])
+1266.6155 	DATA 	Keypress: 2
+1266.6291 	EXP 	respp: autoDraw = False
+1266.6464 	EXP 	cross: autoDraw = True
+1272.4847 	EXP 	cross: autoDraw = False
+1272.4847 	EXP 	respp: autoDraw = True
+1273.8383 	DATA 	Keypress: 1
+1274.5549 	DATA 	Keypress: 3
+1274.8882 	EXP 	New trial (rep=0, index=145): OrderedDict([('Index', 146), ('audio', 'block4_trial26_attendright_leadtarget.wav')])
+1274.8889 	DATA 	Keypress: 2
+1274.9024 	EXP 	respp: autoDraw = False
+1274.9195 	EXP 	cross: autoDraw = True
+1280.8077 	EXP 	cross: autoDraw = False
+1280.8077 	EXP 	respp: autoDraw = True
+1281.9775 	DATA 	Keypress: 1
+1282.5110 	DATA 	Keypress: 3
+1282.6947 	DATA 	Keypress: 3
+1282.7109 	EXP 	New trial (rep=0, index=146): OrderedDict([('Index', 147), ('audio', 'block4_trial27_attendright_leadmasker.wav')])
+1282.7256 	EXP 	respp: autoDraw = False
+1282.7426 	EXP 	cross: autoDraw = True
+1288.5967 	EXP 	cross: autoDraw = False
+1288.5967 	EXP 	respp: autoDraw = True
+1289.2662 	DATA 	Keypress: 2
+1289.5003 	DATA 	Keypress: 2
+1289.7827 	EXP 	New trial (rep=0, index=147): OrderedDict([('Index', 148), ('audio', 'block4_trial28_attendleft_leadtarget.wav')])
+1289.7834 	DATA 	Keypress: 1
+1289.7976 	EXP 	respp: autoDraw = False
+1289.8143 	EXP 	cross: autoDraw = True
+1295.6697 	EXP 	cross: autoDraw = False
+1295.6697 	EXP 	respp: autoDraw = True
+1296.2386 	DATA 	Keypress: 2
+1296.8227 	DATA 	Keypress: 3
+1297.2387 	EXP 	New trial (rep=0, index=148): OrderedDict([('Index', 149), ('audio', 'block4_trial29_attendright_leadmasker.wav')])
+1297.2394 	DATA 	Keypress: 1
+1297.2536 	EXP 	respp: autoDraw = False
+1297.2704 	EXP 	cross: autoDraw = True
+1303.1428 	EXP 	cross: autoDraw = False
+1303.1428 	EXP 	respp: autoDraw = True
+1304.2451 	DATA 	Keypress: 3
+1304.5289 	DATA 	Keypress: 1
+1304.7782 	EXP 	New trial (rep=0, index=149): OrderedDict([('Index', 150), ('audio', 'block4_trial30_attendright_leadtarget.wav')])
+1304.7789 	DATA 	Keypress: 1
+1304.7929 	EXP 	respp: autoDraw = False
+1304.8096 	EXP 	cross: autoDraw = True
+1310.6649 	EXP 	cross: autoDraw = False
+1310.6649 	EXP 	respp: autoDraw = True
+1311.4013 	DATA 	Keypress: 3
+1311.6510 	DATA 	Keypress: 3
+1311.8671 	EXP 	New trial (rep=0, index=150): OrderedDict([('Index', 151), ('audio', 'block4_trial31_attendleft_leadtarget.wav')])
+1311.8678 	DATA 	Keypress: 2
+1311.8820 	EXP 	respp: autoDraw = False
+1311.8989 	EXP 	cross: autoDraw = True
+1317.7706 	EXP 	cross: autoDraw = False
+1317.7706 	EXP 	respp: autoDraw = True
+1318.3905 	DATA 	Keypress: 1
+1318.6736 	DATA 	Keypress: 1
+1318.9569 	EXP 	New trial (rep=0, index=151): OrderedDict([('Index', 152), ('audio', 'block4_trial32_attendright_leadtarget.wav')])
+1318.9576 	DATA 	Keypress: 1
+1318.9717 	EXP 	respp: autoDraw = False
+1318.9883 	EXP 	cross: autoDraw = True
+1324.8264 	EXP 	cross: autoDraw = False
+1324.8264 	EXP 	respp: autoDraw = True
+1325.6291 	DATA 	Keypress: 2
+1325.9794 	DATA 	Keypress: 3
+1326.3961 	EXP 	New trial (rep=0, index=152): OrderedDict([('Index', 153), ('audio', 'block4_trial33_attendright_leadmasker.wav')])
+1326.3969 	DATA 	Keypress: 3
+1326.4109 	EXP 	respp: autoDraw = False
+1326.4273 	EXP 	cross: autoDraw = True
+1332.2985 	EXP 	cross: autoDraw = False
+1332.2985 	EXP 	respp: autoDraw = True
+1333.1523 	DATA 	Keypress: 3
+1333.5527 	DATA 	Keypress: 2
+1333.8685 	EXP 	New trial (rep=0, index=153): OrderedDict([('Index', 154), ('audio', 'block4_trial34_attendleft_leadtarget.wav')])
+1333.8692 	DATA 	Keypress: 2
+1333.8837 	EXP 	respp: autoDraw = False
+1333.9000 	EXP 	cross: autoDraw = True
+1339.7883 	EXP 	cross: autoDraw = False
+1339.7883 	EXP 	respp: autoDraw = True
+1340.6410 	DATA 	Keypress: 3
+1341.1087 	DATA 	Keypress: 2
+1342.1082 	EXP 	New trial (rep=0, index=154): OrderedDict([('Index', 155), ('audio', 'block4_trial35_attendleft_leadmasker.wav')])
+1342.1089 	DATA 	Keypress: 3
+1342.1234 	EXP 	respp: autoDraw = False
+1342.1399 	EXP 	cross: autoDraw = True
+1347.9948 	EXP 	cross: autoDraw = False
+1347.9948 	EXP 	respp: autoDraw = True
+1348.8148 	DATA 	Keypress: 2
+1349.2816 	DATA 	Keypress: 1
+1349.6315 	EXP 	New trial (rep=0, index=155): OrderedDict([('Index', 156), ('audio', 'block4_trial36_attendright_leadtarget.wav')])
+1349.6322 	DATA 	Keypress: 3
+1349.6456 	EXP 	respp: autoDraw = False
+1349.6628 	EXP 	cross: autoDraw = True
+1355.5176 	EXP 	cross: autoDraw = False
+1355.5176 	EXP 	respp: autoDraw = True
+1356.0368 	DATA 	Keypress: 3
+1357.1385 	DATA 	Keypress: 2
+1357.9549 	EXP 	New trial (rep=0, index=156): OrderedDict([('Index', 157), ('audio', 'block4_trial37_attendleft_leadtarget.wav')])
+1357.9556 	DATA 	Keypress: 2
+1357.9695 	EXP 	respp: autoDraw = False
+1357.9858 	EXP 	cross: autoDraw = True
+1363.8416 	EXP 	cross: autoDraw = False
+1363.8416 	EXP 	respp: autoDraw = True
+1364.8108 	DATA 	Keypress: 1
+1365.2774 	DATA 	Keypress: 2
+1365.5443 	DATA 	Keypress: 3
+1365.5609 	EXP 	New trial (rep=0, index=157): OrderedDict([('Index', 158), ('audio', 'block4_trial38_attendleft_leadmasker.wav')])
+1365.5757 	EXP 	respp: autoDraw = False
+1365.5923 	EXP 	cross: autoDraw = True
+1371.4468 	EXP 	cross: autoDraw = False
+1371.4468 	EXP 	respp: autoDraw = True
+1372.4333 	DATA 	Keypress: 3
+1372.8001 	DATA 	Keypress: 3
+1373.1337 	EXP 	New trial (rep=0, index=158): OrderedDict([('Index', 159), ('audio', 'block4_trial39_attendleft_leadmasker.wav')])
+1373.1344 	DATA 	Keypress: 2
+1373.1484 	EXP 	respp: autoDraw = False
+1373.1648 	EXP 	cross: autoDraw = True
+1379.0197 	EXP 	cross: autoDraw = False
+1379.0197 	EXP 	respp: autoDraw = True
+1381.3410 	DATA 	Keypress: 3
+1381.9080 	DATA 	Keypress: 1
+1382.4082 	DATA 	Keypress: 3
+1382.4243 	EXP 	New trial (rep=0, index=159): OrderedDict([('Index', 160), ('audio', 'block4_trial40_attendleft_leadtarget.wav')])
+1382.4389 	EXP 	respp: autoDraw = False
+1382.4554 	EXP 	cross: autoDraw = True
+1388.3112 	EXP 	cross: autoDraw = False
+1388.3112 	EXP 	respp: autoDraw = True
+1388.9964 	DATA 	Keypress: 2
+1389.2973 	DATA 	Keypress: 1
+1389.5802 	EXP 	New trial (rep=0, index=160): OrderedDict([('Index', 161), ('audio', 'block5_trial1_attendleft_leadtarget.wav')])
+1389.5821 	DATA 	Keypress: 3
+1389.5946 	EXP 	respp: autoDraw = False
+1389.5946 	EXP 	breakk: autoDraw = True
+1403.8079 	DATA 	Keypress: space
+1403.8392 	EXP 	breakk: autoDraw = False
+1403.8557 	EXP 	cross: autoDraw = True
+1409.7110 	EXP 	cross: autoDraw = False
+1409.7110 	EXP 	respp: autoDraw = True
+1410.7973 	DATA 	Keypress: 3
+1411.1814 	DATA 	Keypress: 2
+1411.5310 	EXP 	New trial (rep=0, index=161): OrderedDict([('Index', 162), ('audio', 'block5_trial2_attendleft_leadmasker.wav')])
+1411.5317 	DATA 	Keypress: 2
+1411.5456 	EXP 	respp: autoDraw = False
+1411.5621 	EXP 	cross: autoDraw = True
+1417.4339 	EXP 	cross: autoDraw = False
+1417.4339 	EXP 	respp: autoDraw = True
+1418.2876 	DATA 	Keypress: 3
+1418.7376 	DATA 	Keypress: 2
+1419.0534 	EXP 	New trial (rep=0, index=162): OrderedDict([('Index', 163), ('audio', 'block5_trial3_attendleft_leadtarget.wav')])
+1419.0541 	DATA 	Keypress: 3
+1419.0685 	EXP 	respp: autoDraw = False
+1419.0849 	EXP 	cross: autoDraw = True
+1424.9563 	EXP 	cross: autoDraw = False
+1424.9563 	EXP 	respp: autoDraw = True
+1425.3926 	DATA 	Keypress: 3
+1425.6432 	DATA 	Keypress: 3
+1425.8757 	EXP 	New trial (rep=0, index=163): OrderedDict([('Index', 164), ('audio', 'block5_trial4_attendleft_leadtarget.wav')])
+1425.8764 	DATA 	Keypress: 3
+1425.8905 	EXP 	respp: autoDraw = False
+1425.9073 	EXP 	cross: autoDraw = True
+1431.7789 	EXP 	cross: autoDraw = False
+1431.7789 	EXP 	respp: autoDraw = True
+1432.4487 	DATA 	Keypress: 2
+1432.8985 	DATA 	Keypress: 1
+1433.5986 	EXP 	New trial (rep=0, index=164): OrderedDict([('Index', 165), ('audio', 'block5_trial5_attendleft_leadmasker.wav')])
+1433.5994 	DATA 	Keypress: 3
+1433.6132 	EXP 	respp: autoDraw = False
+1433.6302 	EXP 	cross: autoDraw = True
+1439.4852 	EXP 	cross: autoDraw = False
+1439.4852 	EXP 	respp: autoDraw = True
+1440.2876 	DATA 	Keypress: 2
+1441.3224 	DATA 	Keypress: 1
+1441.8227 	DATA 	Keypress: 2
+1441.8387 	EXP 	New trial (rep=0, index=165): OrderedDict([('Index', 166), ('audio', 'block5_trial6_attendleft_leadtarget.wav')])
+1441.8533 	EXP 	respp: autoDraw = False
+1441.8698 	EXP 	cross: autoDraw = True
+1447.7582 	EXP 	cross: autoDraw = False
+1447.7582 	EXP 	respp: autoDraw = True
+1448.8116 	DATA 	Keypress: 3
+1449.2450 	DATA 	Keypress: 1
+1449.5114 	EXP 	New trial (rep=0, index=166): OrderedDict([('Index', 167), ('audio', 'block5_trial7_attendright_leadmasker.wav')])
+1449.5121 	DATA 	Keypress: 1
+1449.5260 	EXP 	respp: autoDraw = False
+1449.5429 	EXP 	cross: autoDraw = True
+1455.4145 	EXP 	cross: autoDraw = False
+1455.4145 	EXP 	respp: autoDraw = True
+1456.6513 	DATA 	Keypress: 2
+1457.3020 	DATA 	Keypress: 3
+1457.7342 	EXP 	New trial (rep=0, index=167): OrderedDict([('Index', 168), ('audio', 'block5_trial8_attendright_leadtarget.wav')])
+1457.7349 	DATA 	Keypress: 2
+1457.7490 	EXP 	respp: autoDraw = False
+1457.7655 	EXP 	cross: autoDraw = True
+1463.6377 	EXP 	cross: autoDraw = False
+1463.6377 	EXP 	respp: autoDraw = True
+1464.5238 	DATA 	Keypress: 2
+1464.9246 	DATA 	Keypress: 3
+1465.2743 	EXP 	New trial (rep=0, index=168): OrderedDict([('Index', 169), ('audio', 'block5_trial9_attendleft_leadmasker.wav')])
+1465.2750 	DATA 	Keypress: 3
+1465.2884 	EXP 	respp: autoDraw = False
+1465.3052 	EXP 	cross: autoDraw = True
+1471.1604 	EXP 	cross: autoDraw = False
+1471.1604 	EXP 	respp: autoDraw = True
+1472.2468 	DATA 	Keypress: 3
+1472.5807 	DATA 	Keypress: 2
+1472.8136 	EXP 	New trial (rep=0, index=169): OrderedDict([('Index', 170), ('audio', 'block5_trial10_attendleft_leadtarget.wav')])
+1472.8143 	DATA 	Keypress: 2
+1472.8283 	EXP 	respp: autoDraw = False
+1472.8445 	EXP 	cross: autoDraw = True
+1478.7335 	EXP 	cross: autoDraw = False
+1478.7335 	EXP 	respp: autoDraw = True
+1479.6197 	DATA 	Keypress: 3
+1480.2031 	DATA 	Keypress: 1
+1480.6193 	EXP 	New trial (rep=0, index=170): OrderedDict([('Index', 171), ('audio', 'block5_trial11_attendleft_leadtarget.wav')])
+1480.6200 	DATA 	Keypress: 2
+1480.6347 	EXP 	respp: autoDraw = False
+1480.6511 	EXP 	cross: autoDraw = True
+1486.5230 	EXP 	cross: autoDraw = False
+1486.5230 	EXP 	respp: autoDraw = True
+1486.9757 	DATA 	Keypress: 2
+1487.6262 	DATA 	Keypress: 1
+1487.9922 	EXP 	New trial (rep=0, index=171): OrderedDict([('Index', 172), ('audio', 'block5_trial12_attendleft_leadmasker.wav')])
+1487.9929 	DATA 	Keypress: 1
+1488.0072 	EXP 	respp: autoDraw = False
+1488.0236 	EXP 	cross: autoDraw = True
+1493.8614 	EXP 	cross: autoDraw = False
+1493.8614 	EXP 	respp: autoDraw = True
+1494.7147 	DATA 	Keypress: 2
+1495.0656 	DATA 	Keypress: 3
+1495.2820 	EXP 	New trial (rep=0, index=172): OrderedDict([('Index', 173), ('audio', 'block5_trial13_attendleft_leadmasker.wav')])
+1495.2827 	DATA 	Keypress: 3
+1495.2964 	EXP 	respp: autoDraw = False
+1495.3128 	EXP 	cross: autoDraw = True
+1501.1508 	EXP 	cross: autoDraw = False
+1501.1508 	EXP 	respp: autoDraw = True
+1502.6050 	DATA 	Keypress: 3
+1503.5557 	DATA 	Keypress: 1
+1503.7382 	EXP 	New trial (rep=0, index=173): OrderedDict([('Index', 174), ('audio', 'block5_trial14_attendleft_leadmasker.wav')])
+1503.7389 	DATA 	Keypress: 2
+1503.7533 	EXP 	respp: autoDraw = False
+1503.7694 	EXP 	cross: autoDraw = True
+1509.6578 	EXP 	cross: autoDraw = False
+1509.6578 	EXP 	respp: autoDraw = True
+1511.0277 	DATA 	Keypress: 3
+1511.5948 	DATA 	Keypress: 2
+1512.6624 	DATA 	Keypress: 3
+1512.6784 	EXP 	New trial (rep=0, index=174): OrderedDict([('Index', 175), ('audio', 'block5_trial15_attendright_leadmasker.wav')])
+1512.6938 	EXP 	respp: autoDraw = False
+1512.7098 	EXP 	cross: autoDraw = True
+1518.5649 	EXP 	cross: autoDraw = False
+1518.5649 	EXP 	respp: autoDraw = True
+1519.3844 	DATA 	Keypress: 3
+1519.7018 	DATA 	Keypress: 2
+1519.9189 	DATA 	Keypress: 3
+1519.9347 	EXP 	New trial (rep=0, index=175): OrderedDict([('Index', 176), ('audio', 'block5_trial16_attendright_leadtarget.wav')])
+1519.9490 	EXP 	respp: autoDraw = False
+1519.9660 	EXP 	cross: autoDraw = True
+1525.8208 	EXP 	cross: autoDraw = False
+1525.8208 	EXP 	respp: autoDraw = True
+1526.9243 	DATA 	Keypress: 2
+1527.2912 	DATA 	Keypress: 3
+1527.5576 	EXP 	New trial (rep=0, index=176): OrderedDict([('Index', 177), ('audio', 'block5_trial17_attendleft_leadmasker.wav')])
+1527.5583 	DATA 	Keypress: 2
+1527.5720 	EXP 	respp: autoDraw = False
+1527.5888 	EXP 	cross: autoDraw = True
+1533.4267 	EXP 	cross: autoDraw = False
+1533.4267 	EXP 	respp: autoDraw = True
+1535.4471 	DATA 	Keypress: 2
+1536.2313 	DATA 	Keypress: 1
+1536.5647 	EXP 	New trial (rep=0, index=177): OrderedDict([('Index', 178), ('audio', 'block5_trial18_attendright_leadmasker.wav')])
+1536.5654 	DATA 	Keypress: 2
+1536.5798 	EXP 	respp: autoDraw = False
+1536.5964 	EXP 	cross: autoDraw = True
+1542.4340 	EXP 	cross: autoDraw = False
+1542.4340 	EXP 	respp: autoDraw = True
+1543.0376 	DATA 	Keypress: 1
+1543.1375 	DATA 	Keypress: 2
+1543.2707 	DATA 	Keypress: 3
+1543.4032 	EXP 	New trial (rep=0, index=178): OrderedDict([('Index', 179), ('audio', 'block5_trial19_attendright_leadtarget.wav')])
+1543.4181 	EXP 	respp: autoDraw = False
+1543.4348 	EXP 	cross: autoDraw = True
+1549.3061 	EXP 	cross: autoDraw = False
+1549.3061 	EXP 	respp: autoDraw = True
+1549.9594 	DATA 	Keypress: 1
+1550.1266 	DATA 	Keypress: 2
+1550.2769 	DATA 	Keypress: 3
+1550.4253 	EXP 	New trial (rep=0, index=179): OrderedDict([('Index', 180), ('audio', 'block5_trial20_attendright_leadtarget.wav')])
+1550.4402 	EXP 	respp: autoDraw = False
+1550.4570 	EXP 	cross: autoDraw = True
+1556.3290 	EXP 	cross: autoDraw = False
+1556.3290 	EXP 	respp: autoDraw = True
+1556.9986 	DATA 	Keypress: 1
+1557.1984 	DATA 	Keypress: 3
+1557.3648 	EXP 	New trial (rep=0, index=180): OrderedDict([('Index', 181), ('audio', 'block5_trial21_attendleft_leadtarget.wav')])
+1557.3655 	DATA 	Keypress: 3
+1557.3794 	EXP 	respp: autoDraw = False
+1557.3962 	EXP 	cross: autoDraw = True
+1563.2512 	EXP 	cross: autoDraw = False
+1563.2512 	EXP 	respp: autoDraw = True
+1563.6869 	DATA 	Keypress: 3
+1563.8539 	DATA 	Keypress: 3
+1564.0029 	EXP 	New trial (rep=0, index=181): OrderedDict([('Index', 182), ('audio', 'block5_trial22_attendright_leadtarget.wav')])
+1564.0036 	DATA 	Keypress: 2
+1564.0182 	EXP 	respp: autoDraw = False
+1564.0347 	EXP 	cross: autoDraw = True
+1569.8901 	EXP 	cross: autoDraw = False
+1569.8901 	EXP 	respp: autoDraw = True
+1570.4252 	DATA 	Keypress: 2
+1570.7088 	DATA 	Keypress: 3
+1570.8585 	EXP 	New trial (rep=0, index=182): OrderedDict([('Index', 183), ('audio', 'block5_trial23_attendleft_leadmasker.wav')])
+1570.8592 	DATA 	Keypress: 3
+1570.8732 	EXP 	respp: autoDraw = False
+1570.8901 	EXP 	cross: autoDraw = True
+1576.7617 	EXP 	cross: autoDraw = False
+1576.7617 	EXP 	respp: autoDraw = True
+1577.4314 	DATA 	Keypress: 2
+1577.6653 	DATA 	Keypress: 3
+1577.8318 	DATA 	Keypress: 3
+1577.8476 	EXP 	New trial (rep=0, index=183): OrderedDict([('Index', 184), ('audio', 'block5_trial24_attendleft_leadtarget.wav')])
+1577.8623 	EXP 	respp: autoDraw = False
+1577.8788 	EXP 	cross: autoDraw = True
+1583.7175 	EXP 	cross: autoDraw = False
+1583.7175 	EXP 	respp: autoDraw = True
+1584.4869 	DATA 	Keypress: 2
+1585.0708 	DATA 	Keypress: 3
+1585.3203 	EXP 	New trial (rep=0, index=184): OrderedDict([('Index', 185), ('audio', 'block5_trial25_attendright_leadmasker.wav')])
+1585.3211 	DATA 	Keypress: 3
+1585.3350 	EXP 	respp: autoDraw = False
+1585.3517 	EXP 	cross: autoDraw = True
+1591.2072 	EXP 	cross: autoDraw = False
+1591.2072 	EXP 	respp: autoDraw = True
+1591.8928 	DATA 	Keypress: 3
+1592.0765 	DATA 	Keypress: 3
+1592.2429 	EXP 	New trial (rep=0, index=185): OrderedDict([('Index', 186), ('audio', 'block5_trial26_attendleft_leadmasker.wav')])
+1592.2436 	DATA 	Keypress: 3
+1592.2574 	EXP 	respp: autoDraw = False
+1592.2739 	EXP 	cross: autoDraw = True
+1598.1288 	EXP 	cross: autoDraw = False
+1598.1288 	EXP 	respp: autoDraw = True
+1598.8488 	DATA 	Keypress: 2
+1599.1657 	DATA 	Keypress: 1
+1599.1991 	DATA 	Keypress: 2
+1599.3150 	EXP 	New trial (rep=0, index=186): OrderedDict([('Index', 187), ('audio', 'block5_trial27_attendright_leadmasker.wav')])
+1599.3295 	EXP 	respp: autoDraw = False
+1599.3460 	EXP 	cross: autoDraw = True
+1599.4819 	DATA 	Keypress: 3
+1605.2340 	EXP 	cross: autoDraw = False
+1605.2340 	EXP 	respp: autoDraw = True
+1606.0208 	DATA 	Keypress: 2
+1606.4382 	DATA 	Keypress: 3
+1606.9381 	EXP 	New trial (rep=0, index=187): OrderedDict([('Index', 188), ('audio', 'block5_trial28_attendright_leadmasker.wav')])
+1606.9390 	DATA 	Keypress: 1
+1606.9525 	EXP 	respp: autoDraw = False
+1606.9688 	EXP 	cross: autoDraw = True
+1612.8406 	EXP 	cross: autoDraw = False
+1612.8406 	EXP 	respp: autoDraw = True
+1614.3113 	DATA 	Keypress: 3
+1614.8779 	DATA 	Keypress: 1
+1615.0609 	EXP 	New trial (rep=0, index=188): OrderedDict([('Index', 189), ('audio', 'block5_trial29_attendright_leadmasker.wav')])
+1615.0616 	DATA 	Keypress: 2
+1615.0755 	EXP 	respp: autoDraw = False
+1615.0922 	EXP 	cross: autoDraw = True
+1620.9637 	EXP 	cross: autoDraw = False
+1620.9637 	EXP 	respp: autoDraw = True
+1621.8504 	DATA 	Keypress: 3
+1624.3522 	DATA 	Keypress: 3
+1624.5025 	DATA 	Keypress: 3
+1624.5181 	EXP 	New trial (rep=0, index=189): OrderedDict([('Index', 190), ('audio', 'block5_trial30_attendright_leadmasker.wav')])
+1624.5328 	EXP 	respp: autoDraw = False
+1624.5499 	EXP 	cross: autoDraw = True
+1630.4042 	EXP 	cross: autoDraw = False
+1630.4042 	EXP 	respp: autoDraw = True
+1631.6746 	DATA 	Keypress: 2
+1632.0424 	DATA 	Keypress: 3
+1632.3412 	EXP 	New trial (rep=0, index=190): OrderedDict([('Index', 191), ('audio', 'block5_trial31_attendleft_leadtarget.wav')])
+1632.3420 	DATA 	Keypress: 2
+1632.3559 	EXP 	respp: autoDraw = False
+1632.3727 	EXP 	cross: autoDraw = True
+1638.2451 	EXP 	cross: autoDraw = False
+1638.2451 	EXP 	respp: autoDraw = True
+1638.9308 	DATA 	Keypress: 2
+1639.0975 	DATA 	Keypress: 2
+1639.3138 	EXP 	New trial (rep=0, index=191): OrderedDict([('Index', 192), ('audio', 'block5_trial32_attendright_leadtarget.wav')])
+1639.3145 	DATA 	Keypress: 3
+1639.3283 	EXP 	respp: autoDraw = False
+1639.3454 	EXP 	cross: autoDraw = True
+1645.2162 	EXP 	cross: autoDraw = False
+1645.2162 	EXP 	respp: autoDraw = True
+1646.5207 	DATA 	Keypress: 3
+1646.9540 	DATA 	Keypress: 2
+1647.2371 	EXP 	New trial (rep=0, index=192): OrderedDict([('Index', 193), ('audio', 'block5_trial33_attendright_leadmasker.wav')])
+1647.2378 	DATA 	Keypress: 3
+1647.2512 	EXP 	respp: autoDraw = False
+1647.2682 	EXP 	cross: autoDraw = True
+1653.1566 	EXP 	cross: autoDraw = False
+1653.1566 	EXP 	respp: autoDraw = True
+1654.7433 	DATA 	Keypress: 1
+1655.1604 	DATA 	Keypress: 3
+1656.3776 	EXP 	New trial (rep=0, index=193): OrderedDict([('Index', 194), ('audio', 'block5_trial34_attendright_leadtarget.wav')])
+1656.3783 	DATA 	Keypress: 2
+1656.3919 	EXP 	respp: autoDraw = False
+1656.4085 	EXP 	cross: autoDraw = True
+1662.2469 	EXP 	cross: autoDraw = False
+1662.2469 	EXP 	respp: autoDraw = True
+1663.2831 	DATA 	Keypress: 2
+1663.4835 	DATA 	Keypress: 2
+1663.7328 	EXP 	New trial (rep=0, index=194): OrderedDict([('Index', 195), ('audio', 'block5_trial35_attendleft_leadtarget.wav')])
+1663.7335 	DATA 	Keypress: 3
+1663.7478 	EXP 	respp: autoDraw = False
+1663.7645 	EXP 	cross: autoDraw = True
+1669.6364 	EXP 	cross: autoDraw = False
+1669.6364 	EXP 	respp: autoDraw = True
+1670.6394 	DATA 	Keypress: 2
+1671.0895 	DATA 	Keypress: 1
+1671.3726 	EXP 	New trial (rep=0, index=195): OrderedDict([('Index', 196), ('audio', 'block5_trial36_attendleft_leadmasker.wav')])
+1671.3733 	DATA 	Keypress: 1
+1671.3874 	EXP 	respp: autoDraw = False
+1671.4038 	EXP 	cross: autoDraw = True
+1677.2585 	EXP 	cross: autoDraw = False
+1677.2585 	EXP 	respp: autoDraw = True
+1678.4460 	DATA 	Keypress: 1
+1678.6965 	DATA 	Keypress: 2
+1678.9121 	EXP 	New trial (rep=0, index=196): OrderedDict([('Index', 197), ('audio', 'block5_trial37_attendright_leadtarget.wav')])
+1678.9128 	DATA 	Keypress: 2
+1678.9271 	EXP 	respp: autoDraw = False
+1678.9438 	EXP 	cross: autoDraw = True
+1684.8152 	EXP 	cross: autoDraw = False
+1684.8152 	EXP 	respp: autoDraw = True
+1686.4358 	DATA 	Keypress: 3
+1686.8521 	DATA 	Keypress: 2
+1687.0687 	EXP 	New trial (rep=0, index=197): OrderedDict([('Index', 198), ('audio', 'block5_trial38_attendright_leadtarget.wav')])
+1687.0694 	DATA 	Keypress: 2
+1687.0836 	EXP 	respp: autoDraw = False
+1687.1000 	EXP 	cross: autoDraw = True
+1692.9550 	EXP 	cross: autoDraw = False
+1692.9550 	EXP 	respp: autoDraw = True
+1693.5411 	DATA 	Keypress: 1
+1693.7086 	DATA 	Keypress: 2
+1693.8584 	DATA 	Keypress: 3
+1694.0410 	EXP 	New trial (rep=0, index=198): OrderedDict([('Index', 199), ('audio', 'block5_trial39_attendright_leadmasker.wav')])
+1694.0558 	EXP 	respp: autoDraw = False
+1694.0721 	EXP 	cross: autoDraw = True
+1699.9105 	EXP 	cross: autoDraw = False
+1699.9105 	EXP 	respp: autoDraw = True
+1701.0969 	DATA 	Keypress: 2
+1701.3147 	DATA 	Keypress: 2
+1701.5301 	EXP 	New trial (rep=0, index=199): OrderedDict([('Index', 200), ('audio', 'block5_trial40_attendright_leadtarget.wav')])
+1701.5308 	DATA 	Keypress: 3
+1701.5451 	EXP 	respp: autoDraw = False
+1701.5619 	EXP 	cross: autoDraw = True
+1707.4329 	EXP 	cross: autoDraw = False
+1707.4329 	EXP 	respp: autoDraw = True
+1708.6527 	DATA 	Keypress: 3
+1709.1876 	DATA 	Keypress: 1
+1709.4030 	EXP 	New trial (rep=0, index=200): OrderedDict([('Index', 201), ('audio', 'block6_trial1_attendright_leadmasker.wav')])
+1709.4053 	DATA 	Keypress: 2
+1709.4182 	EXP 	respp: autoDraw = False
+1709.4182 	EXP 	breakk: autoDraw = True
+1725.7830 	DATA 	Keypress: space
+1725.8310 	EXP 	breakk: autoDraw = False
+1725.8478 	EXP 	cross: autoDraw = True
+1731.7191 	EXP 	cross: autoDraw = False
+1731.7191 	EXP 	respp: autoDraw = True
+1733.1225 	DATA 	Keypress: 2
+1733.3231 	DATA 	Keypress: 2
+1733.5395 	EXP 	New trial (rep=0, index=201): OrderedDict([('Index', 202), ('audio', 'block6_trial2_attendright_leadmasker.wav')])
+1733.5403 	DATA 	Keypress: 3
+1733.5541 	EXP 	respp: autoDraw = False
+1733.5706 	EXP 	cross: autoDraw = True
+1739.4428 	EXP 	cross: autoDraw = False
+1739.4428 	EXP 	respp: autoDraw = True
+1740.1953 	DATA 	Keypress: 1
+1740.4119 	DATA 	Keypress: 1
+1740.6950 	EXP 	New trial (rep=0, index=202): OrderedDict([('Index', 203), ('audio', 'block6_trial3_attendright_leadmasker.wav')])
+1740.6957 	DATA 	Keypress: 2
+1740.7097 	EXP 	respp: autoDraw = False
+1740.7267 	EXP 	cross: autoDraw = True
+1746.5809 	EXP 	cross: autoDraw = False
+1746.5809 	EXP 	respp: autoDraw = True
+1748.0348 	DATA 	Keypress: 2
+1748.3353 	DATA 	Keypress: 3
+1748.5515 	EXP 	New trial (rep=0, index=203): OrderedDict([('Index', 204), ('audio', 'block6_trial4_attendright_leadmasker.wav')])
+1748.5524 	DATA 	Keypress: 3
+1748.5661 	EXP 	respp: autoDraw = False
+1748.5825 	EXP 	cross: autoDraw = True
+1754.4380 	EXP 	cross: autoDraw = False
+1754.4380 	EXP 	respp: autoDraw = True
+1755.2074 	DATA 	Keypress: 2
+1755.3746 	DATA 	Keypress: 2
+1755.5739 	EXP 	New trial (rep=0, index=204): OrderedDict([('Index', 205), ('audio', 'block6_trial5_attendleft_leadmasker.wav')])
+1755.5746 	DATA 	Keypress: 3
+1755.5886 	EXP 	respp: autoDraw = False
+1755.6050 	EXP 	cross: autoDraw = True
+1761.4428 	EXP 	cross: autoDraw = False
+1761.4428 	EXP 	respp: autoDraw = True
+1762.5466 	DATA 	Keypress: 3
+1762.8134 	DATA 	Keypress: 1
+1762.9958 	EXP 	New trial (rep=0, index=205): OrderedDict([('Index', 206), ('audio', 'block6_trial6_attendleft_leadtarget.wav')])
+1762.9965 	DATA 	Keypress: 1
+1763.0107 	EXP 	respp: autoDraw = False
+1763.0276 	EXP 	cross: autoDraw = True
+1768.8833 	EXP 	cross: autoDraw = False
+1768.8833 	EXP 	respp: autoDraw = True
+1769.7191 	DATA 	Keypress: 2
+1770.2361 	DATA 	Keypress: 3
+1770.4860 	EXP 	New trial (rep=0, index=206): OrderedDict([('Index', 207), ('audio', 'block6_trial7_attendright_leadmasker.wav')])
+1770.4868 	DATA 	Keypress: 2
+1770.5001 	EXP 	respp: autoDraw = False
+1770.5167 	EXP 	cross: autoDraw = True
+1776.4055 	EXP 	cross: autoDraw = False
+1776.4055 	EXP 	respp: autoDraw = True
+1777.9253 	DATA 	Keypress: 3
+1778.2425 	DATA 	Keypress: 2
+1778.5423 	EXP 	New trial (rep=0, index=207): OrderedDict([('Index', 208), ('audio', 'block6_trial8_attendleft_leadmasker.wav')])
+1778.5430 	DATA 	Keypress: 2
+1778.5565 	EXP 	respp: autoDraw = False
+1778.5737 	EXP 	cross: autoDraw = True
+1784.4282 	EXP 	cross: autoDraw = False
+1784.4282 	EXP 	respp: autoDraw = True
+1785.2477 	DATA 	Keypress: 2
+1785.4652 	DATA 	Keypress: 2
+1785.6808 	EXP 	New trial (rep=0, index=208): OrderedDict([('Index', 209), ('audio', 'block6_trial9_attendright_leadtarget.wav')])
+1785.6815 	DATA 	Keypress: 3
+1785.6958 	EXP 	respp: autoDraw = False
+1785.7128 	EXP 	cross: autoDraw = True
+1791.5844 	EXP 	cross: autoDraw = False
+1791.5844 	EXP 	respp: autoDraw = True
+1792.7377 	DATA 	Keypress: 2
+1793.2548 	DATA 	Keypress: 2
+1793.6380 	EXP 	New trial (rep=0, index=209): OrderedDict([('Index', 210), ('audio', 'block6_trial10_attendright_leadtarget.wav')])
+1793.6387 	DATA 	Keypress: 3
+1793.6522 	EXP 	respp: autoDraw = False
+1793.6691 	EXP 	cross: autoDraw = True
+1799.5238 	EXP 	cross: autoDraw = False
+1799.5238 	EXP 	respp: autoDraw = True
+1801.0611 	DATA 	Keypress: 2
+1801.7276 	DATA 	Keypress: 3
+1802.1611 	EXP 	New trial (rep=0, index=210): OrderedDict([('Index', 211), ('audio', 'block6_trial11_attendright_leadmasker.wav')])
+1802.1618 	DATA 	Keypress: 2
+1802.1758 	EXP 	respp: autoDraw = False
+1802.1928 	EXP 	cross: autoDraw = True
+1808.0641 	EXP 	cross: autoDraw = False
+1808.0641 	EXP 	respp: autoDraw = True
+1809.4175 	DATA 	Keypress: 1
+1809.8847 	DATA 	Keypress: 2
+1810.6178 	EXP 	New trial (rep=0, index=211): OrderedDict([('Index', 212), ('audio', 'block6_trial12_attendleft_leadmasker.wav')])
+1810.6185 	DATA 	Keypress: 1
+1810.6323 	EXP 	respp: autoDraw = False
+1810.6490 	EXP 	cross: autoDraw = True
+1816.5208 	EXP 	cross: autoDraw = False
+1816.5208 	EXP 	respp: autoDraw = True
+1817.3903 	DATA 	Keypress: 2
+1818.0246 	DATA 	Keypress: 3
+1818.3743 	EXP 	New trial (rep=0, index=212): OrderedDict([('Index', 213), ('audio', 'block6_trial13_attendleft_leadtarget.wav')])
+1818.3750 	DATA 	Keypress: 1
+1818.3885 	EXP 	respp: autoDraw = False
+1818.4052 	EXP 	cross: autoDraw = True
+1824.2767 	EXP 	cross: autoDraw = False
+1824.2767 	EXP 	respp: autoDraw = True
+1824.8806 	DATA 	Keypress: 1
+1825.0803 	DATA 	Keypress: 1
+1825.2632 	EXP 	New trial (rep=0, index=213): OrderedDict([('Index', 214), ('audio', 'block6_trial14_attendright_leadtarget.wav')])
+1825.2639 	DATA 	Keypress: 1
+1825.2777 	EXP 	respp: autoDraw = False
+1825.2944 	EXP 	cross: autoDraw = True
+1831.1495 	EXP 	cross: autoDraw = False
+1831.1495 	EXP 	respp: autoDraw = True
+1831.8523 	DATA 	Keypress: 1
+1832.0853 	DATA 	Keypress: 2
+1832.4184 	EXP 	New trial (rep=0, index=214): OrderedDict([('Index', 215), ('audio', 'block6_trial15_attendleft_leadtarget.wav')])
+1832.4191 	DATA 	Keypress: 3
+1832.4332 	EXP 	respp: autoDraw = False
+1832.4499 	EXP 	cross: autoDraw = True
+1838.3051 	EXP 	cross: autoDraw = False
+1838.3051 	EXP 	respp: autoDraw = True
+1839.2419 	DATA 	Keypress: 3
+1839.6416 	DATA 	Keypress: 2
+1840.1083 	EXP 	New trial (rep=0, index=215): OrderedDict([('Index', 216), ('audio', 'block6_trial16_attendright_leadtarget.wav')])
+1840.1090 	DATA 	Keypress: 2
+1840.1225 	EXP 	respp: autoDraw = False
+1840.1396 	EXP 	cross: autoDraw = True
+1846.0115 	EXP 	cross: autoDraw = False
+1846.0115 	EXP 	respp: autoDraw = True
+1846.8805 	DATA 	Keypress: 2
+1847.6646 	DATA 	Keypress: 1
+1847.9814 	EXP 	New trial (rep=0, index=216): OrderedDict([('Index', 217), ('audio', 'block6_trial17_attendright_leadmasker.wav')])
+1847.9821 	DATA 	Keypress: 3
+1847.9958 	EXP 	respp: autoDraw = False
+1848.0128 	EXP 	cross: autoDraw = True
+1853.8668 	EXP 	cross: autoDraw = False
+1853.8668 	EXP 	respp: autoDraw = True
+1854.5369 	DATA 	Keypress: 3
+1854.7370 	DATA 	Keypress: 3
+1854.9032 	EXP 	New trial (rep=0, index=217): OrderedDict([('Index', 218), ('audio', 'block6_trial18_attendleft_leadtarget.wav')])
+1854.9039 	DATA 	Keypress: 2
+1854.9179 	EXP 	respp: autoDraw = False
+1854.9344 	EXP 	cross: autoDraw = True
+1860.7891 	EXP 	cross: autoDraw = False
+1860.7891 	EXP 	respp: autoDraw = True
+1861.7098 	DATA 	Keypress: 2
+1862.2432 	DATA 	Keypress: 3
+1863.0259 	EXP 	New trial (rep=0, index=218): OrderedDict([('Index', 219), ('audio', 'block6_trial19_attendleft_leadmasker.wav')])
+1863.0266 	DATA 	Keypress: 2
+1863.0411 	EXP 	respp: autoDraw = False
+1863.0579 	EXP 	cross: autoDraw = True
+1868.9132 	EXP 	cross: autoDraw = False
+1868.9132 	EXP 	respp: autoDraw = True
+1870.4996 	DATA 	Keypress: 2
+1871.3508 	DATA 	Keypress: 3
+1872.0177 	DATA 	Keypress: 2
+1873.0330 	EXP 	New trial (rep=0, index=219): OrderedDict([('Index', 220), ('audio', 'block6_trial20_attendleft_leadtarget.wav')])
+1873.0493 	EXP 	respp: autoDraw = False
+1873.0658 	EXP 	cross: autoDraw = True
+1878.9375 	EXP 	cross: autoDraw = False
+1878.9375 	EXP 	respp: autoDraw = True
+1879.6238 	DATA 	Keypress: 2
+1880.2069 	DATA 	Keypress: 3
+1880.6080 	DATA 	Keypress: 3
+1880.6237 	EXP 	New trial (rep=0, index=220): OrderedDict([('Index', 221), ('audio', 'block6_trial21_attendleft_leadmasker.wav')])
+1880.6386 	EXP 	respp: autoDraw = False
+1880.6554 	EXP 	cross: autoDraw = True
+1886.5106 	EXP 	cross: autoDraw = False
+1886.5106 	EXP 	respp: autoDraw = True
+1887.8305 	DATA 	Keypress: 3
+1888.8479 	DATA 	Keypress: 2
+1889.2641 	EXP 	New trial (rep=0, index=221): OrderedDict([('Index', 222), ('audio', 'block6_trial22_attendleft_leadmasker.wav')])
+1889.2648 	DATA 	Keypress: 2
+1889.2788 	EXP 	respp: autoDraw = False
+1889.2955 	EXP 	cross: autoDraw = True
+1895.1505 	EXP 	cross: autoDraw = False
+1895.1505 	EXP 	respp: autoDraw = True
+1896.4041 	DATA 	Keypress: 2
+1897.0215 	DATA 	Keypress: 3
+1897.3369 	EXP 	New trial (rep=0, index=222): OrderedDict([('Index', 223), ('audio', 'block6_trial23_attendright_leadmasker.wav')])
+1897.3376 	DATA 	Keypress: 3
+1897.3521 	EXP 	respp: autoDraw = False
+1897.3684 	EXP 	cross: autoDraw = True
+1903.2243 	EXP 	cross: autoDraw = False
+1903.2243 	EXP 	respp: autoDraw = True
+1904.9110 	DATA 	Keypress: 1
+1905.2608 	DATA 	Keypress: 3
+1905.4768 	EXP 	New trial (rep=0, index=223): OrderedDict([('Index', 224), ('audio', 'block6_trial24_attendleft_leadtarget.wav')])
+1905.4774 	DATA 	Keypress: 3
+1905.4922 	EXP 	respp: autoDraw = False
+1905.5090 	EXP 	cross: autoDraw = True
+1911.3464 	EXP 	cross: autoDraw = False
+1911.3464 	EXP 	respp: autoDraw = True
+1911.9496 	DATA 	Keypress: 1
+1912.2834 	DATA 	Keypress: 2
+1912.4830 	EXP 	New trial (rep=0, index=224): OrderedDict([('Index', 225), ('audio', 'block6_trial25_attendleft_leadtarget.wav')])
+1912.4838 	DATA 	Keypress: 2
+1912.4976 	EXP 	respp: autoDraw = False
+1912.5143 	EXP 	cross: autoDraw = True
+1918.3691 	EXP 	cross: autoDraw = False
+1918.3691 	EXP 	respp: autoDraw = True
+1919.3220 	DATA 	Keypress: 2
+1920.2229 	DATA 	Keypress: 2
+1920.4393 	EXP 	New trial (rep=0, index=225): OrderedDict([('Index', 226), ('audio', 'block6_trial26_attendright_leadtarget.wav')])
+1920.4401 	DATA 	Keypress: 2
+1920.4540 	EXP 	respp: autoDraw = False
+1920.4708 	EXP 	cross: autoDraw = True
+1926.3589 	EXP 	cross: autoDraw = False
+1926.3589 	EXP 	respp: autoDraw = True
+1927.2118 	DATA 	Keypress: 2
+1927.7793 	DATA 	Keypress: 2
+1928.3792 	EXP 	New trial (rep=0, index=226): OrderedDict([('Index', 227), ('audio', 'block6_trial27_attendleft_leadmasker.wav')])
+1928.3799 	DATA 	Keypress: 3
+1928.3936 	EXP 	respp: autoDraw = False
+1928.4101 	EXP 	cross: autoDraw = True
+1934.2984 	EXP 	cross: autoDraw = False
+1934.2984 	EXP 	respp: autoDraw = True
+1936.4028 	DATA 	Keypress: 2
+1936.5696 	DATA 	Keypress: 2
+1936.7367 	DATA 	Keypress: 3
+1936.8860 	EXP 	New trial (rep=0, index=227): OrderedDict([('Index', 228), ('audio', 'block6_trial28_attendleft_leadtarget.wav')])
+1936.9006 	EXP 	respp: autoDraw = False
+1936.9174 	EXP 	cross: autoDraw = True
+1942.7889 	EXP 	cross: autoDraw = False
+1942.7889 	EXP 	respp: autoDraw = True
+1943.6255 	DATA 	Keypress: 3
+1943.9924 	DATA 	Keypress: 2
+1944.1749 	EXP 	New trial (rep=0, index=228): OrderedDict([('Index', 229), ('audio', 'block6_trial29_attendright_leadtarget.wav')])
+1944.1756 	DATA 	Keypress: 2
+1944.1899 	EXP 	respp: autoDraw = False
+1944.2063 	EXP 	cross: autoDraw = True
+1950.0776 	EXP 	cross: autoDraw = False
+1950.0776 	EXP 	respp: autoDraw = True
+1952.2657 	DATA 	Keypress: 2
+1952.7830 	DATA 	Keypress: 1
+1953.2661 	EXP 	New trial (rep=0, index=229): OrderedDict([('Index', 230), ('audio', 'block6_trial30_attendleft_leadmasker.wav')])
+1953.2668 	DATA 	Keypress: 3
+1953.2800 	EXP 	respp: autoDraw = False
+1953.2971 	EXP 	cross: autoDraw = True
+1959.1348 	EXP 	cross: autoDraw = False
+1959.1348 	EXP 	respp: autoDraw = True
+1960.7723 	DATA 	Keypress: 1
+1960.8722 	DATA 	Keypress: 2
+1961.0391 	DATA 	Keypress: 3
+1961.1713 	EXP 	New trial (rep=0, index=230): OrderedDict([('Index', 231), ('audio', 'block6_trial31_attendleft_leadmasker.wav')])
+1961.1864 	EXP 	respp: autoDraw = False
+1961.2036 	EXP 	cross: autoDraw = True
+1967.0746 	EXP 	cross: autoDraw = False
+1967.0746 	EXP 	respp: autoDraw = True
+1968.1282 	DATA 	Keypress: 3
+1968.6120 	DATA 	Keypress: 2
+1968.9612 	EXP 	New trial (rep=0, index=231): OrderedDict([('Index', 232), ('audio', 'block6_trial32_attendright_leadtarget.wav')])
+1968.9619 	DATA 	Keypress: 1
+1968.9761 	EXP 	respp: autoDraw = False
+1968.9928 	EXP 	cross: autoDraw = True
+1974.8306 	EXP 	cross: autoDraw = False
+1974.8306 	EXP 	respp: autoDraw = True
+1976.0512 	DATA 	Keypress: 2
+1976.2850 	DATA 	Keypress: 3
+1976.5009 	EXP 	New trial (rep=0, index=232): OrderedDict([('Index', 233), ('audio', 'block6_trial33_attendright_leadtarget.wav')])
+1976.5016 	DATA 	Keypress: 2
+1976.5156 	EXP 	respp: autoDraw = False
+1976.5320 	EXP 	cross: autoDraw = True
+1982.4039 	EXP 	cross: autoDraw = False
+1982.4039 	EXP 	respp: autoDraw = True
+1983.0906 	DATA 	Keypress: 2
+1983.4407 	DATA 	Keypress: 1
+1983.6399 	EXP 	New trial (rep=0, index=233): OrderedDict([('Index', 234), ('audio', 'block6_trial34_attendright_leadtarget.wav')])
+1983.6406 	DATA 	Keypress: 2
+1983.6546 	EXP 	respp: autoDraw = False
+1983.6711 	EXP 	cross: autoDraw = True
+1989.5600 	EXP 	cross: autoDraw = False
+1989.5600 	EXP 	respp: autoDraw = True
+1990.0790 	DATA 	Keypress: 2
+1990.2625 	DATA 	Keypress: 2
+1990.4786 	EXP 	New trial (rep=0, index=234): OrderedDict([('Index', 235), ('audio', 'block6_trial35_attendleft_leadtarget.wav')])
+1990.4792 	DATA 	Keypress: 2
+1990.4934 	EXP 	respp: autoDraw = False
+1990.5104 	EXP 	cross: autoDraw = True
+1996.3821 	EXP 	cross: autoDraw = False
+1996.3821 	EXP 	respp: autoDraw = True
+1997.2849 	DATA 	Keypress: 3
+1998.5188 	DATA 	Keypress: 2
+1999.4865 	DATA 	Keypress: 2
+1999.5026 	EXP 	New trial (rep=0, index=235): OrderedDict([('Index', 236), ('audio', 'block6_trial36_attendright_leadmasker.wav')])
+1999.5173 	EXP 	respp: autoDraw = False
+1999.5341 	EXP 	cross: autoDraw = True
+2005.3891 	EXP 	cross: autoDraw = False
+2005.3891 	EXP 	respp: autoDraw = True
+2006.9428 	DATA 	Keypress: 1
+2007.8599 	DATA 	Keypress: 3
+2008.0262 	EXP 	New trial (rep=0, index=236): OrderedDict([('Index', 237), ('audio', 'block6_trial37_attendleft_leadmasker.wav')])
+2008.0269 	DATA 	Keypress: 2
+2008.0409 	EXP 	respp: autoDraw = False
+2008.0574 	EXP 	cross: autoDraw = True
+2013.9289 	EXP 	cross: autoDraw = False
+2013.9289 	EXP 	respp: autoDraw = True
+2014.6821 	DATA 	Keypress: 1
+2015.0826 	DATA 	Keypress: 1
+2015.3165 	DATA 	Keypress: 2
+2018.0329 	EXP 	New trial (rep=0, index=237): OrderedDict([('Index', 238), ('audio', 'block6_trial38_attendright_leadmasker.wav')])
+2018.0488 	EXP 	respp: autoDraw = False
+2018.0658 	EXP 	cross: autoDraw = True
+2023.9209 	EXP 	cross: autoDraw = False
+2023.9209 	EXP 	respp: autoDraw = True
+2025.0070 	DATA 	Keypress: 1
+2025.4911 	DATA 	Keypress: 3
+2025.7246 	DATA 	Keypress: 3
+2028.0409 	EXP 	New trial (rep=0, index=238): OrderedDict([('Index', 239), ('audio', 'block6_trial39_attendright_leadtarget.wav')])
+2028.0568 	EXP 	respp: autoDraw = False
+2028.0736 	EXP 	cross: autoDraw = True
+2033.9450 	EXP 	cross: autoDraw = False
+2033.9450 	EXP 	respp: autoDraw = True
+2035.2321 	DATA 	Keypress: 1
+2035.9828 	DATA 	Keypress: 3
+2036.3660 	EXP 	New trial (rep=0, index=239): OrderedDict([('Index', 240), ('audio', 'block6_trial40_attendleft_leadtarget.wav')])
+2036.3668 	DATA 	Keypress: 2
+2036.3805 	EXP 	respp: autoDraw = False
+2036.3968 	EXP 	cross: autoDraw = True
+2042.2686 	EXP 	cross: autoDraw = False
+2042.2686 	EXP 	respp: autoDraw = True
+2043.8886 	DATA 	Keypress: 1
+2044.6732 	DATA 	Keypress: 2
+2044.9725 	EXP 	New trial (rep=0, index=240): OrderedDict([('Index', 241), ('audio', 'block7_trial1_attendright_leadtarget.wav')])
+2044.9744 	DATA 	Keypress: 3
+2044.9874 	EXP 	respp: autoDraw = False
+2044.9874 	EXP 	breakk: autoDraw = True
+2057.7832 	DATA 	Keypress: space
+2057.8142 	EXP 	breakk: autoDraw = False
+2057.8311 	EXP 	cross: autoDraw = True
+2063.6689 	EXP 	cross: autoDraw = False
+2063.6689 	EXP 	respp: autoDraw = True
+2064.4558 	DATA 	Keypress: 3
+2065.0222 	DATA 	Keypress: 1
+2065.3389 	EXP 	New trial (rep=0, index=241): OrderedDict([('Index', 242), ('audio', 'block7_trial2_attendleft_leadmasker.wav')])
+2065.3396 	DATA 	Keypress: 2
+2065.3534 	EXP 	respp: autoDraw = False
+2065.3702 	EXP 	cross: autoDraw = True
+2071.2420 	EXP 	cross: autoDraw = False
+2071.2420 	EXP 	respp: autoDraw = True
+2071.7946 	DATA 	Keypress: 2
+2071.9618 	DATA 	Keypress: 2
+2072.0949 	DATA 	Keypress: 3
+2072.1106 	EXP 	New trial (rep=0, index=242): OrderedDict([('Index', 243), ('audio', 'block7_trial3_attendleft_leadtarget.wav')])
+2072.1253 	EXP 	respp: autoDraw = False
+2072.1426 	EXP 	cross: autoDraw = True
+2078.0304 	EXP 	cross: autoDraw = False
+2078.0304 	EXP 	respp: autoDraw = True
+2079.1506 	DATA 	Keypress: 1
+2079.6347 	DATA 	Keypress: 3
+2079.8839 	EXP 	New trial (rep=0, index=243): OrderedDict([('Index', 244), ('audio', 'block7_trial4_attendleft_leadtarget.wav')])
+2079.8847 	DATA 	Keypress: 2
+2079.8986 	EXP 	respp: autoDraw = False
+2079.9151 	EXP 	cross: autoDraw = True
+2085.7701 	EXP 	cross: autoDraw = False
+2085.7701 	EXP 	respp: autoDraw = True
+2086.9907 	DATA 	Keypress: 1
+2087.5908 	DATA 	Keypress: 3
+2087.9568 	EXP 	New trial (rep=0, index=244): OrderedDict([('Index', 245), ('audio', 'block7_trial5_attendright_leadmasker.wav')])
+2087.9575 	DATA 	Keypress: 1
+2087.9716 	EXP 	respp: autoDraw = False
+2087.9880 	EXP 	cross: autoDraw = True
+2093.8602 	EXP 	cross: autoDraw = False
+2093.8602 	EXP 	respp: autoDraw = True
+2094.8803 	DATA 	Keypress: 3
+2095.1132 	DATA 	Keypress: 2
+2095.2970 	EXP 	New trial (rep=0, index=245): OrderedDict([('Index', 246), ('audio', 'block7_trial6_attendright_leadmasker.wav')])
+2095.2977 	DATA 	Keypress: 2
+2095.3112 	EXP 	respp: autoDraw = False
+2095.3277 	EXP 	cross: autoDraw = True
+2101.1995 	EXP 	cross: autoDraw = False
+2101.1995 	EXP 	respp: autoDraw = True
+2102.1022 	DATA 	Keypress: 2
+2102.2357 	DATA 	Keypress: 2
+2102.3686 	EXP 	New trial (rep=0, index=246): OrderedDict([('Index', 247), ('audio', 'block7_trial7_attendright_leadmasker.wav')])
+2102.3693 	DATA 	Keypress: 1
+2102.3835 	EXP 	respp: autoDraw = False
+2102.3999 	EXP 	cross: autoDraw = True
+2108.2551 	EXP 	cross: autoDraw = False
+2108.2551 	EXP 	respp: autoDraw = True
+2108.8243 	DATA 	Keypress: 3
+2108.9745 	DATA 	Keypress: 3
+2109.1236 	EXP 	New trial (rep=0, index=247): OrderedDict([('Index', 248), ('audio', 'block7_trial8_attendright_leadtarget.wav')])
+2109.1243 	DATA 	Keypress: 2
+2109.1385 	EXP 	respp: autoDraw = False
+2109.1555 	EXP 	cross: autoDraw = True
+2115.0271 	EXP 	cross: autoDraw = False
+2115.0271 	EXP 	respp: autoDraw = True
+2115.5968 	DATA 	Keypress: 2
+2115.7298 	DATA 	Keypress: 3
+2115.8962 	EXP 	New trial (rep=0, index=248): OrderedDict([('Index', 249), ('audio', 'block7_trial9_attendright_leadmasker.wav')])
+2115.8969 	DATA 	Keypress: 3
+2115.9105 	EXP 	respp: autoDraw = False
+2115.9275 	EXP 	cross: autoDraw = True
+2121.7657 	EXP 	cross: autoDraw = False
+2121.7657 	EXP 	respp: autoDraw = True
+2122.3688 	DATA 	Keypress: 2
+2122.5357 	DATA 	Keypress: 2
+2122.6682 	EXP 	New trial (rep=0, index=249): OrderedDict([('Index', 250), ('audio', 'block7_trial10_attendleft_leadmasker.wav')])
+2122.6689 	DATA 	Keypress: 2
+2122.6827 	EXP 	respp: autoDraw = False
+2122.6995 	EXP 	cross: autoDraw = True
+2128.5541 	EXP 	cross: autoDraw = False
+2128.5541 	EXP 	respp: autoDraw = True
+2129.2912 	DATA 	Keypress: 3
+2129.4415 	DATA 	Keypress: 3
+2129.5743 	DATA 	Keypress: 3
+2129.5902 	EXP 	New trial (rep=0, index=250): OrderedDict([('Index', 251), ('audio', 'block7_trial11_attendleft_leadtarget.wav')])
+2129.6053 	EXP 	respp: autoDraw = False
+2129.6220 	EXP 	cross: autoDraw = True
+2135.4600 	EXP 	cross: autoDraw = False
+2135.4600 	EXP 	respp: autoDraw = True
+2136.2633 	DATA 	Keypress: 3
+2136.6631 	DATA 	Keypress: 1
+2136.8962 	EXP 	New trial (rep=0, index=251): OrderedDict([('Index', 252), ('audio', 'block7_trial12_attendright_leadtarget.wav')])
+2136.8969 	DATA 	Keypress: 2
+2136.9112 	EXP 	respp: autoDraw = False
+2136.9276 	EXP 	cross: autoDraw = True
+2142.7986 	EXP 	cross: autoDraw = False
+2142.7986 	EXP 	respp: autoDraw = True
+2143.5022 	DATA 	Keypress: 2
+2143.8525 	DATA 	Keypress: 2
+2144.5693 	EXP 	New trial (rep=0, index=252): OrderedDict([('Index', 253), ('audio', 'block7_trial13_attendleft_leadmasker.wav')])
+2144.5700 	DATA 	Keypress: 1
+2144.5839 	EXP 	respp: autoDraw = False
+2144.6006 	EXP 	cross: autoDraw = True
+2150.4728 	EXP 	cross: autoDraw = False
+2150.4728 	EXP 	respp: autoDraw = True
+2151.2750 	DATA 	Keypress: 3
+2151.4587 	DATA 	Keypress: 2
+2151.5912 	EXP 	New trial (rep=0, index=253): OrderedDict([('Index', 254), ('audio', 'block7_trial14_attendleft_leadmasker.wav')])
+2151.5919 	DATA 	Keypress: 2
+2151.6058 	EXP 	respp: autoDraw = False
+2151.6227 	EXP 	cross: autoDraw = True
+2157.4779 	EXP 	cross: autoDraw = False
+2157.4779 	EXP 	respp: autoDraw = True
+2158.3139 	DATA 	Keypress: 1
+2158.4642 	DATA 	Keypress: 1
+2158.6135 	EXP 	New trial (rep=0, index=254): OrderedDict([('Index', 255), ('audio', 'block7_trial15_attendleft_leadtarget.wav')])
+2158.6142 	DATA 	Keypress: 1
+2158.6283 	EXP 	respp: autoDraw = False
+2158.6447 	EXP 	cross: autoDraw = True
+2164.5000 	EXP 	cross: autoDraw = False
+2164.5000 	EXP 	respp: autoDraw = True
+2165.2202 	DATA 	Keypress: 2
+2165.3867 	DATA 	Keypress: 1
+2165.5030 	DATA 	Keypress: 2
+2165.5189 	EXP 	New trial (rep=0, index=255): OrderedDict([('Index', 256), ('audio', 'block7_trial16_attendright_leadmasker.wav')])
+2165.5343 	EXP 	respp: autoDraw = False
+2165.5507 	EXP 	cross: autoDraw = True
+2171.4051 	EXP 	cross: autoDraw = False
+2171.4051 	EXP 	respp: autoDraw = True
+2173.0928 	DATA 	Keypress: 2
+2173.2928 	DATA 	Keypress: 3
+2173.4589 	EXP 	New trial (rep=0, index=256): OrderedDict([('Index', 257), ('audio', 'block7_trial17_attendright_leadtarget.wav')])
+2173.4596 	DATA 	Keypress: 3
+2173.4735 	EXP 	respp: autoDraw = False
+2173.4904 	EXP 	cross: autoDraw = True
+2179.3447 	EXP 	cross: autoDraw = False
+2179.3447 	EXP 	respp: autoDraw = True
+2179.8981 	DATA 	Keypress: 2
+2180.0816 	DATA 	Keypress: 2
+2180.2474 	EXP 	New trial (rep=0, index=257): OrderedDict([('Index', 258), ('audio', 'block7_trial18_attendright_leadtarget.wav')])
+2180.2481 	DATA 	Keypress: 3
+2180.2621 	EXP 	respp: autoDraw = False
+2180.2791 	EXP 	cross: autoDraw = True
+2186.1347 	EXP 	cross: autoDraw = False
+2186.1347 	EXP 	respp: autoDraw = True
+2186.6871 	DATA 	Keypress: 3
+2187.0033 	DATA 	Keypress: 2
+2187.3201 	EXP 	New trial (rep=0, index=258): OrderedDict([('Index', 259), ('audio', 'block7_trial19_attendleft_leadtarget.wav')])
+2187.3208 	DATA 	Keypress: 1
+2187.3352 	EXP 	respp: autoDraw = False
+2187.3514 	EXP 	cross: autoDraw = True
+2193.1900 	EXP 	cross: autoDraw = False
+2193.1900 	EXP 	respp: autoDraw = True
+2194.2431 	DATA 	Keypress: 1
+2194.9600 	DATA 	Keypress: 2
+2195.0932 	EXP 	New trial (rep=0, index=259): OrderedDict([('Index', 260), ('audio', 'block7_trial20_attendright_leadmasker.wav')])
+2195.0939 	DATA 	Keypress: 3
+2195.1074 	EXP 	respp: autoDraw = False
+2195.1245 	EXP 	cross: autoDraw = True
+2200.9961 	EXP 	cross: autoDraw = False
+2200.9961 	EXP 	respp: autoDraw = True
+2202.4331 	DATA 	Keypress: 1
+2203.8172 	DATA 	Keypress: 1
+2204.0003 	EXP 	New trial (rep=0, index=260): OrderedDict([('Index', 261), ('audio', 'block7_trial21_attendleft_leadmasker.wav')])
+2204.0011 	DATA 	Keypress: 3
+2204.0146 	EXP 	respp: autoDraw = False
+2204.0318 	EXP 	cross: autoDraw = True
+2209.9029 	EXP 	cross: autoDraw = False
+2209.9029 	EXP 	respp: autoDraw = True
+2210.9565 	DATA 	Keypress: 3
+2211.2232 	DATA 	Keypress: 2
+2211.3725 	EXP 	New trial (rep=0, index=261): OrderedDict([('Index', 262), ('audio', 'block7_trial22_attendleft_leadtarget.wav')])
+2211.3732 	DATA 	Keypress: 2
+2211.3873 	EXP 	respp: autoDraw = False
+2211.4037 	EXP 	cross: autoDraw = True
+2217.2423 	EXP 	cross: autoDraw = False
+2217.2423 	EXP 	respp: autoDraw = True
+2217.6784 	DATA 	Keypress: 1
+2217.8283 	DATA 	Keypress: 1
+2217.9781 	EXP 	New trial (rep=0, index=262): OrderedDict([('Index', 263), ('audio', 'block7_trial23_attendright_leadmasker.wav')])
+2217.9788 	DATA 	Keypress: 1
+2217.9926 	EXP 	respp: autoDraw = False
+2218.0096 	EXP 	cross: autoDraw = True
+2223.8807 	EXP 	cross: autoDraw = False
+2223.8807 	EXP 	respp: autoDraw = True
+2225.1177 	DATA 	Keypress: 3
+2225.5845 	DATA 	Keypress: 2
+2226.2012 	EXP 	New trial (rep=0, index=263): OrderedDict([('Index', 264), ('audio', 'block7_trial24_attendright_leadtarget.wav')])
+2226.2019 	DATA 	Keypress: 3
+2226.2159 	EXP 	respp: autoDraw = False
+2226.2329 	EXP 	cross: autoDraw = True
+2232.1042 	EXP 	cross: autoDraw = False
+2232.1042 	EXP 	respp: autoDraw = True
+2232.6235 	DATA 	Keypress: 2
+2232.7906 	DATA 	Keypress: 2
+2232.9229 	EXP 	New trial (rep=0, index=264): OrderedDict([('Index', 265), ('audio', 'block7_trial25_attendright_leadtarget.wav')])
+2232.9236 	DATA 	Keypress: 3
+2232.9377 	EXP 	respp: autoDraw = False
+2232.9544 	EXP 	cross: autoDraw = True
+2238.8436 	EXP 	cross: autoDraw = False
+2238.8436 	EXP 	respp: autoDraw = True
+2239.7295 	DATA 	Keypress: 2
+2240.0295 	DATA 	Keypress: 3
+2240.3625 	EXP 	New trial (rep=0, index=265): OrderedDict([('Index', 266), ('audio', 'block7_trial26_attendleft_leadmasker.wav')])
+2240.3632 	DATA 	Keypress: 1
+2240.3771 	EXP 	respp: autoDraw = False
+2240.3939 	EXP 	cross: autoDraw = True
+2246.2657 	EXP 	cross: autoDraw = False
+2246.2657 	EXP 	respp: autoDraw = True
+2247.1523 	DATA 	Keypress: 2
+2247.9859 	DATA 	Keypress: 1
+2248.2022 	EXP 	New trial (rep=0, index=266): OrderedDict([('Index', 267), ('audio', 'block7_trial27_attendright_leadmasker.wav')])
+2248.2029 	DATA 	Keypress: 3
+2248.2169 	EXP 	respp: autoDraw = False
+2248.2335 	EXP 	cross: autoDraw = True
+2254.0719 	EXP 	cross: autoDraw = False
+2254.0719 	EXP 	respp: autoDraw = True
+2254.7411 	DATA 	Keypress: 1
+2254.9086 	DATA 	Keypress: 2
+2255.0584 	DATA 	Keypress: 2
+2257.6429 	EXP 	New trial (rep=0, index=267): OrderedDict([('Index', 268), ('audio', 'block7_trial28_attendright_leadmasker.wav')])
+2257.6437 	DATA 	Keypress: 2
+2257.6578 	EXP 	respp: autoDraw = False
+2257.6747 	EXP 	cross: autoDraw = True
+2263.5465 	EXP 	cross: autoDraw = False
+2263.5465 	EXP 	respp: autoDraw = True
+2264.7666 	DATA 	Keypress: 2
+2266.1172 	DATA 	Keypress: 2
+2266.2665 	EXP 	New trial (rep=0, index=268): OrderedDict([('Index', 269), ('audio', 'block7_trial29_attendleft_leadmasker.wav')])
+2266.2672 	DATA 	Keypress: 3
+2266.2811 	EXP 	respp: autoDraw = False
+2266.2981 	EXP 	cross: autoDraw = True
+2272.1866 	EXP 	cross: autoDraw = False
+2272.1866 	EXP 	respp: autoDraw = True
+2273.4565 	DATA 	Keypress: 1
+2273.6402 	DATA 	Keypress: 3
+2273.7891 	EXP 	New trial (rep=0, index=269): OrderedDict([('Index', 270), ('audio', 'block7_trial30_attendleft_leadtarget.wav')])
+2273.7898 	DATA 	Keypress: 3
+2273.8040 	EXP 	respp: autoDraw = False
+2273.8206 	EXP 	cross: autoDraw = True
+2279.6594 	EXP 	cross: autoDraw = False
+2279.6594 	EXP 	respp: autoDraw = True
+2280.2957 	DATA 	Keypress: 1
+2280.4787 	DATA 	Keypress: 3
+2280.6783 	EXP 	New trial (rep=0, index=270): OrderedDict([('Index', 271), ('audio', 'block7_trial31_attendleft_leadtarget.wav')])
+2280.6790 	DATA 	Keypress: 2
+2280.6928 	EXP 	respp: autoDraw = False
+2280.7099 	EXP 	cross: autoDraw = True
+2286.5816 	EXP 	cross: autoDraw = False
+2286.5816 	EXP 	respp: autoDraw = True
+2287.4010 	DATA 	Keypress: 1
+2288.6686 	DATA 	Keypress: 2
+2289.0014 	EXP 	New trial (rep=0, index=271): OrderedDict([('Index', 272), ('audio', 'block7_trial32_attendright_leadmasker.wav')])
+2289.0023 	DATA 	Keypress: 2
+2289.0166 	EXP 	respp: autoDraw = False
+2289.0329 	EXP 	cross: autoDraw = True
+2294.8877 	EXP 	cross: autoDraw = False
+2294.8877 	EXP 	respp: autoDraw = True
+2295.8247 	DATA 	Keypress: 3
+2296.4583 	DATA 	Keypress: 1
+2296.7249 	EXP 	New trial (rep=0, index=272): OrderedDict([('Index', 273), ('audio', 'block7_trial33_attendright_leadtarget.wav')])
+2296.7256 	DATA 	Keypress: 2
+2296.7391 	EXP 	respp: autoDraw = False
+2296.7561 	EXP 	cross: autoDraw = True
+2302.6110 	EXP 	cross: autoDraw = False
+2302.6110 	EXP 	respp: autoDraw = True
+2303.3970 	DATA 	Keypress: 3
+2303.9813 	DATA 	Keypress: 1
+2304.1804 	EXP 	New trial (rep=0, index=273): OrderedDict([('Index', 274), ('audio', 'block7_trial34_attendleft_leadtarget.wav')])
+2304.1811 	DATA 	Keypress: 2
+2304.1953 	EXP 	respp: autoDraw = False
+2304.2123 	EXP 	cross: autoDraw = True
+2310.0836 	EXP 	cross: autoDraw = False
+2310.0836 	EXP 	respp: autoDraw = True
+2311.1702 	DATA 	Keypress: 3
+2311.3703 	DATA 	Keypress: 3
+2311.5362 	EXP 	New trial (rep=0, index=274): OrderedDict([('Index', 275), ('audio', 'block7_trial35_attendright_leadtarget.wav')])
+2311.5370 	DATA 	Keypress: 2
+2311.5509 	EXP 	respp: autoDraw = False
+2311.5678 	EXP 	cross: autoDraw = True
+2317.4221 	EXP 	cross: autoDraw = False
+2317.4221 	EXP 	respp: autoDraw = True
+2319.0263 	DATA 	Keypress: 3
+2319.6934 	DATA 	Keypress: 1
+2319.9098 	EXP 	New trial (rep=0, index=275): OrderedDict([('Index', 276), ('audio', 'block7_trial36_attendleft_leadmasker.wav')])
+2319.9105 	DATA 	Keypress: 2
+2319.9245 	EXP 	respp: autoDraw = False
+2319.9416 	EXP 	cross: autoDraw = True
+2325.8290 	EXP 	cross: autoDraw = False
+2325.8290 	EXP 	respp: autoDraw = True
+2326.7157 	DATA 	Keypress: 1
+2326.8823 	DATA 	Keypress: 1
+2327.4993 	EXP 	New trial (rep=0, index=276): OrderedDict([('Index', 277), ('audio', 'block7_trial37_attendleft_leadtarget.wav')])
+2327.4999 	DATA 	Keypress: 2
+2327.5140 	EXP 	respp: autoDraw = False
+2327.5308 	EXP 	cross: autoDraw = True
+2333.3851 	EXP 	cross: autoDraw = False
+2333.3851 	EXP 	respp: autoDraw = True
+2334.8556 	DATA 	Keypress: 2
+2336.0236 	DATA 	Keypress: 1
+2336.3398 	EXP 	New trial (rep=0, index=277): OrderedDict([('Index', 278), ('audio', 'block7_trial38_attendleft_leadmasker.wav')])
+2336.3406 	DATA 	Keypress: 1
+2336.3543 	EXP 	respp: autoDraw = False
+2336.3712 	EXP 	cross: autoDraw = True
+2342.2091 	EXP 	cross: autoDraw = False
+2342.2091 	EXP 	respp: autoDraw = True
+2343.0962 	DATA 	Keypress: 3
+2343.2622 	DATA 	Keypress: 3
+2343.4122 	EXP 	New trial (rep=0, index=278): OrderedDict([('Index', 279), ('audio', 'block7_trial39_attendright_leadtarget.wav')])
+2343.4129 	DATA 	Keypress: 3
+2343.4268 	EXP 	respp: autoDraw = False
+2343.4431 	EXP 	cross: autoDraw = True
+2349.3150 	EXP 	cross: autoDraw = False
+2349.3150 	EXP 	respp: autoDraw = True
+2350.5514 	DATA 	Keypress: 1
+2351.7692 	DATA 	Keypress: 1
+2351.9017 	EXP 	New trial (rep=0, index=279): OrderedDict([('Index', 280), ('audio', 'block7_trial40_attendleft_leadmasker.wav')])
+2351.9024 	DATA 	Keypress: 3
+2351.9171 	EXP 	respp: autoDraw = False
+2351.9333 	EXP 	cross: autoDraw = True
+2357.7720 	EXP 	cross: autoDraw = False
+2357.7720 	EXP 	respp: autoDraw = True
+2359.3591 	DATA 	Keypress: 2
+2360.4931 	DATA 	Keypress: 3
+2360.6923 	EXP 	New trial (rep=0, index=280): OrderedDict([('Index', 281), ('audio', 'block8_trial1_attendleft_leadmasker.wav')])
+2360.6941 	DATA 	Keypress: 2
+2360.7070 	EXP 	respp: autoDraw = False
+2360.7070 	EXP 	breakk: autoDraw = True
+2371.9355 	DATA 	Keypress: space
+2371.9668 	EXP 	breakk: autoDraw = False
+2371.9827 	EXP 	cross: autoDraw = True
+2377.8381 	EXP 	cross: autoDraw = False
+2377.8381 	EXP 	respp: autoDraw = True
+2379.3911 	DATA 	Keypress: 3
+2380.4923 	DATA 	Keypress: 1
+2381.1260 	DATA 	Keypress: 2
+2381.1423 	EXP 	New trial (rep=0, index=281): OrderedDict([('Index', 282), ('audio', 'block8_trial2_attendright_leadmasker.wav')])
+2381.1569 	EXP 	respp: autoDraw = False
+2381.1734 	EXP 	cross: autoDraw = True
+2387.0289 	EXP 	cross: autoDraw = False
+2387.0289 	EXP 	respp: autoDraw = True
+2388.1483 	DATA 	Keypress: 3
+2388.6655 	DATA 	Keypress: 2
+2388.9317 	EXP 	New trial (rep=0, index=282): OrderedDict([('Index', 283), ('audio', 'block8_trial3_attendleft_leadtarget.wav')])
+2388.9324 	DATA 	Keypress: 3
+2388.9465 	EXP 	respp: autoDraw = False
+2388.9634 	EXP 	cross: autoDraw = True
+2394.8352 	EXP 	cross: autoDraw = False
+2394.8352 	EXP 	respp: autoDraw = True
+2395.4715 	DATA 	Keypress: 1
+2395.6546 	DATA 	Keypress: 2
+2395.7875 	EXP 	New trial (rep=0, index=283): OrderedDict([('Index', 284), ('audio', 'block8_trial4_attendleft_leadmasker.wav')])
+2395.7882 	DATA 	Keypress: 3
+2395.8017 	EXP 	respp: autoDraw = False
+2395.8184 	EXP 	cross: autoDraw = True
+2401.7070 	EXP 	cross: autoDraw = False
+2401.7070 	EXP 	respp: autoDraw = True
+2402.9938 	DATA 	Keypress: 2
+2403.5112 	DATA 	Keypress: 1
+2403.7604 	EXP 	New trial (rep=0, index=284): OrderedDict([('Index', 285), ('audio', 'block8_trial5_attendright_leadmasker.wav')])
+2403.7611 	DATA 	Keypress: 3
+2403.7748 	EXP 	respp: autoDraw = False
+2403.7920 	EXP 	cross: autoDraw = True
+2409.6466 	EXP 	cross: autoDraw = False
+2409.6466 	EXP 	respp: autoDraw = True
+2410.7504 	DATA 	Keypress: 3
+2411.0172 	DATA 	Keypress: 2
+2411.1503 	DATA 	Keypress: 1
+2411.1662 	EXP 	New trial (rep=0, index=285): OrderedDict([('Index', 286), ('audio', 'block8_trial6_attendleft_leadmasker.wav')])
+2411.1809 	EXP 	respp: autoDraw = False
+2411.1977 	EXP 	cross: autoDraw = True
+2417.0695 	EXP 	cross: autoDraw = False
+2417.0695 	EXP 	respp: autoDraw = True
+2418.3230 	DATA 	Keypress: 3
+2418.5394 	DATA 	Keypress: 3
+2418.7225 	EXP 	New trial (rep=0, index=286): OrderedDict([('Index', 287), ('audio', 'block8_trial7_attendleft_leadmasker.wav')])
+2418.7232 	DATA 	Keypress: 3
+2418.7368 	EXP 	respp: autoDraw = False
+2418.7538 	EXP 	cross: autoDraw = True
+2424.5916 	EXP 	cross: autoDraw = False
+2424.5916 	EXP 	respp: autoDraw = True
+2425.9291 	DATA 	Keypress: 1
+2426.7295 	DATA 	Keypress: 2
+2427.9296 	EXP 	New trial (rep=0, index=287): OrderedDict([('Index', 288), ('audio', 'block8_trial8_attendleft_leadtarget.wav')])
+2427.9303 	DATA 	Keypress: 1
+2427.9445 	EXP 	respp: autoDraw = False
+2427.9610 	EXP 	cross: autoDraw = True
+2433.8323 	EXP 	cross: autoDraw = False
+2433.8323 	EXP 	respp: autoDraw = True
+2434.5524 	DATA 	Keypress: 3
+2434.7356 	DATA 	Keypress: 3
+2434.9190 	EXP 	New trial (rep=0, index=288): OrderedDict([('Index', 289), ('audio', 'block8_trial9_attendleft_leadmasker.wav')])
+2434.9197 	DATA 	Keypress: 3
+2434.9333 	EXP 	respp: autoDraw = False
+2434.9501 	EXP 	cross: autoDraw = True
+2440.8053 	EXP 	cross: autoDraw = False
+2440.8053 	EXP 	respp: autoDraw = True
+2442.0750 	DATA 	Keypress: 1
+2442.2420 	DATA 	Keypress: 2
+2442.3590 	DATA 	Keypress: 3
+2442.4410 	EXP 	New trial (rep=0, index=289): OrderedDict([('Index', 290), ('audio', 'block8_trial10_attendright_leadtarget.wav')])
+2442.4560 	EXP 	respp: autoDraw = False
+2442.4730 	EXP 	cross: autoDraw = True
+2448.3278 	EXP 	cross: autoDraw = False
+2448.3278 	EXP 	respp: autoDraw = True
+2449.3976 	DATA 	Keypress: 3
+2449.8483 	DATA 	Keypress: 2
+2450.3806 	EXP 	New trial (rep=0, index=290): OrderedDict([('Index', 291), ('audio', 'block8_trial11_attendright_leadtarget.wav')])
+2450.3813 	DATA 	Keypress: 3
+2450.3955 	EXP 	respp: autoDraw = False
+2450.4128 	EXP 	cross: autoDraw = True
+2456.2674 	EXP 	cross: autoDraw = False
+2456.2674 	EXP 	respp: autoDraw = True
+2457.2036 	DATA 	Keypress: 3
+2457.7718 	DATA 	Keypress: 2
+2458.0542 	EXP 	New trial (rep=0, index=291): OrderedDict([('Index', 292), ('audio', 'block8_trial12_attendright_leadtarget.wav')])
+2458.0549 	DATA 	Keypress: 2
+2458.0688 	EXP 	respp: autoDraw = False
+2458.0852 	EXP 	cross: autoDraw = True
+2463.9231 	EXP 	cross: autoDraw = False
+2463.9231 	EXP 	respp: autoDraw = True
+2464.7769 	DATA 	Keypress: 1
+2465.3107 	DATA 	Keypress: 2
+2465.5934 	EXP 	New trial (rep=0, index=292): OrderedDict([('Index', 293), ('audio', 'block8_trial13_attendright_leadmasker.wav')])
+2465.5941 	DATA 	Keypress: 3
+2465.6082 	EXP 	respp: autoDraw = False
+2465.6246 	EXP 	cross: autoDraw = True
+2471.4959 	EXP 	cross: autoDraw = False
+2471.4959 	EXP 	respp: autoDraw = True
+2473.1998 	DATA 	Keypress: 2
+2473.6502 	DATA 	Keypress: 3
+2474.0004 	EXP 	New trial (rep=0, index=293): OrderedDict([('Index', 294), ('audio', 'block8_trial14_attendleft_leadmasker.wav')])
+2474.0012 	DATA 	Keypress: 2
+2474.0148 	EXP 	respp: autoDraw = False
+2474.0318 	EXP 	cross: autoDraw = True
+2479.9026 	EXP 	cross: autoDraw = False
+2479.9026 	EXP 	respp: autoDraw = True
+2480.8728 	DATA 	Keypress: 3
+2481.1395 	DATA 	Keypress: 2
+2481.2724 	EXP 	New trial (rep=0, index=294): OrderedDict([('Index', 295), ('audio', 'block8_trial15_attendright_leadmasker.wav')])
+2481.2732 	DATA 	Keypress: 2
+2481.2873 	EXP 	respp: autoDraw = False
+2481.3037 	EXP 	cross: autoDraw = True
+2487.1584 	EXP 	cross: autoDraw = False
+2487.1584 	EXP 	respp: autoDraw = True
+2487.7789 	DATA 	Keypress: 1
+2487.9287 	DATA 	Keypress: 2
+2488.0289 	DATA 	Keypress: 3
+2488.1280 	EXP 	New trial (rep=0, index=295): OrderedDict([('Index', 296), ('audio', 'block8_trial16_attendleft_leadtarget.wav')])
+2488.1425 	EXP 	respp: autoDraw = False
+2488.1595 	EXP 	cross: autoDraw = True
+2494.0311 	EXP 	cross: autoDraw = False
+2494.0311 	EXP 	respp: autoDraw = True
+2495.7019 	DATA 	Keypress: 1
+2496.4358 	DATA 	Keypress: 2
+2497.2349 	EXP 	New trial (rep=0, index=296): OrderedDict([('Index', 297), ('audio', 'block8_trial17_attendleft_leadtarget.wav')])
+2497.2356 	DATA 	Keypress: 2
+2497.2500 	EXP 	respp: autoDraw = False
+2497.2668 	EXP 	cross: autoDraw = True
+2503.1214 	EXP 	cross: autoDraw = False
+2503.1214 	EXP 	respp: autoDraw = True
+2503.5748 	DATA 	Keypress: 2
+2503.7578 	DATA 	Keypress: 2
+2503.9069 	EXP 	New trial (rep=0, index=297): OrderedDict([('Index', 298), ('audio', 'block8_trial18_attendleft_leadmasker.wav')])
+2503.9076 	DATA 	Keypress: 3
+2503.9223 	EXP 	respp: autoDraw = False
+2503.9385 	EXP 	cross: autoDraw = True
+2509.8108 	EXP 	cross: autoDraw = False
+2509.8108 	EXP 	respp: autoDraw = True
+2510.9968 	DATA 	Keypress: 3
+2511.8980 	DATA 	Keypress: 2
+2513.5152 	EXP 	New trial (rep=0, index=298): OrderedDict([('Index', 299), ('audio', 'block8_trial19_attendright_leadtarget.wav')])
+2513.5159 	DATA 	Keypress: 1
+2513.5295 	EXP 	respp: autoDraw = False
+2513.5462 	EXP 	cross: autoDraw = True
+2519.4176 	EXP 	cross: autoDraw = False
+2519.4176 	EXP 	respp: autoDraw = True
+2520.2882 	DATA 	Keypress: 3
+2520.5050 	DATA 	Keypress: 2
+2520.6379 	DATA 	Keypress: 3
+2520.6540 	EXP 	New trial (rep=0, index=299): OrderedDict([('Index', 300), ('audio', 'block8_trial20_attendright_leadtarget.wav')])
+2520.6689 	EXP 	respp: autoDraw = False
+2520.6857 	EXP 	cross: autoDraw = True
+2526.5236 	EXP 	cross: autoDraw = False
+2526.5236 	EXP 	respp: autoDraw = True
+2526.9100 	DATA 	Keypress: 1
+2527.0429 	DATA 	Keypress: 2
+2527.1271 	DATA 	Keypress: 3
+2527.2429 	EXP 	New trial (rep=0, index=300): OrderedDict([('Index', 301), ('audio', 'block8_trial21_attendright_leadtarget.wav')])
+2527.2575 	EXP 	respp: autoDraw = False
+2527.2739 	EXP 	cross: autoDraw = True
+2533.1294 	EXP 	cross: autoDraw = False
+2533.1294 	EXP 	respp: autoDraw = True
+2534.1486 	DATA 	Keypress: 3
+2535.2836 	DATA 	Keypress: 2
+2535.9337 	EXP 	New trial (rep=0, index=301): OrderedDict([('Index', 302), ('audio', 'block8_trial22_attendleft_leadtarget.wav')])
+2535.9345 	DATA 	Keypress: 3
+2535.9475 	EXP 	respp: autoDraw = False
+2535.9641 	EXP 	cross: autoDraw = True
+2541.8027 	EXP 	cross: autoDraw = False
+2541.8027 	EXP 	respp: autoDraw = True
+2542.2893 	DATA 	Keypress: 1
+2542.4221 	DATA 	Keypress: 2
+2542.5394 	DATA 	Keypress: 3
+2542.6381 	EXP 	New trial (rep=0, index=302): OrderedDict([('Index', 303), ('audio', 'block8_trial23_attendright_leadmasker.wav')])
+2542.6529 	EXP 	respp: autoDraw = False
+2542.6699 	EXP 	cross: autoDraw = True
+2548.5420 	EXP 	cross: autoDraw = False
+2548.5420 	EXP 	respp: autoDraw = True
+2549.3108 	DATA 	Keypress: 1
+2549.4948 	DATA 	Keypress: 1
+2549.6270 	EXP 	New trial (rep=0, index=303): OrderedDict([('Index', 304), ('audio', 'block8_trial24_attendright_leadmasker.wav')])
+2549.6277 	DATA 	Keypress: 1
+2549.6417 	EXP 	respp: autoDraw = False
+2549.6586 	EXP 	cross: autoDraw = True
+2555.5142 	EXP 	cross: autoDraw = False
+2555.5142 	EXP 	respp: autoDraw = True
+2556.7005 	DATA 	Keypress: 1
+2556.8839 	DATA 	Keypress: 2
+2557.0329 	EXP 	New trial (rep=0, index=304): OrderedDict([('Index', 305), ('audio', 'block8_trial25_attendright_leadmasker.wav')])
+2557.0336 	DATA 	Keypress: 2
+2557.0481 	EXP 	respp: autoDraw = False
+2557.0650 	EXP 	cross: autoDraw = True
+2562.9361 	EXP 	cross: autoDraw = False
+2562.9361 	EXP 	respp: autoDraw = True
+2564.2069 	DATA 	Keypress: 1
+2564.5067 	DATA 	Keypress: 3
+2564.7059 	EXP 	New trial (rep=0, index=305): OrderedDict([('Index', 306), ('audio', 'block8_trial26_attendleft_leadmasker.wav')])
+2564.7066 	DATA 	Keypress: 2
+2564.7209 	EXP 	respp: autoDraw = False
+2564.7375 	EXP 	cross: autoDraw = True
+2570.6091 	EXP 	cross: autoDraw = False
+2570.6091 	EXP 	respp: autoDraw = True
+2570.9791 	DATA 	Keypress: 1
+2571.1459 	DATA 	Keypress: 1
+2571.2793 	DATA 	Keypress: 2
+2571.2944 	EXP 	New trial (rep=0, index=306): OrderedDict([('Index', 307), ('audio', 'block8_trial27_attendright_leadtarget.wav')])
+2571.3093 	EXP 	respp: autoDraw = False
+2571.3258 	EXP 	cross: autoDraw = True
+2577.1978 	EXP 	cross: autoDraw = False
+2577.1978 	EXP 	respp: autoDraw = True
+2577.7838 	DATA 	Keypress: 1
+2577.9505 	DATA 	Keypress: 2
+2578.1000 	EXP 	New trial (rep=0, index=307): OrderedDict([('Index', 308), ('audio', 'block8_trial28_attendleft_leadtarget.wav')])
+2578.1007 	DATA 	Keypress: 2
+2578.1147 	EXP 	respp: autoDraw = False
+2578.1319 	EXP 	cross: autoDraw = True
+2583.9694 	EXP 	cross: autoDraw = False
+2583.9694 	EXP 	respp: autoDraw = True
+2584.6892 	DATA 	Keypress: 2
+2585.1228 	DATA 	Keypress: 3
+2585.7898 	EXP 	New trial (rep=0, index=308): OrderedDict([('Index', 309), ('audio', 'block8_trial29_attendleft_leadtarget.wav')])
+2585.7906 	DATA 	Keypress: 3
+2585.8048 	EXP 	respp: autoDraw = False
+2585.8209 	EXP 	cross: autoDraw = True
+2591.6932 	EXP 	cross: autoDraw = False
+2591.6932 	EXP 	respp: autoDraw = True
+2592.8458 	DATA 	Keypress: 1
+2593.0296 	DATA 	Keypress: 3
+2593.1623 	EXP 	New trial (rep=0, index=309): OrderedDict([('Index', 310), ('audio', 'block8_trial30_attendright_leadmasker.wav')])
+2593.1630 	DATA 	Keypress: 2
+2593.1768 	EXP 	respp: autoDraw = False
+2593.1936 	EXP 	cross: autoDraw = True
+2599.0650 	EXP 	cross: autoDraw = False
+2599.0650 	EXP 	respp: autoDraw = True
+2600.6691 	DATA 	Keypress: 3
+2601.2030 	DATA 	Keypress: 2
+2601.5027 	EXP 	New trial (rep=0, index=310): OrderedDict([('Index', 311), ('audio', 'block8_trial31_attendright_leadmasker.wav')])
+2601.5034 	DATA 	Keypress: 2
+2601.5172 	EXP 	respp: autoDraw = False
+2601.5339 	EXP 	cross: autoDraw = True
+2607.3886 	EXP 	cross: autoDraw = False
+2607.3886 	EXP 	respp: autoDraw = True
+2608.2081 	DATA 	Keypress: 2
+2608.3591 	DATA 	Keypress: 1
+2608.5247 	EXP 	New trial (rep=0, index=311): OrderedDict([('Index', 312), ('audio', 'block8_trial32_attendright_leadmasker.wav')])
+2608.5254 	DATA 	Keypress: 2
+2608.5395 	EXP 	respp: autoDraw = False
+2608.5563 	EXP 	cross: autoDraw = True
+2614.4443 	EXP 	cross: autoDraw = False
+2614.4443 	EXP 	respp: autoDraw = True
+2615.5648 	DATA 	Keypress: 2
+2615.7145 	DATA 	Keypress: 1
+2615.8641 	EXP 	New trial (rep=0, index=312): OrderedDict([('Index', 313), ('audio', 'block8_trial33_attendright_leadtarget.wav')])
+2615.8647 	DATA 	Keypress: 1
+2615.8784 	EXP 	respp: autoDraw = False
+2615.8950 	EXP 	cross: autoDraw = True
+2621.7836 	EXP 	cross: autoDraw = False
+2621.7836 	EXP 	respp: autoDraw = True
+2622.6537 	DATA 	Keypress: 1
+2622.9871 	DATA 	Keypress: 3
+2623.1867 	EXP 	New trial (rep=0, index=313): OrderedDict([('Index', 314), ('audio', 'block8_trial34_attendleft_leadtarget.wav')])
+2623.1874 	DATA 	Keypress: 2
+2623.2014 	EXP 	respp: autoDraw = False
+2623.2179 	EXP 	cross: autoDraw = True
+2629.0731 	EXP 	cross: autoDraw = False
+2629.0731 	EXP 	respp: autoDraw = True
+2629.7257 	DATA 	Keypress: 3
+2630.1929 	DATA 	Keypress: 1
+2630.4424 	EXP 	New trial (rep=0, index=314): OrderedDict([('Index', 315), ('audio', 'block8_trial35_attendright_leadtarget.wav')])
+2630.4431 	DATA 	Keypress: 3
+2630.4567 	EXP 	respp: autoDraw = False
+2630.4734 	EXP 	cross: autoDraw = True
+2636.3122 	EXP 	cross: autoDraw = False
+2636.3122 	EXP 	respp: autoDraw = True
+2637.8659 	DATA 	Keypress: 2
+2638.3494 	DATA 	Keypress: 3
+2638.5158 	EXP 	New trial (rep=0, index=315): OrderedDict([('Index', 316), ('audio', 'block8_trial36_attendleft_leadmasker.wav')])
+2638.5165 	DATA 	Keypress: 1
+2638.5299 	EXP 	respp: autoDraw = False
+2638.5465 	EXP 	cross: autoDraw = True
+2644.4017 	EXP 	cross: autoDraw = False
+2644.4017 	EXP 	respp: autoDraw = True
+2645.6383 	DATA 	Keypress: 1
+2646.8396 	DATA 	Keypress: 3
+2647.0217 	EXP 	New trial (rep=0, index=316): OrderedDict([('Index', 317), ('audio', 'block8_trial37_attendright_leadtarget.wav')])
+2647.0224 	DATA 	Keypress: 2
+2647.0367 	EXP 	respp: autoDraw = False
+2647.0533 	EXP 	cross: autoDraw = True
+2652.9424 	EXP 	cross: autoDraw = False
+2652.9424 	EXP 	respp: autoDraw = True
+2653.9791 	DATA 	Keypress: 3
+2654.2286 	DATA 	Keypress: 2
+2654.4442 	EXP 	New trial (rep=0, index=317): OrderedDict([('Index', 318), ('audio', 'block8_trial38_attendleft_leadtarget.wav')])
+2654.4449 	DATA 	Keypress: 3
+2654.4601 	EXP 	respp: autoDraw = False
+2654.4764 	EXP 	cross: autoDraw = True
+2660.3142 	EXP 	cross: autoDraw = False
+2660.3142 	EXP 	respp: autoDraw = True
+2661.2849 	DATA 	Keypress: 3
+2661.9853 	DATA 	Keypress: 1
+2663.0191 	DATA 	Keypress: 1
+2664.4517 	EXP 	New trial (rep=0, index=318): OrderedDict([('Index', 319), ('audio', 'block8_trial39_attendleft_leadmasker.wav')])
+2664.4673 	EXP 	respp: autoDraw = False
+2664.4839 	EXP 	cross: autoDraw = True
+2670.3563 	EXP 	cross: autoDraw = False
+2670.3563 	EXP 	respp: autoDraw = True
+2671.4094 	DATA 	Keypress: 1
+2671.8763 	DATA 	Keypress: 3
+2672.1257 	EXP 	New trial (rep=0, index=319): OrderedDict([('Index', 320), ('audio', 'block8_trial40_attendleft_leadtarget.wav')])
+2672.1264 	DATA 	Keypress: 2
+2672.1404 	EXP 	respp: autoDraw = False
+2672.1568 	EXP 	cross: autoDraw = True
+2678.0121 	EXP 	cross: autoDraw = False
+2678.0121 	EXP 	respp: autoDraw = True
+2679.3989 	DATA 	Keypress: 1
+2680.3163 	DATA 	Keypress: 3
+2680.5322 	EXP 	New trial (rep=0, index=320): OrderedDict([('Index', 321), ('audio', 'block9_trial1_attendright_leadmasker.wav')])
+2680.5341 	DATA 	Keypress: 3
+2680.5468 	EXP 	respp: autoDraw = False
+2680.5468 	EXP 	breakk: autoDraw = True
+2697.6299 	DATA 	Keypress: space
+2697.6613 	EXP 	breakk: autoDraw = False
+2697.6773 	EXP 	cross: autoDraw = True
+2703.5491 	EXP 	cross: autoDraw = False
+2703.5491 	EXP 	respp: autoDraw = True
+2704.4695 	DATA 	Keypress: 3
+2704.7357 	DATA 	Keypress: 2
+2704.8859 	DATA 	Keypress: 1
+2704.9022 	EXP 	New trial (rep=0, index=321): OrderedDict([('Index', 322), ('audio', 'block9_trial2_attendright_leadmasker.wav')])
+2704.9168 	EXP 	respp: autoDraw = False
+2704.9335 	EXP 	cross: autoDraw = True
+2710.8052 	EXP 	cross: autoDraw = False
+2710.8052 	EXP 	respp: autoDraw = True
+2711.6077 	DATA 	Keypress: 1
+2711.7584 	DATA 	Keypress: 2
+2711.8917 	DATA 	Keypress: 3
+2712.0080 	EXP 	New trial (rep=0, index=322): OrderedDict([('Index', 323), ('audio', 'block9_trial3_attendright_leadtarget.wav')])
+2712.0222 	EXP 	respp: autoDraw = False
+2712.0393 	EXP 	cross: autoDraw = True
+2717.9109 	EXP 	cross: autoDraw = False
+2717.9109 	EXP 	respp: autoDraw = True
+2718.6638 	DATA 	Keypress: 1
+2720.4152 	DATA 	Keypress: 2
+2720.5810 	EXP 	New trial (rep=0, index=323): OrderedDict([('Index', 324), ('audio', 'block9_trial4_attendleft_leadmasker.wav')])
+2720.5816 	DATA 	Keypress: 2
+2720.5960 	EXP 	respp: autoDraw = False
+2720.6125 	EXP 	cross: autoDraw = True
+2726.4513 	EXP 	cross: autoDraw = False
+2726.4513 	EXP 	respp: autoDraw = True
+2727.8377 	DATA 	Keypress: 1
+2727.9708 	DATA 	Keypress: 1
+2728.1546 	DATA 	Keypress: 3
+2729.8215 	EXP 	New trial (rep=0, index=324): OrderedDict([('Index', 325), ('audio', 'block9_trial5_attendright_leadtarget.wav')])
+2729.8222 	DATA 	Keypress: 3
+2729.8365 	EXP 	respp: autoDraw = False
+2729.8538 	EXP 	cross: autoDraw = True
+2735.6919 	EXP 	cross: autoDraw = False
+2735.6919 	EXP 	respp: autoDraw = True
+2736.3276 	DATA 	Keypress: 2
+2736.5777 	DATA 	Keypress: 2
+2737.5114 	EXP 	New trial (rep=0, index=325): OrderedDict([('Index', 326), ('audio', 'block9_trial6_attendleft_leadtarget.wav')])
+2737.5122 	DATA 	Keypress: 3
+2737.5259 	EXP 	respp: autoDraw = False
+2737.5425 	EXP 	cross: autoDraw = True
+2743.3973 	EXP 	cross: autoDraw = False
+2743.3973 	EXP 	respp: autoDraw = True
+2744.4677 	DATA 	Keypress: 1
+2744.9680 	DATA 	Keypress: 3
+2745.2841 	EXP 	New trial (rep=0, index=326): OrderedDict([('Index', 327), ('audio', 'block9_trial7_attendleft_leadtarget.wav')])
+2745.2848 	DATA 	Keypress: 2
+2745.2994 	EXP 	respp: autoDraw = False
+2745.3160 	EXP 	cross: autoDraw = True
+2751.1537 	EXP 	cross: autoDraw = False
+2751.1537 	EXP 	respp: autoDraw = True
+2752.2071 	DATA 	Keypress: 1
+2752.7075 	DATA 	Keypress: 3
+2753.4242 	EXP 	New trial (rep=0, index=327): OrderedDict([('Index', 328), ('audio', 'block9_trial8_attendright_leadtarget.wav')])
+2753.4249 	DATA 	Keypress: 3
+2753.4389 	EXP 	respp: autoDraw = False
+2753.4556 	EXP 	cross: autoDraw = True
+2759.3267 	EXP 	cross: autoDraw = False
+2759.3267 	EXP 	respp: autoDraw = True
+2759.7129 	DATA 	Keypress: 3
+2759.8970 	DATA 	Keypress: 3
+2760.0635 	DATA 	Keypress: 2
+2760.0796 	EXP 	New trial (rep=0, index=328): OrderedDict([('Index', 329), ('audio', 'block9_trial9_attendleft_leadmasker.wav')])
+2760.0943 	EXP 	respp: autoDraw = False
+2760.1110 	EXP 	cross: autoDraw = True
+2765.9653 	EXP 	cross: autoDraw = False
+2765.9653 	EXP 	respp: autoDraw = True
+2766.7692 	DATA 	Keypress: 3
+2766.9692 	DATA 	Keypress: 1
+2767.1187 	EXP 	New trial (rep=0, index=329): OrderedDict([('Index', 330), ('audio', 'block9_trial10_attendleft_leadtarget.wav')])
+2767.1194 	DATA 	Keypress: 1
+2767.1332 	EXP 	respp: autoDraw = False
+2767.1498 	EXP 	cross: autoDraw = True
+2773.0214 	EXP 	cross: autoDraw = False
+2773.0214 	EXP 	respp: autoDraw = True
+2773.7909 	DATA 	Keypress: 2
+2774.7926 	DATA 	Keypress: 2
+2774.9423 	DATA 	Keypress: 2
+2774.9582 	EXP 	New trial (rep=0, index=330): OrderedDict([('Index', 331), ('audio', 'block9_trial11_attendleft_leadtarget.wav')])
+2774.9727 	EXP 	respp: autoDraw = False
+2774.9896 	EXP 	cross: autoDraw = True
+2780.8279 	EXP 	cross: autoDraw = False
+2780.8279 	EXP 	respp: autoDraw = True
+2781.2307 	DATA 	Keypress: 3
+2781.4139 	DATA 	Keypress: 2
+2781.5636 	EXP 	New trial (rep=0, index=331): OrderedDict([('Index', 332), ('audio', 'block9_trial12_attendleft_leadtarget.wav')])
+2781.5643 	DATA 	Keypress: 2
+2781.5780 	EXP 	respp: autoDraw = False
+2781.5949 	EXP 	cross: autoDraw = True
+2787.4661 	EXP 	cross: autoDraw = False
+2787.4661 	EXP 	respp: autoDraw = True
+2788.2860 	DATA 	Keypress: 3
+2788.5862 	DATA 	Keypress: 2
+2788.7859 	EXP 	New trial (rep=0, index=332): OrderedDict([('Index', 333), ('audio', 'block9_trial13_attendright_leadtarget.wav')])
+2788.7867 	DATA 	Keypress: 3
+2788.8007 	EXP 	respp: autoDraw = False
+2788.8172 	EXP 	cross: autoDraw = True
+2794.6727 	EXP 	cross: autoDraw = False
+2794.6727 	EXP 	respp: autoDraw = True
+2796.0421 	DATA 	Keypress: 1
+2796.6263 	DATA 	Keypress: 3
+2796.7925 	EXP 	New trial (rep=0, index=333): OrderedDict([('Index', 334), ('audio', 'block9_trial14_attendright_leadtarget.wav')])
+2796.7932 	DATA 	Keypress: 2
+2796.8068 	EXP 	respp: autoDraw = False
+2796.8236 	EXP 	cross: autoDraw = True
+2802.7121 	EXP 	cross: autoDraw = False
+2802.7121 	EXP 	respp: autoDraw = True
+2803.5651 	DATA 	Keypress: 3
+2804.0157 	DATA 	Keypress: 2
+2804.9996 	DATA 	Keypress: 2
+2805.0159 	EXP 	New trial (rep=0, index=334): OrderedDict([('Index', 335), ('audio', 'block9_trial15_attendright_leadtarget.wav')])
+2805.0302 	EXP 	respp: autoDraw = False
+2805.0472 	EXP 	cross: autoDraw = True
+2810.9185 	EXP 	cross: autoDraw = False
+2810.9185 	EXP 	respp: autoDraw = True
+2811.6883 	DATA 	Keypress: 2
+2812.2226 	DATA 	Keypress: 1
+2812.3884 	EXP 	New trial (rep=0, index=335): OrderedDict([('Index', 336), ('audio', 'block9_trial16_attendright_leadmasker.wav')])
+2812.3891 	DATA 	Keypress: 1
+2812.4028 	EXP 	respp: autoDraw = False
+2812.4196 	EXP 	cross: autoDraw = True
+2818.2574 	EXP 	cross: autoDraw = False
+2818.2574 	EXP 	respp: autoDraw = True
+2818.6938 	DATA 	Keypress: 3
+2818.8609 	DATA 	Keypress: 3
+2819.0106 	EXP 	New trial (rep=0, index=336): OrderedDict([('Index', 337), ('audio', 'block9_trial17_attendright_leadtarget.wav')])
+2819.0113 	DATA 	Keypress: 3
+2819.0248 	EXP 	respp: autoDraw = False
+2819.0420 	EXP 	cross: autoDraw = True
+2824.8964 	EXP 	cross: autoDraw = False
+2824.8964 	EXP 	respp: autoDraw = True
+2826.0495 	DATA 	Keypress: 3
+2826.7835 	DATA 	Keypress: 2
+2828.5681 	EXP 	New trial (rep=0, index=337): OrderedDict([('Index', 338), ('audio', 'block9_trial18_attendleft_leadmasker.wav')])
+2828.5688 	DATA 	Keypress: 3
+2828.5828 	EXP 	respp: autoDraw = False
+2828.5998 	EXP 	cross: autoDraw = True
+2834.4711 	EXP 	cross: autoDraw = False
+2834.4711 	EXP 	respp: autoDraw = True
+2836.0248 	DATA 	Keypress: 2
+2836.2587 	DATA 	Keypress: 1
+2836.4410 	EXP 	New trial (rep=0, index=338): OrderedDict([('Index', 339), ('audio', 'block9_trial19_attendright_leadmasker.wav')])
+2836.4418 	DATA 	Keypress: 3
+2836.4553 	EXP 	respp: autoDraw = False
+2836.4721 	EXP 	cross: autoDraw = True
+2842.3105 	EXP 	cross: autoDraw = False
+2842.3105 	EXP 	respp: autoDraw = True
+2843.7470 	DATA 	Keypress: 2
+2844.5311 	DATA 	Keypress: 1
+2845.1808 	EXP 	New trial (rep=0, index=339): OrderedDict([('Index', 340), ('audio', 'block9_trial20_attendright_leadmasker.wav')])
+2845.1815 	DATA 	Keypress: 2
+2845.1962 	EXP 	respp: autoDraw = False
+2845.2128 	EXP 	cross: autoDraw = True
+2851.1008 	EXP 	cross: autoDraw = False
+2851.1008 	EXP 	respp: autoDraw = True
+2851.8874 	DATA 	Keypress: 2
+2852.1038 	DATA 	Keypress: 3
+2852.2865 	EXP 	New trial (rep=0, index=340): OrderedDict([('Index', 341), ('audio', 'block9_trial21_attendleft_leadmasker.wav')])
+2852.2872 	DATA 	Keypress: 3
+2852.3014 	EXP 	respp: autoDraw = False
+2852.3182 	EXP 	cross: autoDraw = True
+2858.2066 	EXP 	cross: autoDraw = False
+2858.2066 	EXP 	respp: autoDraw = True
+2859.2096 	DATA 	Keypress: 3
+2859.6936 	DATA 	Keypress: 1
+2859.9267 	DATA 	Keypress: 2
+2862.2937 	EXP 	New trial (rep=0, index=341): OrderedDict([('Index', 342), ('audio', 'block9_trial22_attendright_leadmasker.wav')])
+2862.3099 	EXP 	respp: autoDraw = False
+2862.3267 	EXP 	cross: autoDraw = True
+2868.1814 	EXP 	cross: autoDraw = False
+2868.1814 	EXP 	respp: autoDraw = True
+2868.9343 	DATA 	Keypress: 2
+2869.2677 	DATA 	Keypress: 2
+2869.5343 	EXP 	New trial (rep=0, index=342): OrderedDict([('Index', 343), ('audio', 'block9_trial23_attendleft_leadmasker.wav')])
+2869.5350 	DATA 	Keypress: 3
+2869.5490 	EXP 	respp: autoDraw = False
+2869.5657 	EXP 	cross: autoDraw = True
+2875.4202 	EXP 	cross: autoDraw = False
+2875.4202 	EXP 	respp: autoDraw = True
+2876.4400 	DATA 	Keypress: 2
+2876.8909 	DATA 	Keypress: 3
+2877.1401 	EXP 	New trial (rep=0, index=343): OrderedDict([('Index', 344), ('audio', 'block9_trial24_attendright_leadmasker.wav')])
+2877.1407 	DATA 	Keypress: 3
+2877.1547 	EXP 	respp: autoDraw = False
+2877.1716 	EXP 	cross: autoDraw = True
+2883.0436 	EXP 	cross: autoDraw = False
+2883.0436 	EXP 	respp: autoDraw = True
+2884.4632 	DATA 	Keypress: 1
+2884.9305 	DATA 	Keypress: 3
+2885.1462 	EXP 	New trial (rep=0, index=344): OrderedDict([('Index', 345), ('audio', 'block9_trial25_attendleft_leadmasker.wav')])
+2885.1469 	DATA 	Keypress: 3
+2885.1611 	EXP 	respp: autoDraw = False
+2885.1782 	EXP 	cross: autoDraw = True
+2891.0336 	EXP 	cross: autoDraw = False
+2891.0336 	EXP 	respp: autoDraw = True
+2891.8025 	DATA 	Keypress: 3
+2892.0693 	DATA 	Keypress: 2
+2892.2527 	EXP 	New trial (rep=0, index=345): OrderedDict([('Index', 346), ('audio', 'block9_trial26_attendleft_leadtarget.wav')])
+2892.2534 	DATA 	Keypress: 2
+2892.2668 	EXP 	respp: autoDraw = False
+2892.2839 	EXP 	cross: autoDraw = True
+2898.1390 	EXP 	cross: autoDraw = False
+2898.1390 	EXP 	respp: autoDraw = True
+2899.6420 	DATA 	Keypress: 1
+2900.2929 	DATA 	Keypress: 3
+2900.4925 	EXP 	New trial (rep=0, index=346): OrderedDict([('Index', 347), ('audio', 'block9_trial27_attendleft_leadtarget.wav')])
+2900.4932 	DATA 	Keypress: 1
+2900.5072 	EXP 	respp: autoDraw = False
+2900.5237 	EXP 	cross: autoDraw = True
+2906.3950 	EXP 	cross: autoDraw = False
+2906.3950 	EXP 	respp: autoDraw = True
+2906.9650 	DATA 	Keypress: 2
+2907.2648 	DATA 	Keypress: 1
+2907.4812 	EXP 	New trial (rep=0, index=347): OrderedDict([('Index', 348), ('audio', 'block9_trial28_attendright_leadmasker.wav')])
+2907.4819 	DATA 	Keypress: 1
+2907.4961 	EXP 	respp: autoDraw = False
+2907.5128 	EXP 	cross: autoDraw = True
+2913.3677 	EXP 	cross: autoDraw = False
+2913.3677 	EXP 	respp: autoDraw = True
+2914.4710 	DATA 	Keypress: 3
+2915.0381 	DATA 	Keypress: 1
+2915.2877 	EXP 	New trial (rep=0, index=348): OrderedDict([('Index', 349), ('audio', 'block9_trial29_attendleft_leadmasker.wav')])
+2915.2884 	DATA 	Keypress: 2
+2915.3026 	EXP 	respp: autoDraw = False
+2915.3187 	EXP 	cross: autoDraw = True
+2921.1740 	EXP 	cross: autoDraw = False
+2921.1740 	EXP 	respp: autoDraw = True
+2921.8607 	DATA 	Keypress: 3
+2922.1275 	DATA 	Keypress: 3
+2922.3599 	EXP 	New trial (rep=0, index=349): OrderedDict([('Index', 350), ('audio', 'block9_trial30_attendleft_leadtarget.wav')])
+2922.3607 	DATA 	Keypress: 2
+2922.3746 	EXP 	respp: autoDraw = False
+2922.3910 	EXP 	cross: autoDraw = True
+2928.2802 	EXP 	cross: autoDraw = False
+2928.2802 	EXP 	respp: autoDraw = True
+2929.7829 	DATA 	Keypress: 1
+2930.4004 	DATA 	Keypress: 3
+2930.6161 	EXP 	New trial (rep=0, index=350): OrderedDict([('Index', 351), ('audio', 'block9_trial31_attendleft_leadmasker.wav')])
+2930.6168 	DATA 	Keypress: 3
+2930.6311 	EXP 	respp: autoDraw = False
+2930.6479 	EXP 	cross: autoDraw = True
+2936.5022 	EXP 	cross: autoDraw = False
+2936.5022 	EXP 	respp: autoDraw = True
+2937.2892 	DATA 	Keypress: 2
+2937.4559 	DATA 	Keypress: 3
+2937.6223 	EXP 	New trial (rep=0, index=351): OrderedDict([('Index', 352), ('audio', 'block9_trial32_attendright_leadmasker.wav')])
+2937.6230 	DATA 	Keypress: 2
+2937.6367 	EXP 	respp: autoDraw = False
+2937.6533 	EXP 	cross: autoDraw = True
+2943.5087 	EXP 	cross: autoDraw = False
+2943.5087 	EXP 	respp: autoDraw = True
+2944.5118 	DATA 	Keypress: 2
+2945.0447 	DATA 	Keypress: 3
+2945.2449 	EXP 	New trial (rep=0, index=352): OrderedDict([('Index', 353), ('audio', 'block9_trial33_attendleft_leadmasker.wav')])
+2945.2456 	DATA 	Keypress: 3
+2945.2595 	EXP 	respp: autoDraw = False
+2945.2763 	EXP 	cross: autoDraw = True
+2951.1310 	EXP 	cross: autoDraw = False
+2951.1310 	EXP 	respp: autoDraw = True
+2952.0342 	DATA 	Keypress: 3
+2952.2015 	DATA 	Keypress: 3
+2952.3508 	EXP 	New trial (rep=0, index=353): OrderedDict([('Index', 354), ('audio', 'block9_trial34_attendright_leadmasker.wav')])
+2952.3516 	DATA 	Keypress: 2
+2952.3648 	EXP 	respp: autoDraw = False
+2952.3822 	EXP 	cross: autoDraw = True
+2958.2366 	EXP 	cross: autoDraw = False
+2958.2366 	EXP 	respp: autoDraw = True
+2959.2903 	DATA 	Keypress: 1
+2960.1740 	DATA 	Keypress: 3
+2961.1910 	EXP 	New trial (rep=0, index=354): OrderedDict([('Index', 355), ('audio', 'block9_trial35_attendleft_leadtarget.wav')])
+2961.1917 	DATA 	Keypress: 3
+2961.2060 	EXP 	respp: autoDraw = False
+2961.2222 	EXP 	cross: autoDraw = True
+2967.0938 	EXP 	cross: autoDraw = False
+2967.0938 	EXP 	respp: autoDraw = True
+2967.6636 	DATA 	Keypress: 2
+2967.8975 	DATA 	Keypress: 3
+2968.0795 	EXP 	New trial (rep=0, index=355): OrderedDict([('Index', 356), ('audio', 'block9_trial36_attendleft_leadtarget.wav')])
+2968.0802 	DATA 	Keypress: 3
+2968.0948 	EXP 	respp: autoDraw = False
+2968.1109 	EXP 	cross: autoDraw = True
+2973.9657 	EXP 	cross: autoDraw = False
+2973.9657 	EXP 	respp: autoDraw = True
+2974.9024 	DATA 	Keypress: 3
+2975.5034 	DATA 	Keypress: 1
+2975.9364 	EXP 	New trial (rep=0, index=356): OrderedDict([('Index', 357), ('audio', 'block9_trial37_attendright_leadtarget.wav')])
+2975.9371 	DATA 	Keypress: 3
+2975.9510 	EXP 	respp: autoDraw = False
+2975.9673 	EXP 	cross: autoDraw = True
+2981.8230 	EXP 	cross: autoDraw = False
+2981.8230 	EXP 	respp: autoDraw = True
+2982.3747 	DATA 	Keypress: 2
+2982.5592 	DATA 	Keypress: 2
+2982.7246 	EXP 	New trial (rep=0, index=357): OrderedDict([('Index', 358), ('audio', 'block9_trial38_attendleft_leadmasker.wav')])
+2982.7254 	DATA 	Keypress: 3
+2982.7394 	EXP 	respp: autoDraw = False
+2982.7564 	EXP 	cross: autoDraw = True
+2988.5944 	EXP 	cross: autoDraw = False
+2988.5944 	EXP 	respp: autoDraw = True
+2989.9146 	DATA 	Keypress: 2
+2990.3818 	DATA 	Keypress: 3
+2990.5981 	EXP 	New trial (rep=0, index=358): OrderedDict([('Index', 359), ('audio', 'block9_trial39_attendright_leadtarget.wav')])
+2990.5988 	DATA 	Keypress: 2
+2990.6126 	EXP 	respp: autoDraw = False
+2990.6293 	EXP 	cross: autoDraw = True
+2996.5009 	EXP 	cross: autoDraw = False
+2996.5009 	EXP 	respp: autoDraw = True
+2996.9874 	DATA 	Keypress: 3
+2997.1701 	DATA 	Keypress: 3
+2997.3200 	EXP 	New trial (rep=0, index=359): OrderedDict([('Index', 360), ('audio', 'block9_trial40_attendright_leadtarget.wav')])
+2997.3209 	DATA 	Keypress: 1
+2997.3349 	EXP 	respp: autoDraw = False
+2997.3511 	EXP 	cross: autoDraw = True
+3003.2229 	EXP 	cross: autoDraw = False
+3003.2229 	EXP 	respp: autoDraw = True
+3004.2432 	DATA 	Keypress: 1
+3004.4433 	DATA 	Keypress: 2
+3004.5926 	EXP 	New trial (rep=0, index=360): OrderedDict([('Index', 361), ('audio', 'block10_trial1_attendright_leadtarget.wav')])
+3004.5944 	DATA 	Keypress: 2
+3004.6070 	EXP 	respp: autoDraw = False
+3004.6070 	EXP 	breakk: autoDraw = True
+3020.0379 	DATA 	Keypress: space
+3020.0700 	EXP 	breakk: autoDraw = False
+3020.0866 	EXP 	cross: autoDraw = True
+3025.9416 	EXP 	cross: autoDraw = False
+3025.9416 	EXP 	respp: autoDraw = True
+3027.0448 	DATA 	Keypress: 2
+3027.5787 	DATA 	Keypress: 3
+3027.7604 	EXP 	New trial (rep=0, index=361): OrderedDict([('Index', 362), ('audio', 'block10_trial2_attendleft_leadmasker.wav')])
+3027.7610 	DATA 	Keypress: 2
+3027.7757 	EXP 	respp: autoDraw = False
+3027.7926 	EXP 	cross: autoDraw = True
+3033.6477 	EXP 	cross: autoDraw = False
+3033.6477 	EXP 	respp: autoDraw = True
+3034.6000 	DATA 	Keypress: 3
+3034.8006 	DATA 	Keypress: 2
+3034.9344 	DATA 	Keypress: 2
+3034.9504 	EXP 	New trial (rep=0, index=362): OrderedDict([('Index', 363), ('audio', 'block10_trial3_attendright_leadtarget.wav')])
+3034.9649 	EXP 	respp: autoDraw = False
+3034.9817 	EXP 	cross: autoDraw = True
+3040.8362 	EXP 	cross: autoDraw = False
+3040.8362 	EXP 	respp: autoDraw = True
+3042.2734 	DATA 	Keypress: 2
+3043.4578 	DATA 	Keypress: 1
+3043.6237 	EXP 	New trial (rep=0, index=363): OrderedDict([('Index', 364), ('audio', 'block10_trial4_attendleft_leadtarget.wav')])
+3043.6244 	DATA 	Keypress: 3
+3043.6386 	EXP 	respp: autoDraw = False
+3043.6551 	EXP 	cross: autoDraw = True
+3049.5272 	EXP 	cross: autoDraw = False
+3049.5272 	EXP 	respp: autoDraw = True
+3050.1636 	DATA 	Keypress: 1
+3050.3296 	DATA 	Keypress: 3
+3050.4958 	EXP 	New trial (rep=0, index=364): OrderedDict([('Index', 365), ('audio', 'block10_trial5_attendright_leadmasker.wav')])
+3050.4965 	DATA 	Keypress: 3
+3050.5105 	EXP 	respp: autoDraw = False
+3050.5273 	EXP 	cross: autoDraw = True
+3056.3994 	EXP 	cross: autoDraw = False
+3056.3994 	EXP 	respp: autoDraw = True
+3057.3025 	DATA 	Keypress: 2
+3057.4525 	DATA 	Keypress: 3
+3057.6017 	EXP 	New trial (rep=0, index=365): OrderedDict([('Index', 366), ('audio', 'block10_trial6_attendright_leadtarget.wav')])
+3057.6024 	DATA 	Keypress: 2
+3057.6160 	EXP 	respp: autoDraw = False
+3057.6331 	EXP 	cross: autoDraw = True
+3063.5046 	EXP 	cross: autoDraw = False
+3063.5046 	EXP 	respp: autoDraw = True
+3064.2739 	DATA 	Keypress: 3
+3064.4574 	DATA 	Keypress: 2
+3064.5903 	EXP 	New trial (rep=0, index=366): OrderedDict([('Index', 367), ('audio', 'block10_trial7_attendright_leadmasker.wav')])
+3064.5910 	DATA 	Keypress: 2
+3064.6050 	EXP 	respp: autoDraw = False
+3064.6216 	EXP 	cross: autoDraw = True
+3070.4771 	EXP 	cross: autoDraw = False
+3070.4771 	EXP 	respp: autoDraw = True
+3071.5970 	DATA 	Keypress: 3
+3071.7800 	DATA 	Keypress: 3
+3072.0295 	EXP 	New trial (rep=0, index=367): OrderedDict([('Index', 368), ('audio', 'block10_trial8_attendleft_leadmasker.wav')])
+3072.0302 	DATA 	Keypress: 2
+3072.0441 	EXP 	respp: autoDraw = False
+3072.0609 	EXP 	cross: autoDraw = True
+3077.9496 	EXP 	cross: autoDraw = False
+3077.9496 	EXP 	respp: autoDraw = True
+3078.4858 	DATA 	Keypress: 3
+3078.6694 	DATA 	Keypress: 3
+3078.7851 	EXP 	New trial (rep=0, index=368): OrderedDict([('Index', 369), ('audio', 'block10_trial9_attendleft_leadtarget.wav')])
+3078.7859 	DATA 	Keypress: 3
+3078.8001 	EXP 	respp: autoDraw = False
+3078.8166 	EXP 	cross: autoDraw = True
+3084.6883 	EXP 	cross: autoDraw = False
+3084.6883 	EXP 	respp: autoDraw = True
+3085.2746 	DATA 	Keypress: 1
+3085.3912 	DATA 	Keypress: 2
+3085.5085 	DATA 	Keypress: 3
+3085.6240 	EXP 	New trial (rep=0, index=369): OrderedDict([('Index', 370), ('audio', 'block10_trial10_attendleft_leadtarget.wav')])
+3085.6386 	EXP 	respp: autoDraw = False
+3085.6553 	EXP 	cross: autoDraw = True
+3091.5108 	EXP 	cross: autoDraw = False
+3091.5108 	EXP 	respp: autoDraw = True
+3092.1802 	DATA 	Keypress: 2
+3092.5306 	DATA 	Keypress: 1
+3092.7965 	EXP 	New trial (rep=0, index=370): OrderedDict([('Index', 371), ('audio', 'block10_trial11_attendleft_leadtarget.wav')])
+3092.7973 	DATA 	Keypress: 2
+3092.8109 	EXP 	respp: autoDraw = False
+3092.8282 	EXP 	cross: autoDraw = True
+3098.6995 	EXP 	cross: autoDraw = False
+3098.6995 	EXP 	respp: autoDraw = True
+3099.3691 	DATA 	Keypress: 1
+3099.5199 	DATA 	Keypress: 1
+3099.7017 	EXP 	New trial (rep=0, index=371): OrderedDict([('Index', 372), ('audio', 'block10_trial12_attendleft_leadtarget.wav')])
+3099.7024 	DATA 	Keypress: 3
+3099.7166 	EXP 	respp: autoDraw = False
+3099.7336 	EXP 	cross: autoDraw = True
+3105.5879 	EXP 	cross: autoDraw = False
+3105.5879 	EXP 	respp: autoDraw = True
+3106.4586 	DATA 	Keypress: 1
+3106.7917 	DATA 	Keypress: 3
+3107.0580 	EXP 	New trial (rep=0, index=372): OrderedDict([('Index', 373), ('audio', 'block10_trial13_attendright_leadmasker.wav')])
+3107.0587 	DATA 	Keypress: 1
+3107.0726 	EXP 	respp: autoDraw = False
+3107.0891 	EXP 	cross: autoDraw = True
+3112.9607 	EXP 	cross: autoDraw = False
+3112.9607 	EXP 	respp: autoDraw = True
+3113.4798 	DATA 	Keypress: 2
+3113.6641 	DATA 	Keypress: 2
+3113.8137 	EXP 	New trial (rep=0, index=373): OrderedDict([('Index', 374), ('audio', 'block10_trial14_attendright_leadtarget.wav')])
+3113.8145 	DATA 	Keypress: 3
+3113.8281 	EXP 	respp: autoDraw = False
+3113.8445 	EXP 	cross: autoDraw = True
+3119.7004 	EXP 	cross: autoDraw = False
+3119.7004 	EXP 	respp: autoDraw = True
+3120.5031 	DATA 	Keypress: 1
+3121.2040 	DATA 	Keypress: 2
+3121.7028 	EXP 	New trial (rep=0, index=374): OrderedDict([('Index', 375), ('audio', 'block10_trial15_attendleft_leadmasker.wav')])
+3121.7035 	DATA 	Keypress: 3
+3121.7175 	EXP 	respp: autoDraw = False
+3121.7344 	EXP 	cross: autoDraw = True
+3127.5895 	EXP 	cross: autoDraw = False
+3127.5895 	EXP 	respp: autoDraw = True
+3128.2420 	DATA 	Keypress: 2
+3128.4925 	DATA 	Keypress: 2
+3128.7259 	DATA 	Keypress: 3
+3128.7420 	EXP 	New trial (rep=0, index=375): OrderedDict([('Index', 376), ('audio', 'block10_trial16_attendleft_leadmasker.wav')])
+3128.7570 	EXP 	respp: autoDraw = False
+3128.7735 	EXP 	cross: autoDraw = True
+3134.6449 	EXP 	cross: autoDraw = False
+3134.6449 	EXP 	respp: autoDraw = True
+3135.4153 	DATA 	Keypress: 3
+3135.5981 	DATA 	Keypress: 2
+3135.7646 	EXP 	New trial (rep=0, index=376): OrderedDict([('Index', 377), ('audio', 'block10_trial17_attendright_leadtarget.wav')])
+3135.7653 	DATA 	Keypress: 2
+3135.7788 	EXP 	respp: autoDraw = False
+3135.7961 	EXP 	cross: autoDraw = True
+3141.6673 	EXP 	cross: autoDraw = False
+3141.6673 	EXP 	respp: autoDraw = True
+3142.3373 	DATA 	Keypress: 2
+3142.5202 	DATA 	Keypress: 2
+3142.6700 	DATA 	Keypress: 3
+3142.6861 	EXP 	New trial (rep=0, index=377): OrderedDict([('Index', 378), ('audio', 'block10_trial18_attendright_leadtarget.wav')])
+3142.7015 	EXP 	respp: autoDraw = False
+3142.7179 	EXP 	cross: autoDraw = True
+3148.5897 	EXP 	cross: autoDraw = False
+3148.5897 	EXP 	respp: autoDraw = True
+3149.2755 	DATA 	Keypress: 3
+3149.6929 	DATA 	Keypress: 2
+3150.3097 	DATA 	Keypress: 1
+3150.3257 	EXP 	New trial (rep=0, index=378): OrderedDict([('Index', 379), ('audio', 'block10_trial19_attendleft_leadmasker.wav')])
+3150.3406 	EXP 	respp: autoDraw = False
+3150.3572 	EXP 	cross: autoDraw = True
+3156.1960 	EXP 	cross: autoDraw = False
+3156.1960 	EXP 	respp: autoDraw = True
+3157.2991 	DATA 	Keypress: 1
+3157.4824 	DATA 	Keypress: 3
+3157.6491 	EXP 	New trial (rep=0, index=379): OrderedDict([('Index', 380), ('audio', 'block10_trial20_attendleft_leadmasker.wav')])
+3157.6498 	DATA 	Keypress: 3
+3157.6629 	EXP 	respp: autoDraw = False
+3157.6799 	EXP 	cross: autoDraw = True
+3163.5356 	EXP 	cross: autoDraw = False
+3163.5356 	EXP 	respp: autoDraw = True
+3164.0212 	DATA 	Keypress: 2
+3164.1879 	DATA 	Keypress: 2
+3164.3208 	EXP 	New trial (rep=0, index=380): OrderedDict([('Index', 381), ('audio', 'block10_trial21_attendright_leadtarget.wav')])
+3164.3215 	DATA 	Keypress: 2
+3164.3351 	EXP 	respp: autoDraw = False
+3164.3519 	EXP 	cross: autoDraw = True
+3170.2241 	EXP 	cross: autoDraw = False
+3170.2241 	EXP 	respp: autoDraw = True
+3171.3099 	DATA 	Keypress: 2
+3171.4446 	DATA 	Keypress: 2
+3171.5931 	EXP 	New trial (rep=0, index=381): OrderedDict([('Index', 382), ('audio', 'block10_trial22_attendright_leadtarget.wav')])
+3171.5938 	DATA 	Keypress: 3
+3171.6075 	EXP 	respp: autoDraw = False
+3171.6241 	EXP 	cross: autoDraw = True
+3177.4626 	EXP 	cross: autoDraw = False
+3177.4626 	EXP 	respp: autoDraw = True
+3178.6823 	DATA 	Keypress: 2
+3179.2165 	DATA 	Keypress: 3
+3179.7331 	EXP 	New trial (rep=0, index=382): OrderedDict([('Index', 383), ('audio', 'block10_trial23_attendleft_leadtarget.wav')])
+3179.7338 	DATA 	Keypress: 3
+3179.7478 	EXP 	respp: autoDraw = False
+3179.7643 	EXP 	cross: autoDraw = True
+3185.6360 	EXP 	cross: autoDraw = False
+3185.6360 	EXP 	respp: autoDraw = True
+3186.4052 	DATA 	Keypress: 3
+3186.5728 	DATA 	Keypress: 2
+3186.7220 	EXP 	New trial (rep=0, index=383): OrderedDict([('Index', 384), ('audio', 'block10_trial24_attendleft_leadmasker.wav')])
+3186.7227 	DATA 	Keypress: 2
+3186.7368 	EXP 	respp: autoDraw = False
+3186.7533 	EXP 	cross: autoDraw = True
+3192.6081 	EXP 	cross: autoDraw = False
+3192.6081 	EXP 	respp: autoDraw = True
+3193.9282 	DATA 	Keypress: 1
+3194.5617 	DATA 	Keypress: 2
+3195.4281 	EXP 	New trial (rep=0, index=384): OrderedDict([('Index', 385), ('audio', 'block10_trial25_attendleft_leadmasker.wav')])
+3195.4287 	DATA 	Keypress: 2
+3195.4517 	EXP 	respp: autoDraw = False
+3195.4597 	EXP 	cross: autoDraw = True
+3201.3317 	EXP 	cross: autoDraw = False
+3201.3317 	EXP 	respp: autoDraw = True
+3202.4353 	DATA 	Keypress: 3
+3202.9527 	DATA 	Keypress: 2
+3203.3682 	EXP 	New trial (rep=0, index=385): OrderedDict([('Index', 386), ('audio', 'block10_trial26_attendright_leadmasker.wav')])
+3203.3689 	DATA 	Keypress: 3
+3203.3833 	EXP 	respp: autoDraw = False
+3203.3997 	EXP 	cross: autoDraw = True
+3209.2713 	EXP 	cross: autoDraw = False
+3209.2713 	EXP 	respp: autoDraw = True
+3210.2077 	DATA 	Keypress: 1
+3210.5245 	DATA 	Keypress: 3
+3210.7079 	DATA 	Keypress: 3
+3213.3750 	EXP 	New trial (rep=0, index=386): OrderedDict([('Index', 387), ('audio', 'block10_trial27_attendleft_leadtarget.wav')])
+3213.3909 	EXP 	respp: autoDraw = False
+3213.4076 	EXP 	cross: autoDraw = True
+3219.2634 	EXP 	cross: autoDraw = False
+3219.2634 	EXP 	respp: autoDraw = True
+3220.3157 	DATA 	Keypress: 1
+3221.8677 	DATA 	Keypress: 3
+3222.0831 	EXP 	New trial (rep=0, index=387): OrderedDict([('Index', 388), ('audio', 'block10_trial28_attendright_leadmasker.wav')])
+3222.0838 	DATA 	Keypress: 3
+3222.0986 	EXP 	respp: autoDraw = False
+3222.1149 	EXP 	cross: autoDraw = True
+3227.9860 	EXP 	cross: autoDraw = False
+3227.9860 	EXP 	respp: autoDraw = True
+3229.9238 	DATA 	Keypress: 1
+3230.3074 	DATA 	Keypress: 3
+3230.4566 	EXP 	New trial (rep=0, index=388): OrderedDict([('Index', 389), ('audio', 'block10_trial29_attendright_leadtarget.wav')])
+3230.4573 	DATA 	Keypress: 2
+3230.4715 	EXP 	respp: autoDraw = False
+3230.4884 	EXP 	cross: autoDraw = True
+3236.3598 	EXP 	cross: autoDraw = False
+3236.3598 	EXP 	respp: autoDraw = True
+3237.3296 	DATA 	Keypress: 1
+3238.2470 	DATA 	Keypress: 3
+3238.9133 	EXP 	New trial (rep=0, index=389): OrderedDict([('Index', 390), ('audio', 'block10_trial30_attendleft_leadtarget.wav')])
+3238.9140 	DATA 	Keypress: 2
+3238.9284 	EXP 	respp: autoDraw = False
+3238.9447 	EXP 	cross: autoDraw = True
+3244.8002 	EXP 	cross: autoDraw = False
+3244.8002 	EXP 	respp: autoDraw = True
+3245.6202 	DATA 	Keypress: 3
+3245.8536 	DATA 	Keypress: 2
+3246.0533 	DATA 	Keypress: 2
+3246.0695 	EXP 	New trial (rep=0, index=390): OrderedDict([('Index', 391), ('audio', 'block10_trial31_attendleft_leadtarget.wav')])
+3246.0842 	EXP 	respp: autoDraw = False
+3246.1009 	EXP 	cross: autoDraw = True
+3251.9558 	EXP 	cross: autoDraw = False
+3251.9558 	EXP 	respp: autoDraw = True
+3253.7266 	DATA 	Keypress: 2
+3254.1936 	DATA 	Keypress: 3
+3254.4597 	EXP 	New trial (rep=0, index=391): OrderedDict([('Index', 392), ('audio', 'block10_trial32_attendright_leadtarget.wav')])
+3254.4604 	DATA 	Keypress: 1
+3254.4744 	EXP 	respp: autoDraw = False
+3254.4907 	EXP 	cross: autoDraw = True
+3260.3627 	EXP 	cross: autoDraw = False
+3260.3627 	EXP 	respp: autoDraw = True
+3261.0654 	DATA 	Keypress: 2
+3261.2330 	DATA 	Keypress: 2
+3261.3823 	DATA 	Keypress: 3
+3261.3984 	EXP 	New trial (rep=0, index=392): OrderedDict([('Index', 393), ('audio', 'block10_trial33_attendright_leadmasker.wav')])
+3261.4130 	EXP 	respp: autoDraw = False
+3261.4301 	EXP 	cross: autoDraw = True
+3267.2851 	EXP 	cross: autoDraw = False
+3267.2851 	EXP 	respp: autoDraw = True
+3267.9042 	DATA 	Keypress: 3
+3268.0541 	DATA 	Keypress: 3
+3268.1701 	EXP 	New trial (rep=0, index=393): OrderedDict([('Index', 394), ('audio', 'block10_trial34_attendright_leadmasker.wav')])
+3268.1708 	DATA 	Keypress: 1
+3268.1850 	EXP 	respp: autoDraw = False
+3268.2015 	EXP 	cross: autoDraw = True
+3274.0564 	EXP 	cross: autoDraw = False
+3274.0564 	EXP 	respp: autoDraw = True
+3275.3438 	DATA 	Keypress: 2
+3275.5269 	DATA 	Keypress: 2
+3275.7605 	EXP 	New trial (rep=0, index=394): OrderedDict([('Index', 395), ('audio', 'block10_trial35_attendleft_leadmasker.wav')])
+3275.7612 	DATA 	Keypress: 1
+3275.7744 	EXP 	respp: autoDraw = False
+3275.7917 	EXP 	cross: autoDraw = True
+3281.6299 	EXP 	cross: autoDraw = False
+3281.6299 	EXP 	respp: autoDraw = True
+3282.8334 	DATA 	Keypress: 2
+3283.0996 	DATA 	Keypress: 1
+3283.2494 	EXP 	New trial (rep=0, index=395): OrderedDict([('Index', 396), ('audio', 'block10_trial36_attendright_leadmasker.wav')])
+3283.2501 	DATA 	Keypress: 1
+3283.2642 	EXP 	respp: autoDraw = False
+3283.2804 	EXP 	cross: autoDraw = True
+3289.1523 	EXP 	cross: autoDraw = False
+3289.1523 	EXP 	respp: autoDraw = True
+3289.8051 	DATA 	Keypress: 2
+3289.9891 	DATA 	Keypress: 2
+3290.1549 	EXP 	New trial (rep=0, index=396): OrderedDict([('Index', 397), ('audio', 'block10_trial37_attendleft_leadtarget.wav')])
+3290.1556 	DATA 	Keypress: 2
+3290.1698 	EXP 	respp: autoDraw = False
+3290.1864 	EXP 	cross: autoDraw = True
+3296.0246 	EXP 	cross: autoDraw = False
+3296.0246 	EXP 	respp: autoDraw = True
+3296.9280 	DATA 	Keypress: 3
+3297.1275 	DATA 	Keypress: 2
+3297.2949 	DATA 	Keypress: 2
+3297.3105 	EXP 	New trial (rep=0, index=397): OrderedDict([('Index', 398), ('audio', 'block10_trial38_attendright_leadmasker.wav')])
+3297.3252 	EXP 	respp: autoDraw = False
+3297.3419 	EXP 	cross: autoDraw = True
+3303.2307 	EXP 	cross: autoDraw = False
+3303.2307 	EXP 	respp: autoDraw = True
+3304.4838 	DATA 	Keypress: 3
+3304.9176 	DATA 	Keypress: 2
+3305.6682 	DATA 	Keypress: 3
+3307.3172 	EXP 	New trial (rep=0, index=398): OrderedDict([('Index', 399), ('audio', 'block10_trial39_attendleft_leadmasker.wav')])
+3307.3331 	EXP 	respp: autoDraw = False
+3307.3500 	EXP 	cross: autoDraw = True
+3313.2048 	EXP 	cross: autoDraw = False
+3313.2048 	EXP 	respp: autoDraw = True
+3313.7915 	DATA 	Keypress: 2
+3313.9744 	DATA 	Keypress: 2
+3314.1410 	EXP 	New trial (rep=0, index=399): OrderedDict([('Index', 400), ('audio', 'block10_trial40_attendright_leadmasker.wav')])
+3314.1417 	DATA 	Keypress: 1
+3314.1554 	EXP 	respp: autoDraw = False
+3314.1722 	EXP 	cross: autoDraw = True
+3320.0438 	EXP 	cross: autoDraw = False
+3320.0438 	EXP 	respp: autoDraw = True
+3320.6969 	DATA 	Keypress: 3
+3320.8631 	DATA 	Keypress: 2
+3321.0467 	DATA 	Keypress: 2
+3321.0610 	EXP 	respp: autoDraw = False
+3321.0611 	EXP 	Trial_mult: status = STOPPED
+3321.2526 	EXP 	window1: mouseVisible = True

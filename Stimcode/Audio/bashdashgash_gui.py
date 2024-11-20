@@ -930,7 +930,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         trials.addData('response1', key_resp.keys[0])
         trials.addData('response2', key_resp.keys[1])
         trials.addData('response3', key_resp.keys[2])
-        core.wait(2.0)
+        
         
         # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
         if routineForceEnded:

@@ -1,0 +1,39 @@
+3.5598 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+3.5598 	ERROR 	Failed to load any of the audioLibs: ['sounddevice']. Falling back to PsychToolbox ('ptb') backend for sound. Be sure to add 'ptb' to preferences to avoid seeing this message again.
+3.6844 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice'] (in that order).
+4.1041 	WARNING 	Requested audio device 'ASIO Fireface USB' that is not available on this hardware. The 'audioDevice' preference should be one of ['3 - DELL U2415 (AMD High Definition Audio Device)', '4 - DELL U2415 (AMD High Definition Audio Device)', 'ADAT (3+4) (RME Fireface UCX II)', 'ADAT (5+6) (RME Fireface UCX II)', 'ADAT (7+8) (RME Fireface UCX II)', 'AES (RME Fireface UCX II)', 'Analog (1+2) (RME Fireface UCX II)', 'Analog (3+4) (RME Fireface UCX II)', 'Analog (5+6) (RME Fireface UCX II)', 'SPDIF coax. (RME Fireface UCX II)', 'SPDIF/ADAT (1+2) (RME Fireface UCX II)', 'Speakers (RME Fireface UCX II)', 'Speakers/Headphones (Realtek(R) Audio)']
+21.5143 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024F00B8AD00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024F00B8A9A0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024F00B8AB20>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000024F010FE670>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.5144 	EXP 	window1: mouseVisible = True
+21.5144 	EXP 	window1: backgroundImage = ''
+21.5144 	EXP 	window1: backgroundFit = 'none'
+21.5163 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+21.5163 	EXP 	window1: recordFrameIntervals = False
+21.6808 	EXP 	window1: recordFrameIntervals = True
+21.8641 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+21.8642 	EXP 	window1: recordFrameIntervals = False
+21.9260 	EXP 	window1: mouseVisible = False
+26.1972 	EXP 	Trial_mult: status = STARTED
+26.1976 	EXP 	window1: mouseVisible = True
+26.2859 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+26.2861 	EXP 	window1: mouseVisible = True
+26.2902 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+26.2903 	EXP 	window1: mouseVisible = True
+26.2989 	EXP 	Created breakk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakk', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+26.2991 	EXP 	window1: mouseVisible = True
+26.3131 	EXP 	Created respp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respp', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0552 	EXP 	Instructions: autoDraw = True
+2.7171 	EXP 	Imported C:\Users\Lab User\Documents\GitHub\Bash_Dash_Gash\Stimcode\Audio\720\audio_file_paths.csv as conditions, 400 conditions, 2 params
+2.7187 	EXP 	Created sequence: sequential, trialTypes=400, nReps=1, seed=None
+2.7189 	EXP 	New trial (rep=0, index=0): OrderedDict([('Index', 1), ('audio', 'block1_trial1_attendright_leadmasker.wav')])
+2.7198 	DATA 	Keypress: space
+2.7246 	EXP 	Instructions: autoDraw = False
+2.7566 	EXP 	cross: autoDraw = True
+8.5786 	EXP 	cross: autoDraw = False
+8.5786 	EXP 	respp: autoDraw = True
+12.7159 	EXP 	New trial (rep=0, index=1): OrderedDict([('Index', 2), ('audio', 'block1_trial2_attendright_leadmasker.wav')])
+12.7313 	EXP 	respp: autoDraw = False
+12.7480 	EXP 	cross: autoDraw = True
+12.7665 	DATA 	Keypress: 2
+13.0002 	DATA 	Keypress: 1
+13.2503 	DATA 	Keypress: 3
+18.6296 	EXP 	window1: mouseVisible = True
